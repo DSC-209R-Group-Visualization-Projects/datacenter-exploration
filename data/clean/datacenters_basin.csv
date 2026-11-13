@@ -1,0 +1,1734 @@
+facility_id,basin_id,basin_state,bws_cat,bws_label,bws_score,stress_group,matched_by
+dc0000,813903|Alaska,Alaska,2.0,Medium - High (20-40%),2.8943450726886293,Medium-high,nearest<=10km
+dc0001,813903|Alaska,Alaska,2.0,Medium - High (20-40%),2.8943450726886293,Medium-high,nearest<=10km
+dc0002,732827|Alabama,Alabama,1.0,Low - Medium (10-20%),1.2317908728086546,Low-medium,within
+dc0003,732840|Alabama,Alabama,2.0,Medium - High (20-40%),2.992602604102545,Medium-high,within
+dc0004,732827|Alabama,Alabama,1.0,Low - Medium (10-20%),1.2317908728086546,Low-medium,within
+dc0005,742623|Alabama,Alabama,0.0,Low (<10%),0.3123497093174933,Low,within
+dc0006,732827|Alabama,Alabama,1.0,Low - Medium (10-20%),1.2317908728086546,Low-medium,within
+dc0007,732870|Alabama,Alabama,1.0,Low - Medium (10-20%),1.52538024864374,Low-medium,within
+dc0008,742623|Alabama,Alabama,0.0,Low (<10%),0.3123497093174933,Low,within
+dc0009,742623|Alabama,Alabama,0.0,Low (<10%),0.3123497093174933,Low,within
+dc0010,732850|Alabama,Alabama,2.0,Medium - High (20-40%),2.054043439310239,Medium-high,within
+dc0011,732810|Alabama,Alabama,0.0,Low (<10%),0.0,Low,within
+dc0012,732810|Alabama,Alabama,0.0,Low (<10%),0.0,Low,within
+dc0013,742623|Alabama,Alabama,0.0,Low (<10%),0.3123497093174933,Low,within
+dc0014,742623|Alabama,Alabama,0.0,Low (<10%),0.3123497093174933,Low,within
+dc0015,732870|Alabama,Alabama,1.0,Low - Medium (10-20%),1.52538024864374,Low-medium,within
+dc0016,742417|Arkansas,Arkansas,0.0,Low (<10%),0.0,Low,within
+dc0017,742529|Arkansas,Arkansas,3.0,High (40-80%),3.2604451435158817,High,within
+dc0018,742413|Arkansas,Arkansas,0.0,Low (<10%),0.0,Low,within
+dc0019,742413|Arkansas,Arkansas,0.0,Low (<10%),0.0,Low,within
+dc0020,742415|Arkansas,Arkansas,0.0,Low (<10%),0.0,Low,within
+dc0021,742417|Arkansas,Arkansas,0.0,Low (<10%),0.0,Low,within
+dc0022,742228|Arkansas,Arkansas,0.0,Low (<10%),0.8931140484716593,Low,within
+dc0023,742550|Arkansas,Arkansas,0.0,Low (<10%),0.0,Low,within
+dc0024,772213|Arizona,Arizona,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc0025,772250|Arizona,Arizona,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc0026,772250|Arizona,Arizona,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc0027,772217|Arizona,Arizona,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc0028,772217|Arizona,Arizona,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc0029,772217|Arizona,Arizona,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc0030,772217|Arizona,Arizona,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc0031,772221|Arizona,Arizona,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc0032,772250|Arizona,Arizona,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc0033,772250|Arizona,Arizona,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc0034,772250|Arizona,Arizona,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc0035,772250|Arizona,Arizona,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc0036,772250|Arizona,Arizona,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc0037,772250|Arizona,Arizona,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc0038,772250|Arizona,Arizona,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc0039,772250|Arizona,Arizona,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc0040,772500|Arizona,Arizona,0.0,Low (<10%),0.0,Low,within
+dc0041,772218|Arizona,Arizona,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc0042,772221|Arizona,Arizona,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc0043,772221|Arizona,Arizona,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc0044,772221|Arizona,Arizona,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc0045,772221|Arizona,Arizona,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc0046,772216|Arizona,Arizona,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc0047,772250|Arizona,Arizona,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc0048,772240|Arizona,Arizona,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc0049,772218|Arizona,Arizona,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc0050,772216|Arizona,Arizona,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc0051,772240|Arizona,Arizona,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc0052,772240|Arizona,Arizona,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc0053,772217|Arizona,Arizona,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc0054,772217|Arizona,Arizona,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc0055,774300|California,California,1.0,Low - Medium (10-20%),1.756712453544042,Low-medium,within
+dc0056,774500|California,California,2.0,Medium - High (20-40%),2.856778614867236,Medium-high,within
+dc0057,772000|California,California,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc0058,774300|California,California,1.0,Low - Medium (10-20%),1.756712453544042,Low-medium,within
+dc0059,773205|California,California,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc0060,774170|California,California,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc0061,774500|California,California,2.0,Medium - High (20-40%),2.856778614867236,Medium-high,within
+dc0062,774300|California,California,1.0,Low - Medium (10-20%),1.756712453544042,Low-medium,within
+dc0063,774401|California,California,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc0064,,,,,,,nearest<=10km
+dc0065,773207|California,California,-1.0,Arid and Low Water Use,5.0,"Arid, low use",within
+dc0066,774422|California,California,1.0,Low - Medium (10-20%),1.1387318279482306,Low-medium,within
+dc0067,774423|California,California,3.0,High (40-80%),3.933125898663696,High,within
+dc0068,774170|California,California,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc0069,774300|California,California,1.0,Low - Medium (10-20%),1.756712453544042,Low-medium,within
+dc0070,774495|California,California,1.0,Low - Medium (10-20%),1.6334575726366474,Low-medium,within
+dc0071,774300|California,California,1.0,Low - Medium (10-20%),1.756712453544042,Low-medium,within
+dc0072,774170|California,California,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc0073,774410|California,California,0.0,Low (<10%),0.0,Low,within
+dc0074,774440|California,California,2.0,Medium - High (20-40%),2.5438221903359906,Medium-high,within
+dc0075,774300|California,California,1.0,Low - Medium (10-20%),1.756712453544042,Low-medium,nearest<=10km
+dc0076,774300|California,California,1.0,Low - Medium (10-20%),1.756712453544042,Low-medium,within
+dc0077,774300|California,California,1.0,Low - Medium (10-20%),1.756712453544042,Low-medium,within
+dc0078,774300|California,California,1.0,Low - Medium (10-20%),1.756712453544042,Low-medium,within
+dc0079,774300|California,California,1.0,Low - Medium (10-20%),1.756712453544042,Low-medium,within
+dc0080,774300|California,California,1.0,Low - Medium (10-20%),1.756712453544042,Low-medium,within
+dc0081,774300|California,California,1.0,Low - Medium (10-20%),1.756712453544042,Low-medium,within
+dc0082,774300|California,California,1.0,Low - Medium (10-20%),1.756712453544042,Low-medium,within
+dc0083,774300|California,California,1.0,Low - Medium (10-20%),1.756712453544042,Low-medium,within
+dc0084,774300|California,California,1.0,Low - Medium (10-20%),1.756712453544042,Low-medium,within
+dc0085,774300|California,California,1.0,Low - Medium (10-20%),1.756712453544042,Low-medium,within
+dc0086,774300|California,California,1.0,Low - Medium (10-20%),1.756712453544042,Low-medium,within
+dc0087,774300|California,California,1.0,Low - Medium (10-20%),1.756712453544042,Low-medium,within
+dc0088,774300|California,California,1.0,Low - Medium (10-20%),1.756712453544042,Low-medium,within
+dc0089,774300|California,California,1.0,Low - Medium (10-20%),1.756712453544042,Low-medium,within
+dc0090,774300|California,California,1.0,Low - Medium (10-20%),1.756712453544042,Low-medium,within
+dc0091,774300|California,California,1.0,Low - Medium (10-20%),1.756712453544042,Low-medium,within
+dc0092,774300|California,California,1.0,Low - Medium (10-20%),1.756712453544042,Low-medium,within
+dc0093,774300|California,California,1.0,Low - Medium (10-20%),1.756712453544042,Low-medium,within
+dc0094,774423|California,California,3.0,High (40-80%),3.933125898663696,High,within
+dc0095,774300|California,California,1.0,Low - Medium (10-20%),1.756712453544042,Low-medium,within
+dc0096,774300|California,California,1.0,Low - Medium (10-20%),1.756712453544042,Low-medium,within
+dc0097,774401|California,California,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc0098,774401|California,California,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc0099,774500|California,California,2.0,Medium - High (20-40%),2.856778614867236,Medium-high,within
+dc0100,774170|California,California,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc0101,774170|California,California,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc0102,742946|Colorado,Colorado,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc0103,742946|Colorado,Colorado,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc0104,742946|Colorado,Colorado,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc0105,742499|Colorado,Colorado,4.0,Extremely High (>80%),4.654043608221356,Extremely high,within
+dc0106,742499|Colorado,Colorado,4.0,Extremely High (>80%),4.654043608221356,Extremely high,within
+dc0107,742946|Colorado,Colorado,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc0108,742946|Colorado,Colorado,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc0109,742946|Colorado,Colorado,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc0110,742946|Colorado,Colorado,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc0111,742946|Colorado,Colorado,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc0112,742946|Colorado,Colorado,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc0113,742946|Colorado,Colorado,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc0114,,,,,,,nearest<=10km
+dc0115,731190|Connecticut,Connecticut,2.0,Medium - High (20-40%),2.188356913706249,Medium-high,within
+dc0116,731300|Connecticut,Connecticut,0.0,Low (<10%),0.2203653116452903,Low,nearest<=10km
+dc0117,,,2.0,Medium - High (20-40%),2.188356913706249,Medium-high,nearest<=10km
+dc0118,731507|Delaware,Delaware,3.0,High (40-80%),3.2034025499764867,High,within
+dc0119,731506|Delaware,Delaware,2.0,Medium - High (20-40%),2.830392351967968,Medium-high,within
+dc0120,731507|Delaware,Delaware,3.0,High (40-80%),3.2034025499764867,High,within
+dc0121,732577|Florida,Florida,3.0,High (40-80%),3.636148656561352,High,nearest<=10km
+dc0122,732571|Florida,Florida,3.0,High (40-80%),3.795430686457698,High,within
+dc0123,732574|Florida,Florida,2.0,Medium - High (20-40%),2.829132932876786,Medium-high,within
+dc0124,732578|Florida,Florida,3.0,High (40-80%),3.082377015470805,High,within
+dc0125,732560|Florida,Florida,3.0,High (40-80%),3.712888807453472,High,within
+dc0126,732577|Florida,Florida,3.0,High (40-80%),3.636148656561352,High,within
+dc0127,732571|Florida,Florida,3.0,High (40-80%),3.795430686457698,High,within
+dc0128,732560|Florida,Florida,3.0,High (40-80%),3.712888807453472,High,within
+dc0129,732571|Florida,Florida,3.0,High (40-80%),3.795430686457698,High,within
+dc0130,732574|Florida,Florida,2.0,Medium - High (20-40%),2.829132932876786,Medium-high,within
+dc0131,732577|Florida,Florida,3.0,High (40-80%),3.636148656561352,High,within
+dc0132,732544|Georgia,Georgia,2.0,Medium - High (20-40%),2.101601868026963,Medium-high,within
+dc0133,732880|Georgia,Georgia,2.0,Medium - High (20-40%),2.5806215362076923,Medium-high,within
+dc0134,732890|Georgia,Georgia,3.0,High (40-80%),3.702149210467283,High,within
+dc0135,,,,,,,nearest<=10km
+dc0136,,,,,,,nearest<=10km
+dc0137,,,,,,,nearest<=10km
+dc0138,,,,,,,nearest<=10km
+dc0139,,,,,,,nearest<=10km
+dc0140,732520|Georgia,Georgia,2.0,Medium - High (20-40%),2.931926380780837,Medium-high,within
+dc0141,732520|Georgia,Georgia,2.0,Medium - High (20-40%),2.931926380780837,Medium-high,within
+dc0142,732544|Georgia,Georgia,2.0,Medium - High (20-40%),2.101601868026963,Medium-high,within
+dc0143,732548|Georgia,Georgia,3.0,High (40-80%),3.625606179833565,High,nearest<=10km
+dc0144,,,,,,,nearest<=10km
+dc0145,732548|Georgia,Georgia,3.0,High (40-80%),3.625606179833565,High,nearest<=10km
+dc0146,732548|Georgia,Georgia,3.0,High (40-80%),3.625606179833565,High,nearest<=10km
+dc0147,732548|Georgia,Georgia,3.0,High (40-80%),3.625606179833565,High,nearest<=10km
+dc0148,732604|Georgia,Georgia,1.0,Low - Medium (10-20%),1.1652933984148754,Low-medium,within
+dc0149,732548|Georgia,Georgia,3.0,High (40-80%),3.625606179833565,High,nearest<=10km
+dc0150,732548|Georgia,Georgia,3.0,High (40-80%),3.625606179833565,High,nearest<=10km
+dc0151,732548|Georgia,Georgia,3.0,High (40-80%),3.625606179833565,High,nearest<=10km
+dc0152,732548|Georgia,Georgia,3.0,High (40-80%),3.625606179833565,High,nearest<=10km
+dc0153,732548|Georgia,Georgia,3.0,High (40-80%),3.625606179833565,High,nearest<=10km
+dc0154,732548|Georgia,Georgia,3.0,High (40-80%),3.625606179833565,High,nearest<=10km
+dc0155,732548|Georgia,Georgia,3.0,High (40-80%),3.625606179833565,High,within
+dc0156,732548|Georgia,Georgia,3.0,High (40-80%),3.625606179833565,High,nearest<=10km
+dc0157,732548|Georgia,Georgia,3.0,High (40-80%),3.625606179833565,High,nearest<=10km
+dc0158,732548|Georgia,Georgia,3.0,High (40-80%),3.625606179833565,High,nearest<=10km
+dc0159,732548|Georgia,Georgia,3.0,High (40-80%),3.625606179833565,High,within
+dc0160,732548|Georgia,Georgia,3.0,High (40-80%),3.625606179833565,High,nearest<=10km
+dc0161,,,,,,,nearest<=10km
+dc0162,732548|Georgia,Georgia,3.0,High (40-80%),3.625606179833565,High,nearest<=10km
+dc0163,732548|Georgia,Georgia,3.0,High (40-80%),3.625606179833565,High,nearest<=10km
+dc0164,732548|Georgia,Georgia,3.0,High (40-80%),3.625606179833565,High,nearest<=10km
+dc0165,732548|Georgia,Georgia,3.0,High (40-80%),3.625606179833565,High,nearest<=10km
+dc0166,732548|Georgia,Georgia,3.0,High (40-80%),3.625606179833565,High,nearest<=10km
+dc0167,,,,,,,nearest<=10km
+dc0168,732548|Georgia,Georgia,3.0,High (40-80%),3.625606179833565,High,nearest<=10km
+dc0169,732548|Georgia,Georgia,3.0,High (40-80%),3.625606179833565,High,nearest<=10km
+dc0170,732548|Georgia,Georgia,3.0,High (40-80%),3.625606179833565,High,nearest<=10km
+dc0171,732604|Georgia,Georgia,1.0,Low - Medium (10-20%),1.1652933984148754,Low-medium,nearest<=10km
+dc0172,732548|Georgia,Georgia,3.0,High (40-80%),3.625606179833565,High,nearest<=10km
+dc0173,732548|Georgia,Georgia,3.0,High (40-80%),3.625606179833565,High,nearest<=10km
+dc0174,732548|Georgia,Georgia,3.0,High (40-80%),3.625606179833565,High,nearest<=10km
+dc0175,732548|Georgia,Georgia,3.0,High (40-80%),3.625606179833565,High,nearest<=10km
+dc0176,732548|Georgia,Georgia,3.0,High (40-80%),3.625606179833565,High,nearest<=10km
+dc0177,,,,,,,nearest<=10km
+dc0178,732548|Georgia,Georgia,3.0,High (40-80%),3.625606179833565,High,nearest<=10km
+dc0179,732548|Georgia,Georgia,3.0,High (40-80%),3.625606179833565,High,nearest<=10km
+dc0180,732604|Georgia,Georgia,1.0,Low - Medium (10-20%),1.1652933984148754,Low-medium,within
+dc0181,732548|Georgia,Georgia,3.0,High (40-80%),3.625606179833565,High,nearest<=10km
+dc0182,732548|Georgia,Georgia,3.0,High (40-80%),3.625606179833565,High,nearest<=10km
+dc0183,732548|Georgia,Georgia,3.0,High (40-80%),3.625606179833565,High,nearest<=10km
+dc0184,732548|Georgia,Georgia,3.0,High (40-80%),3.625606179833565,High,nearest<=10km
+dc0185,,,,,,,nearest<=10km
+dc0186,732604|Georgia,Georgia,1.0,Low - Medium (10-20%),1.1652933984148754,Low-medium,nearest<=10km
+dc0187,732604|Georgia,Georgia,1.0,Low - Medium (10-20%),1.1652933984148754,Low-medium,nearest<=10km
+dc0188,732548|Georgia,Georgia,3.0,High (40-80%),3.625606179833565,High,nearest<=10km
+dc0189,732548|Georgia,Georgia,3.0,High (40-80%),3.625606179833565,High,nearest<=10km
+dc0190,732604|Georgia,Georgia,1.0,Low - Medium (10-20%),1.1652933984148754,Low-medium,nearest<=10km
+dc0191,732548|Georgia,Georgia,3.0,High (40-80%),3.625606179833565,High,nearest<=10km
+dc0192,732604|Georgia,Georgia,1.0,Low - Medium (10-20%),1.1652933984148754,Low-medium,within
+dc0193,,,,,,,nearest<=10km
+dc0194,732548|Georgia,Georgia,3.0,High (40-80%),3.625606179833565,High,nearest<=10km
+dc0195,732520|Georgia,Georgia,2.0,Medium - High (20-40%),2.931926380780837,Medium-high,within
+dc0196,732520|Georgia,Georgia,2.0,Medium - High (20-40%),2.931926380780837,Medium-high,within
+dc0197,732547|Georgia,Georgia,2.0,Medium - High (20-40%),2.5941844188976857,Medium-high,within
+dc0198,732547|Georgia,Georgia,2.0,Medium - High (20-40%),2.5941844188976857,Medium-high,within
+dc0199,732604|Georgia,Georgia,1.0,Low - Medium (10-20%),1.1652933984148754,Low-medium,within
+dc0200,732608|Georgia,Georgia,0.0,Low (<10%),0.0,Low,within
+dc0201,732880|Georgia,Georgia,2.0,Medium - High (20-40%),2.5806215362076923,Medium-high,within
+dc0202,732860|Georgia,Georgia,2.0,Medium - High (20-40%),2.8215539234652787,Medium-high,within
+dc0203,732890|Georgia,Georgia,3.0,High (40-80%),3.702149210467283,High,nearest<=10km
+dc0204,732890|Georgia,Georgia,3.0,High (40-80%),3.702149210467283,High,nearest<=10km
+dc0205,732880|Georgia,Georgia,2.0,Medium - High (20-40%),2.5806215362076923,Medium-high,nearest<=10km
+dc0206,,,,,,,nearest<=10km
+dc0207,732604|Georgia,Georgia,1.0,Low - Medium (10-20%),1.1652933984148754,Low-medium,within
+dc0208,732604|Georgia,Georgia,1.0,Low - Medium (10-20%),1.1652933984148754,Low-medium,within
+dc0209,732604|Georgia,Georgia,1.0,Low - Medium (10-20%),1.1652933984148754,Low-medium,nearest<=10km
+dc0210,732548|Georgia,Georgia,3.0,High (40-80%),3.625606179833565,High,nearest<=10km
+dc0211,732609|Georgia,Georgia,2.0,Medium - High (20-40%),2.4115917257827646,Medium-high,within
+dc0212,732548|Georgia,Georgia,3.0,High (40-80%),3.625606179833565,High,nearest<=10km
+dc0213,732548|Georgia,Georgia,3.0,High (40-80%),3.625606179833565,High,nearest<=10km
+dc0214,732604|Georgia,Georgia,1.0,Low - Medium (10-20%),1.1652933984148754,Low-medium,within
+dc0215,732547|Georgia,Georgia,2.0,Medium - High (20-40%),2.5941844188976857,Medium-high,within
+dc0216,732547|Georgia,Georgia,2.0,Medium - High (20-40%),2.5941844188976857,Medium-high,within
+dc0217,732547|Georgia,Georgia,2.0,Medium - High (20-40%),2.5941844188976857,Medium-high,within
+dc0218,732880|Georgia,Georgia,2.0,Medium - High (20-40%),2.5806215362076923,Medium-high,within
+dc0219,732880|Georgia,Georgia,2.0,Medium - High (20-40%),2.5806215362076923,Medium-high,within
+dc0220,732880|Georgia,Georgia,2.0,Medium - High (20-40%),2.5806215362076923,Medium-high,within
+dc0221,732880|Georgia,Georgia,2.0,Medium - High (20-40%),2.5806215362076923,Medium-high,within
+dc0222,732880|Georgia,Georgia,2.0,Medium - High (20-40%),2.5806215362076923,Medium-high,within
+dc0223,,,,,,,nearest<=10km
+dc0224,,,,,,,nearest<=10km
+dc0225,,,,,,,nearest<=10km
+dc0226,,,,,,,nearest<=10km
+dc0227,732547|Georgia,Georgia,2.0,Medium - High (20-40%),2.5941844188976857,Medium-high,within
+dc0228,732604|Georgia,Georgia,1.0,Low - Medium (10-20%),1.1652933984148754,Low-medium,nearest<=10km
+dc0229,732544|Georgia,Georgia,2.0,Medium - High (20-40%),2.101601868026963,Medium-high,within
+dc0230,732548|Georgia,Georgia,3.0,High (40-80%),3.625606179833565,High,within
+dc0231,732548|Georgia,Georgia,3.0,High (40-80%),3.625606179833565,High,within
+dc0232,732604|Georgia,Georgia,1.0,Low - Medium (10-20%),1.1652933984148754,Low-medium,within
+dc0233,732604|Georgia,Georgia,1.0,Low - Medium (10-20%),1.1652933984148754,Low-medium,within
+dc0234,732604|Georgia,Georgia,1.0,Low - Medium (10-20%),1.1652933984148754,Low-medium,within
+dc0235,732604|Georgia,Georgia,1.0,Low - Medium (10-20%),1.1652933984148754,Low-medium,within
+dc0236,732604|Georgia,Georgia,1.0,Low - Medium (10-20%),1.1652933984148754,Low-medium,within
+dc0237,732604|Georgia,Georgia,1.0,Low - Medium (10-20%),1.1652933984148754,Low-medium,within
+dc0238,732548|Georgia,Georgia,3.0,High (40-80%),3.625606179833565,High,within
+dc0239,732547|Georgia,Georgia,2.0,Medium - High (20-40%),2.5941844188976857,Medium-high,within
+dc0240,732544|Georgia,Georgia,2.0,Medium - High (20-40%),2.101601868026963,Medium-high,within
+dc0241,732544|Georgia,Georgia,2.0,Medium - High (20-40%),2.101601868026963,Medium-high,within
+dc0242,732544|Georgia,Georgia,2.0,Medium - High (20-40%),2.101601868026963,Medium-high,within
+dc0243,732547|Georgia,Georgia,2.0,Medium - High (20-40%),2.5941844188976857,Medium-high,within
+dc0244,732547|Georgia,Georgia,2.0,Medium - High (20-40%),2.5941844188976857,Medium-high,within
+dc0245,732547|Georgia,Georgia,2.0,Medium - High (20-40%),2.5941844188976857,Medium-high,within
+dc0246,732547|Georgia,Georgia,2.0,Medium - High (20-40%),2.5941844188976857,Medium-high,within
+dc0247,732547|Georgia,Georgia,2.0,Medium - High (20-40%),2.5941844188976857,Medium-high,within
+dc0248,732547|Georgia,Georgia,2.0,Medium - High (20-40%),2.5941844188976857,Medium-high,within
+dc0249,732547|Georgia,Georgia,2.0,Medium - High (20-40%),2.5941844188976857,Medium-high,within
+dc0250,732520|Georgia,Georgia,2.0,Medium - High (20-40%),2.931926380780837,Medium-high,within
+dc0251,,,,,,,nearest<=10km
+dc0252,732547|Georgia,Georgia,2.0,Medium - High (20-40%),2.5941844188976857,Medium-high,within
+dc0253,,,,,,,nearest<=10km
+dc0254,,,,,,,nearest<=10km
+dc0255,732547|Georgia,Georgia,2.0,Medium - High (20-40%),2.5941844188976857,Medium-high,within
+dc0256,,,,,,,nearest<=10km
+dc0257,,,,,,,nearest<=10km
+dc0258,,,,,,,nearest<=10km
+dc0259,,,,,,,nearest<=10km
+dc0260,,,,,,,nearest<=10km
+dc0261,,,,,,,nearest<=10km
+dc0262,,,,,,,nearest<=10km
+dc0263,,,,,,,nearest<=10km
+dc0264,,,,,,,nearest<=10km
+dc0265,,,,,,,nearest<=10km
+dc0266,,,,,,,nearest<=10km
+dc0267,,,,,,,nearest<=10km
+dc0268,732604|Georgia,Georgia,1.0,Low - Medium (10-20%),1.1652933984148754,Low-medium,within
+dc0269,732547|Georgia,Georgia,2.0,Medium - High (20-40%),2.5941844188976857,Medium-high,within
+dc0270,,,,,,,nearest<=10km
+dc0271,,,,,,,nearest<=10km
+dc0272,,,,,,,nearest<=10km
+dc0273,,,,,,,nearest<=10km
+dc0274,,,,,,,nearest<=10km
+dc0275,732520|Georgia,Georgia,2.0,Medium - High (20-40%),2.931926380780837,Medium-high,within
+dc0276,732530|Georgia,Georgia,0.0,Low (<10%),0.8207086059047766,Low,within
+dc0277,732604|Georgia,Georgia,1.0,Low - Medium (10-20%),1.1652933984148754,Low-medium,within
+dc0278,,,,,,,nearest<=10km
+dc0279,732604|Georgia,Georgia,1.0,Low - Medium (10-20%),1.1652933984148754,Low-medium,within
+dc0280,,,,,,,nearest<=10km
+dc0281,,,,,,,nearest<=10km
+dc0282,732580|Georgia,Georgia,2.0,Medium - High (20-40%),2.8615833765292407,Medium-high,within
+dc0283,732547|Georgia,Georgia,2.0,Medium - High (20-40%),2.5941844188976857,Medium-high,within
+dc0284,732604|Georgia,Georgia,1.0,Low - Medium (10-20%),1.1652933984148754,Low-medium,within
+dc0285,732604|Georgia,Georgia,1.0,Low - Medium (10-20%),1.1652933984148754,Low-medium,within
+dc0286,732604|Georgia,Georgia,1.0,Low - Medium (10-20%),1.1652933984148754,Low-medium,within
+dc0287,732520|Georgia,Georgia,2.0,Medium - High (20-40%),2.931926380780837,Medium-high,within
+dc0288,732870|Georgia,Georgia,1.0,Low - Medium (10-20%),1.52538024864374,Low-medium,within
+dc0289,732870|Georgia,Georgia,1.0,Low - Medium (10-20%),1.52538024864374,Low-medium,within
+dc0290,732870|Georgia,Georgia,1.0,Low - Medium (10-20%),1.52538024864374,Low-medium,within
+dc0291,732870|Georgia,Georgia,1.0,Low - Medium (10-20%),1.52538024864374,Low-medium,within
+dc0292,732544|Georgia,Georgia,2.0,Medium - High (20-40%),2.101601868026963,Medium-high,within
+dc0293,732544|Georgia,Georgia,2.0,Medium - High (20-40%),2.101601868026963,Medium-high,within
+dc0294,,,,,,,nearest<=10km
+dc0295,,,,,,,nearest<=10km
+dc0296,732544|Georgia,Georgia,2.0,Medium - High (20-40%),2.101601868026963,Medium-high,within
+dc0297,732544|Georgia,Georgia,2.0,Medium - High (20-40%),2.101601868026963,Medium-high,within
+dc0298,,,,,,,nearest<=10km
+dc0299,732530|Georgia,Georgia,0.0,Low (<10%),0.8207086059047766,Low,within
+dc0300,732530|Georgia,Georgia,0.0,Low (<10%),0.8207086059047766,Low,within
+dc0301,732547|Georgia,Georgia,2.0,Medium - High (20-40%),2.5941844188976857,Medium-high,nearest<=10km
+dc0302,732547|Georgia,Georgia,2.0,Medium - High (20-40%),2.5941844188976857,Medium-high,nearest<=10km
+dc0303,732547|Georgia,Georgia,2.0,Medium - High (20-40%),2.5941844188976857,Medium-high,nearest<=10km
+dc0304,732547|Georgia,Georgia,2.0,Medium - High (20-40%),2.5941844188976857,Medium-high,nearest<=10km
+dc0305,732860|Georgia,Georgia,2.0,Medium - High (20-40%),2.8215539234652787,Medium-high,within
+dc0306,732604|Georgia,Georgia,1.0,Low - Medium (10-20%),1.1652933984148754,Low-medium,within
+dc0307,732520|Georgia,Georgia,2.0,Medium - High (20-40%),2.931926380780837,Medium-high,within
+dc0308,732604|Georgia,Georgia,1.0,Low - Medium (10-20%),1.1652933984148754,Low-medium,within
+dc0309,732604|Georgia,Georgia,1.0,Low - Medium (10-20%),1.1652933984148754,Low-medium,within
+dc0310,732604|Georgia,Georgia,1.0,Low - Medium (10-20%),1.1652933984148754,Low-medium,within
+dc0311,732604|Georgia,Georgia,1.0,Low - Medium (10-20%),1.1652933984148754,Low-medium,nearest<=10km
+dc0312,732604|Georgia,Georgia,1.0,Low - Medium (10-20%),1.1652933984148754,Low-medium,within
+dc0313,732580|Georgia,Georgia,2.0,Medium - High (20-40%),2.8615833765292407,Medium-high,within
+dc0314,732860|Georgia,Georgia,2.0,Medium - High (20-40%),2.8215539234652787,Medium-high,nearest<=10km
+dc0315,732860|Georgia,Georgia,2.0,Medium - High (20-40%),2.8215539234652787,Medium-high,nearest<=10km
+dc0316,732860|Georgia,Georgia,2.0,Medium - High (20-40%),2.8215539234652787,Medium-high,nearest<=10km
+dc0317,732547|Georgia,Georgia,2.0,Medium - High (20-40%),2.5941844188976857,Medium-high,within
+dc0318,,,,,,,nearest<=10km
+dc0319,-9999|Hawaii,Hawaii,-9999.0,No Data,-9999.0,No data,within
+dc0320,742843|Iowa,Iowa,0.0,Low (<10%),0.6121638965881055,Low,within
+dc0321,742843|Iowa,Iowa,0.0,Low (<10%),0.6121638965881055,Low,within
+dc0322,742845|Iowa,Iowa,1.0,Low - Medium (10-20%),1.3178806809701706,Low-medium,within
+dc0323,742873|Iowa,Iowa,0.0,Low (<10%),0.3079550538654757,Low,within
+dc0324,742863|Iowa,Iowa,1.0,Low - Medium (10-20%),1.7209228534373548,Low-medium,within
+dc0325,742863|Iowa,Iowa,1.0,Low - Medium (10-20%),1.7209228534373548,Low-medium,within
+dc0326,742951|Iowa,Iowa,0.0,Low (<10%),0.1278995263148407,Low,within
+dc0327,742951|Iowa,Iowa,0.0,Low (<10%),0.1278995263148407,Low,within
+dc0328,742843|Iowa,Iowa,0.0,Low (<10%),0.6121638965881055,Low,within
+dc0329,742843|Iowa,Iowa,0.0,Low (<10%),0.6121638965881055,Low,within
+dc0330,742873|Iowa,Iowa,0.0,Low (<10%),0.3079550538654757,Low,within
+dc0331,742843|Iowa,Iowa,0.0,Low (<10%),0.6121638965881055,Low,within
+dc0332,742873|Iowa,Iowa,0.0,Low (<10%),0.3079550538654757,Low,within
+dc0333,742873|Iowa,Iowa,0.0,Low (<10%),0.3079550538654757,Low,within
+dc0334,742863|Iowa,Iowa,1.0,Low - Medium (10-20%),1.7209228534373548,Low-medium,within
+dc0335,742843|Iowa,Iowa,0.0,Low (<10%),0.6121638965881055,Low,within
+dc0336,742951|Iowa,Iowa,0.0,Low (<10%),0.1278995263148407,Low,within
+dc0337,742844|Iowa,Iowa,1.0,Low - Medium (10-20%),1.544110124654721,Low-medium,within
+dc0338,742843|Iowa,Iowa,0.0,Low (<10%),0.6121638965881055,Low,within
+dc0339,742843|Iowa,Iowa,0.0,Low (<10%),0.6121638965881055,Low,within
+dc0340,742843|Iowa,Iowa,0.0,Low (<10%),0.6121638965881055,Low,within
+dc0341,742844|Iowa,Iowa,1.0,Low - Medium (10-20%),1.544110124654721,Low-medium,within
+dc0342,742844|Iowa,Iowa,1.0,Low - Medium (10-20%),1.544110124654721,Low-medium,within
+dc0343,742845|Iowa,Iowa,1.0,Low - Medium (10-20%),1.3178806809701706,Low-medium,within
+dc0344,782997|Idaho,Idaho,4.0,Extremely High (>80%),4.1053847258537,Extremely high,within
+dc0345,782940|Idaho,Idaho,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc0346,782940|Idaho,Idaho,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc0347,782995|Idaho,Idaho,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc0348,742810|Illinois,Illinois,2.0,Medium - High (20-40%),2.967244701714429,Medium-high,within
+dc0349,742826|Illinois,Illinois,4.0,Extremely High (>80%),4.013218083026459,Extremely high,within
+dc0350,742826|Illinois,Illinois,4.0,Extremely High (>80%),4.013218083026459,Extremely high,within
+dc0351,742826|Illinois,Illinois,4.0,Extremely High (>80%),4.013218083026459,Extremely high,within
+dc0352,742827|Illinois,Illinois,3.0,High (40-80%),3.500974462273387,High,within
+dc0353,725880|Illinois,Illinois,3.0,High (40-80%),3.4329938042424906,High,within
+dc0354,725880|Illinois,Illinois,3.0,High (40-80%),3.4329938042424906,High,within
+dc0355,742826|Illinois,Illinois,4.0,Extremely High (>80%),4.013218083026459,Extremely high,within
+dc0356,742826|Illinois,Illinois,4.0,Extremely High (>80%),4.013218083026459,Extremely high,within
+dc0357,742872|Illinois,Illinois,3.0,High (40-80%),3.680821112347451,High,within
+dc0358,742826|Illinois,Illinois,4.0,Extremely High (>80%),4.013218083026459,Extremely high,within
+dc0359,742662|Illinois,Illinois,1.0,Low - Medium (10-20%),1.441339742686167,Low-medium,within
+dc0360,742827|Illinois,Illinois,3.0,High (40-80%),3.500974462273387,High,within
+dc0361,742827|Illinois,Illinois,3.0,High (40-80%),3.500974462273387,High,within
+dc0362,742827|Illinois,Illinois,3.0,High (40-80%),3.500974462273387,High,within
+dc0363,742827|Illinois,Illinois,3.0,High (40-80%),3.500974462273387,High,within
+dc0364,742827|Illinois,Illinois,3.0,High (40-80%),3.500974462273387,High,within
+dc0365,742827|Illinois,Illinois,3.0,High (40-80%),3.500974462273387,High,within
+dc0366,742827|Illinois,Illinois,3.0,High (40-80%),3.500974462273387,High,within
+dc0367,742827|Illinois,Illinois,3.0,High (40-80%),3.500974462273387,High,within
+dc0368,742827|Illinois,Illinois,3.0,High (40-80%),3.500974462273387,High,within
+dc0369,742825|Illinois,Illinois,1.0,Low - Medium (10-20%),1.630384932145253,Low-medium,within
+dc0370,742827|Illinois,Illinois,3.0,High (40-80%),3.500974462273387,High,within
+dc0371,742822|Illinois,Illinois,1.0,Low - Medium (10-20%),1.0391924319080648,Low-medium,within
+dc0372,742827|Illinois,Illinois,3.0,High (40-80%),3.500974462273387,High,within
+dc0373,742827|Illinois,Illinois,3.0,High (40-80%),3.500974462273387,High,within
+dc0374,742827|Illinois,Illinois,3.0,High (40-80%),3.500974462273387,High,within
+dc0375,742827|Illinois,Illinois,3.0,High (40-80%),3.500974462273387,High,within
+dc0376,742827|Illinois,Illinois,3.0,High (40-80%),3.500974462273387,High,within
+dc0377,742827|Illinois,Illinois,3.0,High (40-80%),3.500974462273387,High,within
+dc0378,742827|Illinois,Illinois,3.0,High (40-80%),3.500974462273387,High,within
+dc0379,742827|Illinois,Illinois,3.0,High (40-80%),3.500974462273387,High,within
+dc0380,742827|Illinois,Illinois,3.0,High (40-80%),3.500974462273387,High,within
+dc0381,742825|Illinois,Illinois,1.0,Low - Medium (10-20%),1.630384932145253,Low-medium,within
+dc0382,742822|Illinois,Illinois,1.0,Low - Medium (10-20%),1.0391924319080648,Low-medium,within
+dc0383,725880|Illinois,Illinois,3.0,High (40-80%),3.4329938042424906,High,within
+dc0384,742826|Illinois,Illinois,4.0,Extremely High (>80%),4.013218083026459,Extremely high,within
+dc0385,742706|Illinois,Illinois,2.0,Medium - High (20-40%),2.471237833887224,Medium-high,within
+dc0386,742822|Illinois,Illinois,1.0,Low - Medium (10-20%),1.0391924319080648,Low-medium,within
+dc0387,742826|Illinois,Illinois,4.0,Extremely High (>80%),4.013218083026459,Extremely high,within
+dc0388,742826|Illinois,Illinois,4.0,Extremely High (>80%),4.013218083026459,Extremely high,within
+dc0389,742664|Indiana,Indiana,2.0,Medium - High (20-40%),2.8246750762686608,Medium-high,within
+dc0390,742673|Indiana,Indiana,0.0,Low (<10%),0.0,Low,within
+dc0391,725880|Indiana,Indiana,3.0,High (40-80%),3.4329938042424906,High,within
+dc0392,742664|Indiana,Indiana,2.0,Medium - High (20-40%),2.8246750762686608,Medium-high,within
+dc0393,725880|Indiana,Indiana,3.0,High (40-80%),3.4329938042424906,High,within
+dc0394,725880|Indiana,Indiana,3.0,High (40-80%),3.4329938042424906,High,within
+dc0395,742664|Indiana,Indiana,2.0,Medium - High (20-40%),2.8246750762686608,Medium-high,within
+dc0396,725560|Indiana,Indiana,0.0,Low (<10%),0.0,Low,within
+dc0397,742667|Indiana,Indiana,1.0,Low - Medium (10-20%),1.696311999954089,Low-medium,within
+dc0398,725890|Indiana,Indiana,0.0,Low (<10%),0.0,Low,within
+dc0399,742664|Indiana,Indiana,2.0,Medium - High (20-40%),2.8246750762686608,Medium-high,within
+dc0400,725880|Indiana,Indiana,3.0,High (40-80%),3.4329938042424906,High,within
+dc0401,725880|Indiana,Indiana,3.0,High (40-80%),3.4329938042424906,High,within
+dc0402,742664|Indiana,Indiana,2.0,Medium - High (20-40%),2.8246750762686608,Medium-high,within
+dc0403,742829|Indiana,Indiana,3.0,High (40-80%),3.8324194078821785,High,within
+dc0404,725880|Indiana,Indiana,3.0,High (40-80%),3.4329938042424906,High,within
+dc0405,742664|Indiana,Indiana,2.0,Medium - High (20-40%),2.8246750762686608,Medium-high,within
+dc0406,742664|Indiana,Indiana,2.0,Medium - High (20-40%),2.8246750762686608,Medium-high,within
+dc0407,742664|Indiana,Indiana,2.0,Medium - High (20-40%),2.8246750762686608,Medium-high,within
+dc0408,742664|Indiana,Indiana,2.0,Medium - High (20-40%),2.8246750762686608,Medium-high,within
+dc0409,742664|Indiana,Indiana,2.0,Medium - High (20-40%),2.8246750762686608,Medium-high,within
+dc0410,742664|Indiana,Indiana,2.0,Medium - High (20-40%),2.8246750762686608,Medium-high,within
+dc0411,742673|Indiana,Indiana,0.0,Low (<10%),0.0,Low,within
+dc0412,742669|Indiana,Indiana,2.0,Medium - High (20-40%),2.7143367103128524,Medium-high,within
+dc0413,742829|Indiana,Indiana,3.0,High (40-80%),3.8324194078821785,High,within
+dc0414,742667|Indiana,Indiana,1.0,Low - Medium (10-20%),1.696311999954089,Low-medium,within
+dc0415,725890|Indiana,Indiana,0.0,Low (<10%),0.0,Low,within
+dc0416,742664|Indiana,Indiana,2.0,Medium - High (20-40%),2.8246750762686608,Medium-high,within
+dc0417,742664|Indiana,Indiana,2.0,Medium - High (20-40%),2.8246750762686608,Medium-high,within
+dc0418,725880|Indiana,Indiana,3.0,High (40-80%),3.4329938042424906,High,within
+dc0419,742829|Indiana,Indiana,3.0,High (40-80%),3.8324194078821785,High,within
+dc0420,742664|Indiana,Indiana,2.0,Medium - High (20-40%),2.8246750762686608,Medium-high,within
+dc0421,742664|Indiana,Indiana,2.0,Medium - High (20-40%),2.8246750762686608,Medium-high,within
+dc0422,742829|Indiana,Indiana,3.0,High (40-80%),3.8324194078821785,High,within
+dc0423,742829|Indiana,Indiana,3.0,High (40-80%),3.8324194078821785,High,within
+dc0424,742664|Indiana,Indiana,2.0,Medium - High (20-40%),2.8246750762686608,Medium-high,within
+dc0425,725880|Indiana,Indiana,3.0,High (40-80%),3.4329938042424906,High,within
+dc0426,742664|Indiana,Indiana,2.0,Medium - High (20-40%),2.8246750762686608,Medium-high,within
+dc0427,742667|Indiana,Indiana,1.0,Low - Medium (10-20%),1.696311999954089,Low-medium,within
+dc0428,725880|Indiana,Indiana,3.0,High (40-80%),3.4329938042424906,High,within
+dc0429,725880|Indiana,Indiana,3.0,High (40-80%),3.4329938042424906,High,within
+dc0430,742829|Indiana,Indiana,3.0,High (40-80%),3.8324194078821785,High,within
+dc0431,742829|Indiana,Indiana,3.0,High (40-80%),3.8324194078821785,High,within
+dc0432,742668|Indiana,Indiana,0.0,Low (<10%),0.703766240150262,Low,within
+dc0433,742921|Kansas,Kansas,1.0,Low - Medium (10-20%),1.2376669745220932,Low-medium,within
+dc0434,742921|Kansas,Kansas,1.0,Low - Medium (10-20%),1.2376669745220932,Low-medium,within
+dc0435,742921|Kansas,Kansas,1.0,Low - Medium (10-20%),1.2376669745220932,Low-medium,within
+dc0436,742914|Kansas,Kansas,1.0,Low - Medium (10-20%),1.5095314886561633,Low-medium,within
+dc0437,742449|Kansas,Kansas,0.0,Low (<10%),0.4607664706649279,Low,within
+dc0438,742921|Kansas,Kansas,1.0,Low - Medium (10-20%),1.2376669745220932,Low-medium,within
+dc0439,742914|Kansas,Kansas,1.0,Low - Medium (10-20%),1.5095314886561633,Low-medium,within
+dc0440,742447|Kansas,Kansas,0.0,Low (<10%),0.0,Low,within
+dc0441,742872|Illinois,Illinois,3.0,High (40-80%),3.680821112347451,High,within
+dc0442,742919|Kansas,Kansas,0.0,Low (<10%),0.0,Low,within
+dc0443,742921|Kansas,Kansas,1.0,Low - Medium (10-20%),1.2376669745220932,Low-medium,within
+dc0444,742679|Kentucky,Kentucky,2.0,Medium - High (20-40%),2.8543134483068524,Medium-high,within
+dc0445,742674|Kentucky,Kentucky,2.0,Medium - High (20-40%),2.503726932082936,Medium-high,within
+dc0446,742672|Kentucky,Kentucky,2.0,Medium - High (20-40%),2.081361533188705,Medium-high,within
+dc0447,742673|Kentucky,Kentucky,0.0,Low (<10%),0.0,Low,within
+dc0448,742672|Kentucky,Kentucky,2.0,Medium - High (20-40%),2.081361533188705,Medium-high,within
+dc0449,742674|Kentucky,Kentucky,2.0,Medium - High (20-40%),2.503726932082936,Medium-high,within
+dc0450,742674|Kentucky,Kentucky,2.0,Medium - High (20-40%),2.503726932082936,Medium-high,within
+dc0451,742673|Kentucky,Kentucky,0.0,Low (<10%),0.0,Low,within
+dc0452,742641|Kentucky,Kentucky,0.0,Low (<10%),0.0,Low,within
+dc0453,742674|Kentucky,Kentucky,2.0,Medium - High (20-40%),2.503726932082936,Medium-high,within
+dc0454,742610|Kentucky,Kentucky,0.0,Low (<10%),0.0,Low,within
+dc0455,742673|Kentucky,Kentucky,0.0,Low (<10%),0.0,Low,within
+dc0456,742673|Kentucky,Kentucky,0.0,Low (<10%),0.0,Low,within
+dc0457,742674|Kentucky,Kentucky,2.0,Medium - High (20-40%),2.503726932082936,Medium-high,within
+dc0458,742673|Kentucky,Kentucky,0.0,Low (<10%),0.0,Low,within
+dc0459,742677|Kentucky,Kentucky,0.0,Low (<10%),0.0,Low,within
+dc0460,742621|Kentucky,Kentucky,0.0,Low (<10%),0.0,Low,within
+dc0461,742610|Kentucky,Kentucky,0.0,Low (<10%),0.0,Low,within
+dc0462,742610|Kentucky,Kentucky,0.0,Low (<10%),0.0,Low,within
+dc0463,742679|Kentucky,Kentucky,2.0,Medium - High (20-40%),2.8543134483068524,Medium-high,within
+dc0464,742236|Louisiana,Louisiana,0.0,Low (<10%),0.0,Low,within
+dc0465,742234|Louisiana,Louisiana,3.0,High (40-80%),3.97436170932038,High,within
+dc0466,742231|Louisiana,Louisiana,0.0,Low (<10%),0.0,Low,within
+dc0467,741008|Louisiana,Louisiana,2.0,Medium - High (20-40%),2.442071416276206,Medium-high,within
+dc0468,,,,,,,nearest<=10km
+dc0469,742100|Louisiana,Louisiana,0.0,Low (<10%),0.0,Low,within
+dc0470,741008|Louisiana,Louisiana,2.0,Medium - High (20-40%),2.442071416276206,Medium-high,within
+dc0471,742226|Louisiana,Louisiana,2.0,Medium - High (20-40%),2.90694182910254,Medium-high,within
+dc0472,742233|Louisiana,Louisiana,0.0,Low (<10%),0.0,Low,within
+dc0473,742236|Louisiana,Louisiana,0.0,Low (<10%),0.0,Low,within
+dc0474,742236|Louisiana,Louisiana,0.0,Low (<10%),0.0,Low,within
+dc0475,742100|Louisiana,Louisiana,0.0,Low (<10%),0.0,Low,within
+dc0476,742100|Louisiana,Louisiana,0.0,Low (<10%),0.0,Low,within
+dc0477,742100|Louisiana,Louisiana,0.0,Low (<10%),0.0,Low,within
+dc0478,731190|Massachusetts,Massachusetts,2.0,Medium - High (20-40%),2.188356913706249,Medium-high,within
+dc0479,731190|Massachusetts,Massachusetts,2.0,Medium - High (20-40%),2.188356913706249,Medium-high,within
+dc0480,731180|Massachusetts,Massachusetts,1.0,Low - Medium (10-20%),1.9021495322317088,Low-medium,within
+dc0481,731190|Massachusetts,Massachusetts,2.0,Medium - High (20-40%),2.188356913706249,Medium-high,within
+dc0482,731200|Massachusetts,Massachusetts,1.0,Low - Medium (10-20%),1.2883073190179355,Low-medium,within
+dc0483,731700|Maryland,Maryland,1.0,Low - Medium (10-20%),1.126947793433607,Low-medium,within
+dc0484,731700|Maryland,Maryland,1.0,Low - Medium (10-20%),1.126947793433607,Low-medium,within
+dc0485,731801|Maryland,Maryland,0.0,Low (<10%),0.158307520864789,Low,within
+dc0486,731803|Maryland,Maryland,0.0,Low (<10%),0.0,Low,within
+dc0487,731803|Maryland,Maryland,0.0,Low (<10%),0.0,Low,within
+dc0488,731700|Maryland,Maryland,1.0,Low - Medium (10-20%),1.126947793433607,Low-medium,within
+dc0489,731700|Maryland,Maryland,1.0,Low - Medium (10-20%),1.126947793433607,Low-medium,within
+dc0490,731700|Maryland,Maryland,1.0,Low - Medium (10-20%),1.126947793433607,Low-medium,within
+dc0491,731700|Maryland,Maryland,1.0,Low - Medium (10-20%),1.126947793433607,Low-medium,within
+dc0492,731700|Maryland,Maryland,1.0,Low - Medium (10-20%),1.126947793433607,Low-medium,within
+dc0493,731700|Maryland,Maryland,1.0,Low - Medium (10-20%),1.126947793433607,Low-medium,within
+dc0494,731700|Maryland,Maryland,1.0,Low - Medium (10-20%),1.126947793433607,Low-medium,within
+dc0495,731700|Maryland,Maryland,1.0,Low - Medium (10-20%),1.126947793433607,Low-medium,within
+dc0496,731700|Maryland,Maryland,1.0,Low - Medium (10-20%),1.126947793433607,Low-medium,within
+dc0497,731700|Maryland,Maryland,1.0,Low - Medium (10-20%),1.126947793433607,Low-medium,within
+dc0498,,,0.0,Low (<10%),0.0,Low,nearest<=10km
+dc0499,731140|Maine,Maine,0.0,Low (<10%),0.0,Low,within
+dc0500,726087|Maine,Maine,0.0,Low (<10%),0.0,Low,nearest<=10km
+dc0501,731130|Maine,Maine,0.0,Low (<10%),0.2712940925074592,Low,within
+dc0502,725573|Michigan,Michigan,0.0,Low (<10%),0.0,Low,within
+dc0503,725571|Michigan,Michigan,0.0,Low (<10%),0.0,Low,within
+dc0504,725572|Michigan,Michigan,3.0,High (40-80%),3.530514924286732,High,within
+dc0505,725860|Michigan,Michigan,0.0,Low (<10%),0.0,Low,within
+dc0506,725860|Michigan,Michigan,0.0,Low (<10%),0.0,Low,within
+dc0507,725860|Michigan,Michigan,0.0,Low (<10%),0.0,Low,within
+dc0508,725810|Michigan,Michigan,0.0,Low (<10%),0.0,Low,within
+dc0509,725870|Michigan,Michigan,2.0,Medium - High (20-40%),2.671208037573646,Medium-high,within
+dc0510,,,,,,,nearest<=10km
+dc0511,725560|Michigan,Michigan,0.0,Low (<10%),0.0,Low,within
+dc0512,725573|Michigan,Michigan,0.0,Low (<10%),0.0,Low,within
+dc0513,725860|Michigan,Michigan,0.0,Low (<10%),0.0,Low,within
+dc0514,725860|Michigan,Michigan,0.0,Low (<10%),0.0,Low,within
+dc0515,725870|Michigan,Michigan,2.0,Medium - High (20-40%),2.671208037573646,Medium-high,within
+dc0516,725870|Michigan,Michigan,2.0,Medium - High (20-40%),2.671208037573646,Medium-high,within
+dc0517,725810|Michigan,Michigan,0.0,Low (<10%),0.0,Low,within
+dc0518,725860|Michigan,Michigan,0.0,Low (<10%),0.0,Low,within
+dc0519,725860|Michigan,Michigan,0.0,Low (<10%),0.0,Low,within
+dc0520,725588|Michigan,Michigan,3.0,High (40-80%),3.214888086445994,High,within
+dc0521,725870|Michigan,Michigan,2.0,Medium - High (20-40%),2.671208037573646,Medium-high,within
+dc0522,725572|Michigan,Michigan,3.0,High (40-80%),3.530514924286732,High,within
+dc0523,725573|Michigan,Michigan,0.0,Low (<10%),0.0,Low,nearest<=10km
+dc0524,725560|Michigan,Michigan,0.0,Low (<10%),0.0,Low,within
+dc0525,725572|Michigan,Michigan,3.0,High (40-80%),3.530514924286732,High,within
+dc0526,,,,,,,nearest<=10km
+dc0527,725572|Michigan,Michigan,3.0,High (40-80%),3.530514924286732,High,within
+dc0528,742877|Minnesota,Minnesota,0.0,Low (<10%),0.3808716947105708,Low,within
+dc0529,742895|Minnesota,Minnesota,4.0,Extremely High (>80%),4.386421123789482,Extremely high,within
+dc0530,742877|Minnesota,Minnesota,0.0,Low (<10%),0.3808716947105708,Low,within
+dc0531,742878|Minnesota,Minnesota,4.0,Extremely High (>80%),4.477855147479542,Extremely high,within
+dc0532,742879|Minnesota,Minnesota,0.0,Low (<10%),0.0,Low,within
+dc0533,742879|Minnesota,Minnesota,0.0,Low (<10%),0.0,Low,within
+dc0534,742895|Minnesota,Minnesota,4.0,Extremely High (>80%),4.386421123789482,Extremely high,within
+dc0535,742877|Minnesota,Minnesota,0.0,Low (<10%),0.3808716947105708,Low,within
+dc0536,725997|Minnesota,Minnesota,2.0,Medium - High (20-40%),2.165410780200298,Medium-high,within
+dc0537,742891|Minnesota,Minnesota,3.0,High (40-80%),3.459892862170365,High,within
+dc0538,742891|Minnesota,Minnesota,3.0,High (40-80%),3.459892862170365,High,within
+dc0539,742891|Minnesota,Minnesota,3.0,High (40-80%),3.459892862170365,High,within
+dc0540,742895|Minnesota,Minnesota,4.0,Extremely High (>80%),4.386421123789482,Extremely high,within
+dc0541,742875|Minnesota,Minnesota,0.0,Low (<10%),0.9976903982245244,Low,within
+dc0542,742849|Minnesota,Minnesota,2.0,Medium - High (20-40%),2.0859753930508336,Medium-high,within
+dc0543,742915|Missouri,Missouri,0.0,Low (<10%),0.0,Low,within
+dc0544,742707|Missouri,Missouri,0.0,Low (<10%),0.0,Low,within
+dc0545,742919|Missouri,Missouri,0.0,Low (<10%),0.0,Low,within
+dc0546,742919|Missouri,Missouri,0.0,Low (<10%),0.0,Low,within
+dc0547,742446|Missouri,Missouri,1.0,Low - Medium (10-20%),1.9567671659840489,Low-medium,within
+dc0548,742919|Missouri,Missouri,0.0,Low (<10%),0.0,Low,within
+dc0549,742932|Missouri,Missouri,0.0,Low (<10%),0.0,Low,within
+dc0550,742932|Missouri,Missouri,0.0,Low (<10%),0.0,Low,within
+dc0551,742932|Missouri,Missouri,0.0,Low (<10%),0.0,Low,within
+dc0552,742919|Missouri,Missouri,0.0,Low (<10%),0.0,Low,within
+dc0553,742919|Missouri,Missouri,0.0,Low (<10%),0.0,Low,within
+dc0554,742919|Missouri,Missouri,0.0,Low (<10%),0.0,Low,within
+dc0555,742919|Missouri,Missouri,0.0,Low (<10%),0.0,Low,within
+dc0556,742914|Missouri,Missouri,1.0,Low - Medium (10-20%),1.5095314886561633,Low-medium,within
+dc0557,742529|Missouri,Missouri,3.0,High (40-80%),3.2604451435158817,High,within
+dc0558,742934|Missouri,Missouri,1.0,Low - Medium (10-20%),1.9767843167816523,Low-medium,within
+dc0559,742915|Missouri,Missouri,0.0,Low (<10%),0.0,Low,within
+dc0560,742830|Missouri,Missouri,0.0,Low (<10%),0.0,Low,within
+dc0561,742830|Missouri,Missouri,0.0,Low (<10%),0.0,Low,within
+dc0562,742708|Missouri,Missouri,0.0,Low (<10%),0.0,Low,within
+dc0563,742708|Missouri,Missouri,0.0,Low (<10%),0.0,Low,within
+dc0564,742914|Missouri,Missouri,1.0,Low - Medium (10-20%),1.5095314886561633,Low-medium,within
+dc0565,742446|Missouri,Missouri,1.0,Low - Medium (10-20%),1.9567671659840489,Low-medium,within
+dc0566,742830|Missouri,Missouri,0.0,Low (<10%),0.0,Low,within
+dc0567,742830|Missouri,Missouri,0.0,Low (<10%),0.0,Low,within
+dc0568,742932|Missouri,Missouri,0.0,Low (<10%),0.0,Low,within
+dc0569,742709|Missouri,Missouri,0.0,Low (<10%),0.0,Low,within
+dc0570,742709|Missouri,Missouri,0.0,Low (<10%),0.0,Low,within
+dc0571,742709|Missouri,Missouri,0.0,Low (<10%),0.0,Low,within
+dc0572,742709|Missouri,Missouri,0.0,Low (<10%),0.0,Low,within
+dc0573,742709|Missouri,Missouri,0.0,Low (<10%),0.0,Low,within
+dc0574,742709|Missouri,Missouri,0.0,Low (<10%),0.0,Low,within
+dc0575,742913|Missouri,Missouri,0.0,Low (<10%),0.0,Low,within
+dc0576,742911|Missouri,Missouri,0.0,Low (<10%),0.0,Low,within
+dc0577,742830|Missouri,Missouri,0.0,Low (<10%),0.0,Low,within
+dc0578,741006|Mississippi,Mississippi,2.0,Medium - High (20-40%),2.8943450726886293,Medium-high,within
+dc0579,742306|Mississippi,Mississippi,0.0,Low (<10%),0.0,Low,within
+dc0580,742308|Mississippi,Mississippi,0.0,Low (<10%),0.0,Low,within
+dc0581,742306|Mississippi,Mississippi,0.0,Low (<10%),0.0,Low,within
+dc0582,742306|Mississippi,Mississippi,0.0,Low (<10%),0.0,Low,within
+dc0583,741006|Mississippi,Mississippi,2.0,Medium - High (20-40%),2.8943450726886293,Medium-high,within
+dc0584,742550|Mississippi,Mississippi,0.0,Low (<10%),0.0,Low,within
+dc0585,732824|Mississippi,Mississippi,1.0,Low - Medium (10-20%),1.6640104621990734,Low-medium,within
+dc0586,732900|Mississippi,Mississippi,2.0,Medium - High (20-40%),2.771282896032319,Medium-high,within
+dc0587,742307|Mississippi,Mississippi,0.0,Low (<10%),0.0,Low,within
+dc0588,782668|Montana,Montana,1.0,Low - Medium (10-20%),1.3247035317922595,Low-medium,within
+dc0589,742986|Montana,Montana,2.0,Medium - High (20-40%),2.8999582085792914,Medium-high,within
+dc0590,,,,,,,nearest<=10km
+dc0591,742999|Montana,Montana,2.0,Medium - High (20-40%),2.7611022836360384,Medium-high,within
+dc0592,742986|Montana,Montana,2.0,Medium - High (20-40%),2.8999582085792914,Medium-high,within
+dc0593,742628|North Carolina,North Carolina,1.0,Low - Medium (10-20%),1.566427368005458,Low-medium,within
+dc0594,732406|North Carolina,North Carolina,3.0,High (40-80%),3.861421789672111,High,within
+dc0595,732408|North Carolina,North Carolina,3.0,High (40-80%),3.638327144220889,High,nearest<=10km
+dc0596,732408|North Carolina,North Carolina,3.0,High (40-80%),3.638327144220889,High,nearest<=10km
+dc0597,732402|North Carolina,North Carolina,3.0,High (40-80%),3.7482736276700175,High,within
+dc0598,732180|North Carolina,North Carolina,3.0,High (40-80%),3.5769634975544453,High,within
+dc0599,732160|North Carolina,North Carolina,4.0,Extremely High (>80%),4.015390802742177,Extremely high,within
+dc0600,732180|North Carolina,North Carolina,3.0,High (40-80%),3.5769634975544453,High,within
+dc0601,732207|North Carolina,North Carolina,1.0,Low - Medium (10-20%),1.430737718197999,Low-medium,within
+dc0602,732150|North Carolina,North Carolina,2.0,Medium - High (20-40%),2.702865913437059,Medium-high,within
+dc0603,732209|North Carolina,North Carolina,3.0,High (40-80%),3.526914077498752,High,within
+dc0604,732402|North Carolina,North Carolina,3.0,High (40-80%),3.7482736276700175,High,within
+dc0605,732209|North Carolina,North Carolina,3.0,High (40-80%),3.526914077498752,High,nearest<=10km
+dc0606,732140|North Carolina,North Carolina,2.0,Medium - High (20-40%),2.7697299319853768,Medium-high,within
+dc0607,732140|North Carolina,North Carolina,2.0,Medium - High (20-40%),2.7697299319853768,Medium-high,within
+dc0608,732408|North Carolina,North Carolina,3.0,High (40-80%),3.638327144220889,High,within
+dc0609,732408|North Carolina,North Carolina,3.0,High (40-80%),3.638327144220889,High,within
+dc0610,732406|North Carolina,North Carolina,3.0,High (40-80%),3.861421789672111,High,within
+dc0611,732208|North Carolina,North Carolina,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc0612,732408|North Carolina,North Carolina,3.0,High (40-80%),3.638327144220889,High,within
+dc0613,732180|North Carolina,North Carolina,3.0,High (40-80%),3.5769634975544453,High,within
+dc0614,732408|North Carolina,North Carolina,3.0,High (40-80%),3.638327144220889,High,within
+dc0615,732408|North Carolina,North Carolina,3.0,High (40-80%),3.638327144220889,High,within
+dc0616,732160|North Carolina,North Carolina,4.0,Extremely High (>80%),4.015390802742177,Extremely high,within
+dc0617,732180|North Carolina,North Carolina,3.0,High (40-80%),3.5769634975544453,High,within
+dc0618,732140|North Carolina,North Carolina,2.0,Medium - High (20-40%),2.7697299319853768,Medium-high,within
+dc0619,732209|North Carolina,North Carolina,3.0,High (40-80%),3.526914077498752,High,within
+dc0620,732180|North Carolina,North Carolina,3.0,High (40-80%),3.5769634975544453,High,within
+dc0621,732209|North Carolina,North Carolina,3.0,High (40-80%),3.526914077498752,High,within
+dc0622,732150|North Carolina,North Carolina,2.0,Medium - High (20-40%),2.702865913437059,Medium-high,within
+dc0623,732140|North Carolina,North Carolina,2.0,Medium - High (20-40%),2.7697299319853768,Medium-high,within
+dc0624,732209|North Carolina,North Carolina,3.0,High (40-80%),3.526914077498752,High,within
+dc0625,742977|North Dakota,North Dakota,0.0,Low (<10%),0.0,Low,within
+dc0626,742954|North Dakota,North Dakota,0.0,Low (<10%),0.0,Low,within
+dc0627,742979|North Dakota,North Dakota,0.0,Low (<10%),0.0,Low,within
+dc0628,712268|North Dakota,North Dakota,2.0,Medium - High (20-40%),2.09775257504817,Medium-high,within
+dc0629,742954|North Dakota,North Dakota,0.0,Low (<10%),0.0,Low,within
+dc0630,742979|North Dakota,North Dakota,0.0,Low (<10%),0.0,Low,within
+dc0631,742979|North Dakota,North Dakota,0.0,Low (<10%),0.0,Low,within
+dc0632,742951|Nebraska,Nebraska,0.0,Low (<10%),0.1278995263148407,Low,within
+dc0633,742941|Nebraska,Nebraska,0.0,Low (<10%),0.7478789874496858,Low,within
+dc0634,742945|Nebraska,Nebraska,4.0,Extremely High (>80%),4.203403129760711,Extremely high,within
+dc0635,742951|Nebraska,Nebraska,0.0,Low (<10%),0.1278995263148407,Low,within
+dc0636,742941|Nebraska,Nebraska,0.0,Low (<10%),0.7478789874496858,Low,within
+dc0637,742941|Nebraska,Nebraska,0.0,Low (<10%),0.7478789874496858,Low,within
+dc0638,742951|Nebraska,Nebraska,0.0,Low (<10%),0.1278995263148407,Low,within
+dc0639,742951|Nebraska,Nebraska,0.0,Low (<10%),0.1278995263148407,Low,within
+dc0640,742941|Nebraska,Nebraska,0.0,Low (<10%),0.7478789874496858,Low,within
+dc0641,,,,,,,nearest<=10km
+dc0642,731170|New Hampshire,New Hampshire,0.0,Low (<10%),0.2834712785593469,Low,within
+dc0643,731504|New Jersey,New Jersey,3.0,High (40-80%),3.874238684022204,High,within
+dc0644,731506|New Jersey,New Jersey,2.0,Medium - High (20-40%),2.830392351967968,Medium-high,nearest<=10km
+dc0645,731506|New Jersey,New Jersey,2.0,Medium - High (20-40%),2.830392351967968,Medium-high,within
+dc0646,731505|New Jersey,New Jersey,2.0,Medium - High (20-40%),2.5645057914615954,Medium-high,within
+dc0647,731501|New Jersey,New Jersey,2.0,Medium - High (20-40%),2.0221632633994706,Medium-high,within
+dc0648,731506|New Jersey,New Jersey,2.0,Medium - High (20-40%),2.830392351967968,Medium-high,within
+dc0649,731506|New Jersey,New Jersey,2.0,Medium - High (20-40%),2.830392351967968,Medium-high,within
+dc0650,731506|New Jersey,New Jersey,2.0,Medium - High (20-40%),2.830392351967968,Medium-high,within
+dc0651,731504|New Jersey,New Jersey,3.0,High (40-80%),3.874238684022204,High,nearest<=10km
+dc0652,731506|New Jersey,New Jersey,2.0,Medium - High (20-40%),2.830392351967968,Medium-high,within
+dc0653,731502|New Jersey,New Jersey,0.0,Low (<10%),0.4312756005460976,Low,within
+dc0654,731502|New Jersey,New Jersey,0.0,Low (<10%),0.4312756005460976,Low,within
+dc0655,731501|New Jersey,New Jersey,2.0,Medium - High (20-40%),2.0221632633994706,Medium-high,within
+dc0656,731505|New Jersey,New Jersey,2.0,Medium - High (20-40%),2.5645057914615954,Medium-high,within
+dc0657,731505|New Jersey,New Jersey,2.0,Medium - High (20-40%),2.5645057914615954,Medium-high,within
+dc0658,752195|New Mexico,New Mexico,3.0,High (40-80%),3.577024152651049,High,within
+dc0659,752195|New Mexico,New Mexico,3.0,High (40-80%),3.577024152651049,High,within
+dc0660,752195|New Mexico,New Mexico,3.0,High (40-80%),3.577024152651049,High,within
+dc0661,751890|New Mexico,New Mexico,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc0662,752106|New Mexico,New Mexico,-1.0,Arid and Low Water Use,5.0,"Arid, low use",within
+dc0663,751890|New Mexico,New Mexico,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc0664,742429|New Mexico,New Mexico,-1.0,Arid and Low Water Use,5.0,"Arid, low use",within
+dc0665,752166|New Mexico,New Mexico,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc0666,752191|New Mexico,New Mexico,4.0,Extremely High (>80%),4.663658508355201,Extremely high,within
+dc0667,752191|New Mexico,New Mexico,4.0,Extremely High (>80%),4.663658508355201,Extremely high,within
+dc0668,773204|Nevada,Nevada,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc0669,772330|Nevada,Nevada,0.0,Low (<10%),0.6701146863701557,Low,within
+dc0670,772330|Nevada,Nevada,0.0,Low (<10%),0.6701146863701557,Low,within
+dc0671,772340|Nevada,Nevada,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc0672,772330|Nevada,Nevada,0.0,Low (<10%),0.6701146863701557,Low,within
+dc0673,772330|Nevada,Nevada,0.0,Low (<10%),0.6701146863701557,Low,within
+dc0674,772330|Nevada,Nevada,0.0,Low (<10%),0.6701146863701557,Low,within
+dc0675,772345|Nevada,Nevada,-9999.0,No Data,-9999.0,No data,within
+dc0676,773501|Nevada,Nevada,3.0,High (40-80%),3.082519184213296,High,within
+dc0677,773501|Nevada,Nevada,3.0,High (40-80%),3.082519184213296,High,within
+dc0678,773503|Nevada,Nevada,4.0,Extremely High (>80%),4.282612290099635,Extremely high,within
+dc0679,773503|Nevada,Nevada,4.0,Extremely High (>80%),4.282612290099635,Extremely high,within
+dc0680,773401|Nevada,Nevada,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc0681,773401|Nevada,Nevada,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc0682,773501|Nevada,Nevada,3.0,High (40-80%),3.082519184213296,High,within
+dc0683,773501|Nevada,Nevada,3.0,High (40-80%),3.082519184213296,High,within
+dc0684,773501|Nevada,Nevada,3.0,High (40-80%),3.082519184213296,High,within
+dc0685,773501|Nevada,Nevada,3.0,High (40-80%),3.082519184213296,High,within
+dc0686,725555|New York,New York,0.0,Low (<10%),0.0,Low,within
+dc0687,731403|New York,New York,0.0,Low (<10%),0.0,Low,within
+dc0688,725553|New York,New York,3.0,High (40-80%),3.400944162891712,High,within
+dc0689,731606|New York,New York,2.0,Medium - High (20-40%),2.1005669446264807,Medium-high,within
+dc0690,731000|New York,New York,4.0,Extremely High (>80%),4.302375283829,Extremely high,within
+dc0691,731401|New York,New York,0.0,Low (<10%),0.0,Low,within
+dc0692,725555|New York,New York,0.0,Low (<10%),0.0,Low,within
+dc0693,725555|New York,New York,0.0,Low (<10%),0.0,Low,within
+dc0694,725540|New York,New York,0.0,Low (<10%),0.0,Low,within
+dc0695,731607|New York,New York,0.0,Low (<10%),0.1991324133687098,Low,within
+dc0696,731401|New York,New York,0.0,Low (<10%),0.0,Low,within
+dc0697,731404|New York,New York,0.0,Low (<10%),0.7541422726588023,Low,within
+dc0698,725540|New York,New York,0.0,Low (<10%),0.0,Low,within
+dc0699,725553|New York,New York,3.0,High (40-80%),3.400944162891712,High,within
+dc0700,725540|New York,New York,0.0,Low (<10%),0.0,Low,within
+dc0701,,,0.0,Low (<10%),0.0,Low,nearest<=10km
+dc0702,,,0.0,Low (<10%),0.0,Low,nearest<=10km
+dc0703,,,0.0,Low (<10%),0.0,Low,nearest<=10km
+dc0704,,,0.0,Low (<10%),0.0,Low,nearest<=10km
+dc0705,,,0.0,Low (<10%),0.0,Low,nearest<=10km
+dc0706,731300|New York,New York,0.0,Low (<10%),0.2203653116452903,Low,within
+dc0707,731401|New York,New York,0.0,Low (<10%),0.0,Low,within
+dc0708,731401|New York,New York,0.0,Low (<10%),0.0,Low,within
+dc0709,731401|New York,New York,0.0,Low (<10%),0.0,Low,within
+dc0710,725555|New York,New York,0.0,Low (<10%),0.0,Low,within
+dc0711,725555|New York,New York,0.0,Low (<10%),0.0,Low,within
+dc0712,725555|New York,New York,0.0,Low (<10%),0.0,Low,within
+dc0713,725555|New York,New York,0.0,Low (<10%),0.0,Low,within
+dc0714,731609|New York,New York,1.0,Low - Medium (10-20%),1.0812628364475687,Low-medium,within
+dc0715,731501|New York,New York,2.0,Medium - High (20-40%),2.0221632633994706,Medium-high,within
+dc0716,731501|New York,New York,2.0,Medium - High (20-40%),2.0221632633994706,Medium-high,within
+dc0717,731501|New York,New York,2.0,Medium - High (20-40%),2.0221632633994706,Medium-high,within
+dc0718,731401|New York,New York,0.0,Low (<10%),0.0,Low,within
+dc0719,731503|New York,New York,4.0,Extremely High (>80%),4.010866507955395,Extremely high,within
+dc0720,725555|New York,New York,0.0,Low (<10%),0.0,Low,within
+dc0721,731000|New York,New York,4.0,Extremely High (>80%),4.302375283829,Extremely high,within
+dc0722,742677|Ohio,Ohio,0.0,Low (<10%),0.0,Low,within
+dc0723,725557|Ohio,Ohio,1.0,Low - Medium (10-20%),1.9881559259036168,Low-medium,within
+dc0724,725557|Ohio,Ohio,1.0,Low - Medium (10-20%),1.9881559259036168,Low-medium,within
+dc0725,742678|Ohio,Ohio,2.0,Medium - High (20-40%),2.8343255504112053,Medium-high,within
+dc0726,742694|Ohio,Ohio,2.0,Medium - High (20-40%),2.50307733375109,Medium-high,within
+dc0727,725559|Ohio,Ohio,0.0,Low (<10%),0.0,Low,within
+dc0728,742694|Ohio,Ohio,2.0,Medium - High (20-40%),2.50307733375109,Medium-high,within
+dc0729,742677|Ohio,Ohio,0.0,Low (<10%),0.0,Low,within
+dc0730,742677|Ohio,Ohio,0.0,Low (<10%),0.0,Low,within
+dc0731,725557|Ohio,Ohio,1.0,Low - Medium (10-20%),1.9881559259036168,Low-medium,within
+dc0732,725557|Ohio,Ohio,1.0,Low - Medium (10-20%),1.9881559259036168,Low-medium,within
+dc0733,725557|Ohio,Ohio,1.0,Low - Medium (10-20%),1.9881559259036168,Low-medium,within
+dc0734,725557|Ohio,Ohio,1.0,Low - Medium (10-20%),1.9881559259036168,Low-medium,within
+dc0735,742678|Ohio,Ohio,2.0,Medium - High (20-40%),2.8343255504112053,Medium-high,within
+dc0736,742678|Ohio,Ohio,2.0,Medium - High (20-40%),2.8343255504112053,Medium-high,within
+dc0737,742678|Ohio,Ohio,2.0,Medium - High (20-40%),2.8343255504112053,Medium-high,within
+dc0738,742678|Ohio,Ohio,2.0,Medium - High (20-40%),2.8343255504112053,Medium-high,within
+dc0739,742678|Ohio,Ohio,2.0,Medium - High (20-40%),2.8343255504112053,Medium-high,within
+dc0740,742678|Ohio,Ohio,2.0,Medium - High (20-40%),2.8343255504112053,Medium-high,within
+dc0741,742694|Ohio,Ohio,2.0,Medium - High (20-40%),2.50307733375109,Medium-high,within
+dc0742,742678|Ohio,Ohio,2.0,Medium - High (20-40%),2.8343255504112053,Medium-high,within
+dc0743,742678|Ohio,Ohio,2.0,Medium - High (20-40%),2.8343255504112053,Medium-high,within
+dc0744,742678|Ohio,Ohio,2.0,Medium - High (20-40%),2.8343255504112053,Medium-high,within
+dc0745,742676|Ohio,Ohio,2.0,Medium - High (20-40%),2.828391399742263,Medium-high,within
+dc0746,742679|Ohio,Ohio,2.0,Medium - High (20-40%),2.8543134483068524,Medium-high,within
+dc0747,742678|Ohio,Ohio,2.0,Medium - High (20-40%),2.8343255504112053,Medium-high,within
+dc0748,742676|Ohio,Ohio,2.0,Medium - High (20-40%),2.828391399742263,Medium-high,within
+dc0749,742676|Ohio,Ohio,2.0,Medium - High (20-40%),2.828391399742263,Medium-high,within
+dc0750,742695|Ohio,Ohio,0.0,Low (<10%),0.0,Low,within
+dc0751,742678|Ohio,Ohio,2.0,Medium - High (20-40%),2.8343255504112053,Medium-high,within
+dc0752,742679|Ohio,Ohio,2.0,Medium - High (20-40%),2.8543134483068524,Medium-high,within
+dc0753,742678|Ohio,Ohio,2.0,Medium - High (20-40%),2.8343255504112053,Medium-high,within
+dc0754,742694|Ohio,Ohio,2.0,Medium - High (20-40%),2.50307733375109,Medium-high,within
+dc0755,742678|Ohio,Ohio,2.0,Medium - High (20-40%),2.8343255504112053,Medium-high,within
+dc0756,742678|Ohio,Ohio,2.0,Medium - High (20-40%),2.8343255504112053,Medium-high,within
+dc0757,742678|Ohio,Ohio,2.0,Medium - High (20-40%),2.8343255504112053,Medium-high,within
+dc0758,742678|Ohio,Ohio,2.0,Medium - High (20-40%),2.8343255504112053,Medium-high,within
+dc0759,742694|Ohio,Ohio,2.0,Medium - High (20-40%),2.50307733375109,Medium-high,within
+dc0760,742678|Ohio,Ohio,2.0,Medium - High (20-40%),2.8343255504112053,Medium-high,within
+dc0761,742691|Ohio,Ohio,0.0,Low (<10%),0.0,Low,within
+dc0762,742678|Ohio,Ohio,2.0,Medium - High (20-40%),2.8343255504112053,Medium-high,within
+dc0763,742678|Ohio,Ohio,2.0,Medium - High (20-40%),2.8343255504112053,Medium-high,within
+dc0764,725560|Ohio,Ohio,0.0,Low (<10%),0.0,Low,within
+dc0765,742694|Ohio,Ohio,2.0,Medium - High (20-40%),2.50307733375109,Medium-high,within
+dc0766,725557|Ohio,Ohio,1.0,Low - Medium (10-20%),1.9881559259036168,Low-medium,within
+dc0767,742678|Ohio,Ohio,2.0,Medium - High (20-40%),2.8343255504112053,Medium-high,within
+dc0768,742694|Ohio,Ohio,2.0,Medium - High (20-40%),2.50307733375109,Medium-high,within
+dc0769,742678|Ohio,Ohio,2.0,Medium - High (20-40%),2.8343255504112053,Medium-high,within
+dc0770,725560|Ohio,Ohio,0.0,Low (<10%),0.0,Low,within
+dc0771,742678|Ohio,Ohio,2.0,Medium - High (20-40%),2.8343255504112053,Medium-high,within
+dc0772,742678|Ohio,Ohio,2.0,Medium - High (20-40%),2.8343255504112053,Medium-high,within
+dc0773,742694|Ohio,Ohio,2.0,Medium - High (20-40%),2.50307733375109,Medium-high,within
+dc0774,725560|Ohio,Ohio,0.0,Low (<10%),0.0,Low,within
+dc0775,742694|Ohio,Ohio,2.0,Medium - High (20-40%),2.50307733375109,Medium-high,within
+dc0776,742694|Ohio,Ohio,2.0,Medium - High (20-40%),2.50307733375109,Medium-high,within
+dc0777,742678|Ohio,Ohio,2.0,Medium - High (20-40%),2.8343255504112053,Medium-high,within
+dc0778,742676|Ohio,Ohio,2.0,Medium - High (20-40%),2.828391399742263,Medium-high,within
+dc0779,,,,,,,nearest<=10km
+dc0780,742676|Ohio,Ohio,2.0,Medium - High (20-40%),2.828391399742263,Medium-high,within
+dc0781,742695|Ohio,Ohio,0.0,Low (<10%),0.0,Low,within
+dc0782,742676|Ohio,Ohio,2.0,Medium - High (20-40%),2.828391399742263,Medium-high,within
+dc0783,742678|Ohio,Ohio,2.0,Medium - High (20-40%),2.8343255504112053,Medium-high,within
+dc0784,742676|Ohio,Ohio,2.0,Medium - High (20-40%),2.828391399742263,Medium-high,within
+dc0785,742696|Ohio,Ohio,0.0,Low (<10%),0.0758346004678294,Low,within
+dc0786,725560|Ohio,Ohio,0.0,Low (<10%),0.0,Low,within
+dc0787,742677|Ohio,Ohio,0.0,Low (<10%),0.0,Low,within
+dc0788,742696|Ohio,Ohio,0.0,Low (<10%),0.0758346004678294,Low,within
+dc0789,742470|Oklahoma,Oklahoma,2.0,Medium - High (20-40%),2.3500320197516613,Medium-high,within
+dc0790,742460|Oklahoma,Oklahoma,1.0,Low - Medium (10-20%),1.4020531427034109,Low-medium,within
+dc0791,742460|Oklahoma,Oklahoma,1.0,Low - Medium (10-20%),1.4020531427034109,Low-medium,within
+dc0792,742441|Oklahoma,Oklahoma,0.0,Low (<10%),0.0,Low,within
+dc0793,742422|Oklahoma,Oklahoma,2.0,Medium - High (20-40%),2.1079575440192464,Medium-high,within
+dc0794,742422|Oklahoma,Oklahoma,2.0,Medium - High (20-40%),2.1079575440192464,Medium-high,within
+dc0795,742422|Oklahoma,Oklahoma,2.0,Medium - High (20-40%),2.1079575440192464,Medium-high,within
+dc0796,742460|Oklahoma,Oklahoma,1.0,Low - Medium (10-20%),1.4020531427034109,Low-medium,within
+dc0797,742483|Oklahoma,Oklahoma,2.0,Medium - High (20-40%),2.959428215756671,Medium-high,within
+dc0798,742470|Oklahoma,Oklahoma,2.0,Medium - High (20-40%),2.3500320197516613,Medium-high,within
+dc0799,742441|Oklahoma,Oklahoma,0.0,Low (<10%),0.0,Low,within
+dc0800,742460|Oklahoma,Oklahoma,1.0,Low - Medium (10-20%),1.4020531427034109,Low-medium,within
+dc0801,742460|Oklahoma,Oklahoma,1.0,Low - Medium (10-20%),1.4020531427034109,Low-medium,within
+dc0802,742460|Oklahoma,Oklahoma,1.0,Low - Medium (10-20%),1.4020531427034109,Low-medium,within
+dc0803,782503|Oregon,Oregon,0.0,Low (<10%),0.0,Low,within
+dc0804,782505|Oregon,Oregon,0.0,Low (<10%),0.0,Low,within
+dc0805,782300|Oregon,Oregon,0.0,Low (<10%),0.0,Low,within
+dc0806,782200|Oregon,Oregon,0.0,Low (<10%),0.0,Low,within
+dc0807,782506|Oregon,Oregon,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc0808,782200|Oregon,Oregon,0.0,Low (<10%),0.0,Low,within
+dc0809,782200|Oregon,Oregon,0.0,Low (<10%),0.0,Low,within
+dc0810,782200|Oregon,Oregon,0.0,Low (<10%),0.0,Low,within
+dc0811,782200|Oregon,Oregon,0.0,Low (<10%),0.0,Low,within
+dc0812,782200|Oregon,Oregon,0.0,Low (<10%),0.0,Low,within
+dc0813,782200|Oregon,Oregon,0.0,Low (<10%),0.0,Low,within
+dc0814,782200|Oregon,Oregon,0.0,Low (<10%),0.0,Low,within
+dc0815,782200|Oregon,Oregon,0.0,Low (<10%),0.0,Low,within
+dc0816,782200|Oregon,Oregon,0.0,Low (<10%),0.0,Low,within
+dc0817,782200|Oregon,Oregon,0.0,Low (<10%),0.0,Low,within
+dc0818,782200|Oregon,Oregon,0.0,Low (<10%),0.0,Low,within
+dc0819,782400|Oregon,Oregon,1.0,Low - Medium (10-20%),1.980074898241816,Low-medium,within
+dc0820,782400|Oregon,Oregon,1.0,Low - Medium (10-20%),1.980074898241816,Low-medium,within
+dc0821,782400|Oregon,Oregon,1.0,Low - Medium (10-20%),1.980074898241816,Low-medium,within
+dc0822,782200|Oregon,Oregon,0.0,Low (<10%),0.0,Low,within
+dc0823,782300|Oregon,Oregon,0.0,Low (<10%),0.0,Low,within
+dc0824,782507|Oregon,Oregon,0.0,Low (<10%),0.0,Low,within
+dc0825,742697|Pennsylvania,Pennsylvania,0.0,Low (<10%),0.0,Low,within
+dc0826,731506|Pennsylvania,Pennsylvania,2.0,Medium - High (20-40%),2.830392351967968,Medium-high,within
+dc0827,731506|Pennsylvania,Pennsylvania,2.0,Medium - High (20-40%),2.830392351967968,Medium-high,within
+dc0828,731506|Pennsylvania,Pennsylvania,2.0,Medium - High (20-40%),2.830392351967968,Medium-high,within
+dc0829,731604|Pennsylvania,Pennsylvania,1.0,Low - Medium (10-20%),1.3792667028845478,Low-medium,within
+dc0830,731605|Pennsylvania,Pennsylvania,0.0,Low (<10%),0.1904804308011588,Low,within
+dc0831,731605|Pennsylvania,Pennsylvania,0.0,Low (<10%),0.1904804308011588,Low,within
+dc0832,731605|Pennsylvania,Pennsylvania,0.0,Low (<10%),0.1904804308011588,Low,within
+dc0833,731605|Pennsylvania,Pennsylvania,0.0,Low (<10%),0.1904804308011588,Low,within
+dc0834,731605|Pennsylvania,Pennsylvania,0.0,Low (<10%),0.1904804308011588,Low,within
+dc0835,731605|Pennsylvania,Pennsylvania,0.0,Low (<10%),0.1904804308011588,Low,within
+dc0836,731605|Pennsylvania,Pennsylvania,0.0,Low (<10%),0.1904804308011588,Low,within
+dc0837,731605|Pennsylvania,Pennsylvania,0.0,Low (<10%),0.1904804308011588,Low,within
+dc0838,731506|Pennsylvania,Pennsylvania,2.0,Medium - High (20-40%),2.830392351967968,Medium-high,within
+dc0839,731506|Pennsylvania,Pennsylvania,2.0,Medium - High (20-40%),2.830392351967968,Medium-high,within
+dc0840,731605|Pennsylvania,Pennsylvania,0.0,Low (<10%),0.1904804308011588,Low,within
+dc0841,742696|Pennsylvania,Pennsylvania,0.0,Low (<10%),0.0758346004678294,Low,within
+dc0842,731506|Pennsylvania,Pennsylvania,2.0,Medium - High (20-40%),2.830392351967968,Medium-high,within
+dc0843,742695|Pennsylvania,Pennsylvania,0.0,Low (<10%),0.0,Low,within
+dc0844,731601|Pennsylvania,Pennsylvania,0.0,Low (<10%),0.8125316311594937,Low,within
+dc0845,731605|Pennsylvania,Pennsylvania,0.0,Low (<10%),0.1904804308011588,Low,within
+dc0846,731506|Pennsylvania,Pennsylvania,2.0,Medium - High (20-40%),2.830392351967968,Medium-high,within
+dc0847,731506|Pennsylvania,Pennsylvania,2.0,Medium - High (20-40%),2.830392351967968,Medium-high,within
+dc0848,731601|Pennsylvania,Pennsylvania,0.0,Low (<10%),0.8125316311594937,Low,within
+dc0849,731605|Pennsylvania,Pennsylvania,0.0,Low (<10%),0.1904804308011588,Low,within
+dc0850,731603|Pennsylvania,Pennsylvania,0.0,Low (<10%),0.0,Low,within
+dc0851,731506|Pennsylvania,Pennsylvania,2.0,Medium - High (20-40%),2.830392351967968,Medium-high,within
+dc0852,731506|Pennsylvania,Pennsylvania,2.0,Medium - High (20-40%),2.830392351967968,Medium-high,within
+dc0853,742699|Pennsylvania,Pennsylvania,1.0,Low - Medium (10-20%),1.1115572080998946,Low-medium,within
+dc0854,742698|Pennsylvania,Pennsylvania,2.0,Medium - High (20-40%),2.359209189663807,Medium-high,within
+dc0855,742696|Pennsylvania,Pennsylvania,0.0,Low (<10%),0.0758346004678294,Low,within
+dc0856,731506|Pennsylvania,Pennsylvania,2.0,Medium - High (20-40%),2.830392351967968,Medium-high,within
+dc0857,731601|Pennsylvania,Pennsylvania,0.0,Low (<10%),0.8125316311594937,Low,within
+dc0858,742699|Pennsylvania,Pennsylvania,1.0,Low - Medium (10-20%),1.1115572080998946,Low-medium,within
+dc0859,742698|Pennsylvania,Pennsylvania,2.0,Medium - High (20-40%),2.359209189663807,Medium-high,within
+dc0860,731506|Pennsylvania,Pennsylvania,2.0,Medium - High (20-40%),2.830392351967968,Medium-high,within
+dc0861,731601|Pennsylvania,Pennsylvania,0.0,Low (<10%),0.8125316311594937,Low,within
+dc0862,731605|Pennsylvania,Pennsylvania,0.0,Low (<10%),0.1904804308011588,Low,within
+dc0863,742699|Pennsylvania,Pennsylvania,1.0,Low - Medium (10-20%),1.1115572080998946,Low-medium,within
+dc0864,731601|Pennsylvania,Pennsylvania,0.0,Low (<10%),0.8125316311594937,Low,within
+dc0865,731605|Pennsylvania,Pennsylvania,0.0,Low (<10%),0.1904804308011588,Low,within
+dc0866,731605|Pennsylvania,Pennsylvania,0.0,Low (<10%),0.1904804308011588,Low,within
+dc0867,731506|Pennsylvania,Pennsylvania,2.0,Medium - High (20-40%),2.830392351967968,Medium-high,within
+dc0868,742699|Pennsylvania,Pennsylvania,1.0,Low - Medium (10-20%),1.1115572080998946,Low-medium,within
+dc0869,731506|Pennsylvania,Pennsylvania,2.0,Medium - High (20-40%),2.830392351967968,Medium-high,within
+dc0870,731601|Pennsylvania,Pennsylvania,0.0,Low (<10%),0.8125316311594937,Low,within
+dc0871,731601|Pennsylvania,Pennsylvania,0.0,Low (<10%),0.8125316311594937,Low,within
+dc0872,731601|Pennsylvania,Pennsylvania,0.0,Low (<10%),0.8125316311594937,Low,within
+dc0873,731602|Pennsylvania,Pennsylvania,2.0,Medium - High (20-40%),2.9851967952260514,Medium-high,within
+dc0874,731506|Pennsylvania,Pennsylvania,2.0,Medium - High (20-40%),2.830392351967968,Medium-high,within
+dc0875,742697|Pennsylvania,Pennsylvania,0.0,Low (<10%),0.0,Low,within
+dc0876,742697|Pennsylvania,Pennsylvania,0.0,Low (<10%),0.0,Low,within
+dc0877,742695|Pennsylvania,Pennsylvania,0.0,Low (<10%),0.0,Low,within
+dc0878,731506|Pennsylvania,Pennsylvania,2.0,Medium - High (20-40%),2.830392351967968,Medium-high,within
+dc0879,731605|Pennsylvania,Pennsylvania,0.0,Low (<10%),0.1904804308011588,Low,within
+dc0880,731506|Pennsylvania,Pennsylvania,2.0,Medium - High (20-40%),2.830392351967968,Medium-high,within
+dc0881,731604|Pennsylvania,Pennsylvania,1.0,Low - Medium (10-20%),1.3792667028845478,Low-medium,within
+dc0882,731506|Pennsylvania,Pennsylvania,2.0,Medium - High (20-40%),2.830392351967968,Medium-high,within
+dc0883,731506|Pennsylvania,Pennsylvania,2.0,Medium - High (20-40%),2.830392351967968,Medium-high,within
+dc0884,742696|Pennsylvania,Pennsylvania,0.0,Low (<10%),0.0758346004678294,Low,within
+dc0885,731603|Pennsylvania,Pennsylvania,0.0,Low (<10%),0.0,Low,within
+dc0886,742699|Pennsylvania,Pennsylvania,1.0,Low - Medium (10-20%),1.1115572080998946,Low-medium,within
+dc0887,731506|Pennsylvania,Pennsylvania,2.0,Medium - High (20-40%),2.830392351967968,Medium-high,within
+dc0888,731506|Pennsylvania,Pennsylvania,2.0,Medium - High (20-40%),2.830392351967968,Medium-high,within
+dc0889,731506|Pennsylvania,Pennsylvania,2.0,Medium - High (20-40%),2.830392351967968,Medium-high,within
+dc0890,731506|Pennsylvania,Pennsylvania,2.0,Medium - High (20-40%),2.830392351967968,Medium-high,within
+dc0891,731506|Pennsylvania,Pennsylvania,2.0,Medium - High (20-40%),2.830392351967968,Medium-high,within
+dc0892,731506|Pennsylvania,Pennsylvania,2.0,Medium - High (20-40%),2.830392351967968,Medium-high,within
+dc0893,731506|Pennsylvania,Pennsylvania,2.0,Medium - High (20-40%),2.830392351967968,Medium-high,within
+dc0894,731506|Pennsylvania,Pennsylvania,2.0,Medium - High (20-40%),2.830392351967968,Medium-high,within
+dc0895,731506|Pennsylvania,Pennsylvania,2.0,Medium - High (20-40%),2.830392351967968,Medium-high,within
+dc0896,731506|Pennsylvania,Pennsylvania,2.0,Medium - High (20-40%),2.830392351967968,Medium-high,within
+dc0897,731506|Pennsylvania,Pennsylvania,2.0,Medium - High (20-40%),2.830392351967968,Medium-high,within
+dc0898,731506|Pennsylvania,Pennsylvania,2.0,Medium - High (20-40%),2.830392351967968,Medium-high,within
+dc0899,742699|Pennsylvania,Pennsylvania,1.0,Low - Medium (10-20%),1.1115572080998946,Low-medium,within
+dc0900,742699|Pennsylvania,Pennsylvania,1.0,Low - Medium (10-20%),1.1115572080998946,Low-medium,within
+dc0901,742699|Pennsylvania,Pennsylvania,1.0,Low - Medium (10-20%),1.1115572080998946,Low-medium,within
+dc0902,742697|Pennsylvania,Pennsylvania,0.0,Low (<10%),0.0,Low,within
+dc0903,742697|Pennsylvania,Pennsylvania,0.0,Low (<10%),0.0,Low,within
+dc0904,742699|Pennsylvania,Pennsylvania,1.0,Low - Medium (10-20%),1.1115572080998946,Low-medium,within
+dc0905,742699|Pennsylvania,Pennsylvania,1.0,Low - Medium (10-20%),1.1115572080998946,Low-medium,within
+dc0906,742699|Pennsylvania,Pennsylvania,1.0,Low - Medium (10-20%),1.1115572080998946,Low-medium,within
+dc0907,742698|Pennsylvania,Pennsylvania,2.0,Medium - High (20-40%),2.359209189663807,Medium-high,within
+dc0908,731506|Pennsylvania,Pennsylvania,2.0,Medium - High (20-40%),2.830392351967968,Medium-high,within
+dc0909,731506|Pennsylvania,Pennsylvania,2.0,Medium - High (20-40%),2.830392351967968,Medium-high,within
+dc0910,731506|Pennsylvania,Pennsylvania,2.0,Medium - High (20-40%),2.830392351967968,Medium-high,within
+dc0911,731605|Pennsylvania,Pennsylvania,0.0,Low (<10%),0.1904804308011588,Low,within
+dc0912,731605|Pennsylvania,Pennsylvania,0.0,Low (<10%),0.1904804308011588,Low,within
+dc0913,731506|Pennsylvania,Pennsylvania,2.0,Medium - High (20-40%),2.830392351967968,Medium-high,within
+dc0914,731506|Pennsylvania,Pennsylvania,2.0,Medium - High (20-40%),2.830392351967968,Medium-high,within
+dc0915,731506|Pennsylvania,Pennsylvania,2.0,Medium - High (20-40%),2.830392351967968,Medium-high,within
+dc0916,742695|Pennsylvania,Pennsylvania,0.0,Low (<10%),0.0,Low,within
+dc0917,742696|Pennsylvania,Pennsylvania,0.0,Low (<10%),0.0758346004678294,Low,within
+dc0918,742696|Pennsylvania,Pennsylvania,0.0,Low (<10%),0.0758346004678294,Low,within
+dc0919,742695|Pennsylvania,Pennsylvania,0.0,Low (<10%),0.0,Low,within
+dc0920,731601|Pennsylvania,Pennsylvania,0.0,Low (<10%),0.8125316311594937,Low,within
+dc0921,742697|Pennsylvania,Pennsylvania,0.0,Low (<10%),0.0,Low,within
+dc0922,742699|Pennsylvania,Pennsylvania,1.0,Low - Medium (10-20%),1.1115572080998946,Low-medium,within
+dc0923,731604|Pennsylvania,Pennsylvania,1.0,Low - Medium (10-20%),1.3792667028845478,Low-medium,within
+dc0924,731605|Pennsylvania,Pennsylvania,0.0,Low (<10%),0.1904804308011588,Low,within
+dc0925,742699|Pennsylvania,Pennsylvania,1.0,Low - Medium (10-20%),1.1115572080998946,Low-medium,within
+dc0926,731605|Pennsylvania,Pennsylvania,0.0,Low (<10%),0.1904804308011588,Low,within
+dc0927,731506|Pennsylvania,Pennsylvania,2.0,Medium - High (20-40%),2.830392351967968,Medium-high,within
+dc0928,731506|Pennsylvania,Pennsylvania,2.0,Medium - High (20-40%),2.830392351967968,Medium-high,within
+dc0929,731506|Pennsylvania,Pennsylvania,2.0,Medium - High (20-40%),2.830392351967968,Medium-high,within
+dc0930,742696|Pennsylvania,Pennsylvania,0.0,Low (<10%),0.0758346004678294,Low,within
+dc0931,731605|Pennsylvania,Pennsylvania,0.0,Low (<10%),0.1904804308011588,Low,within
+dc0932,731506|Pennsylvania,Pennsylvania,2.0,Medium - High (20-40%),2.830392351967968,Medium-high,within
+dc0933,731605|Pennsylvania,Pennsylvania,0.0,Low (<10%),0.1904804308011588,Low,within
+dc0934,731506|Pennsylvania,Pennsylvania,2.0,Medium - High (20-40%),2.830392351967968,Medium-high,within
+dc0935,731601|Pennsylvania,Pennsylvania,0.0,Low (<10%),0.8125316311594937,Low,within
+dc0936,731506|Pennsylvania,Pennsylvania,2.0,Medium - High (20-40%),2.830392351967968,Medium-high,within
+dc0937,732403|South Carolina,South Carolina,2.0,Medium - High (20-40%),2.20805445018616,Medium-high,within
+dc0938,732402|South Carolina,South Carolina,3.0,High (40-80%),3.7482736276700175,High,within
+dc0939,732520|South Carolina,South Carolina,2.0,Medium - High (20-40%),2.931926380780837,Medium-high,nearest<=10km
+dc0940,732402|South Carolina,South Carolina,3.0,High (40-80%),3.7482736276700175,High,within
+dc0941,732204|South Carolina,South Carolina,2.0,Medium - High (20-40%),2.5238992957102893,Medium-high,within
+dc0942,732402|South Carolina,South Carolina,3.0,High (40-80%),3.7482736276700175,High,within
+dc0943,732510|South Carolina,South Carolina,2.0,Medium - High (20-40%),2.8487063545280726,Medium-high,within
+dc0944,732407|South Carolina,South Carolina,1.0,Low - Medium (10-20%),1.6055472497178485,Low-medium,within
+dc0945,732510|South Carolina,South Carolina,2.0,Medium - High (20-40%),2.8487063545280726,Medium-high,within
+dc0946,732402|South Carolina,South Carolina,3.0,High (40-80%),3.7482736276700175,High,within
+dc0947,732510|South Carolina,South Carolina,2.0,Medium - High (20-40%),2.8487063545280726,Medium-high,within
+dc0948,742965|South Dakota,South Dakota,3.0,High (40-80%),3.211378739023748,High,within
+dc0949,742952|South Dakota,South Dakota,3.0,High (40-80%),3.3617732683159995,High,within
+dc0950,742888|South Dakota,South Dakota,0.0,Low (<10%),0.675276004597684,Low,within
+dc0951,742623|Tennessee,Tennessee,0.0,Low (<10%),0.3123497093174933,Low,within
+dc0952,742623|Tennessee,Tennessee,0.0,Low (<10%),0.3123497093174933,Low,within
+dc0953,742642|Tennessee,Tennessee,3.0,High (40-80%),3.789451720172056,High,within
+dc0954,742642|Tennessee,Tennessee,3.0,High (40-80%),3.789451720172056,High,within
+dc0955,742645|Tennessee,Tennessee,0.0,Low (<10%),0.0,Low,within
+dc0956,742622|Tennessee,Tennessee,3.0,High (40-80%),3.5948979739142843,High,within
+dc0957,742646|Tennessee,Tennessee,2.0,Medium - High (20-40%),2.4532827573927625,Medium-high,within
+dc0958,742550|Tennessee,Tennessee,0.0,Low (<10%),0.0,Low,within
+dc0959,742550|Tennessee,Tennessee,0.0,Low (<10%),0.0,Low,within
+dc0960,742643|Tennessee,Tennessee,1.0,Low - Medium (10-20%),1.1240926164413865,Low-medium,within
+dc0961,742643|Tennessee,Tennessee,1.0,Low - Medium (10-20%),1.1240926164413865,Low-medium,within
+dc0962,742643|Tennessee,Tennessee,1.0,Low - Medium (10-20%),1.1240926164413865,Low-medium,within
+dc0963,751680|Texas,Texas,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc0964,751680|Texas,Texas,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc0965,751660|Texas,Texas,3.0,High (40-80%),3.093400032173664,High,within
+dc0966,751660|Texas,Texas,3.0,High (40-80%),3.093400032173664,High,within
+dc0967,742278|Texas,Texas,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc0968,751406|Texas,Texas,3.0,High (40-80%),3.2100859730043703,High,within
+dc0969,751406|Texas,Texas,3.0,High (40-80%),3.2100859730043703,High,within
+dc0970,742290|Texas,Texas,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc0971,742280|Texas,Texas,4.0,Extremely High (>80%),4.750354222343736,Extremely high,within
+dc0972,751620|Texas,Texas,0.0,Low (<10%),0.0,Low,within
+dc0973,751810|Texas,Texas,2.0,Medium - High (20-40%),2.778739406818983,Medium-high,within
+dc0974,751810|Texas,Texas,2.0,Medium - High (20-40%),2.778739406818983,Medium-high,within
+dc0975,751810|Texas,Texas,2.0,Medium - High (20-40%),2.778739406818983,Medium-high,within
+dc0976,751810|Texas,Texas,2.0,Medium - High (20-40%),2.778739406818983,Medium-high,within
+dc0977,751610|Texas,Texas,0.0,Low (<10%),0.1242580890845956,Low,within
+dc0978,752163|Texas,Texas,-1.0,Arid and Low Water Use,5.0,"Arid, low use",within
+dc0979,751970|Texas,Texas,3.0,High (40-80%),3.604397711690854,High,within
+dc0980,751700|Texas,Texas,1.0,Low - Medium (10-20%),1.352890174125721,Low-medium,within
+dc0981,751610|Texas,Texas,0.0,Low (<10%),0.1242580890845956,Low,within
+dc0982,751610|Texas,Texas,0.0,Low (<10%),0.1242580890845956,Low,within
+dc0983,751990|Texas,Texas,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc0984,751630|Texas,Texas,0.0,Low (<10%),0.0,Low,within
+dc0985,751640|Texas,Texas,2.0,Medium - High (20-40%),2.294978279095262,Medium-high,within
+dc0986,751962|Texas,Texas,4.0,Extremely High (>80%),4.317568519711092,Extremely high,within
+dc0987,751962|Texas,Texas,4.0,Extremely High (>80%),4.317568519711092,Extremely high,within
+dc0988,751810|Texas,Texas,2.0,Medium - High (20-40%),2.778739406818983,Medium-high,within
+dc0989,751810|Texas,Texas,2.0,Medium - High (20-40%),2.778739406818983,Medium-high,within
+dc0990,751810|Texas,Texas,2.0,Medium - High (20-40%),2.778739406818983,Medium-high,within
+dc0991,751810|Texas,Texas,2.0,Medium - High (20-40%),2.778739406818983,Medium-high,within
+dc0992,742290|Texas,Texas,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc0993,742290|Texas,Texas,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc0994,742290|Texas,Texas,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc0995,742290|Texas,Texas,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc0996,751620|Texas,Texas,0.0,Low (<10%),0.0,Low,within
+dc0997,751880|Texas,Texas,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc0998,751961|Texas,Texas,0.0,Low (<10%),0.0384106591581531,Low,within
+dc0999,751402|Texas,Texas,0.0,Low (<10%),0.7935737774316687,Low,within
+dc1000,751640|Texas,Texas,2.0,Medium - High (20-40%),2.294978279095262,Medium-high,within
+dc1001,751408|Texas,Texas,3.0,High (40-80%),3.2925505686994985,High,within
+dc1002,751407|Texas,Texas,1.0,Low - Medium (10-20%),1.849821532281143,Low-medium,within
+dc1003,751407|Texas,Texas,1.0,Low - Medium (10-20%),1.849821532281143,Low-medium,within
+dc1004,751408|Texas,Texas,3.0,High (40-80%),3.2925505686994985,High,within
+dc1005,751407|Texas,Texas,1.0,Low - Medium (10-20%),1.849821532281143,Low-medium,within
+dc1006,751407|Texas,Texas,1.0,Low - Medium (10-20%),1.849821532281143,Low-medium,within
+dc1007,751407|Texas,Texas,1.0,Low - Medium (10-20%),1.849821532281143,Low-medium,within
+dc1008,751407|Texas,Texas,1.0,Low - Medium (10-20%),1.849821532281143,Low-medium,within
+dc1009,751407|Texas,Texas,1.0,Low - Medium (10-20%),1.849821532281143,Low-medium,within
+dc1010,751408|Texas,Texas,3.0,High (40-80%),3.2925505686994985,High,within
+dc1011,751408|Texas,Texas,3.0,High (40-80%),3.2925505686994985,High,within
+dc1012,751940|Texas,Texas,3.0,High (40-80%),3.989606399774879,High,within
+dc1013,752191|Texas,Texas,4.0,Extremely High (>80%),4.663658508355201,Extremely high,within
+dc1014,742422|Oklahoma,Oklahoma,2.0,Medium - High (20-40%),2.1079575440192464,Medium-high,within
+dc1015,751402|Texas,Texas,0.0,Low (<10%),0.7935737774316687,Low,within
+dc1016,751407|Texas,Texas,1.0,Low - Medium (10-20%),1.849821532281143,Low-medium,within
+dc1017,751690|Texas,Texas,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc1018,752191|Texas,Texas,4.0,Extremely High (>80%),4.663658508355201,Extremely high,within
+dc1019,752161|Texas,Texas,-1.0,Arid and Low Water Use,5.0,"Arid, low use",within
+dc1020,752161|Texas,Texas,-1.0,Arid and Low Water Use,5.0,"Arid, low use",nearest<=10km
+dc1021,751409|Texas,Texas,4.0,Extremely High (>80%),4.211042332520197,Extremely high,within
+dc1022,751409|Texas,Texas,4.0,Extremely High (>80%),4.211042332520197,Extremely high,within
+dc1023,751408|Texas,Texas,3.0,High (40-80%),3.2925505686994985,High,within
+dc1024,751409|Texas,Texas,4.0,Extremely High (>80%),4.211042332520197,Extremely high,within
+dc1025,751409|Texas,Texas,4.0,Extremely High (>80%),4.211042332520197,Extremely high,within
+dc1026,751409|Texas,Texas,4.0,Extremely High (>80%),4.211042332520197,Extremely high,within
+dc1027,751408|Texas,Texas,3.0,High (40-80%),3.2925505686994985,High,within
+dc1028,751408|Texas,Texas,3.0,High (40-80%),3.2925505686994985,High,within
+dc1029,751406|Texas,Texas,3.0,High (40-80%),3.2100859730043703,High,within
+dc1030,751406|Texas,Texas,3.0,High (40-80%),3.2100859730043703,High,within
+dc1031,751406|Texas,Texas,3.0,High (40-80%),3.2100859730043703,High,within
+dc1032,751640|Texas,Texas,2.0,Medium - High (20-40%),2.294978279095262,Medium-high,within
+dc1033,751640|Texas,Texas,2.0,Medium - High (20-40%),2.294978279095262,Medium-high,within
+dc1034,751860|Texas,Texas,3.0,High (40-80%),3.004037830720484,High,within
+dc1035,751650|Texas,Texas,1.0,Low - Medium (10-20%),1.053772720374761,Low-medium,within
+dc1036,751650|Texas,Texas,1.0,Low - Medium (10-20%),1.053772720374761,Low-medium,within
+dc1037,751990|Texas,Texas,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc1038,751660|Texas,Texas,3.0,High (40-80%),3.093400032173664,High,within
+dc1039,751650|Texas,Texas,1.0,Low - Medium (10-20%),1.053772720374761,Low-medium,within
+dc1040,751650|Texas,Texas,1.0,Low - Medium (10-20%),1.053772720374761,Low-medium,within
+dc1041,751500|Texas,Texas,2.0,Medium - High (20-40%),2.522352863863281,Medium-high,within
+dc1042,751500|Texas,Texas,2.0,Medium - High (20-40%),2.522352863863281,Medium-high,within
+dc1043,751402|Texas,Texas,0.0,Low (<10%),0.7935737774316687,Low,within
+dc1044,751640|Texas,Texas,2.0,Medium - High (20-40%),2.294978279095262,Medium-high,within
+dc1045,751640|Texas,Texas,2.0,Medium - High (20-40%),2.294978279095262,Medium-high,within
+dc1046,751640|Texas,Texas,2.0,Medium - High (20-40%),2.294978279095262,Medium-high,within
+dc1047,751640|Texas,Texas,2.0,Medium - High (20-40%),2.294978279095262,Medium-high,within
+dc1048,751640|Texas,Texas,2.0,Medium - High (20-40%),2.294978279095262,Medium-high,within
+dc1049,751640|Texas,Texas,2.0,Medium - High (20-40%),2.294978279095262,Medium-high,within
+dc1050,751408|Texas,Texas,3.0,High (40-80%),3.2925505686994985,High,within
+dc1051,751408|Texas,Texas,3.0,High (40-80%),3.2925505686994985,High,within
+dc1052,751408|Texas,Texas,3.0,High (40-80%),3.2925505686994985,High,within
+dc1053,751408|Texas,Texas,3.0,High (40-80%),3.2925505686994985,High,within
+dc1054,751640|Texas,Texas,2.0,Medium - High (20-40%),2.294978279095262,Medium-high,within
+dc1055,,,,,,,nearest<=10km
+dc1056,751500|Texas,Texas,2.0,Medium - High (20-40%),2.522352863863281,Medium-high,within
+dc1057,751408|Texas,Texas,3.0,High (40-80%),3.2925505686994985,High,within
+dc1058,751640|Texas,Texas,2.0,Medium - High (20-40%),2.294978279095262,Medium-high,within
+dc1059,751650|Texas,Texas,1.0,Low - Medium (10-20%),1.053772720374761,Low-medium,within
+dc1060,751407|Texas,Texas,1.0,Low - Medium (10-20%),1.849821532281143,Low-medium,within
+dc1061,751407|Texas,Texas,1.0,Low - Medium (10-20%),1.849821532281143,Low-medium,within
+dc1062,751407|Texas,Texas,1.0,Low - Medium (10-20%),1.849821532281143,Low-medium,within
+dc1063,751407|Texas,Texas,1.0,Low - Medium (10-20%),1.849821532281143,Low-medium,within
+dc1064,751407|Texas,Texas,1.0,Low - Medium (10-20%),1.849821532281143,Low-medium,within
+dc1065,751407|Texas,Texas,1.0,Low - Medium (10-20%),1.849821532281143,Low-medium,within
+dc1066,751408|Texas,Texas,3.0,High (40-80%),3.2925505686994985,High,within
+dc1067,751401|Texas,Texas,0.0,Low (<10%),0.2726107671310517,Low,within
+dc1068,751940|Texas,Texas,3.0,High (40-80%),3.989606399774879,High,within
+dc1069,751680|Texas,Texas,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc1070,751660|Texas,Texas,3.0,High (40-80%),3.093400032173664,High,within
+dc1071,751204|Texas,Texas,1.0,Low - Medium (10-20%),1.5193977692139662,Low-medium,within
+dc1072,751204|Texas,Texas,1.0,Low - Medium (10-20%),1.5193977692139662,Low-medium,within
+dc1073,751962|Texas,Texas,4.0,Extremely High (>80%),4.317568519711092,Extremely high,within
+dc1074,751940|Texas,Texas,3.0,High (40-80%),3.989606399774879,High,within
+dc1075,751620|Texas,Texas,0.0,Low (<10%),0.0,Low,within
+dc1076,751810|Texas,Texas,2.0,Medium - High (20-40%),2.778739406818983,Medium-high,within
+dc1077,751940|Texas,Texas,3.0,High (40-80%),3.989606399774879,High,within
+dc1078,751940|Texas,Texas,3.0,High (40-80%),3.989606399774879,High,within
+dc1079,751990|Texas,Texas,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc1080,751650|Texas,Texas,1.0,Low - Medium (10-20%),1.053772720374761,Low-medium,within
+dc1081,751650|Texas,Texas,1.0,Low - Medium (10-20%),1.053772720374761,Low-medium,within
+dc1082,751406|Texas,Texas,3.0,High (40-80%),3.2100859730043703,High,within
+dc1083,751940|Texas,Texas,3.0,High (40-80%),3.989606399774879,High,within
+dc1084,751406|Texas,Texas,3.0,High (40-80%),3.2100859730043703,High,within
+dc1085,742423|Texas,Texas,1.0,Low - Medium (10-20%),1.0486314655570912,Low-medium,within
+dc1086,751860|Texas,Texas,3.0,High (40-80%),3.004037830720484,High,nearest<=10km
+dc1087,751409|Texas,Texas,4.0,Extremely High (>80%),4.211042332520197,Extremely high,within
+dc1088,751409|Texas,Texas,4.0,Extremely High (>80%),4.211042332520197,Extremely high,within
+dc1089,751640|Texas,Texas,2.0,Medium - High (20-40%),2.294978279095262,Medium-high,within
+dc1090,751810|Texas,Texas,2.0,Medium - High (20-40%),2.778739406818983,Medium-high,within
+dc1091,742290|Texas,Texas,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc1092,751990|Texas,Texas,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc1093,751990|Texas,Texas,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc1094,751990|Texas,Texas,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc1095,742250|Texas,Texas,0.0,Low (<10%),0.0,Low,within
+dc1096,751940|Texas,Texas,3.0,High (40-80%),3.989606399774879,High,within
+dc1097,751890|Texas,Texas,4.0,Extremely High (>80%),5.0,Extremely high,nearest<=10km
+dc1098,742278|Texas,Texas,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc1099,742423|Texas,Texas,1.0,Low - Medium (10-20%),1.0486314655570912,Low-medium,within
+dc1100,742238|Texas,Texas,1.0,Low - Medium (10-20%),1.7044755397243776,Low-medium,within
+dc1101,752165|Texas,Texas,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc1102,752161|Texas,Texas,-1.0,Arid and Low Water Use,5.0,"Arid, low use",within
+dc1103,751810|Texas,Texas,2.0,Medium - High (20-40%),2.778739406818983,Medium-high,within
+dc1104,751406|Texas,Texas,3.0,High (40-80%),3.2100859730043703,High,within
+dc1105,751407|Texas,Texas,1.0,Low - Medium (10-20%),1.849821532281143,Low-medium,within
+dc1106,751408|Texas,Texas,3.0,High (40-80%),3.2925505686994985,High,within
+dc1107,751406|Texas,Texas,3.0,High (40-80%),3.2100859730043703,High,within
+dc1108,751407|Texas,Texas,1.0,Low - Medium (10-20%),1.849821532281143,Low-medium,within
+dc1109,751407|Texas,Texas,1.0,Low - Medium (10-20%),1.849821532281143,Low-medium,within
+dc1110,751406|Texas,Texas,3.0,High (40-80%),3.2100859730043703,High,within
+dc1111,752162|Texas,Texas,-1.0,Arid and Low Water Use,5.0,"Arid, low use",within
+dc1112,751209|Texas,Texas,2.0,Medium - High (20-40%),2.262320246575323,Medium-high,within
+dc1113,751405|Texas,Texas,0.0,Low (<10%),0.0,Low,within
+dc1114,751405|Texas,Texas,0.0,Low (<10%),0.0,Low,within
+dc1115,751405|Texas,Texas,0.0,Low (<10%),0.0,Low,within
+dc1116,751405|Texas,Texas,0.0,Low (<10%),0.0,Low,within
+dc1117,751406|Texas,Texas,3.0,High (40-80%),3.2100859730043703,High,within
+dc1118,751406|Texas,Texas,3.0,High (40-80%),3.2100859730043703,High,within
+dc1119,751406|Texas,Texas,3.0,High (40-80%),3.2100859730043703,High,within
+dc1120,751406|Texas,Texas,3.0,High (40-80%),3.2100859730043703,High,within
+dc1121,751406|Texas,Texas,3.0,High (40-80%),3.2100859730043703,High,within
+dc1122,751650|Texas,Texas,1.0,Low - Medium (10-20%),1.053772720374761,Low-medium,within
+dc1123,751408|Texas,Texas,3.0,High (40-80%),3.2925505686994985,High,within
+dc1124,751970|Texas,Texas,3.0,High (40-80%),3.604397711690854,High,within
+dc1125,751970|Texas,Texas,3.0,High (40-80%),3.604397711690854,High,within
+dc1126,751630|Texas,Texas,0.0,Low (<10%),0.0,Low,within
+dc1127,751630|Texas,Texas,0.0,Low (<10%),0.0,Low,within
+dc1128,751640|Texas,Texas,2.0,Medium - High (20-40%),2.294978279095262,Medium-high,within
+dc1129,751640|Texas,Texas,2.0,Medium - High (20-40%),2.294978279095262,Medium-high,within
+dc1130,751209|Texas,Texas,2.0,Medium - High (20-40%),2.262320246575323,Medium-high,within
+dc1131,751860|Texas,Texas,3.0,High (40-80%),3.004037830720484,High,within
+dc1132,751940|Texas,Texas,3.0,High (40-80%),3.989606399774879,High,within
+dc1133,751940|Texas,Texas,3.0,High (40-80%),3.989606399774879,High,within
+dc1134,751940|Texas,Texas,3.0,High (40-80%),3.989606399774879,High,within
+dc1135,751940|Texas,Texas,3.0,High (40-80%),3.989606399774879,High,within
+dc1136,751940|Texas,Texas,3.0,High (40-80%),3.989606399774879,High,within
+dc1137,751940|Texas,Texas,3.0,High (40-80%),3.989606399774879,High,within
+dc1138,751940|Texas,Texas,3.0,High (40-80%),3.989606399774879,High,within
+dc1139,751940|Texas,Texas,3.0,High (40-80%),3.989606399774879,High,within
+dc1140,751940|Texas,Texas,3.0,High (40-80%),3.989606399774879,High,within
+dc1141,751940|Texas,Texas,3.0,High (40-80%),3.989606399774879,High,within
+dc1142,751940|Texas,Texas,3.0,High (40-80%),3.989606399774879,High,within
+dc1143,751940|Texas,Texas,3.0,High (40-80%),3.989606399774879,High,within
+dc1144,751940|Texas,Texas,3.0,High (40-80%),3.989606399774879,High,within
+dc1145,751940|Texas,Texas,3.0,High (40-80%),3.989606399774879,High,within
+dc1146,751940|Texas,Texas,3.0,High (40-80%),3.989606399774879,High,within
+dc1147,751940|Texas,Texas,3.0,High (40-80%),3.989606399774879,High,within
+dc1148,751940|Texas,Texas,3.0,High (40-80%),3.989606399774879,High,within
+dc1149,751940|Texas,Texas,3.0,High (40-80%),3.989606399774879,High,within
+dc1150,751940|Texas,Texas,3.0,High (40-80%),3.989606399774879,High,within
+dc1151,751940|Texas,Texas,3.0,High (40-80%),3.989606399774879,High,within
+dc1152,751940|Texas,Texas,3.0,High (40-80%),3.989606399774879,High,within
+dc1153,751940|Texas,Texas,3.0,High (40-80%),3.989606399774879,High,within
+dc1154,751940|Texas,Texas,3.0,High (40-80%),3.989606399774879,High,within
+dc1155,751940|Texas,Texas,3.0,High (40-80%),3.989606399774879,High,within
+dc1156,751940|Texas,Texas,3.0,High (40-80%),3.989606399774879,High,within
+dc1157,751940|Texas,Texas,3.0,High (40-80%),3.989606399774879,High,within
+dc1158,751940|Texas,Texas,3.0,High (40-80%),3.989606399774879,High,within
+dc1159,751990|Texas,Texas,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc1160,742278|Texas,Texas,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc1161,742278|Texas,Texas,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc1162,752191|Texas,Texas,4.0,Extremely High (>80%),4.663658508355201,Extremely high,within
+dc1163,751610|Texas,Texas,0.0,Low (<10%),0.1242580890845956,Low,within
+dc1164,742238|Texas,Texas,1.0,Low - Medium (10-20%),1.7044755397243776,Low-medium,within
+dc1165,751660|Texas,Texas,3.0,High (40-80%),3.093400032173664,High,within
+dc1166,751404|Texas,Texas,2.0,Medium - High (20-40%),2.8763946844471544,Medium-high,within
+dc1167,751640|Texas,Texas,2.0,Medium - High (20-40%),2.294978279095262,Medium-high,within
+dc1168,751640|Texas,Texas,2.0,Medium - High (20-40%),2.294978279095262,Medium-high,within
+dc1169,751640|Texas,Texas,2.0,Medium - High (20-40%),2.294978279095262,Medium-high,within
+dc1170,751640|Texas,Texas,2.0,Medium - High (20-40%),2.294978279095262,Medium-high,within
+dc1171,751640|Texas,Texas,2.0,Medium - High (20-40%),2.294978279095262,Medium-high,within
+dc1172,751640|Texas,Texas,2.0,Medium - High (20-40%),2.294978279095262,Medium-high,within
+dc1173,742238|Arkansas,Arkansas,1.0,Low - Medium (10-20%),1.7044755397243776,Low-medium,within
+dc1174,751650|Texas,Texas,1.0,Low - Medium (10-20%),1.053772720374761,Low-medium,within
+dc1175,751404|Texas,Texas,2.0,Medium - High (20-40%),2.8763946844471544,Medium-high,within
+dc1176,751204|Texas,Texas,1.0,Low - Medium (10-20%),1.5193977692139662,Low-medium,within
+dc1177,751940|Texas,Texas,3.0,High (40-80%),3.989606399774879,High,within
+dc1178,751940|Texas,Texas,3.0,High (40-80%),3.989606399774879,High,within
+dc1179,751402|Texas,Texas,0.0,Low (<10%),0.7935737774316687,Low,within
+dc1180,751402|Texas,Texas,0.0,Low (<10%),0.7935737774316687,Low,within
+dc1181,751402|Texas,Texas,0.0,Low (<10%),0.7935737774316687,Low,within
+dc1182,751402|Texas,Texas,0.0,Low (<10%),0.7935737774316687,Low,within
+dc1183,751402|Texas,Texas,0.0,Low (<10%),0.7935737774316687,Low,within
+dc1184,751402|Texas,Texas,0.0,Low (<10%),0.7935737774316687,Low,within
+dc1185,751409|Texas,Texas,4.0,Extremely High (>80%),4.211042332520197,Extremely high,within
+dc1186,742274|Texas,Texas,2.0,Medium - High (20-40%),2.5828215884121235,Medium-high,within
+dc1187,751940|Texas,Texas,3.0,High (40-80%),3.989606399774879,High,within
+dc1188,751408|Texas,Texas,3.0,High (40-80%),3.2925505686994985,High,within
+dc1189,751650|Texas,Texas,1.0,Low - Medium (10-20%),1.053772720374761,Low-medium,within
+dc1190,751500|Texas,Texas,2.0,Medium - High (20-40%),2.522352863863281,Medium-high,within
+dc1191,752161|Texas,Texas,-1.0,Arid and Low Water Use,5.0,"Arid, low use",within
+dc1192,751940|Texas,Texas,3.0,High (40-80%),3.989606399774879,High,within
+dc1193,773840|Utah,Utah,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc1194,773836|Utah,Utah,3.0,High (40-80%),3.14875236258848,High,within
+dc1195,773834|Utah,Utah,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc1196,773834|Utah,Utah,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc1197,773813|Utah,Utah,1.0,Low - Medium (10-20%),1.335800415042965,Low-medium,within
+dc1198,773816|Utah,Utah,3.0,High (40-80%),3.2322580514530403,High,within
+dc1199,773832|Utah,Utah,3.0,High (40-80%),3.3363987088477765,High,within
+dc1200,773834|Utah,Utah,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc1201,772910|Utah,Utah,0.0,Low (<10%),0.0,Low,within
+dc1202,773816|Utah,Utah,3.0,High (40-80%),3.2322580514530403,High,within
+dc1203,773816|Utah,Utah,3.0,High (40-80%),3.2322580514530403,High,within
+dc1204,773814|Utah,Utah,2.0,Medium - High (20-40%),2.67232674310805,Medium-high,within
+dc1205,773814|Utah,Utah,2.0,Medium - High (20-40%),2.67232674310805,Medium-high,within
+dc1206,773816|Utah,Utah,3.0,High (40-80%),3.2322580514530403,High,within
+dc1207,731903|Virginia,Virginia,2.0,Medium - High (20-40%),2.8441451824923965,Medium-high,within
+dc1208,731902|Virginia,Virginia,2.0,Medium - High (20-40%),2.7027135553703565,Medium-high,within
+dc1209,731903|Virginia,Virginia,2.0,Medium - High (20-40%),2.8441451824923965,Medium-high,within
+dc1210,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1211,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1212,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1213,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1214,731906|Virginia,Virginia,2.0,Medium - High (20-40%),2.347786261981338,Medium-high,nearest<=10km
+dc1215,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1216,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1217,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1218,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1219,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1220,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1221,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1222,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1223,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1224,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1225,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1226,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1227,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1228,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1229,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1230,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1231,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1232,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1233,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1234,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1235,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1236,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1237,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1238,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1239,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1240,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1241,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1242,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1243,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1244,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1245,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1246,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1247,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1248,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1249,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1250,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1251,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1252,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1253,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1254,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1255,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1256,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1257,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1258,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1259,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1260,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1261,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1262,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1263,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1264,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1265,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1266,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1267,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1268,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1269,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1270,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1271,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1272,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1273,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1274,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1275,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1276,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1277,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1278,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1279,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1280,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1281,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1282,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1283,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1284,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1285,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1286,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1287,731904|Virginia,Virginia,1.0,Low - Medium (10-20%),1.5813949136747325,Low-medium,within
+dc1288,731904|Virginia,Virginia,1.0,Low - Medium (10-20%),1.5813949136747325,Low-medium,within
+dc1289,731904|Virginia,Virginia,1.0,Low - Medium (10-20%),1.5813949136747325,Low-medium,within
+dc1290,731905|Virginia,Virginia,3.0,High (40-80%),3.802847971072168,High,within
+dc1291,731904|Virginia,Virginia,1.0,Low - Medium (10-20%),1.5813949136747325,Low-medium,within
+dc1292,731904|Virginia,Virginia,1.0,Low - Medium (10-20%),1.5813949136747325,Low-medium,within
+dc1293,742689|Virginia,Virginia,1.0,Low - Medium (10-20%),1.885636830596275,Low-medium,within
+dc1294,,,,,,,nearest<=10km
+dc1295,,,,,,,nearest<=10km
+dc1296,,,,,,,nearest<=10km
+dc1297,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1298,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1299,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1300,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1301,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1302,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1303,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1304,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1305,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1306,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1307,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1308,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1309,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1310,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1311,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1312,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1313,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1314,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1315,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1316,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1317,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1318,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1319,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1320,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1321,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1322,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1323,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1324,731905|Virginia,Virginia,3.0,High (40-80%),3.802847971072168,High,within
+dc1325,,,,,,,nearest<=10km
+dc1326,,,,,,,nearest<=10km
+dc1327,731906|Virginia,Virginia,2.0,Medium - High (20-40%),2.347786261981338,Medium-high,within
+dc1328,731906|Virginia,Virginia,2.0,Medium - High (20-40%),2.347786261981338,Medium-high,within
+dc1329,731906|Virginia,Virginia,2.0,Medium - High (20-40%),2.347786261981338,Medium-high,within
+dc1330,731906|Virginia,Virginia,2.0,Medium - High (20-40%),2.347786261981338,Medium-high,within
+dc1331,731908|Virginia,Virginia,3.0,High (40-80%),3.1367336770545875,High,within
+dc1332,731906|Virginia,Virginia,2.0,Medium - High (20-40%),2.347786261981338,Medium-high,within
+dc1333,,,,,,,nearest<=10km
+dc1334,731902|Virginia,Virginia,2.0,Medium - High (20-40%),2.7027135553703565,Medium-high,within
+dc1335,731902|Virginia,Virginia,2.0,Medium - High (20-40%),2.7027135553703565,Medium-high,within
+dc1336,731902|Virginia,Virginia,2.0,Medium - High (20-40%),2.7027135553703565,Medium-high,within
+dc1337,731902|Virginia,Virginia,2.0,Medium - High (20-40%),2.7027135553703565,Medium-high,within
+dc1338,731902|Virginia,Virginia,2.0,Medium - High (20-40%),2.7027135553703565,Medium-high,within
+dc1339,731902|Virginia,Virginia,2.0,Medium - High (20-40%),2.7027135553703565,Medium-high,within
+dc1340,731902|Virginia,Virginia,2.0,Medium - High (20-40%),2.7027135553703565,Medium-high,within
+dc1341,731902|Virginia,Virginia,2.0,Medium - High (20-40%),2.7027135553703565,Medium-high,within
+dc1342,731902|Virginia,Virginia,2.0,Medium - High (20-40%),2.7027135553703565,Medium-high,within
+dc1343,731902|Virginia,Virginia,2.0,Medium - High (20-40%),2.7027135553703565,Medium-high,within
+dc1344,732140|Virginia,Virginia,2.0,Medium - High (20-40%),2.7697299319853768,Medium-high,within
+dc1345,732140|Virginia,Virginia,2.0,Medium - High (20-40%),2.7697299319853768,Medium-high,within
+dc1346,732140|North Carolina,North Carolina,2.0,Medium - High (20-40%),2.7697299319853768,Medium-high,nearest<=10km
+dc1347,742626|Virginia,Virginia,2.0,Medium - High (20-40%),2.0011690976267165,Medium-high,within
+dc1348,742626|Virginia,Virginia,2.0,Medium - High (20-40%),2.0011690976267165,Medium-high,within
+dc1349,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1350,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1351,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1352,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1353,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1354,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1355,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1356,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1357,732120|Virginia,Virginia,3.0,High (40-80%),3.7205495379841897,High,within
+dc1358,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1359,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1360,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1361,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1362,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1363,731906|Virginia,Virginia,2.0,Medium - High (20-40%),2.347786261981338,Medium-high,nearest<=10km
+dc1364,731902|Virginia,Virginia,2.0,Medium - High (20-40%),2.7027135553703565,Medium-high,within
+dc1365,731903|Virginia,Virginia,2.0,Medium - High (20-40%),2.8441451824923965,Medium-high,within
+dc1366,731902|Virginia,Virginia,2.0,Medium - High (20-40%),2.7027135553703565,Medium-high,within
+dc1367,731902|Virginia,Virginia,2.0,Medium - High (20-40%),2.7027135553703565,Medium-high,within
+dc1368,731902|Virginia,Virginia,2.0,Medium - High (20-40%),2.7027135553703565,Medium-high,within
+dc1369,731903|Virginia,Virginia,2.0,Medium - High (20-40%),2.8441451824923965,Medium-high,within
+dc1370,731902|Virginia,Virginia,2.0,Medium - High (20-40%),2.7027135553703565,Medium-high,within
+dc1371,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1372,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1373,731902|Virginia,Virginia,2.0,Medium - High (20-40%),2.7027135553703565,Medium-high,within
+dc1374,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1375,731902|Virginia,Virginia,2.0,Medium - High (20-40%),2.7027135553703565,Medium-high,within
+dc1376,731903|Virginia,Virginia,2.0,Medium - High (20-40%),2.8441451824923965,Medium-high,within
+dc1377,731902|Virginia,Virginia,2.0,Medium - High (20-40%),2.7027135553703565,Medium-high,within
+dc1378,731902|Virginia,Virginia,2.0,Medium - High (20-40%),2.7027135553703565,Medium-high,within
+dc1379,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1380,731902|Virginia,Virginia,2.0,Medium - High (20-40%),2.7027135553703565,Medium-high,within
+dc1381,731902|Virginia,Virginia,2.0,Medium - High (20-40%),2.7027135553703565,Medium-high,within
+dc1382,731902|Virginia,Virginia,2.0,Medium - High (20-40%),2.7027135553703565,Medium-high,within
+dc1383,731902|Virginia,Virginia,2.0,Medium - High (20-40%),2.7027135553703565,Medium-high,within
+dc1384,731903|Virginia,Virginia,2.0,Medium - High (20-40%),2.8441451824923965,Medium-high,within
+dc1385,731902|Virginia,Virginia,2.0,Medium - High (20-40%),2.7027135553703565,Medium-high,within
+dc1386,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1387,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1388,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1389,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1390,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1391,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1392,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1393,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1394,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1395,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1396,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1397,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1398,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1399,731905|Virginia,Virginia,3.0,High (40-80%),3.802847971072168,High,within
+dc1400,731905|Virginia,Virginia,3.0,High (40-80%),3.802847971072168,High,within
+dc1401,731905|Virginia,Virginia,3.0,High (40-80%),3.802847971072168,High,within
+dc1402,,,,,,,nearest<=10km
+dc1403,731804|Virginia,Virginia,2.0,Medium - High (20-40%),2.819704746608247,Medium-high,within
+dc1404,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1405,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1406,731905|Virginia,Virginia,3.0,High (40-80%),3.802847971072168,High,within
+dc1407,731905|Virginia,Virginia,3.0,High (40-80%),3.802847971072168,High,within
+dc1408,731906|Virginia,Virginia,2.0,Medium - High (20-40%),2.347786261981338,Medium-high,within
+dc1409,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1410,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1411,731908|Virginia,Virginia,3.0,High (40-80%),3.1367336770545875,High,within
+dc1412,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1413,731906|Virginia,Virginia,2.0,Medium - High (20-40%),2.347786261981338,Medium-high,within
+dc1414,731902|Virginia,Virginia,2.0,Medium - High (20-40%),2.7027135553703565,Medium-high,within
+dc1415,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1416,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1417,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1418,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1419,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1420,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1421,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1422,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1423,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1424,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1425,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1426,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1427,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1428,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1429,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1430,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1431,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1432,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1433,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1434,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1435,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1436,731902|Virginia,Virginia,2.0,Medium - High (20-40%),2.7027135553703565,Medium-high,within
+dc1437,,,,,,,nearest<=10km
+dc1438,,,,,,,nearest<=10km
+dc1439,,,,,,,nearest<=10km
+dc1440,,,,,,,nearest<=10km
+dc1441,731906|Virginia,Virginia,2.0,Medium - High (20-40%),2.347786261981338,Medium-high,within
+dc1442,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1443,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1444,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1445,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1446,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1447,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1448,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1449,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1450,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1451,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1452,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1453,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1454,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1455,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1456,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1457,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1458,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1459,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1460,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1461,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1462,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1463,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1464,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1465,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1466,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1467,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1468,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1469,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1470,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1471,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1472,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1473,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1474,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1475,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1476,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1477,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1478,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1479,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1480,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1481,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1482,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1483,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1484,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1485,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1486,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1487,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1488,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1489,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1490,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1491,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1492,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1493,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1494,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1495,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1496,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1497,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1498,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1499,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1500,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1501,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1502,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1503,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1504,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1505,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1506,731804|Virginia,Virginia,2.0,Medium - High (20-40%),2.819704746608247,Medium-high,within
+dc1507,731906|Virginia,Virginia,2.0,Medium - High (20-40%),2.347786261981338,Medium-high,nearest<=10km
+dc1508,731906|Virginia,Virginia,2.0,Medium - High (20-40%),2.347786261981338,Medium-high,nearest<=10km
+dc1509,731906|Virginia,Virginia,2.0,Medium - High (20-40%),2.347786261981338,Medium-high,within
+dc1510,731904|Virginia,Virginia,1.0,Low - Medium (10-20%),1.5813949136747325,Low-medium,nearest<=10km
+dc1511,731906|Virginia,Virginia,2.0,Medium - High (20-40%),2.347786261981338,Medium-high,nearest<=10km
+dc1512,731908|Virginia,Virginia,3.0,High (40-80%),3.1367336770545875,High,nearest<=10km
+dc1513,731906|Virginia,Virginia,2.0,Medium - High (20-40%),2.347786261981338,Medium-high,nearest<=10km
+dc1514,731909|Virginia,Virginia,1.0,Low - Medium (10-20%),1.1401255828034569,Low-medium,within
+dc1515,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1516,731908|Virginia,Virginia,3.0,High (40-80%),3.1367336770545875,High,within
+dc1517,731908|Virginia,Virginia,3.0,High (40-80%),3.1367336770545875,High,within
+dc1518,732120|Virginia,Virginia,3.0,High (40-80%),3.7205495379841897,High,within
+dc1519,731908|Virginia,Virginia,3.0,High (40-80%),3.1367336770545875,High,within
+dc1520,731902|Virginia,Virginia,2.0,Medium - High (20-40%),2.7027135553703565,Medium-high,within
+dc1521,731902|Virginia,Virginia,2.0,Medium - High (20-40%),2.7027135553703565,Medium-high,within
+dc1522,731902|Virginia,Virginia,2.0,Medium - High (20-40%),2.7027135553703565,Medium-high,within
+dc1523,731902|Virginia,Virginia,2.0,Medium - High (20-40%),2.7027135553703565,Medium-high,within
+dc1524,731902|Virginia,Virginia,2.0,Medium - High (20-40%),2.7027135553703565,Medium-high,within
+dc1525,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1526,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1527,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1528,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1529,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1530,731905|Virginia,Virginia,3.0,High (40-80%),3.802847971072168,High,within
+dc1531,731905|Virginia,Virginia,3.0,High (40-80%),3.802847971072168,High,within
+dc1532,731905|Virginia,Virginia,3.0,High (40-80%),3.802847971072168,High,within
+dc1533,731905|Virginia,Virginia,3.0,High (40-80%),3.802847971072168,High,within
+dc1534,731906|Virginia,Virginia,2.0,Medium - High (20-40%),2.347786261981338,Medium-high,within
+dc1535,732140|Virginia,Virginia,2.0,Medium - High (20-40%),2.7697299319853768,Medium-high,nearest<=10km
+dc1536,732140|Virginia,Virginia,2.0,Medium - High (20-40%),2.7697299319853768,Medium-high,nearest<=10km
+dc1537,,,,,,,nearest<=10km
+dc1538,,,1.0,Low - Medium (10-20%),1.1401255828034569,Low-medium,nearest<=10km
+dc1539,731903|Virginia,Virginia,2.0,Medium - High (20-40%),2.8441451824923965,Medium-high,within
+dc1540,731903|Virginia,Virginia,2.0,Medium - High (20-40%),2.8441451824923965,Medium-high,within
+dc1541,731903|Virginia,Virginia,2.0,Medium - High (20-40%),2.8441451824923965,Medium-high,within
+dc1542,731904|Virginia,Virginia,1.0,Low - Medium (10-20%),1.5813949136747325,Low-medium,within
+dc1543,731903|Virginia,Virginia,2.0,Medium - High (20-40%),2.8441451824923965,Medium-high,within
+dc1544,731903|Virginia,Virginia,2.0,Medium - High (20-40%),2.8441451824923965,Medium-high,within
+dc1545,731903|Virginia,Virginia,2.0,Medium - High (20-40%),2.8441451824923965,Medium-high,within
+dc1546,731903|Virginia,Virginia,2.0,Medium - High (20-40%),2.8441451824923965,Medium-high,within
+dc1547,731904|Virginia,Virginia,1.0,Low - Medium (10-20%),1.5813949136747325,Low-medium,within
+dc1548,731904|Virginia,Virginia,1.0,Low - Medium (10-20%),1.5813949136747325,Low-medium,within
+dc1549,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1550,732140|Virginia,Virginia,2.0,Medium - High (20-40%),2.7697299319853768,Medium-high,within
+dc1551,731905|Virginia,Virginia,3.0,High (40-80%),3.802847971072168,High,within
+dc1552,731905|Virginia,Virginia,3.0,High (40-80%),3.802847971072168,High,within
+dc1553,731905|Virginia,Virginia,3.0,High (40-80%),3.802847971072168,High,within
+dc1554,731905|Virginia,Virginia,3.0,High (40-80%),3.802847971072168,High,within
+dc1555,731905|Virginia,Virginia,3.0,High (40-80%),3.802847971072168,High,within
+dc1556,731905|Virginia,Virginia,3.0,High (40-80%),3.802847971072168,High,within
+dc1557,731905|Virginia,Virginia,3.0,High (40-80%),3.802847971072168,High,within
+dc1558,,,,,,,nearest<=10km
+dc1559,,,,,,,nearest<=10km
+dc1560,,,,,,,nearest<=10km
+dc1561,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1562,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1563,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1564,731903|Virginia,Virginia,2.0,Medium - High (20-40%),2.8441451824923965,Medium-high,within
+dc1565,731903|Virginia,Virginia,2.0,Medium - High (20-40%),2.8441451824923965,Medium-high,within
+dc1566,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1567,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1568,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1569,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1570,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1571,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1572,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1573,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1574,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1575,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1576,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1577,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1578,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1579,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1580,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1581,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1582,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1583,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1584,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1585,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1586,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1587,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1588,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1589,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1590,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1591,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1592,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1593,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1594,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1595,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1596,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1597,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1598,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1599,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1600,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1601,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1602,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1603,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1604,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1605,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1606,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1607,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1608,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1609,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1610,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1611,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1612,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1613,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1614,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1615,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1616,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1617,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1618,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1619,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1620,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1621,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1622,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1623,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1624,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1625,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1626,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1627,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1628,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1629,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1630,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1631,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1632,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1633,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1634,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1635,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1636,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1637,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1638,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1639,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1640,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1641,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1642,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1643,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1644,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1645,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1646,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1647,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1648,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1649,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1650,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1651,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1652,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1653,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1654,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1655,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1656,731902|Virginia,Virginia,2.0,Medium - High (20-40%),2.7027135553703565,Medium-high,within
+dc1657,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1658,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1659,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1660,731804|Virginia,Virginia,2.0,Medium - High (20-40%),2.819704746608247,Medium-high,within
+dc1661,732140|Virginia,Virginia,2.0,Medium - High (20-40%),2.7697299319853768,Medium-high,within
+dc1662,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1663,731801|Virginia,Virginia,0.0,Low (<10%),0.158307520864789,Low,within
+dc1664,732110|Virginia,Virginia,2.0,Medium - High (20-40%),2.764502476245416,Medium-high,within
+dc1665,732110|Virginia,Virginia,2.0,Medium - High (20-40%),2.764502476245416,Medium-high,within
+dc1666,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1667,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1668,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1669,731901|Virginia,Virginia,3.0,High (40-80%),3.5886680608434567,High,within
+dc1670,742679|Virginia,Virginia,2.0,Medium - High (20-40%),2.8543134483068524,Medium-high,within
+dc1671,731903|Virginia,Virginia,2.0,Medium - High (20-40%),2.8441451824923965,Medium-high,within
+dc1672,731903|Virginia,Virginia,2.0,Medium - High (20-40%),2.8441451824923965,Medium-high,within
+dc1673,782612|Washington,Washington,0.0,Low (<10%),0.0,Low,within
+dc1674,782615|Washington,Washington,0.0,Low (<10%),0.0,Low,within
+dc1675,783105|Washington,Washington,1.0,Low - Medium (10-20%),1.7970543863324724,Low-medium,within
+dc1676,782640|Washington,Washington,2.0,Medium - High (20-40%),2.1162503024981394,Medium-high,within
+dc1677,783105|Washington,Washington,1.0,Low - Medium (10-20%),1.7970543863324724,Low-medium,within
+dc1678,783105|Washington,Washington,1.0,Low - Medium (10-20%),1.7970543863324724,Low-medium,within
+dc1679,782615|Washington,Washington,0.0,Low (<10%),0.0,Low,within
+dc1680,782614|Washington,Washington,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc1681,783103|Washington,Washington,0.0,Low (<10%),0.0,Low,within
+dc1682,783103|Washington,Washington,0.0,Low (<10%),0.0,Low,within
+dc1683,782614|Washington,Washington,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc1684,782614|Washington,Washington,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc1685,782614|Washington,Washington,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc1686,782612|Washington,Washington,0.0,Low (<10%),0.0,Low,within
+dc1687,783105|Washington,Washington,1.0,Low - Medium (10-20%),1.7970543863324724,Low-medium,within
+dc1688,783105|Washington,Washington,1.0,Low - Medium (10-20%),1.7970543863324724,Low-medium,within
+dc1689,783105|Washington,Washington,1.0,Low - Medium (10-20%),1.7970543863324724,Low-medium,within
+dc1690,783105|Washington,Washington,1.0,Low - Medium (10-20%),1.7970543863324724,Low-medium,within
+dc1691,783105|Washington,Washington,1.0,Low - Medium (10-20%),1.7970543863324724,Low-medium,within
+dc1692,783105|Washington,Washington,1.0,Low - Medium (10-20%),1.7970543863324724,Low-medium,within
+dc1693,783105|Washington,Washington,1.0,Low - Medium (10-20%),1.7970543863324724,Low-medium,within
+dc1694,783105|Washington,Washington,1.0,Low - Medium (10-20%),1.7970543863324724,Low-medium,within
+dc1695,742872|Wisconsin,Wisconsin,3.0,High (40-80%),3.680821112347451,High,within
+dc1696,742872|Wisconsin,Wisconsin,3.0,High (40-80%),3.680821112347451,High,within
+dc1697,742872|Wisconsin,Wisconsin,3.0,High (40-80%),3.680821112347451,High,within
+dc1698,725833|Wisconsin,Wisconsin,3.0,High (40-80%),3.021911380748505,High,within
+dc1699,742873|Wisconsin,Wisconsin,0.0,Low (<10%),0.3079550538654757,Low,within
+dc1700,742872|Wisconsin,Wisconsin,3.0,High (40-80%),3.680821112347451,High,within
+dc1701,725870|Wisconsin,Wisconsin,2.0,Medium - High (20-40%),2.671208037573646,Medium-high,within
+dc1702,725870|Wisconsin,Wisconsin,2.0,Medium - High (20-40%),2.671208037573646,Medium-high,within
+dc1703,725827|Wisconsin,Wisconsin,0.0,Low (<10%),0.0,Low,within
+dc1704,742872|Wisconsin,Wisconsin,3.0,High (40-80%),3.680821112347451,High,within
+dc1705,742872|Wisconsin,Wisconsin,3.0,High (40-80%),3.680821112347451,High,within
+dc1706,742827|Wisconsin,Wisconsin,3.0,High (40-80%),3.500974462273387,High,within
+dc1707,725870|Wisconsin,Wisconsin,2.0,Medium - High (20-40%),2.671208037573646,Medium-high,within
+dc1708,725870|Wisconsin,Wisconsin,2.0,Medium - High (20-40%),2.671208037573646,Medium-high,within
+dc1709,725870|Wisconsin,Wisconsin,2.0,Medium - High (20-40%),2.671208037573646,Medium-high,within
+dc1710,725870|Wisconsin,Wisconsin,2.0,Medium - High (20-40%),2.671208037573646,Medium-high,within
+dc1711,742876|Wisconsin,Wisconsin,2.0,Medium - High (20-40%),2.962455990894421,Medium-high,within
+dc1712,742827|Wisconsin,Wisconsin,3.0,High (40-80%),3.500974462273387,High,within
+dc1713,742827|Wisconsin,Wisconsin,3.0,High (40-80%),3.500974462273387,High,within
+dc1714,742874|Wisconsin,Wisconsin,3.0,High (40-80%),3.3490146261566336,High,within
+dc1715,742681|West Virginia,West Virginia,0.0,Low (<10%),0.0,Low,within
+dc1716,742698|West Virginia,West Virginia,2.0,Medium - High (20-40%),2.359209189663807,Medium-high,within
+dc1717,742698|West Virginia,West Virginia,2.0,Medium - High (20-40%),2.359209189663807,Medium-high,within
+dc1718,742698|West Virginia,West Virginia,2.0,Medium - High (20-40%),2.359209189663807,Medium-high,within
+dc1719,742679|West Virginia,West Virginia,2.0,Medium - High (20-40%),2.8543134483068524,Medium-high,within
+dc1720,742679|West Virginia,West Virginia,2.0,Medium - High (20-40%),2.8543134483068524,Medium-high,within
+dc1721,731805|West Virginia,West Virginia,2.0,Medium - High (20-40%),2.8177826710561424,Medium-high,within
+dc1722,731805|West Virginia,West Virginia,2.0,Medium - High (20-40%),2.8177826710561424,Medium-high,within
+dc1723,742698|West Virginia,West Virginia,2.0,Medium - High (20-40%),2.359209189663807,Medium-high,within
+dc1724,742691|West Virginia,West Virginia,0.0,Low (<10%),0.0,Low,within
+dc1725,742679|West Virginia,West Virginia,2.0,Medium - High (20-40%),2.8543134483068524,Medium-high,within
+dc1726,742695|West Virginia,West Virginia,0.0,Low (<10%),0.0,Low,within
+dc1727,742946|Wyoming,Wyoming,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc1728,742946|Wyoming,Wyoming,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc1729,742946|Wyoming,Wyoming,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc1730,742946|Wyoming,Wyoming,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc1731,742946|Wyoming,Wyoming,4.0,Extremely High (>80%),5.0,Extremely high,within
+dc1732,773819|Wyoming,Wyoming,3.0,High (40-80%),3.4758399054194133,High,within

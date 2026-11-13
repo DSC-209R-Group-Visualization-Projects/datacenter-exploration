@@ -1,0 +1,4 @@
+.pylibs/
+data/raw/
+data/interim/
+__pycache__/
