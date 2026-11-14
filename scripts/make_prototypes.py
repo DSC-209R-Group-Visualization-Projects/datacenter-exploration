@@ -123,8 +123,8 @@ for (i, j), cell in t.get_celld().items():
     if i == 0: cell.set_facecolor("#333"); cell.get_text().set_color("white"); cell.get_text().set_fontweight("bold")
     elif j == 3: cell.set_facecolor("#dddddd"); cell.get_text().set_fontweight("bold")
 fig.text(0.5, 0.01, f"Correlation, not causation. Operating = status in database today (no build dates). {int(no_basin.sum())} facilities without basin data excluded. Source: WRI Aqueduct 4.0 (2023), project data center database.", ha="center", fontsize=8, style="italic")
-(ROOT / "jppolizzi" / "images").mkdir(exist_ok=True)
-fig.savefig(ROOT / "jppolizzi" / "images" / "prototype_b_scorecard.png", dpi=150, bbox_inches="tight", facecolor="white")
+(ROOT / "images").mkdir(exist_ok=True)
+fig.savefig(ROOT / "images" / "prototype_b_scorecard.png", dpi=150, bbox_inches="tight", facecolor="white")
 pd.DataFrame(row, columns=["concern", "unit and n", "estimate", "rating", "main caveat"]).to_csv(ROOT / "jppolizzi" / "prototype_b_scorecard.csv", index=False)
 plt.show()'''),
 ("md", "Next, one at a time: energy bills, then grid strain. Open decisions: whether to find build dates so growth can be measured; filling the Aqueduct gaps around Atlanta."),
