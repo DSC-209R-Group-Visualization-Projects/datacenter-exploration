@@ -3,3 +3,8 @@ pyogrio
 shapely
 pandas
 numpy
+matplotlib
+plotly
+statsmodels
+nbformat
+jupyter
