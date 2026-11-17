@@ -20,8 +20,10 @@ Each concern is analyzed at its own geographic unit (river basin, utility, balan
 | B | Water stress scorecard | `jppolizzi/prototype_b_scorecard.ipynb` | `images/prototype_b_scorecard.png` |
 | C | Moratoria: where, when and why | `pnidadavolu/prototype_c_pushback_wave.ipynb` | `images/prototype_c_pushback_wave.png` |
 | D | Moratoria: what happened next | `pnidadavolu/prototype_d_what_next.ipynb` | `images/prototype_d_what_next.png` |
+| E | Data centers vs residential price change, by state | `sgarimella/prototype_e_price_scatter.ipynb` | `images/prototype_e_price_scatter.png` |
+| F | PJM capacity prices and the monthly bill | `sgarimella/prototype_f_capacity_bill.ipynb` | `images/prototype_f_capacity_bill.png` |
 
-Interactive versions: `jppolizzi/prototype_a_map.html` and `pnidadavolu/prototype_c_pushback_wave.html` (open in a browser).
+Interactive versions: `jppolizzi/prototype_a_map.html`, `pnidadavolu/prototype_c_pushback_wave.html`, `sgarimella/prototype_e_price_scatter.html` (brush states) and `sgarimella/prototype_f_capacity_bill.html` (usage slider). Open them in a browser.
 
 ## Data sources
 
@@ -49,5 +51,6 @@ Field-level notes for every cleaned table are in [`data/clean/README.md`](data/c
 ├── scripts/                        cleaning scripts, shared helpers, notebook generators
 ├── images/                         static figures
 ├── jppolizzi/                      prototypes A and B
-└── pnidadavolu/                    prototypes C and D
+├── pnidadavolu/                    prototypes C and D
+└── sgarimella/                     prototypes E and F
 ```
