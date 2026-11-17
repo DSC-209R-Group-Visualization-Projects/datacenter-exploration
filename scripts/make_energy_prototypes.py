@@ -232,7 +232,7 @@ fig.write_html(ROOT / "sgarimella" / "prototype_e_price_scatter.html", include_p
                config={"displayModeBar": False})
 fig.show()'''),
 ("md", """## Reading so far
-- At the state level the relationship runs the other way from the worry: the rank correlation is about -0.35. Many of the states with the most data centers per resident (Iowa, North Dakota, Nebraska, Texas, Georgia) have cheap power and flat or falling real prices, which may be part of why developers build there. The biggest increases (DC, California, Maine, Maryland, New York) are in states with few data centers.
+- At the state level the relationship runs the other way from the worry: the rank correlation is about -0.35. Of the eight states with the most data centers per resident, six had flat or falling real prices (Virginia, Georgia, North Dakota, Wyoming, Iowa, Texas). The other two, Pennsylvania (+11%) and West Virginia (+9%), are PJM states. Cheap power may be part of why developers build in the flat or falling states, but this data does not test that. The biggest increases (DC, California, Maine, Maryland, New York) are in states with few data centers.
 - Virginia, with by far the most data centers per resident, is flat after inflation (+0.6%).
 - What does stand out is the grid: states mostly served by PJM utilities had a median real increase of about +9%, against about -1% for the rest. That points to a region-wide cost more than a local one, which is what prototype F looks at.
 
@@ -258,8 +258,9 @@ How the bill estimate works:
 Caveats carried onto the page:
 - This spreads capacity cost evenly over every kWh used by every customer class. Households use more of their power at peak times than factories do, so their true share is likely higher.
 - Utilities pass capacity costs through with lags and hedges, and some PJM utilities buy capacity outside the auction, so not every PJM customer saw the change on the same date or at the same size.
-- 2026/27 and 2027/28 use 2025 load, the latest complete year.
-- Event notes come from PJM reports and need a final source check before they go on the page (listed at the end)."""),
+- The earliest complete year of PJM load in EIA-930 is 2019, so 2017/18 and 2018/19 use 2019 load, and 2026/27 and 2027/28 use 2025 load, the latest complete year.
+- The chart shows the PJM-wide price. In 2025/26 the BGE (Baltimore) and Dominion zones cleared higher, at $466.35 and $444.26 per MW-day, so Maryland and Virginia households faced more than the chart shows.
+- Auction dates, prices and the cap were checked on 2026-11-16 against PJM and S&P reporting (listed at the end). The explanation for why prices rose has not been checked against the Market Monitor's own reports."""),
 ("code", SETUP + '''p = pd.read_csv(CLEAN / "pjm_bra_rto_prices.csv")
 e = pd.read_csv(CLEAN / "eia930_ba_annual.csv").query("ba == 'PJM' and complete_year").set_index("year")
 u = pd.read_csv(CLEAN / "eia861_utility_sales.csv")
@@ -368,10 +369,13 @@ fig.show()'''),
 - The reserve margin in the auction results fell from the low 20s to about 14% for 2027/28 while PJM peak load rose. That is the grid strain residents describe, in the grid operator's own numbers.
 - For a typical PJM household (about 850 kWh a month) the rough estimate goes from about $2 a month in 2024/25 to about $15 in 2025/26, roughly $12 more. Part of the jump is a return from unusually low years: before 2022/23 the same estimate ran $7 to $12 a month.
 
-Event notes to source-check before the final page:
-- The 2025/26 auction was held in July 2024 (PJM BRA report).
-- The cap and floor come from a settlement approved by FERC in 2025; the repo's source note gives $325 and $175 for 2026/27 to 2028/29. The cleared prices in the table ($329.17, $333.44) are slightly above $325, so check which basis each number is quoted in before putting the cap value on the chart.
-- Why the price rose: PJM and its Independent Market Monitor attributed it to load forecast growth (largely data centers), plant retirements and market rule changes. Quote their reports directly rather than our summary.
+Event notes, checked 2026-11-16:
+- The 2025/26 auction results came out on July 30, 2024: $269.92 per MW-day, 9.3 times the $28.92 of 2024/25, with 135,684 MW procured (PJM news release; S&P Global).
+- FERC approved the price cap and floor on April 28, 2025, after a settlement push led by Pennsylvania's governor. The figures usually quoted are about $325 and $175 per MW-day. The tariff files them on a different capacity basis ($256.75 and $138.25, a 79% conversion), which is why the 2026/27 clearing price is $329.17 and not $325. At first the cap covered only the 2026/27 and 2027/28 auctions; later reporting says it was extended to 2028/29 and 2029/30. The repo's source note says through 2028/29.
+- 2026/27 and 2027/28 both cleared at the cap (S&P Global; Calpine). The $333.44 for 2027/28 comes from the repo table and was not separately confirmed.
+- Why the price rose: PJM said supply and demand were tightening, and its peak load forecast for 2025/26 rose from 150,640 MW to 153,883 MW. Attributing the rise to data centers specifically, or to plant retirements and rule changes, still needs a quote from PJM's or the Market Monitor's reports.
+
+Sources: PJM Inside Lines (2025/26 auction release; FERC collar approval), S&P Global (2025/26 and 2026/27 results), PJM Members Committee slides of 2025-02-07 (cap and floor basis), Calpine (2027/28 result).
 
 Next steps: show the data center share of PJM's load forecast if we can get the forecast tables, and compare a few utilities' actual capacity line items against this estimate."""),
 ]
