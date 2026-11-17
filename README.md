@@ -23,7 +23,7 @@ Each concern is analyzed at its own geographic unit (river basin, utility, balan
 | E | Data centers vs residential price change, by state | `sgarimella/prototype_e_price_scatter.ipynb` | `images/prototype_e_price_scatter.png` |
 | F | PJM capacity prices and the monthly bill | `sgarimella/prototype_f_capacity_bill.ipynb` | `images/prototype_f_capacity_bill.png` |
 
-Interactive versions: `jppolizzi/prototype_a_map.html`, `pnidadavolu/prototype_c_pushback_wave.html`, `sgarimella/prototype_e_price_scatter.html` (brush states) and `sgarimella/prototype_f_capacity_bill.html` (usage slider). Open them in a browser.
+Interactive versions: `jppolizzi/prototype_a_map.html`, `pnidadavolu/prototype_c_pushback_wave.html`, `sgarimella/prototype_e_price_scatter.html` (brush states) and `sgarimella/prototype_f_capacity_bill.html` (usage slider). Open them in a browser. D3 versions of E and F (no notebook needed, data in `sgarimella/d3/data_*.js` from `scripts/export_energy_d3_data.py`): `sgarimella/d3/price_scatter.html` and `sgarimella/d3/capacity_bill.html`.
 
 ## Data sources
 

@@ -260,7 +260,7 @@ Caveats carried onto the page:
 - Utilities pass capacity costs through with lags and hedges, and some PJM utilities buy capacity outside the auction, so not every PJM customer saw the change on the same date or at the same size.
 - The earliest complete year of PJM load in EIA-930 is 2019, so 2017/18 and 2018/19 use 2019 load, and 2026/27 and 2027/28 use 2025 load, the latest complete year.
 - The chart shows the PJM-wide price. In 2025/26 the BGE (Baltimore) and Dominion zones cleared higher, at $466.35 and $444.26 per MW-day, so Maryland and Virginia households faced more than the chart shows.
-- Auction dates, prices and the cap were checked on 2026-11-16 against PJM and S&P reporting (listed at the end). The explanation for why prices rose has not been checked against the Market Monitor's own reports."""),
+- Auction dates, prices and the cap were checked on 2026-11-16 against PJM and S&P reporting (listed at the end). The Market Monitor's data center figures below come from its 2025 State of the Market report and FERC complaint as quoted in news and policy summaries; confirm them against the primary documents before quoting."""),
 ("code", SETUP + '''p = pd.read_csv(CLEAN / "pjm_bra_rto_prices.csv")
 e = pd.read_csv(CLEAN / "eia930_ba_annual.csv").query("ba == 'PJM' and complete_year").set_index("year")
 u = pd.read_csv(CLEAN / "eia861_utility_sales.csv")
@@ -373,9 +373,10 @@ Event notes, checked 2026-11-16:
 - The 2025/26 auction results came out on July 30, 2024: $269.92 per MW-day, 9.3 times the $28.92 of 2024/25, with 135,684 MW procured (PJM news release; S&P Global).
 - FERC approved the price cap and floor on April 28, 2025, after a settlement push led by Pennsylvania's governor. The figures usually quoted are about $325 and $175 per MW-day. The tariff files them on a different capacity basis ($256.75 and $138.25, a 79% conversion), which is why the 2026/27 clearing price is $329.17 and not $325. At first the cap covered only the 2026/27 and 2027/28 auctions; later reporting says it was extended to 2028/29 and 2029/30. The repo's source note says through 2028/29.
 - 2026/27 and 2027/28 both cleared at the cap (S&P Global; Calpine). The $333.44 for 2027/28 comes from the repo table and was not separately confirmed.
-- Why the price rose: PJM said supply and demand were tightening, and its peak load forecast for 2025/26 rose from 150,640 MW to 153,883 MW. Attributing the rise to data centers specifically, or to plant retirements and rule changes, still needs a quote from PJM's or the Market Monitor's reports.
+- Why the price rose: PJM said supply and demand were tightening, and its peak load forecast for 2025/26 rose from 150,640 MW to 153,883 MW. PJM's Independent Market Monitor puts most of the later cost on data centers: including existing and forecast data center load added about $7.3 billion (82.1%) to 2026/27 capacity revenue, and about $23.1 billion across the 2025/26, 2026/27 and 2027/28 auctions. IEEFA reports the Monitor attributed 63% of the 2025/26 price increase to data centers (one source, not yet matched to the Monitor's own text). The Monitor also estimates the cap and floor reduced capacity costs by about $13.1 billion over the two auctions where it applied.
+- What this means for the story: the Monitor's numbers are a model of what prices would have been without data center load, not a direct count. They support linking data centers to the PJM jump, but plant retirements and market rule changes also matter, so the page should say "the Market Monitor attributes" and not "data centers caused".
 
-Sources: PJM Inside Lines (2025/26 auction release; FERC collar approval), S&P Global (2025/26 and 2026/27 results), PJM Members Committee slides of 2025-02-07 (cap and floor basis), Calpine (2027/28 result).
+Sources: PJM Inside Lines (2025/26 auction release; FERC collar approval), S&P Global (2025/26 and 2026/27 results), PJM Members Committee slides of 2025-02-07 (cap and floor basis), Calpine (2027/28 result), Monitoring Analytics 2025 State of the Market report and IMM FERC complaint (as quoted by APPA, IEEFA and Utility Dive).
 
 Next steps: show the data center share of PJM's load forecast if we can get the forecast tables, and compare a few utilities' actual capacity line items against this estimate."""),
 ]

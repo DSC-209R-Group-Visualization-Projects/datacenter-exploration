@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PJM capacity prices and your monthly bill</title>
+<style>
+  body { font-family: Georgia, "Times New Roman", serif; color: #0b0b0b; background: #fcfcfb; max-width: 1000px; margin: 24px auto; padding: 0 16px; }
+  h1 { font-size: 22px; margin: 0 0 6px; }
+  p.sub { margin: 0 0 12px; color: #52514e; font-size: 14px; max-width: 780px; line-height: 1.4; }
+  svg { width: 100%; height: auto; display: block; }
+  text { font-family: Helvetica, Arial, sans-serif; fill: #52514e; }
+  .axis path, .axis line { stroke: #c3c2b7; }
+  .axis text { font-size: 11px; }
+  .grid line { stroke: #e1e0d9; }
+  .grid path { display: none; }
+  .title { font-size: 14px; font-weight: bold; fill: #0b0b0b; }
+  .val { font-size: 11px; fill: #0b0b0b; text-anchor: middle; }
+  .ann { font-size: 12px; }
+  #headline { font-size: 17px; margin: 14px 0 6px; min-height: 44px; }
+  .ctrl { font: 14px Helvetica, Arial, sans-serif; margin: 6px 0 12px; }
+  input[type=range] { width: 420px; vertical-align: middle; }
+  .note { font-size: 12px; color: #52514e; margin-top: 10px; max-width: 880px; line-height: 1.4; }
+  #tip { position: fixed; pointer-events: none; background: #fff; border: 1px solid #c3c2b7; padding: 6px 8px; font: 12px Helvetica, Arial, sans-serif; display: none; line-height: 1.35; }
+</style>
+</head>
+<body>
+<h1>What the PJM capacity auction adds to a monthly bill</h1>
+<p class="sub">PJM, the grid operator for 13 states and DC, buys power plant capacity a few years ahead in an auction. The price jumped about ninefold in the 2025/26 auction. Set your monthly usage to see roughly what that adds to a bill.</p>
+<div class="ctrl"><label for="kwh">Your monthly usage: <b id="kwhOut"></b> kWh</label> <input id="kwh" type="range" min="200" max="2000" step="50"></div>
+<div id="headline"></div>
+<svg id="chart" viewBox="0 0 960 600"></svg>
+<p class="note">Estimate: total auction cost for each delivery year divided by PJM annual load (EIA-930), times your monthly kWh. This spreads cost evenly over every kWh in PJM, so it is a rough average, not a tariff. Households likely carry a larger share than factories, and utilities pass capacity costs through with lags, so real bills differ. The earliest complete year of PJM load in the data is 2019, so 2017/18 and 2018/19 use 2019 load; 2026/27 and 2027/28 use 2025 load. The top chart shows the PJM-wide price; in 2025/26 the Baltimore (BGE) and Dominion zones cleared higher, at $466.35 and $444.26 per MW-day. The price cap and floor (about $325 and $175 per MW-day) were approved by FERC on April 28, 2025. Sources: PJM Base Residual Auction reports (2027/28 report, Table 2), S&amp;P Global, EIA Forms 861 and 930.</p>
+<div id="tip"></div>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+<script src="data_f.js"></script>
+<script>
+const ORANGE = "#eb6834", NEUTRAL = "#a9a89f";
+const rows = DATA_F.rows, TYPICAL = DATA_F.typicalKwh;
+const svg = d3.select("#chart"), tip = d3.select("#tip");
+const M = {l: 64, r: 24, w: 872};
+const x = d3.scaleLinear().domain([2017, 2028]).range([0, M.w]);
+const ticks = rows.map(r => r.start + 0.5);
+const label = new Map(rows.map(r => [r.start + 0.5, r.dy]));
+
+// ---- top: step chart of the clearing price
+const T = {y: 40, h: 250};
+const ty = d3.scaleLinear().domain([0, 380]).range([T.h, 0]);
+const topG = svg.append("g").attr("transform", `translate(${M.l},${T.y})`);
+topG.append("g").attr("class", "grid").call(d3.axisLeft(ty).ticks(7).tickSize(-M.w).tickFormat(""));
+topG.append("g").attr("class", "axis").call(d3.axisLeft(ty).ticks(7).tickFormat(v => "$" + v));
+svg.append("text").attr("class", "title").attr("x", M.l).attr("y", 22).text("Capacity auction clearing price ($ per MW-day)");
+const pts = rows.map(r => [r.start, r.price]).concat([[2028, rows[rows.length - 1].price]]);
+topG.append("path").datum(pts).attr("fill", "rgba(235,104,52,0.08)")
+  .attr("d", d3.area().curve(d3.curveStepAfter).x(d => x(d[0])).y0(T.h).y1(d => ty(d[1])));
+topG.append("path").datum(pts).attr("fill", "none").attr("stroke", ORANGE).attr("stroke-width", 3)
+  .attr("d", d3.line().curve(d3.curveStepAfter).x(d => x(d[0])).y(d => ty(d[1])));
+topG.selectAll(".pv").data(rows).join("circle").attr("cx", r => x(r.start + 0.5)).attr("cy", r => ty(r.price)).attr("r", 4.5).attr("fill", ORANGE)
+  .on("mousemove", (ev, r) => tip.style("display", "block").style("left", (ev.clientX + 14) + "px").style("top", (ev.clientY + 14) + "px")
+    .html(`<b>${r.dy}</b><br>$${r.price.toFixed(2)} per MW-day<br>reserve margin ${r.reserve}%<br>${r.mw.toLocaleString()} MW cleared, $${r.costB} billion total`))
+  .on("mouseleave", () => tip.style("display", "none"));
+topG.selectAll(".pl").data(rows).join("text").attr("class", "val").attr("x", r => x(r.start + 0.5)).attr("y", r => ty(r.price) - 10).text(r => "$" + Math.round(r.price));
+const jump = rows.find(r => r.dy === "2025/26");
+topG.append("text").attr("class", "ann").attr("x", x(2025) - 8).attr("y", ty(235)).attr("text-anchor", "end").text("2025/26 auction (July 2024): about 9 times the year before");
+topG.append("text").attr("class", "ann").attr("x", x(2023.5)).attr("y", ty(92)).attr("text-anchor", "middle").text("three years at $50 or less");
+topG.append("text").attr("class", "ann").attr("x", x(2027.95)).attr("y", ty(150)).attr("text-anchor", "end").text("cap and floor from a 2025 settlement");
+const lastRes = rows[rows.length - 1].reserve, maxRes = d3.max(rows, r => r.reserve);
+svg.append("text").attr("x", M.l + M.w).attr("y", 22).attr("text-anchor", "end").style("font-size", "12px")
+  .text(`Reserve margin fell from ${Math.round(maxRes)}% to ${Math.round(lastRes)}%`);
+
+// ---- bottom: bars for the monthly bill estimate
+const B = {y: 350, h: 190};
+const by = d3.scaleLinear().range([B.h, 0]);
+const bottom = svg.append("g").attr("transform", `translate(${M.l},${B.y})`);
+const gridG = bottom.append("g").attr("class", "grid");
+const axisG = bottom.append("g").attr("class", "axis");
+bottom.append("g").attr("class", "axis").attr("transform", `translate(0,${B.h})`)
+  .call(d3.axisBottom(x).tickValues(ticks).tickFormat(v => label.get(v)));
+svg.append("text").attr("class", "title").attr("x", M.l).attr("y", B.y - 16).text("What it adds to your monthly bill (rough estimate)");
+const bw = x(1) - x(0);
+const bars = bottom.selectAll("rect").data(rows).join("rect").attr("x", r => x(r.start + 0.5) - bw * 0.35).attr("width", bw * 0.7)
+  .attr("fill", r => r.start < 2025 ? NEUTRAL : ORANGE).attr("y", B.h).attr("height", 0);
+const vals = bottom.selectAll(".bv").data(rows).join("text").attr("class", "val").attr("x", r => x(r.start + 0.5));
+
+function monthly(r, kwh) { return r.cents * kwh / 100; }
+function update(kwh) {
+  document.getElementById("kwhOut").textContent = kwh;
+  const v = rows.map(r => monthly(r, kwh));
+  by.domain([0, d3.max(v) * 1.18]);
+  const t = svg.transition().duration(250);
+  axisG.transition(t).call(d3.axisLeft(by).ticks(5).tickFormat(d => "$" + d));
+  gridG.transition(t).call(d3.axisLeft(by).ticks(5).tickSize(-M.w).tickFormat(""));
+  bars.data(rows).transition(t).attr("y", (r, i) => by(v[i])).attr("height", (r, i) => B.h - by(v[i]));
+  vals.data(rows).transition(t).attr("y", (r, i) => by(v[i]) - 5).text((r, i) => "$" + Math.round(v[i]));
+  const g = dy => monthly(rows.find(r => r.dy === dy), kwh);
+  document.getElementById("headline").textContent =
+    `At ${kwh.toLocaleString()} kWh a month, capacity costs went from about $${Math.round(g("2024/25"))} (2024/25) to $${Math.round(g("2025/26"))} (2025/26) and $${Math.round(g("2027/28"))} (2027/28) a month.`;
+}
+const slider = document.getElementById("kwh");
+slider.value = Math.round(TYPICAL / 50) * 50;
+slider.addEventListener("input", () => update(+slider.value));
+svg.append("text").attr("x", M.l).attr("y", B.y + B.h + 44).style("font-size", "12px").text(`A typical PJM household uses about ${TYPICAL} kWh a month (EIA-861, 2025).`);
+update(+slider.value);
+</script>
+</body>
+</html>

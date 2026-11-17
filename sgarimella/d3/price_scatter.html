@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Data centers and electricity prices by state</title>
+<style>
+  body { font-family: Georgia, "Times New Roman", serif; color: #0b0b0b; background: #fcfcfb; max-width: 1100px; margin: 24px auto; padding: 0 16px; }
+  h1 { font-size: 22px; margin: 0 0 6px; }
+  p.sub { margin: 0 0 14px; color: #52514e; font-size: 14px; max-width: 760px; line-height: 1.4; }
+  svg { width: 100%; height: auto; display: block; user-select: none; }
+  text { font-family: Helvetica, Arial, sans-serif; fill: #52514e; }
+  .axis path, .axis line { stroke: #c3c2b7; }
+  .axis text { font-size: 11px; }
+  .grid line { stroke: #e1e0d9; }
+  .grid path { display: none; }
+  .title { font-size: 14px; font-weight: bold; fill: #0b0b0b; }
+  .dot { stroke: #fcfcfb; stroke-width: 1; cursor: pointer; }
+  .lab { font-size: 9.5px; pointer-events: none; }
+  .line { fill: none; stroke: #e1e0d9; stroke-width: 1; }
+  .line.sel { stroke-width: 2.5; }
+  .selection { fill: #52514e; fill-opacity: 0.12; stroke: #52514e; stroke-dasharray: 3 2; }
+  .note { font-size: 12px; color: #52514e; margin-top: 10px; max-width: 900px; line-height: 1.4; }
+  button { font: 13px Helvetica, Arial, sans-serif; margin-left: 8px; }
+  #tip { position: fixed; pointer-events: none; background: #fff; border: 1px solid #c3c2b7; padding: 6px 8px; font: 12px Helvetica, Arial, sans-serif; display: none; line-height: 1.35; }
+</style>
+</head>
+<body>
+<h1>Did electricity prices rise faster in states with more data centers?</h1>
+<p class="sub">Each dot is a state. Drag a box on the left to pick states, or click a dot to add or remove one. Their price paths appear on the right next to the U.S. average. <button id="clear">Clear selection</button></p>
+<svg id="chart" viewBox="0 0 1060 560"></svg>
+<p class="note" id="stats"></p>
+<p class="note">Price is the average residential price (revenue divided by kWh, EIA Form 861) in 2025 dollars (BLS CPI-U). Data centers are operating and planned facilities from the project database, per million residents (Census 2025); the data has no build dates, so this is how many a state has now, not growth. Orange: over half of the state's residential customers are served by utilities in PJM. A state can rank high on both for other reasons (fuel costs, wildfire and storm costs, rate cases). Source: EIA-861, BLS CPI-U, Census PEP 2025, project data center database.</p>
+<div id="tip"></div>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+<script src="data_e.js"></script>
+<script>
+const BLUE = "#2a78d6", ORANGE = "#eb6834", GREY = "#e1e0d9", INK = "#0b0b0b";
+const D = DATA_E, states = D.states, years = D.years;
+const W = 1060, H = 560;
+const svg = d3.select("#chart");
+const tip = d3.select("#tip");
+
+// ---- left panel: scatter
+const L = {x: 62, y: 44, w: 440, h: 440};
+const ZERO = 0.2;                                   // where states with no data centers sit on the log axis
+states.forEach(s => s.x = s.perM > 0 ? s.perM : ZERO);
+const sx = d3.scaleLog().domain([0.15, 75]).range([0, L.w]);
+const sy = d3.scaleLinear().domain([-16, 37]).range([L.h, 0]);
+const left = svg.append("g").attr("transform", `translate(${L.x},${L.y})`);
+const ticks = [ZERO, 0.5, 1, 2, 5, 10, 20, 50];
+left.append("g").attr("class", "grid").call(d3.axisLeft(sy).ticks(7).tickSize(-L.w).tickFormat(""));
+left.append("g").attr("class", "grid").call(d3.axisBottom(sx).tickValues(ticks).tickSize(L.h).tickFormat(""));
+left.append("g").attr("class", "axis").attr("transform", `translate(0,${L.h})`)
+  .call(d3.axisBottom(sx).tickValues(ticks).tickFormat(v => v === ZERO ? "0" : v));
+left.append("g").attr("class", "axis").call(d3.axisLeft(sy).ticks(7).tickFormat(v => v + "%"));
+left.append("line").attr("x1", 0).attr("x2", L.w).attr("y1", sy(0)).attr("y2", sy(0)).attr("stroke", "#c3c2b7");
+left.append("line").attr("x1", 0).attr("x2", L.w).attr("y1", sy(D.usChange)).attr("y2", sy(D.usChange))
+  .attr("stroke", "#52514e").attr("stroke-dasharray", "4 3");
+left.append("text").attr("x", L.w - 2).attr("y", sy(D.usChange) - 4).attr("text-anchor", "end").style("font-size", "11px").text(`U.S. ${D.usChange > 0 ? "+" : ""}${Math.round(D.usChange)}%`);
+svg.append("text").attr("class", "title").attr("x", L.x).attr("y", 20).text("Data centers vs. price change, 2019 to 2025");
+svg.append("text").attr("x", L.x + L.w / 2).attr("y", L.y + L.h + 40).attr("text-anchor", "middle").style("font-size", "12px")
+  .text("operating and planned data centers per million residents (log scale)");
+svg.append("text").attr("transform", `translate(16,${L.y + L.h / 2}) rotate(-90)`).attr("text-anchor", "middle").style("font-size", "12px")
+  .text("change in real residential price");
+
+const sel = new Set();
+const brush = d3.brush().extent([[0, 0], [L.w, L.h]]).on("end", ev => {
+  if (!ev.sourceEvent) return;                       // ignore programmatic moves
+  if (!ev.selection) { sel.clear(); update(); return; }
+  const [[x0, y0], [x1, y1]] = ev.selection;
+  sel.clear();
+  states.forEach(s => { const px = sx(s.x), py = sy(s.chg); if (px >= x0 && px <= x1 && py >= y0 && py <= y1) sel.add(s.st); });
+  update();
+});
+const brushG = left.append("g").call(brush);
+
+const dots = left.selectAll(".dot").data(states).join("circle").attr("class", "dot")
+  .attr("cx", s => sx(s.x)).attr("cy", s => sy(s.chg)).attr("r", 5).attr("fill", s => s.pjm ? ORANGE : BLUE)
+  .on("click", (ev, s) => { sel.has(s.st) ? sel.delete(s.st) : sel.add(s.st); brushG.call(brush.move, null); update(); })
+  .on("mousemove", (ev, s) => {
+    tip.style("display", "block").style("left", (ev.clientX + 14) + "px").style("top", (ev.clientY + 14) + "px")
+      .html(`<b>${s.name}</b><br>${s.dc} data centers (${s.dcOp} operating)<br>${s.perM.toFixed(1)} per million residents<br>` +
+            `${s.p19.toFixed(1)} to ${s.p25.toFixed(1)} cents/kWh (2025 $)<br>${s.chg > 0 ? "+" : ""}${s.chg.toFixed(1)}% after inflation`);
+  })
+  .on("mouseleave", () => tip.style("display", "none"));
+const labelStates = ["VA", "DC", "CA", "MD", "NJ", "ME", "OR", "NY", "PA", "OH", "GA", "TX", "IA", "NV", "NE", "WV"];
+left.selectAll(".lab").data(states.filter(s => labelStates.includes(s.st))).join("text").attr("class", "lab")
+  .attr("x", s => sx(s.x) + 7).attr("y", s => sy(s.chg) + 3).text(s => s.st);
+
+// legend
+[[BLUE, "other states"], [ORANGE, "mostly PJM customers"]].forEach(([c, t], i) => {
+  const g = left.append("g").attr("transform", `translate(${L.w - 150},${8 + i * 17})`);
+  g.append("circle").attr("r", 5).attr("fill", c).attr("cx", 5).attr("cy", 0);
+  g.append("text").attr("x", 16).attr("y", 4).style("font-size", "11px").text(t);
+});
+
+// ---- right panel: price paths
+const R = {x: 590, y: 44, w: 400, h: 440};
+const rx = d3.scaleLinear().domain([years[0], years[years.length - 1] + 1.2]).range([0, R.w]);
+const ry = d3.scaleLinear().domain([84, 140]).range([R.h, 0]);
+const right = svg.append("g").attr("transform", `translate(${R.x},${R.y})`);
+right.append("g").attr("class", "grid").call(d3.axisLeft(ry).ticks(7).tickSize(-R.w).tickFormat(""));
+right.append("g").attr("class", "axis").attr("transform", `translate(0,${R.h})`)
+  .call(d3.axisBottom(rx).tickValues(years).tickFormat(d3.format("d")));
+right.append("g").attr("class", "axis").call(d3.axisLeft(ry).ticks(7));
+right.append("line").attr("x1", 0).attr("x2", R.w).attr("y1", ry(100)).attr("y2", ry(100)).attr("stroke", "#c3c2b7");
+svg.append("text").attr("class", "title").attr("x", R.x).attr("y", 20).text("Real residential price, 2019 = 100");
+svg.append("text").attr("transform", `translate(${R.x - 44},${R.y + R.h / 2}) rotate(-90)`).attr("text-anchor", "middle").style("font-size", "12px").text("price index");
+const line = d3.line().x((v, i) => rx(years[i])).y(v => ry(v));
+const lineG = right.append("g");
+const lines = lineG.selectAll(".line").data(states).join("path").attr("class", "line").attr("d", s => line(s.idx));
+const labG = right.append("g");
+right.append("path").attr("d", line(D.us)).attr("fill", "none").attr("stroke", INK).attr("stroke-width", 3);
+right.append("text").attr("x", rx(years[years.length - 1]) + 6).attr("y", ry(D.us[D.us.length - 1]) + 4).style("font-weight", "bold").style("fill", INK).style("font-size", "11px").text("U.S.");
+right.append("text").attr("x", 0).attr("y", R.h + 40).style("font-size", "12px").text("grey: every state; colored: selected");
+
+function update() {
+  dots.attr("opacity", s => sel.size === 0 || sel.has(s.st) ? 1 : 0.25).attr("r", s => sel.has(s.st) ? 6.5 : 5);
+  lines.classed("sel", s => sel.has(s.st)).style("stroke", s => sel.has(s.st) ? (s.pjm ? ORANGE : BLUE) : null);
+  lines.filter(s => sel.has(s.st)).raise();
+  const chosen = states.filter(s => sel.has(s.st));
+  // end labels, nudged apart so they stay readable
+  const pos = chosen.map(s => ({s, y: ry(s.idx[s.idx.length - 1])})).sort((a, b) => a.y - b.y);
+  pos.forEach((p, i) => { if (i > 0 && p.y - pos[i - 1].y < 12) p.y = pos[i - 1].y + 12; });
+  labG.selectAll("text").data(pos, p => p.s.st).join("text")
+    .attr("x", rx(years[years.length - 1]) + 6).attr("y", p => p.y + 4).style("font-size", "11px").style("font-weight", "bold")
+    .style("fill", p => p.s.pjm ? ORANGE : BLUE).text(p => p.s.st);
+  const st = document.getElementById("stats");
+  if (chosen.length) {
+    const med = d3.median(chosen, s => s.chg);
+    st.textContent = `${chosen.length} state${chosen.length > 1 ? "s" : ""} selected: median real price change ${med > 0 ? "+" : ""}${med.toFixed(1)}% (U.S. ${D.usChange > 0 ? "+" : ""}${D.usChange}%), median ${d3.median(chosen, s => s.perM).toFixed(1)} data centers per million residents.`;
+  } else {
+    const pj = states.filter(s => s.pjm), ot = states.filter(s => !s.pjm);
+    st.textContent = `All states: median real price change ${d3.median(pj, s => s.chg).toFixed(0)}% in the ${pj.length} PJM states against ${d3.median(ot, s => s.chg).toFixed(0)}% in the other ${ot.length}. States with more data centers per resident did not see faster increases (rank correlation about -0.35).`;
+  }
+}
+document.getElementById("clear").onclick = () => { sel.clear(); brushG.call(brush.move, null); update(); };
+update();
+</script>
+</body>
+</html>
