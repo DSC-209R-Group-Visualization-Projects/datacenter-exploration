@@ -1,4 +1,4 @@
-"""Write the small JSON files the D3 site (site/) reads.
+"""Write the small JSON files the D3 site (web/) reads.
 
 Numbers match prototype.ipynb. Run from the repo root:
     PYTHONPATH=.pylibs python3 scripts/build_site_data.py
@@ -10,7 +10,7 @@ import pandas as pd
 
 ROOT = Path(__file__).resolve().parents[1]
 CLEAN = ROOT / "data" / "clean"
-OUT = ROOT / "site" / "data"
+OUT = ROOT / "web" / "data"
 OUT.mkdir(parents=True, exist_ok=True)
 
 dc = pd.read_csv(CLEAN / "datacenters.csv")
