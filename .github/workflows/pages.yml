@@ -16,11 +16,9 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-
+  # Upload and deploy are separate jobs (as in GitHub's Pages starter workflow), so the artifact is
+  # registered before deploy-pages looks it up. In one job, the lookup can run too soon and find nothing.
+  build:
     runs-on: ubuntu-latest
 
     steps:
@@ -37,6 +35,15 @@ jobs:
         with:
           path: ./web
 
+  deploy:
+    needs: build
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    runs-on: ubuntu-latest
+
+    steps:
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
