@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css?v=13">
+  <link rel="stylesheet" href="css/style.css?v=30">
 </head>
 <body>
   <div class="progress" aria-hidden="true"><div class="progress-bar"></div></div>
@@ -20,6 +20,8 @@
       <a href="#buildout">Build-out</a>
       <a href="#pushback">Pushback</a>
       <a href="#grid">Grid</a>
+      <a href="#bills">Bills</a>
+      <a href="#water">Water</a>
     </nav>
   </header>
 
@@ -214,22 +216,118 @@
     </section>
     <details class="data-table" id="table-grid"><summary>View the data</summary></details>
 
-    <section class="coming">
-      <p class="eyebrow">Next</p>
+    <section class="verdict" aria-labelledby="verdict-grid">
+      <p class="eyebrow">Community concern: the grid</p>
+      <h2 id="verdict-grid">The concern of grid strain is <em>real</em>.</h2>
+      <p class="verdict-body">The grid's own reliability regulator rates the regions that hold most datacenters at rising risk of
+        running short, and names datacenters as a main reason. By 2030, about two-thirds of operating and planned sites sit in
+        regions rated High risk.</p>
+    </section>
+
+    <!-- ===================== CHAPTER 4: BILLS ===================== -->
+    <section class="chapter-head" id="bills">
+      <p class="eyebrow">Chapter 4</p>
       <h2>Are data centers raising electric bills?</h2>
-      <p class="muted">Chapter in progress.</p>
+    </section>
+
+    <section class="scrolly" id="scrolly-bills">
+      <figure class="sticky">
+        <div class="fig-head">
+          <h3 class="fig-title">Datacenters per resident against the change in electricity prices</h3>
+          <p class="fig-sub" id="bills-sub">Each dot is a state. Residential price change, 2019–2025, after inflation</p>
+        </div>
+        <div class="chart" id="chart-bills"></div>
+        <figcaption class="fig-source" id="bills-source">Analysis by Sanjana (<code>sgarimella/prototype_e_price_scatter.ipynb</code>). Data: EIA Form 861 residential revenue and sales, in 2025 dollars (BLS CPI-U). Caveats: the database has no build dates, so the x axis is how many data centers a state has now, not growth; a server room counts the same as a 1 GW campus; prices also move with fuel, wildfire, storm, and transmission costs; and each state is colored by the market serving most of its residential customers (EIA 861, 2025), so split states like Missouri (41% MISO) and Kentucky (39% PJM, shown as utility-run) are approximate.</figcaption>
+      </figure>
+      <div class="steps">
+        <div class="step" data-step="0"><p>The most common worry is that data centers will raise everyone's electric bill. If that were happening state by state, the states with the most data centers should have seen the fastest price increases. So far, state by state, they haven't.</p></div>
+        <div class="step" data-step="1"><p>From 2019 to 2025, after inflation, the US average residential price rose <strong>about 5%</strong>. Virginia has by far the most data centers per resident, and its price was <strong>flat (+0.6%)</strong>. The biggest increases were in places with few data centers: DC, California, Maine, Maryland, and New York. Across states, the link runs slightly the <em>other</em> way (rank correlation −0.35).</p></div>
+        <div class="step" data-step="2"><p>But one group of states does stand out: those on the <strong>PJM grid</strong> (the Mid-Atlantic and Ohio Valley grid we just saw rated Elevated risk). Their prices rose a median <strong>+9%</strong>, against <strong>−1%</strong> everywhere else.</p></div>
+        <div class="step" data-step="3"><p>Coloring states by how their grid buys power shows a pattern. In states where one utility runs everything (the Southeast and most of the West), the median change was <strong>−3%</strong>. Regional markets without a capacity auction (Texas, SPP, California) came in at <strong>−5%</strong>, even with California's +30%. The other capacity auction markets (MISO, New York, New England) rose a median <strong>+1%</strong>. Only PJM stands out. The cost of new demand reaches bills fastest where an auction resets the price every year. Elsewhere it shows up later, if regulators let utilities pass on the cost of new plants.</p></div>
+        <div class="step" data-step="4"><p><strong>A timing warning:</strong> the price data ends in 2025, but the PJM auction jump below only began reaching bills in June 2025, after a lag at most utilities. The two later auctions, which cost even more, are not in it at all. So this chart shows at most the start of the PJM effect, and the data center counts are a 2026 snapshot set against 2019–2025 prices.</p></div>
+      </div>
+    </section>
+    <details class="data-table" id="table-bills"><summary>View the data</summary></details>
+
+    <section class="scrolly" id="scrolly-capacity">
+      <figure class="sticky">
+        <div class="fig-head">
+          <div class="fig-head-row">
+            <h3 class="fig-title" id="capacity-title">PJM capacity auction clearing price</h3>
+            <label class="kwh-pick" id="capacity-kwh">Your use <input type="range" min="300" max="2000" step="10" aria-label="Monthly household electricity use, kWh"> <output></output></label>
+          </div>
+          <p class="fig-sub" id="capacity-sub">$ per MW-day, as published, by delivery year (June to May)</p>
+        </div>
+        <div class="chart" id="chart-capacity"></div>
+        <figcaption class="fig-source" id="capacity-source">Source: PJM Base Residual Auction reports.</figcaption>
+      </figure>
+      <div class="steps">
+        <div class="step" data-step="0"><p class="step-year">Why would a whole grid region get more expensive?</p>
+          <p>PJM runs a yearly auction to buy enough power plant capacity for the future peak. Every utility in the region pays the result, so it reaches every household's bill. For three years the price sat at 50 dollars per MW-day or less. Then, in the auction for June 2025 to May 2026, it jumped 9.3x, from 28.92 to 269.92.</p></div>
+        <div class="step" data-step="1"><p>The total cost rose from 2.2 billion to 14.7 billion, and the next two auctions pushed even higher, to 16.1 billion and 16.4 billion.</p></div>
+        <div class="step" data-step="2"><p>Was that data centers? PJM's Independent Market Monitor (Monitoring Analytics, the market's official watchdog) tested this. It re-ran the 2025/26 auction with the same power plant offers, but took data center demand out of the forecast.</p></div>
+        <div class="step" data-step="3"><p>Removing data centers takes the cost from <strong>$14.7 billion down to $5.4 billion</strong>. Removing only the <em>new</em> data centers in the forecast takes it to $6.9 billion. The monitor concludes that data center load is <em>"the primary reason"</em> for the high prices, and that without it prices "would rise … but not jump suddenly to the maximum price."</p></div>
+        <div class="step" data-step="4"><p>The re-run does not say that data centers explain the whole jump. Even without them, the auction would have cost <strong>more than double</strong> 2024/25's record low ($2.3B → $5.4B). That is still less than any year from 2017 to 2021, which cost $8.7–14.0B after inflation. Old plants retiring and rule changes pushed prices up too. And it is a model re-run that holds every bid fixed, not something anyone observed. The "without any data center load" case also removes data centers that already existed in 2024.</p></div>
+        <div class="step" data-step="5"><p>For a typical PJM household (about 850 kWh a month), capacity costs went from roughly <strong>$2 a month to $15 a month</strong>. By the monitor's numbers, about <strong>$3 of the increase would have happened anyway</strong>, and about <strong>$9 is data center demand</strong>. For perspective, $15 a month is about what households paid in 2018/19 after inflation. The jump is large because it starts from the unusually cheap years of 2022–2025.</p>
+          <p class="step-note">Dollars: the bill and cost charts are in 2025 dollars (BLS CPI-U, by the year each delivery period starts). Clearing prices per MW-day and the auction totals quoted above are as published.</p></div>
+        <div class="step" data-step="6"><p><strong>Verdict on bills: mixed, leaning supported.</strong> State by state, more data centers did not mean faster price increases. But inside the PJM grid, data center demand drove most of a capacity cost that every household pays, about <strong>$9 a month</strong> for a typical home in 2025/26. The cost is real. It is spread across a whole region rather than landing on the towns that host the buildings.</p>
+          <p class="step-note">Caveats: the monthly figure spreads the auction cost evenly over every kWh in PJM. Households use more power at peak times, so their real share is likely higher. Utilities pass these costs through with lags and hedges, which is also why the 2019–2025 state prices above catch only the start of this. Baltimore (BGE) and Dominion (Virginia) cleared higher, at $466 and $444 per MW-day. Part of the jump is a return from unusually cheap years, since before 2022/23 the same estimate ran $9 to $15 a month in 2025 dollars.</p></div>
+      </div>
+    </section>
+    <details class="data-table" id="table-capacity"><summary>View the data</summary></details>
+
+    <section class="verdict" aria-labelledby="verdict-bills">
+      <p class="eyebrow">Community concern: electric bills</p>
+      <h2 id="verdict-bills">The concern about bills is <em>real, but regional</em>.</h2>
+      <p class="verdict-body">State by state, more datacenters did not mean faster price rises. But on the PJM grid, datacenter demand
+        drove most of a capacity cost that every household pays, about $9 a month for a typical home in 2025/26, spread across the
+        whole region rather than landing on the towns that host the buildings.</p>
+    </section>
+
+    <section class="chapter-head" id="water">
+      <p class="eyebrow">Chapter 5</p>
+      <h2>Is there enough water?</h2>
+    </section>
+    <section class="scrolly" id="scrolly-water">
+      <figure class="sticky">
+        <div class="fig-head">
+          <h3 class="fig-title" id="water-title">Where water is already scarce, and where datacenters are being built</h3>
+          <p class="fig-sub" id="water-sub">Operating and planned datacenters</p>
+        </div>
+        <div class="chart" id="chart-water"></div>
+        <figcaption class="fig-source" id="water-source">Water stress is from WRI Aqueduct 4.0 (one baseline snapshot, not a trend). Built from Joel's prototypes A and B (<code>jppolizzi/prototype_a_map.ipynb</code>, <code>prototype_b_scorecard.ipynb</code>). Each datacenter is placed in its river basin from its coordinates; the county shading summarizes the same basins by area.</figcaption>
+      </figure>
+      <div class="steps">
+        <div class="step" data-step="0"><p>About a third of moratoriums cite water. Many data centers cool their servers with water. The worry is sharpest where water is already scarce.</p>
+          <p>We can't measure how much water data centers use, because most don't report it. We <em>can</em> ask where they are being built. How many are landing in places that are already short of water?</p></div>
+        <div class="step" data-step="1"><p>The map shades each county by how much of it sits in a river basin under <strong>High or Extremely high water stress</strong>. That means people and industry already use more than 40% of the water that is available each year. Dots are data centers.</p></div>
+        <div class="step" data-step="2"><p>Many are. <strong>About a third of data centers sit in basins under High or Extremely high water stress: 34% of operating sites and 33% of planned ones, roughly 500 sites in all.</strong> Most of them are in Virginia, Texas, Georgia, Illinois (around Chicago), and Arizona (around Phoenix). The planned build-out isn't moving away from those basins.</p></div>
+        <div class="step" data-step="3"><p>Side note: about 36% of Americans also live in those basins. So data centers aren't seeking out dry places; they follow people and power lines. That doesn't ease the worry, though. A data center in a stressed basin draws on the same water as the people who live there.</p></div>
+        <div class="step" data-step="4"><p><strong>Verdict on water: can't tell.</strong> Part of the worry is backed by the data: about a third of data centers, roughly 500 sites, sit in basins where people and industry already use more than 40% of the available water. But the real question is whether they are draining those basins, and that depends on how much water each facility uses and where it comes from. Those numbers are mostly unreported, and cooling type is known for only a few sites. Without them we can show <em>where</em> the risk is, not <em>whether</em> it is happening.</p>
+          <p class="step-note">Caveats: Aqueduct is one baseline snapshot (it shows scarcity, not change). Each data center is placed in its river basin from its coordinates. The county shading on the map summarizes the same basins by area. 66 sites (43 in Georgia, mostly metro Atlanta, and 13 in Virginia) fall where Aqueduct has no value and are left out of the shares, so Georgia is undercounted. A server room counts the same as a gigawatt campus. Some facilities use air cooling or recycled water and draw little.</p></div>
+      </div>
+    </section>
+    <details class="data-table" id="table-water"><summary>View the data</summary></details>
+    <section class="verdict" aria-labelledby="verdict-water">
+      <p class="eyebrow">Community concern: water</p>
+      <h2 id="verdict-water">The concern about water is <em>plausible, but unmeasured</em>.</h2>
+      <p class="verdict-body">About a third of datacenters, roughly 500 sites, sit in river basins where people and industry already
+        use more than 40% of the available water, about the same share as Americans overall. Whether they are draining those basins
+        depends on how much water each site uses, and most don't report it.</p>
     </section>
   </main>
 
   <div class="tooltip" role="status" aria-live="polite"></div>
 
   <script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
-  <script src="js/common.js?v=13"></script>
-  <script src="js/hero.js?v=13"></script>
-  <script src="js/backstory.js?v=13"></script>
-  <script src="js/buildout.js?v=13"></script>
-  <script src="js/pushback.js?v=13"></script>
-  <script src="js/grid.js?v=13"></script>
-  <script src="js/main.js?v=13"></script>
+  <script src="js/common.js?v=30"></script>
+  <script src="js/hero.js?v=30"></script>
+  <script src="js/backstory.js?v=30"></script>
+  <script src="js/buildout.js?v=30"></script>
+  <script src="js/pushback.js?v=30"></script>
+  <script src="js/grid.js?v=30"></script>
+  <script src="js/bills.js?v=30"></script>
+  <script src="js/water.js?v=30"></script>
+  <script src="js/main.js?v=30"></script>
 </body>
 </html>

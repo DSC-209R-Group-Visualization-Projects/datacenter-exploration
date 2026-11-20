@@ -197,3 +197,28 @@ main { position: relative; }
 .year-pick button:focus-visible { outline: 2px solid var(--dc); outline-offset: 1px; }
 .year-badge { fill: var(--text); opacity: .16; font-family: var(--font); font-weight: 800; font-size: clamp(36px, 5vw, 64px);
   letter-spacing: -0.03em; font-variant-numeric: tabular-nums; }
+@media (max-width: 600px) { .year-badge { font-size: 30px; } }
+
+/* ---------- verdicts: a short text section closing each concern ---------- */
+.verdict { max-width: 1040px; margin: 0 auto; padding: 22vh clamp(20px, 6vw, 96px) 4vh;
+  opacity: 0; transform: translateY(24px); transition: opacity .8s, transform .8s; }
+.verdict.is-visible { opacity: 1; transform: none; }
+.verdict h2 { font-size: clamp(36px, 5vw, 68px); line-height: 1.05; letter-spacing: -0.035em; font-weight: 800; margin: 0; }
+.verdict h2 em { font-style: normal; color: #f58a4e; }   /* the High-risk orange from the grid map */
+.verdict-body { max-width: 40rem; margin: 24px 0 0; font-size: clamp(18px, 1.6vw, 22px); line-height: 1.55; color: var(--text-2); }
+@media (prefers-reduced-motion: reduce) { .verdict { transition: none; transform: none; } }
+
+/* Chapter 4: the kWh slider on the household bill chart */
+.kwh-pick { display: flex; align-items: center; gap: 8px; font-size: 12.5px; color: var(--muted); white-space: nowrap;
+  opacity: 0; visibility: hidden; transition: opacity .3s, visibility .3s; }
+.kwh-pick.show { opacity: 1; visibility: visible; }
+.kwh-pick input { width: 120px; accent-color: #b68c0b; }
+.kwh-pick output { color: var(--text); font-variant-numeric: tabular-nums; min-width: 6.5ch; }
+#table-bills table + table, #table-capacity table + table { margin-top: 28px; }
+@media (max-width: 600px) {
+  #bills-source:not(.open), #capacity-source:not(.open), #water-source:not(.open) { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; cursor: pointer; }
+  .kwh-pick input { width: 90px; }
+}
+#verdict-bills em { color: #e0b020; }
+#verdict-water em { color: #6cc9bd; }
+.verdict:last-child { padding-bottom: 20vh; }   /* the page ends on the water verdict */

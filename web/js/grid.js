@@ -33,11 +33,13 @@ function GridChart(container, data, states) {
     svg = s.svg; W = s.width; H = s.height;
     svg.selectAll("*").remove();
     narrow = W < 560;
-    const TOP = narrow ? 118 : 104;   // legend row, then the two count bars, then the map
+    const TOP = narrow ? 128 : 104;   // legend row, then the two count bars, then the map
 
     const proj = d3.geoAlbersUsa().fitExtent([[0, TOP + 6], [W, H]], { type: "FeatureCollection", features: states });
     const path = d3.geoPath(proj);
     const mapG = svg.append("g").attr("class", "grid-map");
+    // States underneath, so counties no utility region covers read as land, not holes
+    mapG.append("path").attr("d", path({ type: "FeatureCollection", features: states })).attr("fill", "#1c1c1b");
     mapG.append("g").attr("class", "regions").selectAll("path").data(data.regions).join("path")
       .attr("d", path).attr("stroke", C.bg).attr("stroke-width", 0.6)
       .on("pointerenter pointermove", (e, f) => {
@@ -70,29 +72,30 @@ function GridChart(container, data, states) {
 
     // Legend: risk swatches, then the site keys
     const leg = svg.append("g").attr("class", "legend");
-    const sw = narrow ? 58 : 64;
     const keys = RISK_LEVELS.map((r, i) => ({ label: r, color: RISK_COLORS[i] })).concat([{ label: "not rated", color: NO_RISK }]);
-    const kg = leg.selectAll("g").data(keys).join("g").attr("transform", (_, i) => `translate(${i * (sw + 12)},4)`);
+    const kg = leg.selectAll("g").data(keys).join("g");
     kg.append("rect").attr("width", 12).attr("height", 12).attr("rx", 2).attr("fill", d => d.color)
       .attr("stroke", d => d.color === NO_RISK ? C.axis : "none");
     kg.append("text").attr("class", "label").attr("x", 17).attr("y", 10.5).text(d => d.label);
-    const dots = leg.append("g").attr("transform", narrow ? "translate(6,32)" : `translate(${4 * (sw + 12) + 14},10)`);
+    let lx = 0;   // lay the keys out by their measured width
+    kg.attr("transform", function () { const x = lx; lx += this.getBBox().width + 14; return `translate(${x},4)`; });
+    const dots = leg.append("g").attr("transform", narrow ? "translate(6,34)" : `translate(${lx + 4},10)`);
     dots.append("circle").attr("r", 3).attr("fill", C.text);
     dots.append("text").attr("class", "label").attr("x", 8).attr("y", 4).text("operating");
     dots.append("circle").attr("cx", 86).attr("r", 2.6).attr("fill", "none").attr("stroke", C.text).attr("stroke-width", 1);
     dots.append("text").attr("class", "label").attr("x", 94).attr("y", 4).text("planned");
 
     // Two stacked bars: operating and planned sites by the risk rating of their region in the chosen year
-    const barsTop = narrow ? 54 : 34, bh = 12, labW = narrow ? 0 : 74;
-    const xb = d3.scaleLinear([0, 1], [labW, W - (narrow ? 0 : 48)]);
+    const barsTop = narrow ? 64 : 34, bh = 12, labW = narrow ? 0 : 74;
+    const xb = d3.scaleLinear([0, 1], [labW, W - (narrow ? 0 : 150)]);   // room on the right for "69% High, 9% Elevated"
     const bars = svg.append("g").attr("class", "risk-bars");
     ["operating", "pipeline"].forEach((g, i) => {
       const row = bars.append("g").attr("class", `rb-${g}`).attr("transform", `translate(0,${barsTop + i * (narrow ? 32 : 30)})`);
       row.append("text").attr("class", "label").attr("x", narrow ? 0 : labW - 10).attr("y", narrow ? -4 : bh - 1)
         .attr("text-anchor", narrow ? "start" : "end").text(g === "operating" ? `Operating (${data.operating})` : `Planned (${data.planned})`);
-      row.append("text").attr("class", "label rb-note").attr("x", narrow ? W : W).attr("y", narrow ? -4 : bh - 1)
+      row.append("text").attr("class", "label rb-note").attr("x", W).attr("y", narrow ? -4 : bh - 1)
         .attr("text-anchor", "end");
-      row.selectAll("rect").data(RISK_LEVELS.concat(["not assessed"])).join("rect").attr("y", narrow ? 0 : 0).attr("height", bh)
+      row.selectAll("rect").data(RISK_LEVELS.concat(["not assessed"])).join("rect").attr("height", bh)
         .attr("fill", (_, k) => RISK_COLORS[k] || NO_RISK).attr("x", labW).attr("width", 0)
         .on("pointerenter pointermove", (e, r) => {
           const n = (data.by_year[year] || {})[g]?.[r] || 0, tot = g === "operating" ? data.operating : data.planned;
@@ -127,8 +130,9 @@ function GridChart(container, data, states) {
         const n = counts[r] || 0, x0 = acc; acc += n / tot;
         d3.select(this).transition(t).attr("x", xb(x0) + (x0 > 0 ? 1 : 0)).attr("width", Math.max(0, xb(acc) - xb(x0) - (x0 > 0 ? 1 : 0)));
       });
-      const atRisk = (counts.Elevated || 0) + (counts.High || 0);
-      svg.select(`.rb-${g} .rb-note`).text(`${Math.round(atRisk / tot * 100)}% at risk`);
+      // Same split as the text: share in High and share in Elevated regions
+      svg.select(`.rb-${g} .rb-note`).text(["High", "Elevated"].filter(r => counts[r])
+        .map(r => `${Math.round(counts[r] / tot * 100)}% ${r}`).join(", "));
     }
   }
 

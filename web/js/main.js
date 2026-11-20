@@ -16,7 +16,7 @@
 
   initHero();
   const charts = { ...(await initBackstory()), ...(await initBuildout()), ...(await initPushback()),
-    ...(await initGrid()) };
+    ...(await initGrid()), ...(await initBills()), ...(await initWater()) };
 
   // A step becomes active when it crosses the middle of the viewport. On phones the chart fills the top of the
   // screen, so the trigger line sits lower and the active card reads below the chart.
@@ -42,5 +42,5 @@
   const reveal = new IntersectionObserver(entries => {
     for (const e of entries) if (e.isIntersecting) e.target.classList.add("is-visible");
   }, { rootMargin: "0px 0px -35% 0px" });
-  document.querySelectorAll(".statement, .aim").forEach(el => reveal.observe(el));
+  document.querySelectorAll(".statement, .aim, .verdict").forEach(el => reveal.observe(el));
 })();

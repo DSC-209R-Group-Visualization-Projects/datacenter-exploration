@@ -178,3 +178,92 @@ grid = {"years": NERC_YEARS, "regions": regions, "by_year": by_year, "operating"
         "sites": grid_sites}
 (OUT / "grid.json").write_text(json.dumps(grid, separators=(",", ":")))
 print("wrote", OUT / "grid.json", {y: by_year[y]["operating"] for y in (2026, 2030)})
+
+# --- Chapter 4, electric bills (notebook cells 31-38): state price change vs datacenters, then the PJM capacity auction
+res = pd.read_csv(CLEAN / "eia861_state_residential.csv")
+u = pd.read_csv(CLEAN / "eia861_utility_sales.csv")
+county_pop = pd.read_csv(CLEAN / "counties.csv", dtype={"geoid": str})
+PRICE_BASE, PRICE_END = 2019, 2025
+real_price = res.pivot(index="state", columns="year", values="res_price_cents_kwh_real2025")
+sales_2025 = u[u.year == PRICE_END]
+pjm_share = (sales_2025[sales_2025.ba_code == "PJM"].groupby("state").res_customers.sum()
+             / sales_2025.groupby("state").res_customers.sum())
+st_price = pd.DataFrame({
+    "state_name": county_pop.drop_duplicates("state").set_index("state").state_name,
+    "pop_m": county_pop.groupby("state").pop_2025.sum() / 1e6,
+    "dc_live": pd.concat([operating, planned]).groupby("state").size(),
+    "price_base": real_price[PRICE_BASE], "price_end": real_price[PRICE_END],
+    "pjm_share": pjm_share}).loc[real_price.index]
+st_price[["dc_live", "pjm_share"]] = st_price[["dc_live", "pjm_share"]].fillna(0)
+st_price["dc_per_m"] = st_price.dc_live / st_price.pop_m
+st_price["change_pct"] = (st_price.price_end / st_price.price_base - 1) * 100
+st_price["pjm"] = st_price.pjm_share > 0.5
+MARKET = {"PJM": "PJM", "MISO": "capacity", "NYIS": "capacity", "ISNE": "capacity", "CISO": "regional", "ERCO": "regional", "SWPP": "regional"}
+market_share = (sales_2025.assign(market=sales_2025.ba_code.map(MARKET).fillna("utility"))
+                .groupby(["state", "market"]).res_customers.sum().unstack(fill_value=0))
+st_price["market"] = market_share.idxmax(axis=1)
+us_res = res.groupby("year")[["res_revenue_kusd", "res_mwh"]].sum()
+cpi = pd.read_csv(CLEAN / "cpi_annual.csv").set_index("year").deflator_to_2025
+us_price = us_res.res_revenue_kusd / us_res.res_mwh * 100 * us_res.index.map(cpi)
+us_change = (us_price[PRICE_END] / us_price[PRICE_BASE] - 1) * 100
+rho = st_price.dc_per_m.corr(st_price.change_pct, method="spearman")
+bill_states = [{"st": s, "name": r.state_name, "dc": int(r.dc_live), "per_m": round(r.dc_per_m, 2),
+                "p0": round(r.price_base, 2), "p1": round(r.price_end, 2), "chg": round(r.change_pct, 1),
+                "pjm": bool(r.pjm), "market": r.market} for s, r in st_price.iterrows()]
+medians = {"pjm": round(st_price[st_price.pjm].change_pct.median(), 1), "other": round(st_price[~st_price.pjm].change_pct.median(), 1),
+           "market": st_price.groupby("market").change_pct.median().round(1).to_dict()}
+
+# PJM capacity auction (Visual G): published clearing prices, costs in 2025 dollars, rough monthly add for a typical household
+bra = pd.read_csv(CLEAN / "pjm_bra_rto_prices.csv")
+deflator = cpi.copy()
+deflator[2017] = 321.943 / 245.120   # 2025 CPI-U over the BLS 2017 annual average, as in the notebook
+bra["cost_real_b"] = bra.cleared_cost_usd_billion * bra.delivery_year_start.clip(upper=2025).map(deflator)
+pjm_load = pd.read_csv(CLEAN / "eia930_ba_annual.csv").query("ba == 'PJM' and complete_year").set_index("year")
+bra["load_gwh"] = bra.delivery_year_start.clip(pjm_load.index.min(), pjm_load.index.max()).map(pjm_load.total_gwh_scaled)
+bra["cents_per_kwh"] = bra.cost_real_b * 1e9 / (bra.load_gwh * 1e6) * 100
+pjm_res = u[(u.ba_code == "PJM") & (u.year == 2025)]
+TYPICAL_KWH = pjm_res.res_mwh.sum() * 1000 / pjm_res.res_customers.sum() / 12
+bra["usd_month"] = bra.cents_per_kwh * TYPICAL_KWH / 100
+IMM_ACTUAL, IMM_NO_DC, IMM_NO_NEW_DC = 14.687, 5.355, 6.944   # IMM Part G re-run of 2025/26, $B
+dc_part = bra.set_index("delivery_year").usd_month["2025/26"] * (1 - IMM_NO_DC / IMM_ACTUAL)
+auctions = [{"year": r.delivery_year, "start": int(r.delivery_year_start), "price": r.rto_clearing_price_usd_per_mw_day,
+             "cost": r.cleared_cost_usd_billion, "cost_real": round(r.cost_real_b, 2), "month": round(r.usd_month, 2),
+             "margin": r.rpm_reserve_margin_pct} for r in bra.itertuples()]
+bills = {"base": PRICE_BASE, "end": PRICE_END, "us_change": round(us_change, 1), "rho": round(rho, 2), "medians": medians,
+         "states": bill_states, "auctions": auctions, "typical_kwh": round(TYPICAL_KWH), "dc_part": round(dc_part, 2),
+         "imm": {"prior": round(bra.set_index("delivery_year").cost_real_b["2024/25"], 2), "no_dc": IMM_NO_DC,
+                 "no_new_dc": IMM_NO_NEW_DC, "actual": IMM_ACTUAL}}
+(OUT / "bills.json").write_text(json.dumps(bills, separators=(",", ":")))
+print("wrote", OUT / "bills.json", {"us": bills["us_change"], "rho": bills["rho"], "medians": medians, "dc_part": bills["dc_part"]})
+
+# --- Chapter 5, water (notebook cells 39-43): county water stress, every site's basin stress, shares by stress level
+water = pd.read_csv(CLEAN / "aqueduct_county.csv", dtype={"county_geoid": str}).set_index("county_geoid")
+county_names = county_pop.set_index("geoid")
+w_sites = (pd.concat([operating, planned]).query("coord_ok")
+           .merge(pd.read_csv(CLEAN / "datacenters_basin.csv")[["facility_id", "stress_group"]], on="facility_id", how="left"))
+w_sites["no_basin"] = w_sites.stress_group.isna() | w_sites.stress_group.eq("No data")
+STRESS = ["Extremely high", "High", "Medium-high", "Low-medium", "Low", "Arid, low use"]   # most stressed first, as Visual H
+HIGH_STRESS = STRESS[:2]
+known = w_sites[~w_sites.no_basin]
+w_counts = pd.crosstab(known.status_group, known.stress_group).reindex(index=["operating", "pipeline"], columns=STRESS, fill_value=0)
+# Only counties with some high-stress area are drawn, as in the notebook map; the rest show the state fill underneath
+w_counties = [{"type": "Feature", "geometry": rounded(f["geometry"], 2),   # about 1 km, plenty for a national map
+               "properties": {"name": f"{county_names.county_name[g]}, {county_names.state[g]}" if g in county_names.index else f["properties"]["name"],
+                              "share": round(water.share_high_or_extreme[g], 3)}}
+              for f in counties_geo["features"] if (g := f["properties"]["geoid"]) in water.index and water.share_high_or_extreme[g] > 0.005]
+basin_base = pd.read_csv(CLEAN / "basin_population.csv").set_index("stress_group")
+w_high = known[known.stress_group.isin(HIGH_STRESS)]
+water_out = {"stress": STRESS,
+             "counts": {g: [int(n) for n in w_counts.loc[g]] for g in w_counts.index},
+             "pop_share": [round(basin_base.population_share.get(s, 0) * 100, 1) for s in STRESS],
+             "pop_high": round(basin_base.population_share[HIGH_STRESS].sum() * 100, 1),
+             "no_basin": int(w_sites.no_basin.sum()), "no_basin_states": w_sites[w_sites.no_basin].state.value_counts().head(2).to_dict(),
+             "top_states": w_high.state.value_counts().head(5).to_dict(),
+             "counties": w_counties,
+             # sites: [lon, lat, 1 = operating, stress index (-1 = no water data at the site)]
+             "sites": [[round(r.lon, 3), round(r.lat, 3), int(r.status_group == "operating"),
+                        -1 if r.no_basin else STRESS.index(r.stress_group)] for r in w_sites.itertuples()]}
+(OUT / "water.json").write_text(json.dumps(water_out, separators=(",", ":")))
+print("wrote", OUT / "water.json", water_out["counts"], "high:", len(w_high), water_out["top_states"],
+      "pop high", water_out["pop_high"], "no basin", water_out["no_basin"], water_out["no_basin_states"],
+      "counties", len(w_counties))
