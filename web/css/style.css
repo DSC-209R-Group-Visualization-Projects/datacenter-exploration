@@ -140,6 +140,23 @@ main { position: relative; }
 .aim.is-visible { opacity: 1; transform: none; }
 .aim p:last-child { font-size: clamp(20px, 2vw, 26px); line-height: 1.5; color: var(--text-2); margin: 0; }
 @media (prefers-reduced-motion: reduce) { .statement, .aim { transition: none; transform: none; } }
+.chapter-dek { margin: 14px 0 0; font-size: clamp(17px, 1.5vw, 20px); color: var(--muted); }
+
+/* ---------- chapter 1: build-out map ---------- */
+.compare-card { position: absolute; right: 0; top: 0; width: min(280px, 60%); padding: 12px 14px 8px;
+  background: rgba(26, 26, 25, .94); border: 1px solid var(--border); border-radius: 12px; font-size: 13px;
+  opacity: 0; transform: translateY(10px); transition: opacity .5s, transform .5s; pointer-events: none; }
+.compare-card.show { opacity: 1; transform: none; }
+.compare-title { margin: 0 0 8px; color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: .1em; }
+.bar-row { display: grid; grid-template-columns: 1fr auto; column-gap: 10px; align-items: center; margin-bottom: 8px; }
+.bar-name { grid-column: 1 / -1; color: var(--text-2); margin-bottom: 4px; }
+.bar { display: flex; gap: 2px; height: 12px; }
+.bar i { display: block; height: 100%; background: var(--dc); border-radius: 0 3px 3px 0; }
+.bar i:first-child:not(:last-child) { border-radius: 0; }
+.bar i.b2 { background: #86b9f2; }
+.bar-row b { color: var(--text); font-variant-numeric: tabular-nums; }
+.compare-note { margin: 0; color: var(--muted); font-size: 12px; }
+@media (max-width: 600px) { .compare-card { display: none; } }   /* no room on phones; the step text gives the numbers */
 .coming { max-width: 1200px; margin: 0 auto; padding: 10vh clamp(20px, 6vw, 96px) 30vh; }
 
 /* ---------- tooltip ---------- */
@@ -162,3 +179,21 @@ main { position: relative; }
   .fig-sub { font-size: 13.5px; }
   .fig-source { font-size: 10.5px; margin-top: 4px; }
 }
+
+/* ---------- chapter 2: pushback ---------- */
+.step-note { font-size: 14px; line-height: 1.55; color: var(--muted); font-style: italic; }
+#table-pushback table + table { margin-top: 28px; }
+@media (max-width: 600px) {
+  #pushback-source:not(.open) { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; cursor: pointer; }
+}
+
+/* ---------- chapter 3: grid risk map ---------- */
+.fig-head-row { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+.year-pick { display: flex; gap: 2px; padding: 2px; border: 1px solid var(--border); border-radius: 8px; }
+.year-pick button { font: inherit; font-size: 12.5px; font-variant-numeric: tabular-nums; color: var(--muted); background: none;
+  border: 0; border-radius: 6px; padding: 4px 9px; cursor: pointer; }
+.year-pick button:hover { color: var(--text); }
+.year-pick button.active { color: var(--text); background: var(--bg-raised); box-shadow: inset 0 0 0 1px var(--border); }
+.year-pick button:focus-visible { outline: 2px solid var(--dc); outline-offset: 1px; }
+.year-badge { fill: var(--text); opacity: .16; font-family: var(--font); font-weight: 800; font-size: clamp(36px, 5vw, 64px);
+  letter-spacing: -0.03em; font-variant-numeric: tabular-nums; }

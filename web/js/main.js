@@ -15,7 +15,8 @@
   document.fonts.ready.then(() => setTimeout(() => document.querySelector(".hero-title").classList.add("revealed"), 2000));
 
   initHero();
-  const charts = await initBackstory();
+  const charts = { ...(await initBackstory()), ...(await initBuildout()), ...(await initPushback()),
+    ...(await initGrid()) };
 
   // A step becomes active when it crosses the middle of the viewport. On phones the chart fills the top of the
   // screen, so the trigger line sits lower and the active card reads below the chart.

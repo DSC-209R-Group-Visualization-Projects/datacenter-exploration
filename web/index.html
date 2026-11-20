@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css?v=4">
+  <link rel="stylesheet" href="css/style.css?v=13">
 </head>
 <body>
   <div class="progress" aria-hidden="true"><div class="progress-bar"></div></div>
@@ -17,6 +17,9 @@
     <a class="brand" href="#top">Datacenter Strain</a>
     <nav class="nav">
       <a href="#backstory">Backstory</a>
+      <a href="#buildout">Build-out</a>
+      <a href="#pushback">Pushback</a>
+      <a href="#grid">Grid</a>
     </nav>
   </header>
 
@@ -122,9 +125,98 @@
       </div>
     </section>
 
+    <!-- ===================== CHAPTER 1: BUILD-OUT ===================== -->
+    <section class="chapter-head" id="buildout">
+      <p class="eyebrow">Chapter 1</p>
+      <h2>Datacenter build-out during the AI era</h2>
+      <p class="chapter-dek">Roughly 2020 to now</p>
+    </section>
+
+    <section class="scrolly" id="scrolly-buildout">
+      <figure class="sticky">
+        <div class="fig-head">
+          <h3 class="fig-title">Where America's datacenters are</h3>
+          <p class="fig-sub" id="buildout-sub">Operating datacenters per state</p>
+        </div>
+        <div class="chart" id="chart-buildout">
+          <div class="compare-card" id="buildout-compare" aria-live="polite"></div>
+        </div>
+        <figcaption class="fig-source">Source: Data Centers Database (operating = operating or expanding; planned = proposed,
+          approved, permitted or under construction). It tracks large and newsworthy facilities, so it undercounts small
+          datacenters, especially enterprise server rooms and smaller colocation sites.</figcaption>
+      </figure>
+      <div class="steps">
+        <div class="step" data-step="0"><p>The United States currently has <strong>606</strong> operating datacenters across <strong>39</strong> states.</p></div>
+        <div class="step" data-step="1"><p>Some states have become highly concentrated with datacenter. Virginia has the highest concentration of datacenters containing 214 in the state.</p></div>
+        <div class="step" data-step="2"><p>Thats more than the next two largest data center states combined, Georgia with 87 and Texas with 75.</p></div>
+        <div class="step" data-step="3"><p>Another <strong>975 facilities are planned</strong> and if they are all built, the number of tracked sites would grow by <strong>161%</strong>.</p></div>
+      </div>
+    </section>
+    <details class="data-table" id="table-buildout"><summary>View the data</summary></details>
+
+    <!-- ===================== CHAPTER 2: PUSHBACK ===================== -->
+    <section class="chapter-head" id="pushback">
+      <p class="eyebrow">Chapter 2</p>
+      <h2>Communities push back</h2>
+    </section>
+
+    <section class="scrolly" id="scrolly-pushback">
+      <figure class="sticky">
+        <div class="fig-head">
+          <h3 class="fig-title" id="pushback-title">Where communities are pushing back</h3>
+          <p class="fig-sub" id="pushback-sub"></p>
+        </div>
+        <div class="chart" id="chart-pushback"></div>
+        <figcaption class="fig-source" id="pushback-source"></figcaption>
+      </figure>
+      <div class="steps">
+        <div class="step" data-step="0"><p>As projects multiply, so does resistance. Across the country, cities, towns, townships, and counties have begun pausing new data centers with moratoriums. Our inventory records <strong>1,036 adopted data center moratoriums in 47 states, and 946 are still in force</strong>. County boards passed about a third of them, and city, town, township, and village councils passed the rest.</p></div>
+        <div class="step" data-step="1"><p>The wave is recent. Through most of 2025, communities adopted only a handful a month. In 2026 the pace exploded, with <strong>170 adopted in June 2026</strong> alone.</p></div>
+        <div class="step" data-step="2"><p>Pushback isn't where data centers already are. Virginia hosts the most operating sites (214), yet it has only 6 moratoriums. The leaders are <strong>Ohio (158), Michigan (128), and Georgia (71)</strong>.</p></div>
+        <div class="step" data-step="3"><p>Florida, Kansas, and Maine have no operating sites in our data but 68 moratoriums between them. Many of these are communities facing their first proposed data center, setting rules before it arrives.</p></div>
+        <div class="step" data-step="4"><p>What happens to projects that meet opposition? Only 3% of operating data centers have documented pushback. Among projects that stalled or were cancelled, about two-thirds did.</p>
+          <p class="step-note">Caveat: projects that drew opposition also drew news coverage, so their pushback is more likely to be recorded. Opposition clearly goes with stalled and cancelled projects, but this alone doesn't show it caused them.</p></div>
+        <div class="step" data-step="5"><p class="step-year">So… what concerns are driving the pushback?</p>
+          <p>Every moratorium is an official action, and most state why it was passed. Nearly all of them (90%) say the community <strong>needs time to write rules</strong> for data centers. That is the mechanism, not the worry. Setting it aside, <strong>72% name at least one specific harm</strong>, and two lead the list: <strong>the grid and energy, and water</strong>, each cited by about a third.</p></div>
+        <div class="step" data-step="6"><p>Communities say they are worried about <strong>the grid and their electric bills</strong>, and about <strong>water</strong>. Are those worries backed by the data? We take them one at a time, starting with energy.</p></div>
+      </div>
+    </section>
+    <details class="data-table" id="table-pushback"><summary>View the data</summary></details>
+
+    <!-- ===================== CHAPTER 3: GRID ===================== -->
+    <section class="chapter-head" id="grid">
+      <p class="eyebrow">Chapter 3</p>
+      <h2>Is the grid under strain?</h2>
+    </section>
+
+    <section class="scrolly" id="scrolly-grid">
+      <figure class="sticky">
+        <div class="fig-head">
+          <div class="fig-head-row">
+            <h3 class="fig-title">Grid regions at risk of power shortfalls</h3>
+            <div class="year-pick" id="grid-years" role="group" aria-label="NERC rating year"></div>
+          </div>
+          <p class="fig-sub" id="grid-sub">Grid regions, grouped by NERC assessment area</p>
+        </div>
+        <div class="chart" id="chart-grid"></div>
+        <figcaption class="fig-source">Source: NERC 2025 Long-Term Reliability Assessment, Table 1 and Figure 1. NERC rates
+          whole regions, not individual towns or plants. The risk comes from fast demand growth (data centers are one driver)
+          plus power plant retirements. Region boundaries here are approximate, built from the counties each utility serves.</figcaption>
+      </figure>
+      <div class="steps">
+        <div class="step" data-step="0"><p>The grid is run by regional operators, each balancing supply and demand over its own territory. Every year, NERC (the North American Electric Reliability Corporation, the grid's reliability regulator) checks whether each region will have enough power plants to meet demand, and rates it <strong>Normal, Elevated, or High risk</strong> of running short.</p></div>
+        <div class="step" data-step="1"><p>Its latest assessment (January 2026) finds the outlook <strong>"worsening"</strong>, and names data centers as a main reason: <em>"Projections for resource and transmission growth lag what is needed to support new data centers and other large loads."</em></p></div>
+        <div class="step" data-step="2"><p>Today, <strong>65% of operating data centers (394 of 606) sit in regions rated Elevated risk</strong>, including PJM, ERCOT (Texas), and SPP.</p></div>
+        <div class="step" data-step="3"><p>By 2030, MISO, PJM, ERCOT, and parts of the West move to <strong>High risk</strong>, and <strong>69% of operating sites and 69% of planned sites</strong> are in those regions.</p></div>
+        <div class="step" data-step="4"><p><strong>Verdict on the grid: supported.</strong> The grid's own reliability regulator says the risk of running short is rising and names data centers as a main reason. Most data centers already sit in regions rated Elevated, and by 2030 about two-thirds are in regions rated High.</p>
+          <p class="step-note">Caveats: this is a forecast of risk, not observed blackouts. Data centers are one driver alongside power plant retirements, and NERC rates whole regions, not the towns that host the buildings.</p></div>
+      </div>
+    </section>
+    <details class="data-table" id="table-grid"><summary>View the data</summary></details>
+
     <section class="coming">
       <p class="eyebrow">Next</p>
-      <h2>Where the build-out is happening</h2>
+      <h2>Are data centers raising electric bills?</h2>
       <p class="muted">Chapter in progress.</p>
     </section>
   </main>
@@ -132,9 +224,12 @@
   <div class="tooltip" role="status" aria-live="polite"></div>
 
   <script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
-  <script src="js/common.js?v=4"></script>
-  <script src="js/hero.js?v=4"></script>
-  <script src="js/backstory.js?v=4"></script>
-  <script src="js/main.js?v=4"></script>
+  <script src="js/common.js?v=13"></script>
+  <script src="js/hero.js?v=13"></script>
+  <script src="js/backstory.js?v=13"></script>
+  <script src="js/buildout.js?v=13"></script>
+  <script src="js/pushback.js?v=13"></script>
+  <script src="js/grid.js?v=13"></script>
+  <script src="js/main.js?v=13"></script>
 </body>
 </html>

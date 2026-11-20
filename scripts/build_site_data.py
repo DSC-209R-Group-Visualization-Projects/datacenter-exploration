@@ -79,3 +79,102 @@ points = [[round(r.lon, 3), round(r.lat, 3), int(r.status_group == "operating")]
                                            separators=(",", ":")))
 print("wrote", OUT / "sites.json", len(points), "points")
 print(json.dumps(backstory["memphis"]), [round(f["mw"]) for f in facilities])
+
+# --- Chapter 1, the build-out (notebook cells 10-15): state and Virginia-county counts, plus every site for tooltips
+def rounded(geom, nd=3):
+    """Round GeoJSON coordinates to nd decimals (about 100 m) to keep the file small."""
+    def r(c): return [round(c[0], nd), round(c[1], nd)] if isinstance(c[0], (int, float)) else [r(x) for x in c]
+    return {"type": geom["type"], "coordinates": r(geom["coordinates"])}
+
+op_state, pl_state = operating.groupby("state").size(), planned.groupby("state").size()
+states_geo = json.load(open(CLEAN / "states_simplified.geojson"))
+states = [{"type": "Feature", "geometry": rounded(f["geometry"]),
+           "properties": {"state": f["properties"]["state"], "name": f["properties"]["name"],
+                          "op": int(op_state.get(f["properties"]["state"], 0)),
+                          "pl": int(pl_state.get(f["properties"]["state"], 0))}} for f in states_geo["features"]]
+op_county = operating.assign(geoid=operating.county_geoid.astype("Int64").astype(str).str.zfill(5)).groupby("geoid").size()
+counties_geo = json.load(open(CLEAN / "counties_simplified.geojson"))
+va_counties = [{"type": "Feature", "geometry": rounded(f["geometry"]),
+                "properties": {"geoid": f["properties"]["geoid"], "name": f["properties"]["name"],
+                               "op": int(op_county.get(f["properties"]["geoid"], 0))}}
+               for f in counties_geo["features"] if f["properties"]["geoid"].startswith("51")]
+site_rows = [[round(r.lon, 3), round(r.lat, 3), int(r.status_group == "operating"),
+              r.facility_name if isinstance(r.facility_name, str) else "(unnamed)",
+              r.city if isinstance(r.city, str) else "", r.state, r.status]
+             for r in pd.concat([operating, planned]).query("coord_ok").itertuples()]
+buildout = {"operating": len(operating), "planned": len(planned), "n_states": int(operating.state.nunique()),
+            "growth_pct": round(len(planned) / len(operating) * 100),
+            "states": states, "va_counties": va_counties, "sites": site_rows}
+(OUT / "buildout.json").write_text(json.dumps(buildout, separators=(",", ":")))
+print("wrote", OUT / "buildout.json", "top states:", op_state.sort_values().tail(3).to_dict(),
+      "growth", buildout["growth_pct"], "%")
+
+# --- Chapter 2, communities push back (notebook cells 16-24): every moratorium, monthly counts, outcomes and reasons
+REASON_NAMES = {"regulatory_gap": "need time to write rules", "grid_energy": "grid and energy", "water": "water",
+                "land_use_compatibility": "land use fit", "infrastructure_capacity": "roads, sewer, capacity",
+                "specific_project": "a specific project", "noise": "noise", "environmental": "environment",
+                "fire_safety": "fire safety", "property_values": "property values",
+                "agricultural_preservation": "farmland", "legal_or_litigation": "legal", "other": "other"}
+m = pd.read_csv(CLEAN / "moratoria_local.csv", dtype={"county_geoid": str}, parse_dates=["date_enacted"])
+adopted = m[m.adopted]
+m["reasons"] = m[[f"reason_{k}" for k in REASON_NAMES]].apply(
+    lambda r: ", ".join(REASON_NAMES[c[7:]] for c, v in r.items() if v) or "none coded", axis=1)
+shown = m[m.adopted | (m.enacted_status == "pending")]
+# kind: 2 = adopted and in force, 1 = adopted but no longer in force, 0 = proposed
+moratoria = [[round(r.lon, 3), round(r.lat, 3), 2 if r.adopted and r.in_force else 1 if r.adopted else 0,
+              r.jurisdiction, r.state, r.enacted_status,
+              r.date_enacted.strftime("%Y-%m") if pd.notna(r.date_enacted) else "", r.reasons]
+             for r in shown.itertuples()]
+monthly = adopted.set_index("date_enacted").resample("MS").size()
+mor_state = adopted.groupby("state").size()
+status_order = [("operating", "Operating"), ("pipeline", "Planned"), ("stalled", "Stalled"), ("cancelled", "Cancelled")]
+outcomes = [{"group": g, "label": lab, "n": int((dc[dc.status_group == g].pushback_documented == True).sum()),
+             "of": int((dc.status_group == g).sum())} for g, lab in status_order]
+harms = [k for k in REASON_NAMES if k not in ("regulatory_gap", "other")]
+concerns = sorted([{"key": k, "label": REASON_NAMES[k], "pct": round(adopted[f"reason_{k}"].mean() * 100, 1)} for k in harms],
+                  key=lambda d: -d["pct"])
+pushback = {"adopted": len(adopted), "n_states": int(adopted.state.nunique()), "in_force": int(adopted.in_force.sum()),
+            "proposed": int((m.enacted_status == "pending").sum()),
+            "monthly": [[d.strftime("%Y-%m"), int(v)] for d, v in monthly[monthly.index >= "2025-01-01"].items()],
+            "before_2025": int((adopted.date_enacted < "2025-01-01").sum()), "undated": int(adopted.date_enacted.isna().sum()),
+            "states": {s: {"mor": int(mor_state.get(s, 0)), "op": int(op_state.get(s, 0))}
+                       for s in sorted(set(mor_state.index) | set(op_state.index))},
+            "outcomes": outcomes, "concerns": concerns,
+            "rules_pct": round(adopted.reason_regulatory_gap.mean() * 100),
+            # "at least one specific harm" in cell 23 = any reason other than needing time to write rules
+            "any_harm_pct": round(adopted[[f"reason_{k}" for k in REASON_NAMES if k != "regulatory_gap"]].any(axis=1).mean() * 100),
+            "moratoria": moratoria}
+(OUT / "pushback.json").write_text(json.dumps(pushback, separators=(",", ":")))
+print("wrote", OUT / "pushback.json", len(moratoria), "moratoria;", {k: pushback[k] for k in
+      ("adopted", "in_force", "proposed", "before_2025", "undated", "rules_pct", "any_harm_pct")},
+      "FL+KS+ME:", int(mor_state[["FL", "KS", "ME"]].sum()), "outcomes:", [(o["label"], o["n"], o["of"]) for o in outcomes],
+      "concerns:", [(c["label"], c["pct"]) for c in concerns[:3]])
+
+# --- Chapter 3, is the grid under strain (notebook cells 26-30): grid regions with NERC risk by year, sites by risk
+nerc = pd.read_csv(CLEAN / "nerc_ltra_risk.csv")
+county_ba = pd.read_csv(CLEAN / "county_ba.csv", dtype={"county_geoid": str})
+NERC_YEARS = [2026, 2027, 2028, 2029, 2030]
+site_risk = (pd.concat([operating, planned]).assign(county_geoid=lambda d: d.county_geoid.astype("Int64").astype(str).str.zfill(5))
+             .merge(county_ba[["county_geoid", "ba_code"]], on="county_geoid", how="left").merge(nerc, on="ba_code", how="left"))
+area_sites = site_risk.groupby("nerc_area").status_group.value_counts().unstack(fill_value=0)
+nerc_by_ba = nerc.set_index("ba_code")
+ba_geo = json.load(open(CLEAN / "ba_regions.geojson"))
+regions = []
+for f in ba_geo["features"]:
+    p = f["properties"]; ba = p["ba_code"]; row = nerc_by_ba.loc[ba] if ba in nerc_by_ba.index else None
+    area = row.nerc_area if row is not None else None
+    regions.append({"type": "Feature", "geometry": rounded(f["geometry"], 2), "properties": {
+        "ba": ba, "name": p["ba_name"], "area": area,
+        "risk": [row[f"risk_{y}"] for y in NERC_YEARS] if row is not None else None,
+        "op": int(area_sites.loc[area, "operating"]) if area in area_sites.index else 0,
+        "pl": int(area_sites.loc[area, "pipeline"]) if area in area_sites.index else 0}})
+by_year = {y: {g: site_risk[site_risk.status_group == g][f"risk_{y}"].fillna("not assessed").value_counts().to_dict()
+               for g in ("operating", "pipeline")} for y in NERC_YEARS}
+RISK_LEVELS = ["Normal", "Elevated", "High"]   # sites: [lon, lat, 1 = operating, risk index per year (-1 = not assessed)]
+grid_sites = [[round(r.lon, 3), round(r.lat, 3), int(r.status_group == "operating")]
+              + [RISK_LEVELS.index(getattr(r, f"risk_{y}")) if isinstance(getattr(r, f"risk_{y}"), str) else -1 for y in NERC_YEARS]
+              for r in site_risk.query("coord_ok").itertuples()]
+grid = {"years": NERC_YEARS, "regions": regions, "by_year": by_year, "operating": len(operating), "planned": len(planned),
+        "sites": grid_sites}
+(OUT / "grid.json").write_text(json.dumps(grid, separators=(",", ":")))
+print("wrote", OUT / "grid.json", {y: by_year[y]["operating"] for y in (2026, 2030)})
