@@ -1,0 +1,3083 @@
+county_geoid,ba_code,n_bas_serving,ba_name
+12117,FPL,2,Florida Power & Light Company
+12133,FPL,2,Florida Power & Light Company
+12109,FPL,2,Florida Power & Light Company
+12089,FPL,3,Florida Power & Light Company
+12115,FPL,2,Florida Power & Light Company
+12021,FPL,1,Florida Power & Light Company
+12127,FPL,3,Florida Power & Light Company
+12125,FPL,2,Florida Power & Light Company
+12121,FPL,3,Florida Power & Light Company
+12111,FPL,2,Florida Power & Light Company
+12007,FPL,2,Florida Power & Light Company
+12097,FPL,4,Florida Power & Light Company
+12093,FPL,2,Florida Power & Light Company
+12091,FPL,2,Florida Power & Light Company
+12095,FPL,3,Florida Power & Light Company
+12087,FPL,2,Florida Power & Light Company
+12051,FPL,2,Florida Power & Light Company
+12027,FPL,2,Florida Power & Light Company
+12031,FPL,3,Florida Power & Light Company
+12033,FPL,2,Florida Power & Light Company
+12035,FPL,3,Florida Power & Light Company
+12043,FPL,2,Florida Power & Light Company
+12049,FPL,2,Florida Power & Light Company
+12113,FPL,2,Florida Power & Light Company
+12059,FPL,2,Florida Power & Light Company
+12061,FPL,2,Florida Power & Light Company
+12063,FPL,3,Florida Power & Light Company
+12081,FPL,2,Florida Power & Light Company
+12085,FPL,1,Florida Power & Light Company
+12086,FPL,2,Florida Power & Light Company
+12131,FPL,2,Florida Power & Light Company
+12023,FPL,3,Florida Power & Light Company
+12005,FPL,3,Florida Power & Light Company
+12003,FPL,3,Florida Power & Light Company
+12001,FPL,4,Florida Power & Light Company
+12055,FPL,3,Florida Power & Light Company
+12107,FPL,2,Florida Power & Light Company
+12099,FPL,2,Florida Power & Light Company
+12009,FPL,3,Florida Power & Light Company
+12019,FPL,3,Florida Power & Light Company
+12015,FPL,1,Florida Power & Light Company
+12011,FPL,1,Florida Power & Light Company
+06115,CISO,2,California Independent System Operator
+06095,CISO,2,California Independent System Operator
+06079,CISO,1,California Independent System Operator
+06097,CISO,2,California Independent System Operator
+06009,CISO,2,California Independent System Operator
+06039,CISO,2,California Independent System Operator
+06113,CISO,3,California Independent System Operator
+06099,CISO,4,California Independent System Operator
+06031,CISO,1,California Independent System Operator
+06029,CISO,1,California Independent System Operator
+06023,CISO,1,California Independent System Operator
+06055,CISO,1,California Independent System Operator
+06069,CISO,1,California Independent System Operator
+06075,CISO,1,California Independent System Operator
+06073,CISO,2,California Independent System Operator
+06071,CISO,2,California Independent System Operator
+06045,CISO,1,California Independent System Operator
+06047,CISO,3,California Independent System Operator
+06049,CISO,3,California Independent System Operator
+06053,CISO,1,California Independent System Operator
+06005,CISO,1,California Independent System Operator
+06013,CISO,2,California Independent System Operator
+06011,CISO,2,California Independent System Operator
+06007,CISO,2,California Independent System Operator
+06033,CISO,1,California Independent System Operator
+06035,CISO,3,California Independent System Operator
+06003,CISO,1,California Independent System Operator
+06001,CISO,2,California Independent System Operator
+06017,CISO,1,California Independent System Operator
+06067,CISO,3,California Independent System Operator
+06021,CISO,2,California Independent System Operator
+06019,CISO,2,California Independent System Operator
+06081,CISO,2,California Independent System Operator
+06093,CISO,3,California Independent System Operator
+06043,CISO,1,California Independent System Operator
+06041,CISO,1,California Independent System Operator
+06087,CISO,1,California Independent System Operator
+06089,CISO,4,California Independent System Operator
+06091,CISO,1,California Independent System Operator
+06057,CISO,2,California Independent System Operator
+06061,CISO,3,California Independent System Operator
+06063,CISO,1,California Independent System Operator
+06101,CISO,2,California Independent System Operator
+06103,CISO,2,California Independent System Operator
+06105,CISO,2,California Independent System Operator
+06107,CISO,1,California Independent System Operator
+06109,CISO,3,California Independent System Operator
+06077,CISO,3,California Independent System Operator
+06085,CISO,2,California Independent System Operator
+06083,CISO,1,California Independent System Operator
+06065,CISO,3,California Independent System Operator
+06059,CISO,1,California Independent System Operator
+06051,CISO,2,California Independent System Operator
+06037,CISO,2,California Independent System Operator
+06025,CISO,3,California Independent System Operator
+06027,CISO,3,California Independent System Operator
+06111,CISO,1,California Independent System Operator
+17099,PJM,2,"PJM Interconnection, LLC"
+17091,PJM,1,"PJM Interconnection, LLC"
+17093,PJM,2,"PJM Interconnection, LLC"
+17103,PJM,1,"PJM Interconnection, LLC"
+17123,PJM,2,"PJM Interconnection, LLC"
+17105,PJM,2,"PJM Interconnection, LLC"
+17043,PJM,1,"PJM Interconnection, LLC"
+17111,PJM,2,"PJM Interconnection, LLC"
+17195,PJM,2,"PJM Interconnection, LLC"
+17177,PJM,2,"PJM Interconnection, LLC"
+17089,PJM,1,"PJM Interconnection, LLC"
+17085,PJM,2,"PJM Interconnection, LLC"
+17203,PJM,2,"PJM Interconnection, LLC"
+17097,PJM,1,"PJM Interconnection, LLC"
+17201,PJM,2,"PJM Interconnection, LLC"
+17197,PJM,1,"PJM Interconnection, LLC"
+17053,PJM,2,"PJM Interconnection, LLC"
+17015,PJM,2,"PJM Interconnection, LLC"
+17031,PJM,1,"PJM Interconnection, LLC"
+17037,PJM,1,"PJM Interconnection, LLC"
+17063,PJM,1,"PJM Interconnection, LLC"
+17141,PJM,1,"PJM Interconnection, LLC"
+17007,PJM,2,"PJM Interconnection, LLC"
+17011,PJM,2,"PJM Interconnection, LLC"
+36047,NYIS,1,New York Independent System Operator
+36081,NYIS,1,New York Independent System Operator
+36119,NYIS,1,New York Independent System Operator
+36085,NYIS,1,New York Independent System Operator
+36005,NYIS,1,New York Independent System Operator
+36061,NYIS,1,New York Independent System Operator
+13299,SOCO,1,"Southern Company Services, Inc. - Trans"
+13285,SOCO,1,"Southern Company Services, Inc. - Trans"
+13287,SOCO,1,"Southern Company Services, Inc. - Trans"
+13289,SOCO,1,"Southern Company Services, Inc. - Trans"
+13293,SOCO,1,"Southern Company Services, Inc. - Trans"
+13295,SOCO,2,"Southern Company Services, Inc. - Trans"
+13023,SOCO,1,"Southern Company Services, Inc. - Trans"
+13093,SOCO,1,"Southern Company Services, Inc. - Trans"
+13095,SOCO,1,"Southern Company Services, Inc. - Trans"
+13097,SOCO,1,"Southern Company Services, Inc. - Trans"
+13099,SOCO,2,"Southern Company Services, Inc. - Trans"
+13033,SOCO,1,"Southern Company Services, Inc. - Trans"
+13035,SOCO,1,"Southern Company Services, Inc. - Trans"
+13037,SOCO,1,"Southern Company Services, Inc. - Trans"
+13141,SOCO,1,"Southern Company Services, Inc. - Trans"
+13209,SOCO,1,"Southern Company Services, Inc. - Trans"
+13211,SOCO,1,"Southern Company Services, Inc. - Trans"
+13213,SOCO,2,"Southern Company Services, Inc. - Trans"
+13215,SOCO,1,"Southern Company Services, Inc. - Trans"
+13017,SOCO,1,"Southern Company Services, Inc. - Trans"
+13019,SOCO,1,"Southern Company Services, Inc. - Trans"
+13021,SOCO,1,"Southern Company Services, Inc. - Trans"
+13125,SOCO,1,"Southern Company Services, Inc. - Trans"
+13061,SOCO,2,"Southern Company Services, Inc. - Trans"
+13063,SOCO,1,"Southern Company Services, Inc. - Trans"
+13065,SOCO,1,"Southern Company Services, Inc. - Trans"
+13067,SOCO,1,"Southern Company Services, Inc. - Trans"
+13135,SOCO,1,"Southern Company Services, Inc. - Trans"
+13137,SOCO,1,"Southern Company Services, Inc. - Trans"
+13139,SOCO,1,"Southern Company Services, Inc. - Trans"
+13107,SOCO,1,"Southern Company Services, Inc. - Trans"
+13043,SOCO,1,"Southern Company Services, Inc. - Trans"
+13045,SOCO,1,"Southern Company Services, Inc. - Trans"
+13047,SOCO,2,"Southern Company Services, Inc. - Trans"
+13049,SOCO,1,"Southern Company Services, Inc. - Trans"
+13119,SOCO,1,"Southern Company Services, Inc. - Trans"
+13121,SOCO,1,"Southern Company Services, Inc. - Trans"
+13123,SOCO,2,"Southern Company Services, Inc. - Trans"
+13031,SOCO,1,"Southern Company Services, Inc. - Trans"
+13143,SOCO,1,"Southern Company Services, Inc. - Trans"
+13145,SOCO,1,"Southern Company Services, Inc. - Trans"
+13147,SOCO,1,"Southern Company Services, Inc. - Trans"
+13149,SOCO,1,"Southern Company Services, Inc. - Trans"
+13073,SOCO,1,"Southern Company Services, Inc. - Trans"
+13075,SOCO,1,"Southern Company Services, Inc. - Trans"
+13079,SOCO,1,"Southern Company Services, Inc. - Trans"
+13081,SOCO,1,"Southern Company Services, Inc. - Trans"
+13083,SOCO,2,"Southern Company Services, Inc. - Trans"
+13025,SOCO,1,"Southern Company Services, Inc. - Trans"
+13027,SOCO,1,"Southern Company Services, Inc. - Trans"
+13029,SOCO,1,"Southern Company Services, Inc. - Trans"
+13055,SOCO,2,"Southern Company Services, Inc. - Trans"
+13057,SOCO,1,"Southern Company Services, Inc. - Trans"
+13059,SOCO,1,"Southern Company Services, Inc. - Trans"
+13069,SOCO,1,"Southern Company Services, Inc. - Trans"
+13077,SOCO,1,"Southern Company Services, Inc. - Trans"
+13007,SOCO,2,"Southern Company Services, Inc. - Trans"
+13009,SOCO,1,"Southern Company Services, Inc. - Trans"
+13071,SOCO,1,"Southern Company Services, Inc. - Trans"
+13039,SOCO,1,"Southern Company Services, Inc. - Trans"
+13011,SOCO,1,"Southern Company Services, Inc. - Trans"
+13013,SOCO,1,"Southern Company Services, Inc. - Trans"
+13015,SOCO,1,"Southern Company Services, Inc. - Trans"
+13001,SOCO,1,"Southern Company Services, Inc. - Trans"
+13003,SOCO,1,"Southern Company Services, Inc. - Trans"
+13005,SOCO,1,"Southern Company Services, Inc. - Trans"
+13053,SOCO,1,"Southern Company Services, Inc. - Trans"
+13091,SOCO,1,"Southern Company Services, Inc. - Trans"
+13159,SOCO,1,"Southern Company Services, Inc. - Trans"
+13161,SOCO,1,"Southern Company Services, Inc. - Trans"
+13163,SOCO,1,"Southern Company Services, Inc. - Trans"
+13165,SOCO,1,"Southern Company Services, Inc. - Trans"
+13101,SOCO,1,"Southern Company Services, Inc. - Trans"
+13103,SOCO,1,"Southern Company Services, Inc. - Trans"
+13105,SOCO,1,"Southern Company Services, Inc. - Trans"
+13207,SOCO,1,"Southern Company Services, Inc. - Trans"
+13273,SOCO,1,"Southern Company Services, Inc. - Trans"
+13275,SOCO,1,"Southern Company Services, Inc. - Trans"
+13277,SOCO,1,"Southern Company Services, Inc. - Trans"
+13279,SOCO,1,"Southern Company Services, Inc. - Trans"
+13085,SOCO,1,"Southern Company Services, Inc. - Trans"
+13089,SOCO,1,"Southern Company Services, Inc. - Trans"
+13087,SOCO,2,"Southern Company Services, Inc. - Trans"
+13193,SOCO,1,"Southern Company Services, Inc. - Trans"
+13127,SOCO,1,"Southern Company Services, Inc. - Trans"
+13129,SOCO,2,"Southern Company Services, Inc. - Trans"
+13131,SOCO,1,"Southern Company Services, Inc. - Trans"
+13133,SOCO,1,"Southern Company Services, Inc. - Trans"
+13199,SOCO,1,"Southern Company Services, Inc. - Trans"
+13201,SOCO,2,"Southern Company Services, Inc. - Trans"
+13205,SOCO,1,"Southern Company Services, Inc. - Trans"
+13173,SOCO,1,"Southern Company Services, Inc. - Trans"
+13109,SOCO,1,"Southern Company Services, Inc. - Trans"
+13113,SOCO,1,"Southern Company Services, Inc. - Trans"
+13115,SOCO,2,"Southern Company Services, Inc. - Trans"
+13117,SOCO,1,"Southern Company Services, Inc. - Trans"
+13183,SOCO,1,"Southern Company Services, Inc. - Trans"
+13185,SOCO,1,"Southern Company Services, Inc. - Trans"
+13187,SOCO,1,"Southern Company Services, Inc. - Trans"
+13157,SOCO,1,"Southern Company Services, Inc. - Trans"
+13225,SOCO,1,"Southern Company Services, Inc. - Trans"
+13227,SOCO,1,"Southern Company Services, Inc. - Trans"
+13229,SOCO,1,"Southern Company Services, Inc. - Trans"
+13231,SOCO,1,"Southern Company Services, Inc. - Trans"
+13167,SOCO,1,"Southern Company Services, Inc. - Trans"
+13169,SOCO,1,"Southern Company Services, Inc. - Trans"
+13171,SOCO,1,"Southern Company Services, Inc. - Trans"
+13271,SOCO,1,"Southern Company Services, Inc. - Trans"
+13303,SOCO,1,"Southern Company Services, Inc. - Trans"
+13305,SOCO,1,"Southern Company Services, Inc. - Trans"
+13307,SOCO,1,"Southern Company Services, Inc. - Trans"
+13309,SOCO,1,"Southern Company Services, Inc. - Trans"
+13151,SOCO,1,"Southern Company Services, Inc. - Trans"
+13153,SOCO,1,"Southern Company Services, Inc. - Trans"
+13155,SOCO,1,"Southern Company Services, Inc. - Trans"
+13255,SOCO,1,"Southern Company Services, Inc. - Trans"
+13195,SOCO,1,"Southern Company Services, Inc. - Trans"
+13197,SOCO,1,"Southern Company Services, Inc. - Trans"
+13189,SOCO,1,"Southern Company Services, Inc. - Trans"
+13191,SOCO,1,"Southern Company Services, Inc. - Trans"
+13265,SOCO,1,"Southern Company Services, Inc. - Trans"
+13267,SOCO,1,"Southern Company Services, Inc. - Trans"
+13269,SOCO,1,"Southern Company Services, Inc. - Trans"
+13239,SOCO,1,"Southern Company Services, Inc. - Trans"
+13175,SOCO,1,"Southern Company Services, Inc. - Trans"
+13177,SOCO,1,"Southern Company Services, Inc. - Trans"
+13179,SOCO,1,"Southern Company Services, Inc. - Trans"
+13181,SOCO,1,"Southern Company Services, Inc. - Trans"
+13249,SOCO,1,"Southern Company Services, Inc. - Trans"
+13251,SOCO,1,"Southern Company Services, Inc. - Trans"
+13253,SOCO,2,"Southern Company Services, Inc. - Trans"
+13223,SOCO,1,"Southern Company Services, Inc. - Trans"
+13233,SOCO,1,"Southern Company Services, Inc. - Trans"
+13235,SOCO,1,"Southern Company Services, Inc. - Trans"
+13237,SOCO,1,"Southern Company Services, Inc. - Trans"
+13301,SOCO,1,"Southern Company Services, Inc. - Trans"
+13217,SOCO,1,"Southern Company Services, Inc. - Trans"
+13219,SOCO,1,"Southern Company Services, Inc. - Trans"
+13221,SOCO,1,"Southern Company Services, Inc. - Trans"
+13283,SOCO,1,"Southern Company Services, Inc. - Trans"
+13257,SOCO,1,"Southern Company Services, Inc. - Trans"
+13259,SOCO,1,"Southern Company Services, Inc. - Trans"
+13261,SOCO,1,"Southern Company Services, Inc. - Trans"
+13263,SOCO,1,"Southern Company Services, Inc. - Trans"
+13317,SOCO,1,"Southern Company Services, Inc. - Trans"
+13319,SOCO,1,"Southern Company Services, Inc. - Trans"
+13321,SOCO,1,"Southern Company Services, Inc. - Trans"
+13297,SOCO,1,"Southern Company Services, Inc. - Trans"
+13241,SOCO,2,"Southern Company Services, Inc. - Trans"
+13243,SOCO,1,"Southern Company Services, Inc. - Trans"
+13245,SOCO,1,"Southern Company Services, Inc. - Trans"
+13247,SOCO,1,"Southern Company Services, Inc. - Trans"
+13311,SOCO,1,"Southern Company Services, Inc. - Trans"
+13313,SOCO,2,"Southern Company Services, Inc. - Trans"
+13315,SOCO,1,"Southern Company Services, Inc. - Trans"
+51061,PJM,1,"PJM Interconnection, LLC"
+51065,PJM,1,"PJM Interconnection, LLC"
+51031,PJM,1,"PJM Interconnection, LLC"
+51580,PJM,1,"PJM Interconnection, LLC"
+51027,PJM,1,"PJM Interconnection, LLC"
+51029,PJM,1,"PJM Interconnection, LLC"
+51530,PJM,1,"PJM Interconnection, LLC"
+51610,PJM,1,"PJM Interconnection, LLC"
+51033,PJM,1,"PJM Interconnection, LLC"
+51035,PJM,1,"PJM Interconnection, LLC"
+51540,PJM,1,"PJM Interconnection, LLC"
+51550,PJM,1,"PJM Interconnection, LLC"
+51041,PJM,1,"PJM Interconnection, LLC"
+51043,PJM,1,"PJM Interconnection, LLC"
+51570,PJM,1,"PJM Interconnection, LLC"
+51520,PJM,2,"PJM Interconnection, LLC"
+51025,PJM,1,"PJM Interconnection, LLC"
+51053,PJM,1,"PJM Interconnection, LLC"
+51595,PJM,1,"PJM Interconnection, LLC"
+51057,PJM,1,"PJM Interconnection, LLC"
+51059,PJM,1,"PJM Interconnection, LLC"
+51600,PJM,1,"PJM Interconnection, LLC"
+51081,PJM,1,"PJM Interconnection, LLC"
+51007,PJM,1,"PJM Interconnection, LLC"
+51036,PJM,1,"PJM Interconnection, LLC"
+51037,PJM,1,"PJM Interconnection, LLC"
+51067,PJM,1,"PJM Interconnection, LLC"
+51630,PJM,1,"PJM Interconnection, LLC"
+51073,PJM,1,"PJM Interconnection, LLC"
+51075,PJM,1,"PJM Interconnection, LLC"
+51079,PJM,1,"PJM Interconnection, LLC"
+51011,PJM,1,"PJM Interconnection, LLC"
+51147,PJM,1,"PJM Interconnection, LLC"
+51149,PJM,1,"PJM Interconnection, LLC"
+51153,PJM,1,"PJM Interconnection, LLC"
+51157,PJM,1,"PJM Interconnection, LLC"
+51107,PJM,1,"PJM Interconnection, LLC"
+51109,PJM,1,"PJM Interconnection, LLC"
+51083,PJM,1,"PJM Interconnection, LLC"
+51650,PJM,1,"PJM Interconnection, LLC"
+51085,PJM,1,"PJM Interconnection, LLC"
+51735,PJM,1,"PJM Interconnection, LLC"
+51740,PJM,1,"PJM Interconnection, LLC"
+51145,PJM,1,"PJM Interconnection, LLC"
+51143,PJM,1,"PJM Interconnection, LLC"
+51800,PJM,1,"PJM Interconnection, LLC"
+51760,PJM,1,"PJM Interconnection, LLC"
+51810,PJM,1,"PJM Interconnection, LLC"
+51187,PJM,1,"PJM Interconnection, LLC"
+51820,PJM,1,"PJM Interconnection, LLC"
+51159,PJM,1,"PJM Interconnection, LLC"
+51193,PJM,1,"PJM Interconnection, LLC"
+51163,PJM,1,"PJM Interconnection, LLC"
+51165,PJM,1,"PJM Interconnection, LLC"
+51171,PJM,1,"PJM Interconnection, LLC"
+51181,PJM,1,"PJM Interconnection, LLC"
+51183,PJM,1,"PJM Interconnection, LLC"
+51185,PJM,1,"PJM Interconnection, LLC"
+51830,PJM,1,"PJM Interconnection, LLC"
+51199,PJM,1,"PJM Interconnection, LLC"
+51790,PJM,1,"PJM Interconnection, LLC"
+51175,PJM,1,"PJM Interconnection, LLC"
+51177,PJM,1,"PJM Interconnection, LLC"
+51179,PJM,1,"PJM Interconnection, LLC"
+51119,PJM,1,"PJM Interconnection, LLC"
+51125,PJM,1,"PJM Interconnection, LLC"
+51095,PJM,1,"PJM Interconnection, LLC"
+51099,PJM,1,"PJM Interconnection, LLC"
+51101,PJM,1,"PJM Interconnection, LLC"
+51097,PJM,1,"PJM Interconnection, LLC"
+51103,PJM,1,"PJM Interconnection, LLC"
+51678,PJM,1,"PJM Interconnection, LLC"
+51685,PJM,1,"PJM Interconnection, LLC"
+51115,PJM,1,"PJM Interconnection, LLC"
+51117,PJM,1,"PJM Interconnection, LLC"
+51111,PJM,1,"PJM Interconnection, LLC"
+51113,PJM,1,"PJM Interconnection, LLC"
+51683,PJM,1,"PJM Interconnection, LLC"
+51127,PJM,1,"PJM Interconnection, LLC"
+51700,PJM,1,"PJM Interconnection, LLC"
+51710,PJM,1,"PJM Interconnection, LLC"
+51133,PJM,1,"PJM Interconnection, LLC"
+51135,PJM,1,"PJM Interconnection, LLC"
+51137,PJM,1,"PJM Interconnection, LLC"
+51139,PJM,1,"PJM Interconnection, LLC"
+51730,PJM,1,"PJM Interconnection, LLC"
+51660,PJM,1,"PJM Interconnection, LLC"
+51087,PJM,1,"PJM Interconnection, LLC"
+51089,PJM,1,"PJM Interconnection, LLC"
+51670,PJM,1,"PJM Interconnection, LLC"
+51093,PJM,1,"PJM Interconnection, LLC"
+51047,PJM,1,"PJM Interconnection, LLC"
+51049,PJM,1,"PJM Interconnection, LLC"
+51013,PJM,1,"PJM Interconnection, LLC"
+51015,PJM,1,"PJM Interconnection, LLC"
+51017,PJM,1,"PJM Interconnection, LLC"
+51019,PJM,1,"PJM Interconnection, LLC"
+51023,PJM,1,"PJM Interconnection, LLC"
+51005,PJM,1,"PJM Interconnection, LLC"
+51001,PJM,1,"PJM Interconnection, LLC"
+51003,PJM,1,"PJM Interconnection, LLC"
+51510,PJM,1,"PJM Interconnection, LLC"
+51009,PJM,1,"PJM Interconnection, LLC"
+26093,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+26099,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+26117,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+26145,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+26065,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+26091,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+26141,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+26151,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+26155,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+26057,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+26111,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+26115,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+26017,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+26023,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+26041,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+26049,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+26051,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+26125,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+26073,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+26087,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+26063,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+26163,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+26157,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+26147,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+26161,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+34027,PJM,1,"PJM Interconnection, LLC"
+34013,PJM,1,"PJM Interconnection, LLC"
+34015,PJM,1,"PJM Interconnection, LLC"
+34017,PJM,1,"PJM Interconnection, LLC"
+34035,PJM,1,"PJM Interconnection, LLC"
+34039,PJM,1,"PJM Interconnection, LLC"
+34003,PJM,2,"PJM Interconnection, LLC"
+34031,PJM,2,"PJM Interconnection, LLC"
+34021,PJM,1,"PJM Interconnection, LLC"
+34023,PJM,1,"PJM Interconnection, LLC"
+34025,PJM,1,"PJM Interconnection, LLC"
+34033,PJM,1,"PJM Interconnection, LLC"
+34007,PJM,1,"PJM Interconnection, LLC"
+34005,PJM,1,"PJM Interconnection, LLC"
+37021,DUK,2,Duke Energy Carolinas
+37023,DUK,2,Duke Energy Carolinas
+37169,DUK,1,Duke Energy Carolinas
+37081,DUK,2,Duke Energy Carolinas
+37151,DUK,2,Duke Energy Carolinas
+37007,DUK,2,Duke Energy Carolinas
+37171,DUK,1,Duke Energy Carolinas
+37167,DUK,2,Duke Energy Carolinas
+37161,DUK,2,Duke Energy Carolinas
+37003,DUK,1,Duke Energy Carolinas
+37001,DUK,2,Duke Energy Carolinas
+37075,DUK,2,Duke Energy Carolinas
+37173,DUK,1,Duke Energy Carolinas
+37157,DUK,1,Duke Energy Carolinas
+37071,DUK,1,Duke Energy Carolinas
+37077,DUK,3,Duke Energy Carolinas
+37119,DUK,1,Duke Energy Carolinas
+37111,DUK,2,Duke Energy Carolinas
+37113,DUK,1,Duke Energy Carolinas
+37099,DUK,2,Duke Energy Carolinas
+37109,DUK,1,Duke Energy Carolinas
+37135,DUK,2,Duke Energy Carolinas
+37063,DUK,2,Duke Energy Carolinas
+37033,DUK,2,Duke Energy Carolinas
+37035,DUK,1,Duke Energy Carolinas
+37037,DUK,2,Duke Energy Carolinas
+37039,DUK,2,Duke Energy Carolinas
+37067,DUK,1,Duke Energy Carolinas
+37027,DUK,1,Duke Energy Carolinas
+37025,DUK,2,Duke Energy Carolinas
+37159,DUK,1,Duke Energy Carolinas
+37145,DUK,3,Duke Energy Carolinas
+37149,DUK,1,Duke Energy Carolinas
+37089,DUK,2,Duke Energy Carolinas
+37097,DUK,1,Duke Energy Carolinas
+37057,DUK,1,Duke Energy Carolinas
+37059,DUK,1,Duke Energy Carolinas
+37179,DUK,2,Duke Energy Carolinas
+37183,DUK,2,Duke Energy Carolinas
+37193,DUK,1,Duke Energy Carolinas
+37197,DUK,1,Duke Energy Carolinas
+37175,DUK,1,Duke Energy Carolinas
+37045,DUK,1,Duke Energy Carolinas
+37043,DUK,1,Duke Energy Carolinas
+12029,FPC,2,Duke Energy Florida Inc
+12101,FPC,3,Duke Energy Florida Inc
+12065,FPC,2,Duke Energy Florida Inc
+12057,FPC,3,Duke Energy Florida Inc
+12105,FPC,5,Duke Energy Florida Inc
+12045,FPC,2,Duke Energy Florida Inc
+12047,FPC,2,Duke Energy Florida Inc
+12075,FPC,2,Duke Energy Florida Inc
+12079,FPC,2,Duke Energy Florida Inc
+12119,FPC,2,Duke Energy Florida Inc
+12037,FPC,1,Duke Energy Florida Inc
+12053,FPC,2,Duke Energy Florida Inc
+12017,FPC,2,Duke Energy Florida Inc
+12129,FPC,2,Duke Energy Florida Inc
+12069,FPC,2,Duke Energy Florida Inc
+12041,FPC,2,Duke Energy Florida Inc
+12103,FPC,2,Duke Energy Florida Inc
+12123,FPC,2,Duke Energy Florida Inc
+12067,FPC,2,Duke Energy Florida Inc
+12083,FPC,3,Duke Energy Florida Inc
+12073,FPC,3,Duke Energy Florida Inc
+42125,PJM,1,"PJM Interconnection, LLC"
+42031,PJM,1,"PJM Interconnection, LLC"
+42033,PJM,1,"PJM Interconnection, LLC"
+42059,PJM,1,"PJM Interconnection, LLC"
+42005,PJM,1,"PJM Interconnection, LLC"
+42009,PJM,1,"PJM Interconnection, LLC"
+42007,PJM,1,"PJM Interconnection, LLC"
+42127,PJM,1,"PJM Interconnection, LLC"
+42081,PJM,1,"PJM Interconnection, LLC"
+42087,PJM,1,"PJM Interconnection, LLC"
+42085,PJM,1,"PJM Interconnection, LLC"
+42015,PJM,1,"PJM Interconnection, LLC"
+42095,PJM,1,"PJM Interconnection, LLC"
+42089,PJM,1,"PJM Interconnection, LLC"
+42091,PJM,1,"PJM Interconnection, LLC"
+42011,PJM,1,"PJM Interconnection, LLC"
+42049,PJM,1,"PJM Interconnection, LLC"
+42043,PJM,1,"PJM Interconnection, LLC"
+42047,PJM,1,"PJM Interconnection, LLC"
+42131,PJM,1,"PJM Interconnection, LLC"
+42133,PJM,1,"PJM Interconnection, LLC"
+42121,PJM,1,"PJM Interconnection, LLC"
+42123,PJM,1,"PJM Interconnection, LLC"
+42129,PJM,1,"PJM Interconnection, LLC"
+42041,PJM,1,"PJM Interconnection, LLC"
+42113,PJM,1,"PJM Interconnection, LLC"
+42075,PJM,1,"PJM Interconnection, LLC"
+42001,PJM,1,"PJM Interconnection, LLC"
+42017,PJM,1,"PJM Interconnection, LLC"
+42067,PJM,1,"PJM Interconnection, LLC"
+42065,PJM,1,"PJM Interconnection, LLC"
+42063,PJM,1,"PJM Interconnection, LLC"
+42029,PJM,1,"PJM Interconnection, LLC"
+42027,PJM,1,"PJM Interconnection, LLC"
+42023,PJM,1,"PJM Interconnection, LLC"
+42115,PJM,1,"PJM Interconnection, LLC"
+42111,PJM,1,"PJM Interconnection, LLC"
+42117,PJM,1,"PJM Interconnection, LLC"
+42077,PJM,1,"PJM Interconnection, LLC"
+42083,PJM,1,"PJM Interconnection, LLC"
+42105,PJM,1,"PJM Interconnection, LLC"
+42021,PJM,1,"PJM Interconnection, LLC"
+42039,PJM,1,"PJM Interconnection, LLC"
+42057,PJM,1,"PJM Interconnection, LLC"
+42055,PJM,1,"PJM Interconnection, LLC"
+42071,PJM,1,"PJM Interconnection, LLC"
+42019,PJM,1,"PJM Interconnection, LLC"
+42053,PJM,1,"PJM Interconnection, LLC"
+42061,PJM,1,"PJM Interconnection, LLC"
+42103,PJM,2,"PJM Interconnection, LLC"
+42099,PJM,1,"PJM Interconnection, LLC"
+42013,PJM,1,"PJM Interconnection, LLC"
+42003,PJM,1,"PJM Interconnection, LLC"
+42073,PJM,1,"PJM Interconnection, LLC"
+42051,PJM,1,"PJM Interconnection, LLC"
+26165,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+26135,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+26133,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+26001,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+26011,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+26015,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+26019,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+26005,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+26009,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+26075,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+26055,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+26085,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+26081,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+26079,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+26077,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+26059,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+26025,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+26067,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+26029,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+26139,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+26159,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+26137,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+26149,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+26069,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+26113,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+26089,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+26119,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+26121,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+26107,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+26101,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+26129,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+26127,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+26031,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+26143,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+26105,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+26045,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+26039,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+26037,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+26035,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+26123,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+26047,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+42101,PJM,1,"PJM Interconnection, LLC"
+42045,PJM,1,"PJM Interconnection, LLC"
+36075,NYIS,1,New York Independent System Operator
+36121,NYIS,1,New York Independent System Operator
+36065,NYIS,1,New York Independent System Operator
+36067,NYIS,1,New York Independent System Operator
+36069,NYIS,1,New York Independent System Operator
+36073,NYIS,1,New York Independent System Operator
+36033,NYIS,1,New York Independent System Operator
+36001,NYIS,1,New York Independent System Operator
+36003,NYIS,1,New York Independent System Operator
+36077,NYIS,1,New York Independent System Operator
+36013,NYIS,1,New York Independent System Operator
+36017,NYIS,1,New York Independent System Operator
+36019,NYIS,1,New York Independent System Operator
+36063,NYIS,1,New York Independent System Operator
+36057,NYIS,1,New York Independent System Operator
+36055,NYIS,1,New York Independent System Operator
+36037,NYIS,1,New York Independent System Operator
+36035,NYIS,1,New York Independent System Operator
+36093,NYIS,1,New York Independent System Operator
+36083,NYIS,1,New York Independent System Operator
+36091,NYIS,1,New York Independent System Operator
+36023,NYIS,1,New York Independent System Operator
+36021,NYIS,1,New York Independent System Operator
+36053,NYIS,1,New York Independent System Operator
+36041,NYIS,1,New York Independent System Operator
+36009,NYIS,1,New York Independent System Operator
+36043,NYIS,1,New York Independent System Operator
+36045,NYIS,1,New York Independent System Operator
+36049,NYIS,1,New York Independent System Operator
+36051,NYIS,1,New York Independent System Operator
+36011,NYIS,1,New York Independent System Operator
+36031,NYIS,1,New York Independent System Operator
+36029,NYIS,1,New York Independent System Operator
+36115,NYIS,1,New York Independent System Operator
+36089,NYIS,1,New York Independent System Operator
+36113,NYIS,1,New York Independent System Operator
+36095,NYIS,1,New York Independent System Operator
+37019,CPLE,2,Duke Energy Progress East
+37017,CPLE,1,Duke Energy Progress East
+37013,CPLE,2,Duke Energy Progress East
+37011,CPLE,3,Duke Energy Progress East
+37065,CPLE,2,Duke Energy Progress East
+37069,CPLE,1,Duke Energy Progress East
+37079,CPLE,1,Duke Energy Progress East
+37127,CPLE,2,Duke Energy Progress East
+37105,CPLE,1,Duke Energy Progress East
+37107,CPLE,1,Duke Energy Progress East
+37031,CPLE,1,Duke Energy Progress East
+37087,CPLE,2,Duke Energy Progress East
+37133,CPLE,1,Duke Energy Progress East
+37093,CPLE,1,Duke Energy Progress East
+37129,CPLE,1,Duke Energy Progress East
+37147,CPLE,2,Duke Energy Progress East
+37085,CPLE,1,Duke Energy Progress East
+37083,CPLE,2,Duke Energy Progress East
+37061,CPLE,1,Duke Energy Progress East
+37051,CPLE,2,Duke Energy Progress East
+37199,CPLE,1,Duke Energy Progress East
+37141,CPLE,1,Duke Energy Progress East
+37137,CPLE,2,Duke Energy Progress East
+37191,CPLE,1,Duke Energy Progress East
+37155,CPLE,1,Duke Energy Progress East
+37049,CPLE,2,Duke Energy Progress East
+37047,CPLE,1,Duke Energy Progress East
+37153,CPLE,1,Duke Energy Progress East
+37195,CPLE,2,Duke Energy Progress East
+37101,CPLE,1,Duke Energy Progress East
+37103,CPLE,1,Duke Energy Progress East
+37115,CPLE,2,Duke Energy Progress East
+37121,CPLE,2,Duke Energy Progress East
+37123,CPLE,2,Duke Energy Progress East
+37125,CPLE,1,Duke Energy Progress East
+37163,CPLE,1,Duke Energy Progress East
+37165,CPLE,1,Duke Energy Progress East
+37181,CPLE,2,Duke Energy Progress East
+37185,CPLE,2,Duke Energy Progress East
+08049,PSCO,2,Public Service Company of Colorado
+08051,PSCO,2,Public Service Company of Colorado
+08045,PSCO,2,Public Service Company of Colorado
+08047,PSCO,2,Public Service Company of Colorado
+08037,PSCO,1,Public Service Company of Colorado
+08035,PSCO,2,Public Service Company of Colorado
+08003,PSCO,2,Public Service Company of Colorado
+08019,PSCO,2,Public Service Company of Colorado
+08015,PSCO,2,Public Service Company of Colorado
+08013,PSCO,2,Public Service Company of Colorado
+08005,PSCO,2,Public Service Company of Colorado
+08121,PSCO,2,Public Service Company of Colorado
+08125,PSCO,2,Public Service Company of Colorado
+08123,PSCO,2,Public Service Company of Colorado
+08093,PSCO,1,Public Service Company of Colorado
+08097,PSCO,1,Public Service Company of Colorado
+08099,PSCO,3,Public Service Company of Colorado
+08091,PSCO,2,Public Service Company of Colorado
+08103,PSCO,2,Public Service Company of Colorado
+08105,PSCO,2,Public Service Company of Colorado
+08107,PSCO,2,Public Service Company of Colorado
+08083,PSCO,2,Public Service Company of Colorado
+08085,PSCO,2,Public Service Company of Colorado
+08087,PSCO,2,Public Service Company of Colorado
+08089,PSCO,2,Public Service Company of Colorado
+08101,PSCO,2,Public Service Company of Colorado
+08065,PSCO,2,Public Service Company of Colorado
+08069,PSCO,2,Public Service Company of Colorado
+08081,PSCO,2,Public Service Company of Colorado
+08109,PSCO,2,Public Service Company of Colorado
+08079,PSCO,2,Public Service Company of Colorado
+08077,PSCO,2,Public Service Company of Colorado
+08075,PSCO,2,Public Service Company of Colorado
+08071,PSCO,3,Public Service Company of Colorado
+08117,PSCO,2,Public Service Company of Colorado
+08113,PSCO,2,Public Service Company of Colorado
+08119,PSCO,2,Public Service Company of Colorado
+08031,PSCO,1,Public Service Company of Colorado
+08067,PSCO,2,Public Service Company of Colorado
+08059,PSCO,2,Public Service Company of Colorado
+08055,PSCO,2,Public Service Company of Colorado
+08053,PSCO,2,Public Service Company of Colorado
+08001,PSCO,2,Public Service Company of Colorado
+08009,PSCO,3,Public Service Company of Colorado
+08007,PSCO,2,Public Service Company of Colorado
+08011,PSCO,2,Public Service Company of Colorado
+08023,PSCO,2,Public Service Company of Colorado
+08025,PSCO,2,Public Service Company of Colorado
+08041,PSCO,2,Public Service Company of Colorado
+08033,PSCO,2,Public Service Company of Colorado
+08039,PSCO,2,Public Service Company of Colorado
+08027,PSCO,2,Public Service Company of Colorado
+08043,PSCO,2,Public Service Company of Colorado
+08021,PSCO,2,Public Service Company of Colorado
+08061,PSCO,3,Public Service Company of Colorado
+08029,PSCO,2,Public Service Company of Colorado
+39037,PJM,1,"PJM Interconnection, LLC"
+39137,PJM,1,"PJM Interconnection, LLC"
+39131,PJM,1,"PJM Interconnection, LLC"
+39127,PJM,1,"PJM Interconnection, LLC"
+39125,PJM,1,"PJM Interconnection, LLC"
+39121,PJM,1,"PJM Interconnection, LLC"
+39151,PJM,1,"PJM Interconnection, LLC"
+39059,PJM,1,"PJM Interconnection, LLC"
+39019,PJM,1,"PJM Interconnection, LLC"
+39029,PJM,1,"PJM Interconnection, LLC"
+39031,PJM,1,"PJM Interconnection, LLC"
+39001,PJM,1,"PJM Interconnection, LLC"
+39053,PJM,1,"PJM Interconnection, LLC"
+39039,PJM,1,"PJM Interconnection, LLC"
+39045,PJM,1,"PJM Interconnection, LLC"
+39041,PJM,1,"PJM Interconnection, LLC"
+39013,PJM,1,"PJM Interconnection, LLC"
+39011,PJM,1,"PJM Interconnection, LLC"
+39173,PJM,1,"PJM Interconnection, LLC"
+39169,PJM,1,"PJM Interconnection, LLC"
+39167,PJM,1,"PJM Interconnection, LLC"
+39175,PJM,1,"PJM Interconnection, LLC"
+39119,PJM,1,"PJM Interconnection, LLC"
+39117,PJM,1,"PJM Interconnection, LLC"
+39063,PJM,1,"PJM Interconnection, LLC"
+39081,PJM,1,"PJM Interconnection, LLC"
+39079,PJM,1,"PJM Interconnection, LLC"
+39077,PJM,1,"PJM Interconnection, LLC"
+39075,PJM,1,"PJM Interconnection, LLC"
+39073,PJM,1,"PJM Interconnection, LLC"
+39069,PJM,1,"PJM Interconnection, LLC"
+39067,PJM,1,"PJM Interconnection, LLC"
+39065,PJM,1,"PJM Interconnection, LLC"
+39087,PJM,1,"PJM Interconnection, LLC"
+39083,PJM,1,"PJM Interconnection, LLC"
+39161,PJM,1,"PJM Interconnection, LLC"
+39157,PJM,1,"PJM Interconnection, LLC"
+39153,PJM,1,"PJM Interconnection, LLC"
+39111,PJM,1,"PJM Interconnection, LLC"
+39145,PJM,1,"PJM Interconnection, LLC"
+39147,PJM,1,"PJM Interconnection, LLC"
+39105,PJM,1,"PJM Interconnection, LLC"
+39101,PJM,1,"PJM Interconnection, LLC"
+39091,PJM,1,"PJM Interconnection, LLC"
+39115,PJM,1,"PJM Interconnection, LLC"
+39139,PJM,1,"PJM Interconnection, LLC"
+39143,PJM,1,"PJM Interconnection, LLC"
+39089,PJM,1,"PJM Interconnection, LLC"
+39033,PJM,1,"PJM Interconnection, LLC"
+39005,PJM,1,"PJM Interconnection, LLC"
+39009,PJM,1,"PJM Interconnection, LLC"
+39003,PJM,1,"PJM Interconnection, LLC"
+39049,PJM,1,"PJM Interconnection, LLC"
+01113,SOCO,1,"Southern Company Services, Inc. - Trans"
+01133,SOCO,2,"Southern Company Services, Inc. - Trans"
+01035,SOCO,1,"Southern Company Services, Inc. - Trans"
+01059,SOCO,2,"Southern Company Services, Inc. - Trans"
+01061,SOCO,1,"Southern Company Services, Inc. - Trans"
+01123,SOCO,1,"Southern Company Services, Inc. - Trans"
+01125,SOCO,1,"Southern Company Services, Inc. - Trans"
+01067,SOCO,1,"Southern Company Services, Inc. - Trans"
+01051,SOCO,1,"Southern Company Services, Inc. - Trans"
+01129,SOCO,1,"Southern Company Services, Inc. - Trans"
+01131,SOCO,1,"Southern Company Services, Inc. - Trans"
+01057,SOCO,1,"Southern Company Services, Inc. - Trans"
+01055,SOCO,2,"Southern Company Services, Inc. - Trans"
+01053,SOCO,1,"Southern Company Services, Inc. - Trans"
+01091,SOCO,1,"Southern Company Services, Inc. - Trans"
+01047,SOCO,1,"Southern Company Services, Inc. - Trans"
+01045,SOCO,1,"Southern Company Services, Inc. - Trans"
+01081,SOCO,1,"Southern Company Services, Inc. - Trans"
+01107,SOCO,1,"Southern Company Services, Inc. - Trans"
+01011,SOCO,1,"Southern Company Services, Inc. - Trans"
+01013,SOCO,1,"Southern Company Services, Inc. - Trans"
+01015,SOCO,2,"Southern Company Services, Inc. - Trans"
+01017,SOCO,1,"Southern Company Services, Inc. - Trans"
+01039,SOCO,1,"Southern Company Services, Inc. - Trans"
+01041,SOCO,1,"Southern Company Services, Inc. - Trans"
+01093,SOCO,1,"Southern Company Services, Inc. - Trans"
+01105,SOCO,1,"Southern Company Services, Inc. - Trans"
+01043,SOCO,2,"Southern Company Services, Inc. - Trans"
+01037,SOCO,1,"Southern Company Services, Inc. - Trans"
+01117,SOCO,1,"Southern Company Services, Inc. - Trans"
+01115,SOCO,1,"Southern Company Services, Inc. - Trans"
+01119,SOCO,1,"Southern Company Services, Inc. - Trans"
+01121,SOCO,1,"Southern Company Services, Inc. - Trans"
+01007,SOCO,1,"Southern Company Services, Inc. - Trans"
+01001,SOCO,1,"Southern Company Services, Inc. - Trans"
+01021,SOCO,1,"Southern Company Services, Inc. - Trans"
+01023,SOCO,1,"Southern Company Services, Inc. - Trans"
+01019,SOCO,2,"Southern Company Services, Inc. - Trans"
+01025,SOCO,1,"Southern Company Services, Inc. - Trans"
+01005,SOCO,1,"Southern Company Services, Inc. - Trans"
+01003,SOCO,1,"Southern Company Services, Inc. - Trans"
+01087,SOCO,1,"Southern Company Services, Inc. - Trans"
+01085,SOCO,1,"Southern Company Services, Inc. - Trans"
+01127,SOCO,1,"Southern Company Services, Inc. - Trans"
+01095,SOCO,2,"Southern Company Services, Inc. - Trans"
+01097,SOCO,1,"Southern Company Services, Inc. - Trans"
+01099,SOCO,1,"Southern Company Services, Inc. - Trans"
+01101,SOCO,1,"Southern Company Services, Inc. - Trans"
+01063,SOCO,1,"Southern Company Services, Inc. - Trans"
+01065,SOCO,1,"Southern Company Services, Inc. - Trans"
+01111,SOCO,1,"Southern Company Services, Inc. - Trans"
+01069,SOCO,1,"Southern Company Services, Inc. - Trans"
+01073,SOCO,2,"Southern Company Services, Inc. - Trans"
+01075,SOCO,1,"Southern Company Services, Inc. - Trans"
+01079,SOCO,2,"Southern Company Services, Inc. - Trans"
+01031,SOCO,1,"Southern Company Services, Inc. - Trans"
+01029,SOCO,1,"Southern Company Services, Inc. - Trans"
+01027,SOCO,1,"Southern Company Services, Inc. - Trans"
+01009,SOCO,1,"Southern Company Services, Inc. - Trans"
+42069,PJM,1,"PJM Interconnection, LLC"
+42025,PJM,1,"PJM Interconnection, LLC"
+42079,PJM,1,"PJM Interconnection, LLC"
+42035,PJM,1,"PJM Interconnection, LLC"
+42037,PJM,1,"PJM Interconnection, LLC"
+42093,PJM,1,"PJM Interconnection, LLC"
+42107,PJM,1,"PJM Interconnection, LLC"
+42109,PJM,1,"PJM Interconnection, LLC"
+42097,PJM,1,"PJM Interconnection, LLC"
+42119,PJM,1,"PJM Interconnection, LLC"
+04003,AZPS,3,Arizona Public Service Company
+04001,AZPS,4,Arizona Public Service Company
+04027,AZPS,2,Arizona Public Service Company
+04023,AZPS,3,Arizona Public Service Company
+04019,AZPS,3,Arizona Public Service Company
+04021,AZPS,3,Arizona Public Service Company
+04007,AZPS,4,Arizona Public Service Company
+04005,AZPS,3,Arizona Public Service Company
+04015,AZPS,4,Arizona Public Service Company
+04017,AZPS,4,Arizona Public Service Company
+04009,AZPS,2,Arizona Public Service Company
+04011,AZPS,3,Arizona Public Service Company
+04025,AZPS,2,Arizona Public Service Company
+04013,AZPS,3,Arizona Public Service Company
+25023,ISNE,1,ISO New England Inc.
+25001,ISNE,1,ISO New England Inc.
+25003,ISNE,1,ISO New England Inc.
+25005,ISNE,1,ISO New England Inc.
+25011,ISNE,1,ISO New England Inc.
+25021,ISNE,1,ISO New England Inc.
+25025,ISNE,1,ISO New England Inc.
+25017,ISNE,1,ISO New England Inc.
+25007,ISNE,1,ISO New England Inc.
+25015,ISNE,1,ISO New England Inc.
+25013,ISNE,1,ISO New England Inc.
+27081,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+27039,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+27127,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+27041,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+27037,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+27067,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+27055,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+27173,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+27053,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+27049,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+27047,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+27043,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+27025,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+27167,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+27169,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+27131,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+27141,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+27133,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+27027,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+27117,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+27115,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+27119,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+27121,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+27105,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+27145,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+27083,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+27085,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+27093,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+27123,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+27101,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+27103,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+27099,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+27147,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+27143,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+27109,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+27107,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+27157,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+27165,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+27003,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+27163,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+27013,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+27009,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+27161,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+27129,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+27171,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+27073,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+27079,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+27015,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+27019,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+27023,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+27139,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+27153,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+25027,ISNE,1,ISO New England Inc.
+25009,ISNE,1,ISO New England Inc.
+24033,PJM,1,"PJM Interconnection, LLC"
+24025,PJM,1,"PJM Interconnection, LLC"
+24031,PJM,1,"PJM Interconnection, LLC"
+24027,PJM,1,"PJM Interconnection, LLC"
+24009,PJM,1,"PJM Interconnection, LLC"
+24013,PJM,1,"PJM Interconnection, LLC"
+24510,PJM,1,"PJM Interconnection, LLC"
+24005,PJM,1,"PJM Interconnection, LLC"
+24003,PJM,1,"PJM Interconnection, LLC"
+53037,PSEI,4,Puget Sound Energy
+53035,PSEI,2,Puget Sound Energy
+53033,PSEI,5,Puget Sound Energy
+53029,PSEI,2,Puget Sound Energy
+53073,PSEI,2,Puget Sound Energy
+53057,PSEI,2,Puget Sound Energy
+53067,PSEI,2,Puget Sound Energy
+53053,PSEI,3,Puget Sound Energy
+29063,MISO,3,"Midcontinent Independent Transmission System Operator, Inc.."
+29125,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+29121,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+29123,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+29103,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+29133,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+29173,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+29117,MISO,3,"Midcontinent Independent Transmission System Operator, Inc.."
+29073,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+29177,MISO,3,"Midcontinent Independent Transmission System Operator, Inc.."
+29179,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+29115,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+29157,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+29155,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+29151,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+29175,MISO,3,"Midcontinent Independent Transmission System Operator, Inc.."
+29219,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+29007,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+29069,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+29071,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+29049,MISO,3,"Midcontinent Independent Transmission System Operator, Inc.."
+29031,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+29045,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+29061,MISO,3,"Midcontinent Independent Transmission System Operator, Inc.."
+29047,MISO,3,"Midcontinent Independent Transmission System Operator, Inc.."
+29139,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+29141,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+29137,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+29169,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+29163,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+29143,MISO,3,"Midcontinent Independent Transmission System Operator, Inc.."
+29161,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+29159,MISO,3,"Midcontinent Independent Transmission System Operator, Inc.."
+29099,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+29041,MISO,3,"Midcontinent Independent Transmission System Operator, Inc.."
+29127,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+29189,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+29211,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+29207,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+29135,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+29197,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+29199,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+29201,MISO,3,"Midcontinent Independent Transmission System Operator, Inc.."
+29183,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+29131,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+29195,MISO,3,"Midcontinent Independent Transmission System Operator, Inc.."
+29111,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+29113,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+29187,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+29510,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+29186,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+29221,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+29053,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+29051,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+29029,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+29001,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+29017,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+29019,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+29075,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+29089,MISO,3,"Midcontinent Independent Transmission System Operator, Inc.."
+29027,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+29025,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+29023,MISO,3,"Midcontinent Independent Transmission System Operator, Inc.."
+29093,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+29055,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+17003,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+17055,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+17001,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+17191,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+17199,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+17193,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+17057,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+17025,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+17061,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+17013,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+17179,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+17181,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+17175,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+17189,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+17029,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+17027,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+17059,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+17101,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+17095,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+17129,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+17113,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+17009,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+17041,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+17039,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+17035,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+17147,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+17145,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+17143,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+17139,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+17137,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+17019,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+17017,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+17131,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+17075,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+17167,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+17165,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+17159,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+17157,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+17005,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+17045,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+17149,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+17135,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+17133,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+17077,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+17121,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+17119,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+17117,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+17115,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+17109,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+17127,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+17125,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+17187,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+17185,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+17073,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+17079,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+17081,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+17087,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+17083,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+17047,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+17049,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+17107,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+17021,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+17023,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+17033,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+17071,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+17153,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+17155,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+17051,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+17067,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+17183,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+17169,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+17173,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+17171,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+17163,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+55137,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+55127,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+55131,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+55125,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+55117,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+55135,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+55133,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+55139,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+55087,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+55071,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+55059,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+55075,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+55079,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+55021,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+55037,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+55083,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+55115,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+55041,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+55009,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+55015,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+55039,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+55027,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+55055,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+55043,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+55025,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+55101,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+55089,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+55105,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+34037,PJM,2,"PJM Interconnection, LLC"
+34019,PJM,1,"PJM Interconnection, LLC"
+34029,PJM,1,"PJM Interconnection, LLC"
+34041,PJM,1,"PJM Interconnection, LLC"
+36059,NYIS,1,New York Independent System Operator
+36103,NYIS,2,New York Independent System Operator
+49039,PACE,1,PacifiCorp - East
+49045,PACE,2,PacifiCorp - East
+49011,PACE,1,PacifiCorp - East
+49013,PACE,2,PacifiCorp - East
+49043,PACE,1,PacifiCorp - East
+49027,PACE,2,PacifiCorp - East
+49053,PACE,2,PacifiCorp - East
+49057,PACE,1,PacifiCorp - East
+49029,PACE,1,PacifiCorp - East
+49017,PACE,2,PacifiCorp - East
+49019,PACE,1,PacifiCorp - East
+49021,PACE,2,PacifiCorp - East
+49007,PACE,1,PacifiCorp - East
+49023,PACE,2,PacifiCorp - East
+49015,PACE,1,PacifiCorp - East
+49041,PACE,2,PacifiCorp - East
+49037,PACE,3,PacifiCorp - East
+49031,PACE,2,PacifiCorp - East
+49051,PACE,2,PacifiCorp - East
+49035,PACE,2,PacifiCorp - East
+49047,PACE,3,PacifiCorp - East
+49033,PACE,1,PacifiCorp - East
+49049,PACE,1,PacifiCorp - East
+49001,PACE,1,PacifiCorp - East
+49005,PACE,1,PacifiCorp - East
+49003,PACE,2,PacifiCorp - East
+22069,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+22071,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+22073,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+22025,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+22057,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+22087,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+22091,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+22085,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+22005,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+22015,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+22055,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+22023,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+22021,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+22019,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+22081,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+22063,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+22075,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+22035,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+22041,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+22037,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+22123,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+22033,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+22029,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+22121,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+22061,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+22083,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+22013,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+22043,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+22049,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+22011,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+22007,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+22009,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+22001,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+22003,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+22051,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+22127,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+22103,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+22125,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+22097,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+22099,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+22115,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+22113,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+22111,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+22107,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+22109,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+22105,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+22053,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+22059,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+22065,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+22027,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+22067,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+22117,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+22095,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+22119,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+22093,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+22089,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+22045,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+22047,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+22077,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+22079,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+39155,PJM,1,"PJM Interconnection, LLC"
+39007,PJM,1,"PJM Interconnection, LLC"
+39109,PJM,1,"PJM Interconnection, LLC"
+39123,PJM,1,"PJM Interconnection, LLC"
+39047,PJM,1,"PJM Interconnection, LLC"
+39133,PJM,1,"PJM Interconnection, LLC"
+39043,PJM,1,"PJM Interconnection, LLC"
+39055,PJM,1,"PJM Interconnection, LLC"
+39099,PJM,1,"PJM Interconnection, LLC"
+39021,PJM,1,"PJM Interconnection, LLC"
+39023,PJM,1,"PJM Interconnection, LLC"
+39159,PJM,1,"PJM Interconnection, LLC"
+39103,PJM,1,"PJM Interconnection, LLC"
+39093,PJM,1,"PJM Interconnection, LLC"
+39097,PJM,1,"PJM Interconnection, LLC"
+39035,PJM,1,"PJM Interconnection, LLC"
+39057,PJM,1,"PJM Interconnection, LLC"
+32023,NEVP,1,Nevada Power Company
+32003,NEVP,2,Nevada Power Company
+48013,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48187,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48091,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48019,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48259,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48325,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48029,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48493,ERCO,1,"Electric Reliability Council of Texas, Inc."
+41067,PGE,2,Portland General Electric Company
+41009,PGE,2,Portland General Electric Company
+41071,PGE,2,Portland General Electric Company
+41047,PGE,3,Portland General Electric Company
+41051,PGE,3,Portland General Electric Company
+41053,PGE,3,Portland General Electric Company
+41005,PGE,2,Portland General Electric Company
+18021,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+18017,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+18015,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+18013,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+18019,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+18031,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+18029,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+18121,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+18119,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+18101,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+18097,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+18095,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+18117,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+18161,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+18159,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+18137,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+18135,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+18179,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+18139,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+18129,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+18065,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+18051,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+18049,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+18133,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+18125,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+18177,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+18115,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+18071,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+18069,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+18077,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+18085,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+18079,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+18081,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+18083,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+18109,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+18103,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+18105,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+18107,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+18053,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+18061,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+18059,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+18057,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+18055,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+18063,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+18047,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+18093,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+18067,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+18035,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+18037,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+18041,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+18043,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+18045,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+18165,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+18181,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+18175,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+18183,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+18143,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+18153,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+18145,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+18157,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+18167,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+18169,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+18155,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+18171,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+18173,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+18011,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+18007,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+18005,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+18027,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+18025,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+18023,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+36099,NYIS,1,New York Independent System Operator
+36079,NYIS,1,New York Independent System Operator
+36071,NYIS,1,New York Independent System Operator
+36101,NYIS,1,New York Independent System Operator
+36111,NYIS,1,New York Independent System Operator
+36097,NYIS,1,New York Independent System Operator
+36123,NYIS,1,New York Independent System Operator
+36109,NYIS,1,New York Independent System Operator
+36027,NYIS,1,New York Independent System Operator
+36025,NYIS,1,New York Independent System Operator
+36107,NYIS,2,New York Independent System Operator
+36117,NYIS,1,New York Independent System Operator
+36039,NYIS,1,New York Independent System Operator
+36007,NYIS,1,New York Independent System Operator
+36015,NYIS,2,New York Independent System Operator
+36105,NYIS,1,New York Independent System Operator
+40047,SWPP,2,Southwest Power Pool
+40111,SWPP,2,Southwest Power Pool
+40063,SWPP,1,Southwest Power Pool
+40095,SWPP,1,Southwest Power Pool
+40113,SWPP,2,Southwest Power Pool
+40129,SWPP,1,Southwest Power Pool
+40153,SWPP,1,Southwest Power Pool
+40117,SWPP,2,Southwest Power Pool
+40015,SWPP,1,Southwest Power Pool
+40017,SWPP,1,Southwest Power Pool
+40013,SWPP,1,Southwest Power Pool
+40119,SWPP,2,Southwest Power Pool
+40133,SWPP,2,Southwest Power Pool
+40143,SWPP,2,Southwest Power Pool
+40137,SWPP,1,Southwest Power Pool
+40135,SWPP,2,Southwest Power Pool
+40121,SWPP,2,Southwest Power Pool
+40045,SWPP,1,Southwest Power Pool
+40083,SWPP,2,Southwest Power Pool
+40085,SWPP,1,Southwest Power Pool
+40029,SWPP,1,Southwest Power Pool
+40051,SWPP,1,Southwest Power Pool
+40049,SWPP,1,Southwest Power Pool
+40081,SWPP,2,Southwest Power Pool
+40021,SWPP,2,Southwest Power Pool
+40023,SWPP,1,Southwest Power Pool
+40027,SWPP,1,Southwest Power Pool
+40151,SWPP,1,Southwest Power Pool
+40053,SWPP,1,Southwest Power Pool
+40149,SWPP,1,Southwest Power Pool
+40145,SWPP,2,Southwest Power Pool
+40123,SWPP,1,Southwest Power Pool
+40059,SWPP,1,Southwest Power Pool
+40061,SWPP,2,Southwest Power Pool
+40039,SWPP,1,Southwest Power Pool
+40037,SWPP,2,Southwest Power Pool
+40043,SWPP,1,Southwest Power Pool
+40093,SWPP,1,Southwest Power Pool
+40009,SWPP,1,Southwest Power Pool
+40007,SWPP,1,Southwest Power Pool
+40079,SWPP,2,Southwest Power Pool
+40073,SWPP,1,Southwest Power Pool
+40011,SWPP,1,Southwest Power Pool
+40001,SWPP,2,Southwest Power Pool
+40003,SWPP,1,Southwest Power Pool
+40005,SWPP,2,Southwest Power Pool
+40109,SWPP,2,Southwest Power Pool
+40087,SWPP,1,Southwest Power Pool
+40091,SWPP,2,Southwest Power Pool
+40099,SWPP,1,Southwest Power Pool
+40103,SWPP,2,Southwest Power Pool
+40101,SWPP,2,Southwest Power Pool
+40069,SWPP,1,Southwest Power Pool
+40071,SWPP,1,Southwest Power Pool
+40067,SWPP,1,Southwest Power Pool
+40107,SWPP,2,Southwest Power Pool
+40019,SWPP,1,Southwest Power Pool
+40125,SWPP,1,Southwest Power Pool
+45009,SCEG,2,Dominion Energy South Carolina
+45049,SCEG,2,Dominion Energy South Carolina
+45005,SCEG,2,Dominion Energy South Carolina
+45003,SCEG,2,Dominion Energy South Carolina
+45019,SCEG,2,Dominion Energy South Carolina
+45017,SCEG,2,Dominion Energy South Carolina
+45079,SCEG,2,Dominion Energy South Carolina
+45081,SCEG,3,Dominion Energy South Carolina
+45087,SCEG,2,Dominion Energy South Carolina
+45039,SCEG,3,Dominion Energy South Carolina
+45065,SCEG,3,Dominion Energy South Carolina
+45071,SCEG,3,Dominion Energy South Carolina
+45075,SCEG,2,Dominion Energy South Carolina
+45011,SCEG,2,Dominion Energy South Carolina
+45063,SCEG,2,Dominion Energy South Carolina
+45053,SCEG,2,Dominion Energy South Carolina
+45015,SCEG,2,Dominion Energy South Carolina
+45047,SCEG,3,Dominion Energy South Carolina
+45001,SCEG,2,Dominion Energy South Carolina
+45037,SCEG,3,Dominion Energy South Carolina
+45035,SCEG,2,Dominion Energy South Carolina
+45029,SCEG,2,Dominion Energy South Carolina
+45013,SCEG,2,Dominion Energy South Carolina
+39165,PJM,1,"PJM Interconnection, LLC"
+39025,PJM,1,"PJM Interconnection, LLC"
+39027,PJM,1,"PJM Interconnection, LLC"
+39017,PJM,1,"PJM Interconnection, LLC"
+39015,PJM,1,"PJM Interconnection, LLC"
+39061,PJM,1,"PJM Interconnection, LLC"
+39071,PJM,1,"PJM Interconnection, LLC"
+39113,PJM,1,"PJM Interconnection, LLC"
+39129,PJM,1,"PJM Interconnection, LLC"
+39135,PJM,1,"PJM Interconnection, LLC"
+39141,PJM,1,"PJM Interconnection, LLC"
+39085,PJM,1,"PJM Interconnection, LLC"
+19125,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+19197,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+19161,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+19157,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+19109,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+19129,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+19135,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+19133,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+19181,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+19009,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+19035,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+19027,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+19103,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+19079,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+19083,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+19069,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+19085,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+19013,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+19017,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+19163,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+19165,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+19183,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+19187,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+19137,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+19139,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+19021,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+19067,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+19049,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+19025,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+19023,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+19145,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+19141,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+19155,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+19153,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+19151,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+19149,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+19147,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+19123,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+19119,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+19121,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+19093,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+19019,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+19045,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+19001,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+19029,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+19037,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+19003,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+19047,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+19071,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+19099,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+19091,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+19033,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+19173,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+19167,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+19193,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+05017,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+05071,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+05069,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+05009,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+05095,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+05093,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+05147,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+05149,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+05041,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+05043,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+05045,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+05125,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+05127,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+05129,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+05135,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+05089,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+05091,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+05137,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+05145,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+05053,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+05051,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+05057,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+05097,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+05099,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+05055,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+05101,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+05103,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+05079,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+05077,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+05083,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+05085,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+05015,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+05063,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+05109,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+05107,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+05105,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+05141,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+05139,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+05123,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+05059,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+05049,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+05073,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+05117,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+05075,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+05065,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+05067,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+05031,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+05035,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+05037,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+05039,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+05019,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+05021,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+05011,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+05029,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+05027,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+05115,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+05111,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+05119,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+05121,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+05013,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+05005,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+05023,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+05025,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+05001,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+05003,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+23011,ISNE,1,ISO New England Inc.
+23013,ISNE,1,ISO New England Inc.
+23001,ISNE,1,ISO New England Inc.
+23021,ISNE,2,ISO New England Inc.
+23023,ISNE,1,ISO New England Inc.
+23015,ISNE,1,ISO New England Inc.
+23009,ISNE,2,ISO New England Inc.
+23017,ISNE,1,ISO New England Inc.
+23025,ISNE,1,ISO New England Inc.
+23027,ISNE,2,ISO New England Inc.
+23031,ISNE,1,ISO New England Inc.
+23019,ISNE,2,ISO New England Inc.
+23007,ISNE,1,ISO New England Inc.
+23005,ISNE,1,ISO New England Inc.
+45021,DUK,1,Duke Energy Carolinas
+45073,DUK,1,Duke Energy Carolinas
+45077,DUK,1,Duke Energy Carolinas
+45023,DUK,2,Duke Energy Carolinas
+45091,DUK,2,Duke Energy Carolinas
+45059,DUK,2,Duke Energy Carolinas
+45045,DUK,1,Duke Energy Carolinas
+45083,DUK,1,Duke Energy Carolinas
+45007,DUK,1,Duke Energy Carolinas
+45057,DUK,2,Duke Energy Carolinas
+45055,DUK,3,Duke Energy Carolinas
+41033,PACW,1,PacifiCorp - West
+41039,PACW,2,PacifiCorp - West
+41041,PACW,2,PacifiCorp - West
+41011,PACW,2,PacifiCorp - West
+41007,PACW,2,PacifiCorp - West
+41021,PACW,2,PacifiCorp - West
+41055,PACW,2,PacifiCorp - West
+41031,PACW,2,PacifiCorp - West
+41059,PACW,2,PacifiCorp - West
+41019,PACW,2,PacifiCorp - West
+41057,PACW,2,PacifiCorp - West
+41065,PACW,2,PacifiCorp - West
+41003,PACW,2,PacifiCorp - West
+41049,PACW,2,PacifiCorp - West
+41027,PACW,2,PacifiCorp - West
+41013,PACW,2,PacifiCorp - West
+41037,PACW,2,PacifiCorp - West
+41063,PACW,2,PacifiCorp - West
+41017,PACW,2,PacifiCorp - West
+41029,PACW,1,PacifiCorp - West
+41043,PACW,2,PacifiCorp - West
+41035,PACW,2,PacifiCorp - West
+16047,IPCO,1,Idaho Power Company
+16087,IPCO,1,Idaho Power Company
+16085,IPCO,1,Idaho Power Company
+16083,IPCO,1,Idaho Power Company
+16071,IPCO,3,Idaho Power Company
+16063,IPCO,1,Idaho Power Company
+16067,IPCO,2,Idaho Power Company
+16059,IPCO,1,Idaho Power Company
+16003,IPCO,1,Idaho Power Company
+16005,IPCO,2,Idaho Power Company
+16001,IPCO,1,Idaho Power Company
+16049,IPCO,3,Idaho Power Company
+16027,IPCO,1,Idaho Power Company
+16011,IPCO,2,Idaho Power Company
+16077,IPCO,3,Idaho Power Company
+16015,IPCO,1,Idaho Power Company
+16013,IPCO,1,Idaho Power Company
+16045,IPCO,1,Idaho Power Company
+16025,IPCO,1,Idaho Power Company
+16039,IPCO,1,Idaho Power Company
+16075,IPCO,1,Idaho Power Company
+16073,IPCO,2,Idaho Power Company
+16053,IPCO,1,Idaho Power Company
+16031,IPCO,2,Idaho Power Company
+48491,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48453,ERCO,1,"Electric Reliability Council of Texas, Inc."
+34009,PJM,1,"PJM Interconnection, LLC"
+34001,PJM,1,"PJM Interconnection, LLC"
+34011,PJM,1,"PJM Interconnection, LLC"
+40141,SWPP,1,Southwest Power Pool
+40075,SWPP,1,Southwest Power Pool
+40147,SWPP,2,Southwest Power Pool
+40097,SWPP,2,Southwest Power Pool
+40089,SWPP,2,Southwest Power Pool
+40031,SWPP,1,Southwest Power Pool
+40115,SWPP,1,Southwest Power Pool
+40131,SWPP,2,Southwest Power Pool
+40127,SWPP,2,Southwest Power Pool
+40041,SWPP,2,Southwest Power Pool
+40105,SWPP,2,Southwest Power Pool
+40055,SWPP,1,Southwest Power Pool
+40057,SWPP,1,Southwest Power Pool
+40077,SWPP,2,Southwest Power Pool
+40035,SWPP,1,Southwest Power Pool
+40033,SWPP,1,Southwest Power Pool
+40065,SWPP,1,Southwest Power Pool
+35029,PNM,2,Public Service Company of New Mexico
+35009,PNM,2,Public Service Company of New Mexico
+35006,PNM,1,Public Service Company of New Mexico
+35003,PNM,2,Public Service Company of New Mexico
+35001,PNM,1,Public Service Company of New Mexico
+35061,PNM,1,Public Service Company of New Mexico
+35059,PNM,2,Public Service Company of New Mexico
+35045,PNM,4,Public Service Company of New Mexico
+35053,PNM,1,Public Service Company of New Mexico
+35031,PNM,3,Public Service Company of New Mexico
+35035,PNM,3,Public Service Company of New Mexico
+35047,PNM,2,Public Service Company of New Mexico
+35057,PNM,1,Public Service Company of New Mexico
+35043,PNM,2,Public Service Company of New Mexico
+35049,PNM,2,Public Service Company of New Mexico
+35013,PNM,2,Public Service Company of New Mexico
+35017,PNM,1,Public Service Company of New Mexico
+35023,PNM,1,Public Service Company of New Mexico
+35027,PNM,1,Public Service Company of New Mexico
+39149,PJM,1,"PJM Interconnection, LLC"
+39107,PJM,1,"PJM Interconnection, LLC"
+48071,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+48041,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+48361,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+48473,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+48185,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+48051,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+48351,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+48245,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+48471,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+48225,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+48373,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+48395,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+48293,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+48477,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+48289,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+48241,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+48339,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+48331,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+48199,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+48291,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+48313,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+48407,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+48201,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+48457,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+48455,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+48167,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+48145,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+51071,PJM,1,"PJM Interconnection, LLC"
+51021,PJM,1,"PJM Interconnection, LLC"
+51169,PJM,3,"PJM Interconnection, LLC"
+51173,PJM,1,"PJM Interconnection, LLC"
+51191,PJM,2,"PJM Interconnection, LLC"
+51141,PJM,1,"PJM Interconnection, LLC"
+51167,PJM,2,"PJM Interconnection, LLC"
+51077,PJM,1,"PJM Interconnection, LLC"
+51155,PJM,1,"PJM Interconnection, LLC"
+51195,PJM,3,"PJM Interconnection, LLC"
+51121,PJM,1,"PJM Interconnection, LLC"
+51197,PJM,1,"PJM Interconnection, LLC"
+51161,PJM,1,"PJM Interconnection, LLC"
+51063,PJM,1,"PJM Interconnection, LLC"
+51045,PJM,1,"PJM Interconnection, LLC"
+51051,PJM,2,"PJM Interconnection, LLC"
+33019,ISNE,1,ISO New England Inc.
+33015,ISNE,1,ISO New England Inc.
+33017,ISNE,1,ISO New England Inc.
+33011,ISNE,1,ISO New England Inc.
+33009,ISNE,1,ISO New England Inc.
+33003,ISNE,1,ISO New England Inc.
+33001,ISNE,1,ISO New England Inc.
+33007,ISNE,1,ISO New England Inc.
+33005,ISNE,1,ISO New England Inc.
+33013,ISNE,1,ISO New England Inc.
+44009,ISNE,1,ISO New England Inc.
+44007,ISNE,1,ISO New England Inc.
+44001,ISNE,1,ISO New England Inc.
+44003,ISNE,1,ISO New England Inc.
+44005,ISNE,1,ISO New England Inc.
+21039,LGEE,3,Louisville Gas and Electric Company and Kentucky Utilities Company
+21079,LGEE,2,Louisville Gas and Electric Company and Kentucky Utilities Company
+21033,LGEE,2,Louisville Gas and Electric Company and Kentucky Utilities Company
+21181,LGEE,2,Louisville Gas and Electric Company and Kentucky Utilities Company
+21179,LGEE,2,Louisville Gas and Electric Company and Kentucky Utilities Company
+21177,LGEE,3,Louisville Gas and Electric Company and Kentucky Utilities Company
+21017,LGEE,2,Louisville Gas and Electric Company and Kentucky Utilities Company
+21013,LGEE,2,Louisville Gas and Electric Company and Kentucky Utilities Company
+21023,LGEE,2,Louisville Gas and Electric Company and Kentucky Utilities Company
+21021,LGEE,2,Louisville Gas and Electric Company and Kentucky Utilities Company
+21055,LGEE,2,Louisville Gas and Electric Company and Kentucky Utilities Company
+21225,LGEE,2,Louisville Gas and Electric Company and Kentucky Utilities Company
+21223,LGEE,2,Louisville Gas and Electric Company and Kentucky Utilities Company
+21217,LGEE,2,Louisville Gas and Electric Company and Kentucky Utilities Company
+21215,LGEE,2,Louisville Gas and Electric Company and Kentucky Utilities Company
+21029,LGEE,2,Louisville Gas and Electric Company and Kentucky Utilities Company
+21081,LGEE,3,Louisville Gas and Electric Company and Kentucky Utilities Company
+21187,LGEE,2,Louisville Gas and Electric Company and Kentucky Utilities Company
+21183,LGEE,3,Louisville Gas and Electric Company and Kentucky Utilities Company
+21037,LGEE,2,Louisville Gas and Electric Company and Kentucky Utilities Company
+21095,LGEE,3,Louisville Gas and Electric Company and Kentucky Utilities Company
+21093,LGEE,3,Louisville Gas and Electric Company and Kentucky Utilities Company
+21087,LGEE,2,Louisville Gas and Electric Company and Kentucky Utilities Company
+21097,LGEE,2,Louisville Gas and Electric Company and Kentucky Utilities Company
+21005,LGEE,2,Louisville Gas and Electric Company and Kentucky Utilities Company
+21077,LGEE,2,Louisville Gas and Electric Company and Kentucky Utilities Company
+21001,LGEE,3,Louisville Gas and Electric Company and Kentucky Utilities Company
+21009,LGEE,3,Louisville Gas and Electric Company and Kentucky Utilities Company
+21007,LGEE,2,Louisville Gas and Electric Company and Kentucky Utilities Company
+21099,LGEE,2,Louisville Gas and Electric Company and Kentucky Utilities Company
+21101,LGEE,2,Louisville Gas and Electric Company and Kentucky Utilities Company
+21085,LGEE,4,Louisville Gas and Electric Company and Kentucky Utilities Company
+21011,LGEE,2,Louisville Gas and Electric Company and Kentucky Utilities Company
+21073,LGEE,2,Louisville Gas and Electric Company and Kentucky Utilities Company
+21067,LGEE,2,Louisville Gas and Electric Company and Kentucky Utilities Company
+21069,LGEE,2,Louisville Gas and Electric Company and Kentucky Utilities Company
+21065,LGEE,2,Louisville Gas and Electric Company and Kentucky Utilities Company
+21061,LGEE,3,Louisville Gas and Electric Company and Kentucky Utilities Company
+21199,LGEE,2,Louisville Gas and Electric Company and Kentucky Utilities Company
+21191,LGEE,2,Louisville Gas and Electric Company and Kentucky Utilities Company
+21207,LGEE,2,Louisville Gas and Electric Company and Kentucky Utilities Company
+21059,LGEE,2,Louisville Gas and Electric Company and Kentucky Utilities Company
+21161,LGEE,2,Louisville Gas and Electric Company and Kentucky Utilities Company
+21205,LGEE,2,Louisville Gas and Electric Company and Kentucky Utilities Company
+21203,LGEE,2,Louisville Gas and Electric Company and Kentucky Utilities Company
+21201,LGEE,2,Louisville Gas and Electric Company and Kentucky Utilities Company
+21045,LGEE,2,Louisville Gas and Electric Company and Kentucky Utilities Company
+21041,LGEE,2,Louisville Gas and Electric Company and Kentucky Utilities Company
+21185,LGEE,2,Louisville Gas and Electric Company and Kentucky Utilities Company
+21125,LGEE,2,Louisville Gas and Electric Company and Kentucky Utilities Company
+21123,LGEE,2,Louisville Gas and Electric Company and Kentucky Utilities Company
+21151,LGEE,2,Louisville Gas and Electric Company and Kentucky Utilities Company
+21155,LGEE,2,Louisville Gas and Electric Company and Kentucky Utilities Company
+21173,LGEE,2,Louisville Gas and Electric Company and Kentucky Utilities Company
+21167,LGEE,2,Louisville Gas and Electric Company and Kentucky Utilities Company
+21149,LGEE,2,Louisville Gas and Electric Company and Kentucky Utilities Company
+21049,LGEE,2,Louisville Gas and Electric Company and Kentucky Utilities Company
+21047,LGEE,2,Louisville Gas and Electric Company and Kentucky Utilities Company
+21229,LGEE,2,Louisville Gas and Electric Company and Kentucky Utilities Company
+21105,LGEE,2,Louisville Gas and Electric Company and Kentucky Utilities Company
+21107,LGEE,3,Louisville Gas and Electric Company and Kentucky Utilities Company
+21051,LGEE,2,Louisville Gas and Electric Company and Kentucky Utilities Company
+21075,LGEE,2,Louisville Gas and Electric Company and Kentucky Utilities Company
+21103,LGEE,2,Louisville Gas and Electric Company and Kentucky Utilities Company
+21147,LGEE,2,Louisville Gas and Electric Company and Kentucky Utilities Company
+21239,LGEE,2,Louisville Gas and Electric Company and Kentucky Utilities Company
+21211,LGEE,2,Louisville Gas and Electric Company and Kentucky Utilities Company
+21121,LGEE,2,Louisville Gas and Electric Company and Kentucky Utilities Company
+21113,LGEE,2,Louisville Gas and Electric Company and Kentucky Utilities Company
+21143,LGEE,2,Louisville Gas and Electric Company and Kentucky Utilities Company
+21139,LGEE,3,Louisville Gas and Electric Company and Kentucky Utilities Company
+21137,LGEE,2,Louisville Gas and Electric Company and Kentucky Utilities Company
+21209,LGEE,2,Louisville Gas and Electric Company and Kentucky Utilities Company
+21145,LGEE,3,Louisville Gas and Electric Company and Kentucky Utilities Company
+21129,LGEE,2,Louisville Gas and Electric Company and Kentucky Utilities Company
+21235,LGEE,3,Louisville Gas and Electric Company and Kentucky Utilities Company
+21233,LGEE,2,Louisville Gas and Electric Company and Kentucky Utilities Company
+55023,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+55045,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+55057,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+55103,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+55067,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+55065,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+55097,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+55077,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+55073,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+55111,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+55081,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+55078,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+55141,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+55047,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+55053,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+55049,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+55123,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+55001,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+18141,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+18131,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+18127,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+18113,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+18111,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+18039,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+18033,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+18073,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+18089,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+18091,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+18099,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+18149,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+18151,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+18087,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+18009,PJM,1,"PJM Interconnection, LLC"
+18001,PJM,1,"PJM Interconnection, LLC"
+18003,PJM,1,"PJM Interconnection, LLC"
+18075,PJM,1,"PJM Interconnection, LLC"
+47021,TVA,1,Tennessee Valley Authority
+47147,TVA,1,Tennessee Valley Authority
+47037,TVA,1,Tennessee Valley Authority
+47165,TVA,1,Tennessee Valley Authority
+47189,TVA,1,Tennessee Valley Authority
+47187,TVA,1,Tennessee Valley Authority
+47149,TVA,1,Tennessee Valley Authority
+48319,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48299,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48385,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48027,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48327,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48137,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48171,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48209,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48267,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48265,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48053,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48411,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48413,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48435,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48031,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48281,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48271,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48055,ERCO,1,"Electric Reliability Council of Texas, Inc."
+19177,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+19175,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+19041,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+19051,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+19189,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+19191,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+19031,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+19087,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+19055,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+19053,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+19081,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+19089,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+19095,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+19057,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+19073,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+19075,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+19105,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+19107,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+19077,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+19059,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+19117,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+19097,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+19101,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+19039,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+19185,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+19143,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+19169,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+19171,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+19159,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+19115,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+19113,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+19111,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+19007,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+19015,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+19005,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+19043,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+19011,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+19131,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+19127,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+19179,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+19063,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+19065,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+19061,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+19195,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+55051,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+55061,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+55029,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+55085,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+55069,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+21111,LGEE,2,Louisville Gas and Electric Company and Kentucky Utilities Company
+21163,LGEE,3,Louisville Gas and Electric Company and Kentucky Utilities Company
+47157,TVA,1,Tennessee Valley Authority
+28097,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+28113,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+28107,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+28043,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+28049,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+28125,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+28037,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+28007,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+28123,MISO,3,"Midcontinent Independent Transmission System Operator, Inc.."
+28001,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+28005,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+28013,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+28011,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+28157,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+28127,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+28077,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+28129,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+28133,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+28135,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+28083,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+28079,MISO,3,"Midcontinent Independent Transmission System Operator, Inc.."
+28119,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+28121,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+28161,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+28147,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+28155,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+28151,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+28063,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+28065,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+28019,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+28149,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+28137,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+28143,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+28031,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+28029,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+28163,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+28021,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+28085,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+28055,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+28015,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+28053,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+28051,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+28033,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+28027,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+28025,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+28089,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+31109,SWPP,1,Southwest Power Pool
+31021,SWPP,1,Southwest Power Pool
+31155,SWPP,1,Southwest Power Pool
+31131,SWPP,1,Southwest Power Pool
+31147,SWPP,1,Southwest Power Pool
+31133,SWPP,1,Southwest Power Pool
+31127,SWPP,1,Southwest Power Pool
+31037,SWPP,1,Southwest Power Pool
+31177,SWPP,1,Southwest Power Pool
+31153,SWPP,1,Southwest Power Pool
+31025,SWPP,1,Southwest Power Pool
+31097,SWPP,1,Southwest Power Pool
+31055,SWPP,1,Southwest Power Pool
+31053,SWPP,1,Southwest Power Pool
+53061,BPAT,1,Bonneville Power Administration
+54063,PJM,1,"PJM Interconnection, LLC"
+54045,PJM,1,"PJM Interconnection, LLC"
+54053,PJM,1,"PJM Interconnection, LLC"
+54047,PJM,1,"PJM Interconnection, LLC"
+54043,PJM,1,"PJM Interconnection, LLC"
+54039,PJM,1,"PJM Interconnection, LLC"
+54011,PJM,1,"PJM Interconnection, LLC"
+54015,PJM,1,"PJM Interconnection, LLC"
+54099,PJM,1,"PJM Interconnection, LLC"
+54109,PJM,1,"PJM Interconnection, LLC"
+54005,PJM,1,"PJM Interconnection, LLC"
+54035,PJM,1,"PJM Interconnection, LLC"
+54067,PJM,1,"PJM Interconnection, LLC"
+54079,PJM,1,"PJM Interconnection, LLC"
+54081,PJM,1,"PJM Interconnection, LLC"
+54059,PJM,1,"PJM Interconnection, LLC"
+54055,PJM,1,"PJM Interconnection, LLC"
+54087,PJM,1,"PJM Interconnection, LLC"
+54019,PJM,1,"PJM Interconnection, LLC"
+54089,PJM,1,"PJM Interconnection, LLC"
+54025,PJM,1,"PJM Interconnection, LLC"
+20087,SWPP,1,Southwest Power Pool
+20117,SWPP,1,Southwest Power Pool
+20113,SWPP,1,Southwest Power Pool
+20127,SWPP,1,Southwest Power Pool
+20115,SWPP,1,Southwest Power Pool
+20099,SWPP,1,Southwest Power Pool
+20091,SWPP,1,Southwest Power Pool
+20169,SWPP,1,Southwest Power Pool
+20161,SWPP,1,Southwest Power Pool
+20177,SWPP,1,Southwest Power Pool
+20043,SWPP,1,Southwest Power Pool
+20045,SWPP,1,Southwest Power Pool
+20041,SWPP,1,Southwest Power Pool
+20143,SWPP,1,Southwest Power Pool
+20139,SWPP,1,Southwest Power Pool
+20073,SWPP,1,Southwest Power Pool
+20085,SWPP,1,Southwest Power Pool
+20049,SWPP,1,Southwest Power Pool
+20053,SWPP,1,Southwest Power Pool
+20029,SWPP,1,Southwest Power Pool
+20059,SWPP,1,Southwest Power Pool
+20061,SWPP,1,Southwest Power Pool
+20005,SWPP,1,Southwest Power Pool
+20013,SWPP,1,Southwest Power Pool
+20015,SWPP,1,Southwest Power Pool
+20017,SWPP,1,Southwest Power Pool
+20105,SWPP,1,Southwest Power Pool
+20111,SWPP,1,Southwest Power Pool
+20031,SWPP,1,Southwest Power Pool
+20159,SWPP,1,Southwest Power Pool
+20027,SWPP,1,Southwest Power Pool
+20197,SWPP,1,Southwest Power Pool
+20149,SWPP,1,Southwest Power Pool
+20209,SWPP,1,Southwest Power Pool
+20207,SWPP,1,Southwest Power Pool
+20205,SWPP,1,Southwest Power Pool
+20103,SWPP,1,Southwest Power Pool
+20131,SWPP,1,Southwest Power Pool
+20133,SWPP,1,Southwest Power Pool
+20155,SWPP,1,Southwest Power Pool
+20201,SWPP,1,Southwest Power Pool
+32007,NEVP,2,Nevada Power Company
+32019,NEVP,1,Nevada Power Company
+32029,NEVP,1,Nevada Power Company
+32005,NEVP,1,Nevada Power Company
+32510,NEVP,1,Nevada Power Company
+32031,NEVP,2,Nevada Power Company
+32001,NEVP,1,Nevada Power Company
+32021,NEVP,1,Nevada Power Company
+32009,NEVP,1,Nevada Power Company
+32011,NEVP,1,Nevada Power Company
+32013,NEVP,1,Nevada Power Company
+32015,NEVP,1,Nevada Power Company
+32027,NEVP,1,Nevada Power Company
+54075,PJM,1,"PJM Interconnection, LLC"
+54095,PJM,1,"PJM Interconnection, LLC"
+54077,PJM,1,"PJM Interconnection, LLC"
+54049,PJM,1,"PJM Interconnection, LLC"
+54001,PJM,1,"PJM Interconnection, LLC"
+54107,PJM,1,"PJM Interconnection, LLC"
+54105,PJM,1,"PJM Interconnection, LLC"
+54103,PJM,1,"PJM Interconnection, LLC"
+54101,PJM,1,"PJM Interconnection, LLC"
+54097,PJM,1,"PJM Interconnection, LLC"
+54013,PJM,1,"PJM Interconnection, LLC"
+54009,PJM,1,"PJM Interconnection, LLC"
+54073,PJM,1,"PJM Interconnection, LLC"
+54085,PJM,1,"PJM Interconnection, LLC"
+54083,PJM,1,"PJM Interconnection, LLC"
+54017,PJM,1,"PJM Interconnection, LLC"
+54093,PJM,1,"PJM Interconnection, LLC"
+54091,PJM,1,"PJM Interconnection, LLC"
+54041,PJM,1,"PJM Interconnection, LLC"
+54007,PJM,1,"PJM Interconnection, LLC"
+54071,PJM,1,"PJM Interconnection, LLC"
+54021,PJM,1,"PJM Interconnection, LLC"
+54061,PJM,1,"PJM Interconnection, LLC"
+54029,PJM,1,"PJM Interconnection, LLC"
+54033,PJM,1,"PJM Interconnection, LLC"
+54023,PJM,1,"PJM Interconnection, LLC"
+54057,PJM,1,"PJM Interconnection, LLC"
+30039,NWMT,2,NorthWestern Energy (NWMT)
+30027,NWMT,2,NorthWestern Energy (NWMT)
+30023,NWMT,1,NorthWestern Energy (NWMT)
+30015,NWMT,3,NorthWestern Energy (NWMT)
+30051,NWMT,2,NorthWestern Energy (NWMT)
+30049,NWMT,2,NorthWestern Energy (NWMT)
+30045,NWMT,2,NorthWestern Energy (NWMT)
+30001,NWMT,1,NorthWestern Energy (NWMT)
+30111,NWMT,3,NorthWestern Energy (NWMT)
+30007,NWMT,1,NorthWestern Energy (NWMT)
+30009,NWMT,4,NorthWestern Energy (NWMT)
+30013,NWMT,3,NorthWestern Energy (NWMT)
+30081,NWMT,2,NorthWestern Energy (NWMT)
+30077,NWMT,2,NorthWestern Energy (NWMT)
+30105,NWMT,2,NorthWestern Energy (NWMT)
+30107,NWMT,2,NorthWestern Energy (NWMT)
+30003,NWMT,4,NorthWestern Energy (NWMT)
+30005,NWMT,3,NorthWestern Energy (NWMT)
+30061,NWMT,2,NorthWestern Energy (NWMT)
+30063,NWMT,2,NorthWestern Energy (NWMT)
+30043,NWMT,1,NorthWestern Energy (NWMT)
+30041,NWMT,2,NorthWestern Energy (NWMT)
+30037,NWMT,2,NorthWestern Energy (NWMT)
+30031,NWMT,2,NorthWestern Energy (NWMT)
+30073,NWMT,2,NorthWestern Energy (NWMT)
+30071,NWMT,2,NorthWestern Energy (NWMT)
+30067,NWMT,2,NorthWestern Energy (NWMT)
+30065,NWMT,2,NorthWestern Energy (NWMT)
+30087,NWMT,2,NorthWestern Energy (NWMT)
+30089,NWMT,3,NorthWestern Energy (NWMT)
+30095,NWMT,2,NorthWestern Energy (NWMT)
+30093,NWMT,1,NorthWestern Energy (NWMT)
+30097,NWMT,2,NorthWestern Energy (NWMT)
+30099,NWMT,2,NorthWestern Energy (NWMT)
+30057,NWMT,1,NorthWestern Energy (NWMT)
+30059,NWMT,2,NorthWestern Energy (NWMT)
+11001,PJM,1,"PJM Interconnection, LLC"
+48109,EPE,2,El Paso Electric Company
+48141,EPE,2,El Paso Electric Company
+48229,EPE,2,El Paso Electric Company
+47159,TVA,1,Tennessee Valley Authority
+47041,TVA,1,Tennessee Valley Authority
+47015,TVA,1,Tennessee Valley Authority
+47169,TVA,1,Tennessee Valley Authority
+47119,TVA,1,Tennessee Valley Authority
+48097,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48181,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48439,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48121,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48497,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48085,ERCO,1,"Electric Reliability Council of Texas, Inc."
+29037,SWPP,2,Southwest Power Pool
+29227,SWPP,1,Southwest Power Pool
+29217,SWPP,2,Southwest Power Pool
+29039,SWPP,2,Southwest Power Pool
+29003,SWPP,1,Southwest Power Pool
+29057,SWPP,2,Southwest Power Pool
+29079,SWPP,1,Southwest Power Pool
+29081,SWPP,2,Southwest Power Pool
+29083,SWPP,2,Southwest Power Pool
+29087,SWPP,1,Southwest Power Pool
+29129,SWPP,1,Southwest Power Pool
+29147,SWPP,1,Southwest Power Pool
+29107,SWPP,2,Southwest Power Pool
+29165,SWPP,2,Southwest Power Pool
+29095,SWPP,2,Southwest Power Pool
+29015,SWPP,2,Southwest Power Pool
+29033,SWPP,2,Southwest Power Pool
+29021,SWPP,2,Southwest Power Pool
+29185,SWPP,2,Southwest Power Pool
+29013,SWPP,2,Southwest Power Pool
+29011,SWPP,1,Southwest Power Pool
+29005,SWPP,1,Southwest Power Pool
+29101,SWPP,2,Southwest Power Pool
+20035,SWPP,1,Southwest Power Pool
+20107,SWPP,1,Southwest Power Pool
+20021,SWPP,1,Southwest Power Pool
+20079,SWPP,1,Southwest Power Pool
+20019,SWPP,1,Southwest Power Pool
+20011,SWPP,1,Southwest Power Pool
+20095,SWPP,1,Southwest Power Pool
+20125,SWPP,1,Southwest Power Pool
+20173,SWPP,1,Southwest Power Pool
+20191,SWPP,1,Southwest Power Pool
+20003,SWPP,1,Southwest Power Pool
+20037,SWPP,1,Southwest Power Pool
+20001,SWPP,1,Southwest Power Pool
+10003,PJM,1,"PJM Interconnection, LLC"
+10005,PJM,1,"PJM Interconnection, LLC"
+10001,PJM,1,"PJM Interconnection, LLC"
+39171,PJM,1,"PJM Interconnection, LLC"
+39051,PJM,1,"PJM Interconnection, LLC"
+39095,PJM,1,"PJM Interconnection, LLC"
+15003,HECO,1,Hawaiian Electric Co Inc
+24043,PJM,1,"PJM Interconnection, LLC"
+24023,PJM,1,"PJM Interconnection, LLC"
+24021,PJM,1,"PJM Interconnection, LLC"
+24001,PJM,1,"PJM Interconnection, LLC"
+22031,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+22039,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+22101,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+20121,SWPP,1,Southwest Power Pool
+53003,AVA,2,Avista Corporation
+53075,AVA,2,Avista Corporation
+53001,AVA,3,Avista Corporation
+53051,AVA,2,Avista Corporation
+53019,AVA,2,Avista Corporation
+53043,AVA,3,Avista Corporation
+53063,AVA,2,Avista Corporation
+53065,AVA,2,Avista Corporation
+53025,AVA,3,Avista Corporation
+12071,FPL,1,Florida Power & Light Company
+50007,ISNE,1,ISO New England Inc.
+50019,ISNE,1,ISO New England Inc.
+50021,ISNE,1,ISO New England Inc.
+50015,ISNE,1,ISO New England Inc.
+50009,ISNE,1,ISO New England Inc.
+50011,ISNE,1,ISO New England Inc.
+50017,ISNE,1,ISO New England Inc.
+50003,ISNE,1,ISO New England Inc.
+50001,ISNE,1,ISO New England Inc.
+50005,ISNE,1,ISO New England Inc.
+50023,ISNE,1,ISO New England Inc.
+50025,ISNE,1,ISO New England Inc.
+50027,ISNE,1,ISO New England Inc.
+48101,SWPP,2,Southwest Power Pool
+48079,SWPP,1,Southwest Power Pool
+48129,SWPP,2,Southwest Power Pool
+48135,SWPP,1,Southwest Power Pool
+48501,SWPP,1,Southwest Power Pool
+48483,SWPP,2,Southwest Power Pool
+48195,SWPP,1,Southwest Power Pool
+48107,SWPP,2,Southwest Power Pool
+48111,SWPP,2,Southwest Power Pool
+48115,SWPP,1,Southwest Power Pool
+48117,SWPP,1,Southwest Power Pool
+48179,SWPP,2,Southwest Power Pool
+48205,SWPP,2,Southwest Power Pool
+48381,SWPP,2,Southwest Power Pool
+48219,SWPP,2,Southwest Power Pool
+48069,SWPP,1,Southwest Power Pool
+48065,SWPP,1,Southwest Power Pool
+48359,SWPP,1,Southwest Power Pool
+48393,SWPP,2,Southwest Power Pool
+48329,SWPP,1,Southwest Power Pool
+48033,SWPP,2,Southwest Power Pool
+48017,SWPP,1,Southwest Power Pool
+48165,SWPP,1,Southwest Power Pool
+48189,SWPP,2,Southwest Power Pool
+48011,SWPP,2,Southwest Power Pool
+48003,SWPP,1,Southwest Power Pool
+48305,SWPP,2,Southwest Power Pool
+48303,SWPP,2,Southwest Power Pool
+48295,SWPP,1,Southwest Power Pool
+48279,SWPP,2,Southwest Power Pool
+48375,SWPP,1,Southwest Power Pool
+48369,SWPP,1,Southwest Power Pool
+48153,SWPP,2,Southwest Power Pool
+48155,SWPP,2,Southwest Power Pool
+48045,SWPP,2,Southwest Power Pool
+48345,SWPP,2,Southwest Power Pool
+48357,SWPP,1,Southwest Power Pool
+48487,SWPP,2,Southwest Power Pool
+48421,SWPP,1,Southwest Power Pool
+48169,SWPP,2,Southwest Power Pool
+48211,SWPP,2,Southwest Power Pool
+48233,SWPP,1,Southwest Power Pool
+48445,SWPP,1,Southwest Power Pool
+48437,SWPP,2,Southwest Power Pool
+48341,SWPP,1,Southwest Power Pool
+53011,BPAT,1,Bonneville Power Administration
+55011,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+55005,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+55003,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+55019,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+55017,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+55129,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+55035,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+55033,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+55007,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+55099,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+55093,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+55107,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+55113,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+55095,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+55109,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+55121,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+55119,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+55091,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+55063,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+36087,NYIS,1,New York Independent System Operator
+22017,SWPP,1,Southwest Power Pool
+01089,TVA,1,Tennessee Valley Authority
+47173,TVA,1,Tennessee Valley Authority
+47155,TVA,1,Tennessee Valley Authority
+47001,TVA,1,Tennessee Valley Authority
+47009,TVA,1,Tennessee Valley Authority
+47057,TVA,1,Tennessee Valley Authority
+47093,TVA,1,Tennessee Valley Authority
+47089,TVA,1,Tennessee Valley Authority
+45051,SC,2,South Carolina Public Service Authority
+45043,SC,2,South Carolina Public Service Authority
+24015,PJM,1,"PJM Interconnection, LLC"
+24029,PJM,1,"PJM Interconnection, LLC"
+24035,PJM,1,"PJM Interconnection, LLC"
+24047,PJM,1,"PJM Interconnection, LLC"
+24019,PJM,1,"PJM Interconnection, LLC"
+24041,PJM,1,"PJM Interconnection, LLC"
+24011,PJM,1,"PJM Interconnection, LLC"
+24039,PJM,1,"PJM Interconnection, LLC"
+24045,PJM,1,"PJM Interconnection, LLC"
+53045,TPWR,2,"City of Tacoma, Department of Public Utilities, Light Division"
+53041,TPWR,2,"City of Tacoma, Department of Public Utilities, Light Division"
+51069,PJM,1,"PJM Interconnection, LLC"
+47011,TVA,1,Tennessee Valley Authority
+47143,TVA,1,Tennessee Valley Authority
+47153,TVA,1,Tennessee Valley Authority
+47115,TVA,1,Tennessee Valley Authority
+47065,TVA,1,Tennessee Valley Authority
+47007,TVA,1,Tennessee Valley Authority
+24037,PJM,1,"PJM Interconnection, LLC"
+24017,PJM,1,"PJM Interconnection, LLC"
+28047,SOCO,2,"Southern Company Services, Inc. - Trans"
+28041,SOCO,2,"Southern Company Services, Inc. - Trans"
+28039,SOCO,2,"Southern Company Services, Inc. - Trans"
+28035,SOCO,2,"Southern Company Services, Inc. - Trans"
+28045,SOCO,1,"Southern Company Services, Inc. - Trans"
+28075,SOCO,2,"Southern Company Services, Inc. - Trans"
+28111,SOCO,2,"Southern Company Services, Inc. - Trans"
+28073,SOCO,2,"Southern Company Services, Inc. - Trans"
+28067,SOCO,2,"Southern Company Services, Inc. - Trans"
+28131,SOCO,2,"Southern Company Services, Inc. - Trans"
+28109,SOCO,2,"Southern Company Services, Inc. - Trans"
+28101,SOCO,3,"Southern Company Services, Inc. - Trans"
+28099,SOCO,2,"Southern Company Services, Inc. - Trans"
+28023,SOCO,3,"Southern Company Services, Inc. - Trans"
+28153,SOCO,3,"Southern Company Services, Inc. - Trans"
+28059,SOCO,2,"Southern Company Services, Inc. - Trans"
+28061,SOCO,3,"Southern Company Services, Inc. - Trans"
+28091,SOCO,2,"Southern Company Services, Inc. - Trans"
+48315,SWPP,1,Southwest Power Pool
+48087,SWPP,2,Southwest Power Pool
+48343,SWPP,1,Southwest Power Pool
+48159,SWPP,2,Southwest Power Pool
+48203,SWPP,1,Southwest Power Pool
+48183,SWPP,1,Southwest Power Pool
+48067,SWPP,2,Southwest Power Pool
+48037,SWPP,2,Southwest Power Pool
+48365,SWPP,2,Southwest Power Pool
+48191,SWPP,2,Southwest Power Pool
+48223,SWPP,2,Southwest Power Pool
+48063,SWPP,1,Southwest Power Pool
+48459,SWPP,1,Southwest Power Pool
+48499,SWPP,2,Southwest Power Pool
+48387,SWPP,2,Southwest Power Pool
+48401,SWPP,3,Southwest Power Pool
+48467,SWPP,2,Southwest Power Pool
+48423,SWPP,2,Southwest Power Pool
+48419,SWPP,2,Southwest Power Pool
+48379,SWPP,2,Southwest Power Pool
+48449,SWPP,1,Southwest Power Pool
+48075,SWPP,2,Southwest Power Pool
+29077,SWPP,2,Southwest Power Pool
+29213,SWPP,2,Southwest Power Pool
+29009,SWPP,2,Southwest Power Pool
+29167,SWPP,2,Southwest Power Pool
+29059,SWPP,2,Southwest Power Pool
+29043,SWPP,2,Southwest Power Pool
+29119,SWPP,2,Southwest Power Pool
+29209,SWPP,2,Southwest Power Pool
+29109,SWPP,2,Southwest Power Pool
+29097,SWPP,2,Southwest Power Pool
+29085,SWPP,2,Southwest Power Pool
+45069,CPLE,2,Duke Energy Progress East
+45089,CPLE,2,Duke Energy Progress East
+45027,CPLE,2,Duke Energy Progress East
+45067,CPLE,2,Duke Energy Progress East
+45041,CPLE,2,Duke Energy Progress East
+45025,CPLE,2,Duke Energy Progress East
+45061,CPLE,2,Duke Energy Progress East
+45085,CPLE,2,Duke Energy Progress East
+45033,CPLE,2,Duke Energy Progress East
+45031,CPLE,2,Duke Energy Progress East
+21015,PJM,1,"PJM Interconnection, LLC"
+21117,PJM,1,"PJM Interconnection, LLC"
+54027,PJM,1,"PJM Interconnection, LLC"
+54003,PJM,1,"PJM Interconnection, LLC"
+54037,PJM,1,"PJM Interconnection, LLC"
+54065,PJM,1,"PJM Interconnection, LLC"
+54031,PJM,1,"PJM Interconnection, LLC"
+27059,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+27095,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+18147,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+18163,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+21189,PJM,1,"PJM Interconnection, LLC"
+21195,PJM,1,"PJM Interconnection, LLC"
+21127,PJM,1,"PJM Interconnection, LLC"
+21071,PJM,1,"PJM Interconnection, LLC"
+21063,PJM,1,"PJM Interconnection, LLC"
+21115,PJM,1,"PJM Interconnection, LLC"
+21135,PJM,1,"PJM Interconnection, LLC"
+21193,PJM,1,"PJM Interconnection, LLC"
+21043,PJM,1,"PJM Interconnection, LLC"
+21175,PJM,1,"PJM Interconnection, LLC"
+21153,PJM,1,"PJM Interconnection, LLC"
+21159,PJM,1,"PJM Interconnection, LLC"
+21131,PJM,1,"PJM Interconnection, LLC"
+21119,PJM,1,"PJM Interconnection, LLC"
+21025,PJM,1,"PJM Interconnection, LLC"
+21133,PJM,1,"PJM Interconnection, LLC"
+21089,PJM,1,"PJM Interconnection, LLC"
+21019,PJM,1,"PJM Interconnection, LLC"
+48061,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48489,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48215,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48047,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48261,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48427,ERCO,1,"Electric Reliability Council of Texas, Inc."
+16055,AVA,2,Avista Corporation
+16057,AVA,1,Avista Corporation
+16035,AVA,1,Avista Corporation
+16079,AVA,1,Avista Corporation
+16009,AVA,2,Avista Corporation
+16069,AVA,1,Avista Corporation
+16061,AVA,1,Avista Corporation
+16017,AVA,2,Avista Corporation
+27097,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+27137,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+27001,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+27075,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+27061,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+27057,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+27159,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+27021,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+27031,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+27017,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+27035,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+27071,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+27111,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+48089,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48287,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48149,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48177,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48015,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48021,ERCO,1,"Electric Reliability Council of Texas, Inc."
+56023,PACE,3,PacifiCorp - East
+56003,PACE,2,PacifiCorp - East
+56009,PACE,2,PacifiCorp - East
+56043,PACE,2,PacifiCorp - East
+56001,PACE,2,PacifiCorp - East
+56017,PACE,2,PacifiCorp - East
+56019,PACE,2,PacifiCorp - East
+56013,PACE,2,PacifiCorp - East
+56031,PACE,2,PacifiCorp - East
+56037,PACE,2,PacifiCorp - East
+56041,PACE,1,PacifiCorp - East
+56025,PACE,2,PacifiCorp - East
+56035,PACE,2,PacifiCorp - East
+56029,PACE,3,PacifiCorp - East
+56007,PACE,3,PacifiCorp - East
+39163,PJM,1,"PJM Interconnection, LLC"
+48221,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48009,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48023,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48237,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48269,ERCO,2,"Electric Reliability Council of Texas, Inc."
+48367,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48433,ERCO,2,"Electric Reliability Council of Texas, Inc."
+48207,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48363,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48275,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48447,ERCO,1,"Electric Reliability Council of Texas, Inc."
+53005,PACW,2,PacifiCorp - West
+53013,PACW,2,PacifiCorp - West
+53077,PACW,2,PacifiCorp - West
+53023,PACW,2,PacifiCorp - West
+53015,PACW,2,PacifiCorp - West
+53071,PACW,2,PacifiCorp - West
+26021,PJM,1,"PJM Interconnection, LLC"
+26027,PJM,1,"PJM Interconnection, LLC"
+05007,SWPP,1,Southwest Power Pool
+05143,SWPP,1,Southwest Power Pool
+05061,SWPP,2,Southwest Power Pool
+05113,SWPP,2,Southwest Power Pool
+05081,SWPP,2,Southwest Power Pool
+05133,SWPP,2,Southwest Power Pool
+05131,SWPP,1,Southwest Power Pool
+37073,PJM,1,"PJM Interconnection, LLC"
+37131,PJM,1,"PJM Interconnection, LLC"
+37095,PJM,1,"PJM Interconnection, LLC"
+37055,PJM,1,"PJM Interconnection, LLC"
+37053,PJM,1,"PJM Interconnection, LLC"
+37143,PJM,1,"PJM Interconnection, LLC"
+37139,PJM,2,"PJM Interconnection, LLC"
+37041,PJM,1,"PJM Interconnection, LLC"
+37117,PJM,2,"PJM Interconnection, LLC"
+37091,PJM,1,"PJM Interconnection, LLC"
+37187,PJM,1,"PJM Interconnection, LLC"
+37177,PJM,1,"PJM Interconnection, LLC"
+37015,PJM,1,"PJM Interconnection, LLC"
+37029,PJM,1,"PJM Interconnection, LLC"
+23003,ISNE,2,ISO New England Inc.
+23029,ISNE,2,ISO New England Inc.
+47107,TVA,1,Tennessee Valley Authority
+47035,TVA,1,Tennessee Valley Authority
+47151,TVA,2,Tennessee Valley Authority
+47133,TVA,1,Tennessee Valley Authority
+47185,TVA,1,Tennessee Valley Authority
+47049,TVA,1,Tennessee Valley Authority
+47141,TVA,1,Tennessee Valley Authority
+47137,TVA,2,Tennessee Valley Authority
+47145,TVA,1,Tennessee Valley Authority
+47121,TVA,1,Tennessee Valley Authority
+47139,TVA,1,Tennessee Valley Authority
+05087,SWPP,1,Southwest Power Pool
+08014,WACM,1,Western Area Power Administration - Rocky Mountain Region
+47161,TVA,1,Tennessee Valley Authority
+47125,TVA,1,Tennessee Valley Authority
+47043,TVA,1,Tennessee Valley Authority
+35041,SWPP,1,Southwest Power Pool
+35037,SWPP,2,Southwest Power Pool
+35005,SWPP,2,Southwest Power Pool
+35025,SWPP,1,Southwest Power Pool
+35015,SWPP,2,Southwest Power Pool
+48147,ERCO,1,"Electric Reliability Council of Texas, Inc."
+02020,CEA,1,Chugach Electric Assn Inc
+02122,CEA,1,Chugach Electric Assn Inc
+35051,EPE,1,El Paso Electric Company
+48123,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48469,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48239,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48255,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48175,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48285,ERCO,1,"Electric Reliability Council of Texas, Inc."
+46111,MISO,3,"Midcontinent Independent Transmission System Operator, Inc.."
+46079,MISO,3,"Midcontinent Independent Transmission System Operator, Inc.."
+46099,MISO,3,"Midcontinent Independent Transmission System Operator, Inc.."
+46067,MISO,3,"Midcontinent Independent Transmission System Operator, Inc.."
+46061,MISO,3,"Midcontinent Independent Transmission System Operator, Inc.."
+46125,MISO,3,"Midcontinent Independent Transmission System Operator, Inc.."
+46087,MISO,3,"Midcontinent Independent Transmission System Operator, Inc.."
+46083,MISO,3,"Midcontinent Independent Transmission System Operator, Inc.."
+46097,MISO,3,"Midcontinent Independent Transmission System Operator, Inc.."
+46101,MISO,3,"Midcontinent Independent Transmission System Operator, Inc.."
+48035,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48093,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48143,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48139,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48503,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48193,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48251,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48425,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48429,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48099,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48133,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48005,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+48113,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48119,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48397,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48257,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48231,ERCO,1,"Electric Reliability Council of Texas, Inc."
+51091,PJM,1,"PJM Interconnection, LLC"
+51840,PJM,1,"PJM Interconnection, LLC"
+38097,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+38017,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+38049,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+38035,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+38101,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+48001,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48213,ERCO,1,"Electric Reliability Council of Texas, Inc."
+38001,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+38037,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+38057,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+38059,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+38085,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+38029,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+38053,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+38105,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+38061,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+38065,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+38075,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+38077,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+38087,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+38023,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+38025,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+38089,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+38009,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+38011,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+38013,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+38007,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+38015,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+38041,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+38051,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+38033,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+38047,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+38045,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+38043,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+38021,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+16081,PACE,2,PacifiCorp - East
+16065,PACE,2,PacifiCorp - East
+16007,PACE,1,PacifiCorp - East
+16051,PACE,2,PacifiCorp - East
+16043,PACE,2,PacifiCorp - East
+16029,PACE,2,PacifiCorp - East
+16041,PACE,1,PacifiCorp - East
+16033,PACE,2,PacifiCorp - East
+16023,PACE,1,PacifiCorp - East
+16019,PACE,2,PacifiCorp - East
+05047,SWPP,1,Southwest Power Pool
+05033,SWPP,1,Southwest Power Pool
+31101,SWPP,2,Southwest Power Pool
+31089,SWPP,2,Southwest Power Pool
+31081,SWPP,1,Southwest Power Pool
+31067,SWPP,1,Southwest Power Pool
+31107,SWPP,1,Southwest Power Pool
+31123,SWPP,2,Southwest Power Pool
+31093,SWPP,1,Southwest Power Pool
+31003,SWPP,2,Southwest Power Pool
+31013,SWPP,2,Southwest Power Pool
+31173,SWPP,1,Southwest Power Pool
+31165,SWPP,2,Southwest Power Pool
+31049,SWPP,2,Southwest Power Pool
+31059,SWPP,1,Southwest Power Pool
+31017,SWPP,1,Southwest Power Pool
+31135,SWPP,2,Southwest Power Pool
+31145,SWPP,1,Southwest Power Pool
+31149,SWPP,1,Southwest Power Pool
+31161,SWPP,1,Southwest Power Pool
+31079,SWPP,1,Southwest Power Pool
+31069,SWPP,1,Southwest Power Pool
+31159,SWPP,1,Southwest Power Pool
+31139,SWPP,1,Southwest Power Pool
+31119,SWPP,1,Southwest Power Pool
+31111,SWPP,2,Southwest Power Pool
+31015,SWPP,2,Southwest Power Pool
+31019,SWPP,1,Southwest Power Pool
+31043,SWPP,2,Southwest Power Pool
+31031,SWPP,1,Southwest Power Pool
+31027,SWPP,2,Southwest Power Pool
+31045,SWPP,2,Southwest Power Pool
+31163,SWPP,1,Southwest Power Pool
+31185,SWPP,1,Southwest Power Pool
+31157,SWPP,2,Southwest Power Pool
+17161,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+47019,TVA,1,Tennessee Valley Authority
+47179,TVA,2,Tennessee Valley Authority
+47163,TVA,2,Tennessee Valley Authority
+47059,TVA,1,Tennessee Valley Authority
+37005,DUK,1,Duke Energy Carolinas
+37009,DUK,1,Duke Energy Carolinas
+37189,DUK,2,Duke Energy Carolinas
+47051,TVA,1,Tennessee Valley Authority
+47127,TVA,1,Tennessee Valley Authority
+47003,TVA,1,Tennessee Valley Authority
+47055,TVA,1,Tennessee Valley Authority
+47101,TVA,1,Tennessee Valley Authority
+47103,TVA,1,Tennessee Valley Authority
+47061,TVA,1,Tennessee Valley Authority
+47099,TVA,1,Tennessee Valley Authority
+47031,TVA,1,Tennessee Valley Authority
+47117,TVA,1,Tennessee Valley Authority
+46019,WACM,1,Western Area Power Administration - Rocky Mountain Region
+46033,WACM,2,Western Area Power Administration - Rocky Mountain Region
+46103,WACM,2,Western Area Power Administration - Rocky Mountain Region
+46093,WACM,2,Western Area Power Administration - Rocky Mountain Region
+46047,WACM,2,Western Area Power Administration - Rocky Mountain Region
+46081,WACM,2,Western Area Power Administration - Rocky Mountain Region
+21057,PJM,2,"PJM Interconnection, LLC"
+21053,PJM,2,"PJM Interconnection, LLC"
+21231,PJM,1,"PJM Interconnection, LLC"
+30053,BPAT,1,Bonneville Power Administration
+30029,BPAT,2,Bonneville Power Administration
+30047,BPAT,2,Bonneville Power Administration
+47105,TVA,1,Tennessee Valley Authority
+21109,PJM,1,"PJM Interconnection, LLC"
+21213,TVA,1,Tennessee Valley Authority
+21141,TVA,1,Tennessee Valley Authority
+21227,TVA,2,Tennessee Valley Authority
+21031,TVA,1,Tennessee Valley Authority
+08073,WACM,1,Western Area Power Administration - Rocky Mountain Region
+27065,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+12039,SEC,1,Seminole Electric Cooperative
+12077,SEC,2,Seminole Electric Cooperative
+48125,SWPP,2,Southwest Power Pool
+48197,SWPP,2,Southwest Power Pool
+48263,SWPP,2,Southwest Power Pool
+38003,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+38081,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+38073,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+01083,TVA,1,Tennessee Valley Authority
+46039,SWPP,3,Southwest Power Pool
+46115,SWPP,2,Southwest Power Pool
+46025,SWPP,2,Southwest Power Pool
+46005,SWPP,2,Southwest Power Pool
+46135,SWPP,2,Southwest Power Pool
+46065,SWPP,2,Southwest Power Pool
+46077,SWPP,3,Southwest Power Pool
+46091,SWPP,3,Southwest Power Pool
+46029,SWPP,3,Southwest Power Pool
+46003,SWPP,2,Southwest Power Pool
+46009,SWPP,2,Southwest Power Pool
+46013,SWPP,3,Southwest Power Pool
+46057,SWPP,3,Southwest Power Pool
+46049,SWPP,3,Southwest Power Pool
+46023,SWPP,2,Southwest Power Pool
+46015,SWPP,2,Southwest Power Pool
+46069,SWPP,2,Southwest Power Pool
+46045,SWPP,3,Southwest Power Pool
+46043,SWPP,2,Southwest Power Pool
+46037,SWPP,3,Southwest Power Pool
+46073,SWPP,2,Southwest Power Pool
+46059,SWPP,2,Southwest Power Pool
+46035,SWPP,2,Southwest Power Pool
+13111,SOCO,2,"Southern Company Services, Inc. - Trans"
+27005,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+27155,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+27113,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+27007,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+27011,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+27135,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+27149,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+27151,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+27029,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+27125,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+27087,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+27069,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+27089,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+27051,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+48131,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48249,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48297,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48273,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48311,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48355,ERCO,1,"Electric Reliability Council of Texas, Inc."
+21197,PJM,1,"PJM Interconnection, LLC"
+21237,PJM,1,"PJM Interconnection, LLC"
+26131,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+26109,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+26153,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+26013,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+26061,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+26003,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+26043,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+26103,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+26083,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+26071,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+21091,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+21027,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+47111,TVA,1,Tennessee Valley Authority
+47087,TVA,1,Tennessee Valley Authority
+47027,TVA,1,Tennessee Valley Authority
+38063,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+38031,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+38005,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+38099,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+38067,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+38055,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+38091,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+38095,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+38093,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+38027,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+38039,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+38071,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+38069,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+38083,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+38079,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+38103,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+38019,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+47063,TVA,1,Tennessee Valley Authority
+56021,WACM,1,Western Area Power Administration - Rocky Mountain Region
+47047,TVA,1,Tennessee Valley Authority
+47033,TVA,1,Tennessee Valley Authority
+47097,TVA,1,Tennessee Valley Authority
+47023,TVA,1,Tennessee Valley Authority
+47113,TVA,1,Tennessee Valley Authority
+47167,TVA,2,Tennessee Valley Authority
+47075,TVA,1,Tennessee Valley Authority
+47077,TVA,1,Tennessee Valley Authority
+47069,TVA,1,Tennessee Valley Authority
+47073,PJM,2,"PJM Interconnection, LLC"
+53017,GCPD,3,"Public Utility District No. 2 of Grant County, Washington"
+53007,CHPD,2,Public Utility District No. 1 of Chelan County
+53047,CHPD,3,Public Utility District No. 1 of Chelan County
+53021,BPAT,1,Bonneville Power Administration
+01077,TVA,1,Tennessee Valley Authority
+29225,AECI,1,"Associated Electric Cooperative, Inc."
+29105,AECI,1,"Associated Electric Cooperative, Inc."
+28087,TVA,1,Tennessee Valley Authority
+28103,TVA,1,Tennessee Valley Authority
+28105,TVA,1,Tennessee Valley Authority
+28095,TVA,1,Tennessee Valley Authority
+21219,TVA,1,Tennessee Valley Authority
+21221,TVA,1,Tennessee Valley Authority
+48347,MISO,3,"Midcontinent Independent Transmission System Operator, Inc.."
+48405,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+48403,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+08111,WACM,1,Western Area Power Administration - Rocky Mountain Region
+48307,ERCO,1,"Electric Reliability Council of Texas, Inc."
+53031,BPAT,1,Bonneville Power Administration
+53049,BPAT,1,Bonneville Power Administration
+53027,BPAT,1,Bonneville Power Administration
+01103,TVA,1,Tennessee Valley Authority
+29153,AECI,1,"Associated Electric Cooperative, Inc."
+29067,AECI,1,"Associated Electric Cooperative, Inc."
+51590,PJM,1,"PJM Interconnection, LLC"
+28115,TVA,1,Tennessee Valley Authority
+28081,TVA,1,Tennessee Valley Authority
+28057,TVA,1,Tennessee Valley Authority
+28117,TVA,1,Tennessee Valley Authority
+06015,PACW,1,PacifiCorp - West
+26033,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+26097,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+26095,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+35039,WACM,3,Western Area Power Administration - Rocky Mountain Region
+50013,ISNE,1,ISO New England Inc.
+48463,ERCO,1,"Electric Reliability Council of Texas, Inc."
+41023,BPAT,2,Bonneville Power Administration
+29229,AECI,1,"Associated Electric Cooperative, Inc."
+54051,PJM,1,"PJM Interconnection, LLC"
+54069,PJM,1,"PJM Interconnection, LLC"
+26053,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+47175,TVA,1,Tennessee Valley Authority
+29203,AECI,1,"Associated Electric Cooperative, Inc."
+29181,AECI,2,"Associated Electric Cooperative, Inc."
+29223,AECI,1,"Associated Electric Cooperative, Inc."
+29035,AECI,1,"Associated Electric Cooperative, Inc."
+29149,AECI,2,"Associated Electric Cooperative, Inc."
+51131,PJM,1,"PJM Interconnection, LLC"
+26007,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+21083,TVA,2,Tennessee Valley Authority
+21157,TVA,2,Tennessee Valley Authority
+21035,TVA,1,Tennessee Valley Authority
+29145,AECI,1,"Associated Electric Cooperative, Inc."
+47081,TVA,1,Tennessee Valley Authority
+47083,TVA,1,Tennessee Valley Authority
+53009,BPAT,1,Bonneville Power Administration
+13291,TVA,1,Tennessee Valley Authority
+13281,TVA,1,Tennessee Valley Authority
+48163,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48507,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48479,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48247,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48505,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48127,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48283,ERCO,1,"Electric Reliability Council of Texas, Inc."
+47123,TVA,1,Tennessee Valley Authority
+47135,TVA,1,Tennessee Valley Authority
+47085,TVA,1,Tennessee Valley Authority
+29215,AECI,1,"Associated Electric Cooperative, Inc."
+29065,AECI,1,"Associated Electric Cooperative, Inc."
+47177,TVA,1,Tennessee Valley Authority
+20165,SWPP,1,Southwest Power Pool
+20147,SWPP,1,Southwest Power Pool
+20163,SWPP,1,Southwest Power Pool
+20153,SWPP,1,Southwest Power Pool
+20063,SWPP,1,Southwest Power Pool
+20185,SWPP,1,Southwest Power Pool
+20193,SWPP,1,Southwest Power Pool
+20181,SWPP,1,Southwest Power Pool
+20179,SWPP,1,Southwest Power Pool
+20141,SWPP,1,Southwest Power Pool
+20071,SWPP,1,Southwest Power Pool
+20065,SWPP,1,Southwest Power Pool
+20151,SWPP,1,Southwest Power Pool
+20083,SWPP,1,Southwest Power Pool
+20047,SWPP,1,Southwest Power Pool
+20109,SWPP,1,Southwest Power Pool
+20145,SWPP,1,Southwest Power Pool
+20051,SWPP,1,Southwest Power Pool
+20009,SWPP,1,Southwest Power Pool
+20137,SWPP,1,Southwest Power Pool
+20167,SWPP,1,Southwest Power Pool
+20199,SWPP,1,Southwest Power Pool
+20101,SWPP,1,Southwest Power Pool
+20135,SWPP,1,Southwest Power Pool
+20195,SWPP,1,Southwest Power Pool
+20023,SWPP,1,Southwest Power Pool
+20039,SWPP,1,Southwest Power Pool
+20171,SWPP,1,Southwest Power Pool
+47053,TVA,1,Tennessee Valley Authority
+47045,TVA,1,Tennessee Valley Authority
+47095,TVA,1,Tennessee Valley Authority
+47131,TVA,1,Tennessee Valley Authority
+47183,TVA,1,Tennessee Valley Authority
+28093,TVA,1,Tennessee Valley Authority
+48217,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48309,ERCO,1,"Electric Reliability Council of Texas, Inc."
+01071,TVA,1,Tennessee Valley Authority
+01049,TVA,1,Tennessee Valley Authority
+28145,TVA,1,Tennessee Valley Authority
+28071,TVA,1,Tennessee Valley Authority
+12013,SOCO,2,"Southern Company Services, Inc. - Trans"
+47129,TVA,1,Tennessee Valley Authority
+47013,TVA,2,Tennessee Valley Authority
+21165,PJM,1,"PJM Interconnection, LLC"
+35007,PNM,1,Public Service Company of New Mexico
+35055,PNM,1,Public Service Company of New Mexico
+41025,BPAT,2,Bonneville Power Administration
+41061,BPAT,1,Bonneville Power Administration
+41001,BPAT,2,Bonneville Power Administration
+21171,PJM,2,"PJM Interconnection, LLC"
+21169,PJM,2,"PJM Interconnection, LLC"
+13051,SOCO,1,"Southern Company Services, Inc. - Trans"
+47171,TVA,1,Tennessee Valley Authority
+29091,AECI,1,"Associated Electric Cooperative, Inc."
+56039,BPAT,3,Bonneville Power Administration
+46011,SWPP,3,Southwest Power Pool
+51105,LGEE,2,Louisville Gas and Electric Company and Kentucky Utilities Company
+51720,LGEE,1,Louisville Gas and Electric Company and Kentucky Utilities Company
+48073,ERCO,1,"Electric Reliability Council of Texas, Inc."
+17151,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+17065,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+17069,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+31121,SWPP,2,Southwest Power Pool
+01109,SOCO,1,"Southern Company Services, Inc. - Trans"
+48161,ERCO,1,"Electric Reliability Council of Texas, Inc."
+27045,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+48391,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48057,ERCO,1,"Electric Reliability Council of Texas, Inc."
+30103,WAUW,2,Western Area Power Administration UGP West
+47025,TVA,2,Tennessee Valley Authority
+47067,TVA,1,Tennessee Valley Authority
+46127,SWPP,3,Southwest Power Pool
+46027,SWPP,2,Southwest Power Pool
+48337,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48077,ERCO,1,"Electric Reliability Council of Texas, Inc."
+21003,TVA,1,Tennessee Valley Authority
+55013,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+20075,SWPP,1,Southwest Power Pool
+20077,SWPP,1,Southwest Power Pool
+20093,SWPP,1,Southwest Power Pool
+20203,SWPP,1,Southwest Power Pool
+20069,SWPP,1,Southwest Power Pool
+20055,SWPP,1,Southwest Power Pool
+47029,TVA,1,Tennessee Valley Authority
+48333,ERCO,1,"Electric Reliability Council of Texas, Inc."
+30083,SWPP,2,Southwest Power Pool
+30085,SWPP,2,Southwest Power Pool
+30055,SWPP,1,Southwest Power Pool
+30079,SWPP,1,Southwest Power Pool
+30109,SWPP,1,Southwest Power Pool
+30017,SWPP,1,Southwest Power Pool
+30091,SWPP,1,Southwest Power Pool
+30021,SWPP,2,Southwest Power Pool
+30025,SWPP,1,Southwest Power Pool
+30019,SWPP,1,Southwest Power Pool
+08057,WACM,1,Western Area Power Administration - Rocky Mountain Region
+31169,SWPP,1,Southwest Power Pool
+31151,SWPP,1,Southwest Power Pool
+31095,SWPP,1,Southwest Power Pool
+35011,PNM,2,Public Service Company of New Mexico
+35019,PNM,2,Public Service Company of New Mexico
+48441,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48335,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48081,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48353,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48417,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48151,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48253,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48399,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48059,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48083,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48349,ERCO,1,"Electric Reliability Council of Texas, Inc."
+46071,SWPP,2,Southwest Power Pool
+46137,SWPP,2,Southwest Power Pool
+46102,SWPP,1,Southwest Power Pool
+46055,SWPP,2,Southwest Power Pool
+16021,BPAT,1,Bonneville Power Administration
+47071,TVA,1,Tennessee Valley Authority
+47039,TVA,1,Tennessee Valley Authority
+47017,TVA,1,Tennessee Valley Authority
+47181,TVA,1,Tennessee Valley Authority
+47109,TVA,1,Tennessee Valley Authority
+53069,BPAT,1,Bonneville Power Administration
+31141,SWPP,1,Southwest Power Pool
+31125,SWPP,2,Southwest Power Pool
+31011,SWPP,2,Southwest Power Pool
+47079,TVA,1,Tennessee Valley Authority
+31063,SWPP,1,Southwest Power Pool
+31073,SWPP,1,Southwest Power Pool
+31041,SWPP,1,Southwest Power Pool
+31047,SWPP,1,Southwest Power Pool
+41015,BPAT,1,Bonneville Power Administration
+48481,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48039,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48321,ERCO,1,"Electric Reliability Council of Texas, Inc."
+01033,TVA,1,Tennessee Valley Authority
+56033,WACM,1,Western Area Power Administration - Rocky Mountain Region
+56045,WACM,1,Western Area Power Administration - Rocky Mountain Region
+56005,WACM,2,Western Area Power Administration - Rocky Mountain Region
+56011,WACM,2,Western Area Power Administration - Rocky Mountain Region
+31181,SWPP,1,Southwest Power Pool
+31137,SWPP,1,Southwest Power Pool
+31001,SWPP,1,Southwest Power Pool
+31035,SWPP,1,Southwest Power Pool
+31061,SWPP,1,Southwest Power Pool
+31083,SWPP,1,Southwest Power Pool
+31099,SWPP,1,Southwest Power Pool
+40139,SWPP,1,Southwest Power Pool
+40025,SWPP,2,Southwest Power Pool
+28003,TVA,1,Tennessee Valley Authority
+20025,SWPP,1,Southwest Power Pool
+20081,SWPP,1,Southwest Power Pool
+20097,SWPP,1,Southwest Power Pool
+20119,SWPP,1,Southwest Power Pool
+20057,SWPP,1,Southwest Power Pool
+41045,IPCO,1,Idaho Power Company
+53055,BPAT,1,Bonneville Power Administration
+48025,ERCO,1,"Electric Reliability Council of Texas, Inc."
+18123,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+49009,WACM,2,Western Area Power Administration - Rocky Mountain Region
+55031,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+20089,SWPP,2,Southwest Power Pool
+20157,SWPP,1,Southwest Power Pool
+20183,SWPP,1,Southwest Power Pool
+20123,SWPP,1,Southwest Power Pool
+48277,ERCO,1,"Electric Reliability Council of Texas, Inc."
+25019,ISNE,1,ISO New England Inc.
+20175,SWPP,1,Southwest Power Pool
+20007,SWPP,1,Southwest Power Pool
+20033,SWPP,1,Southwest Power Pool
+28017,TVA,1,Tennessee Valley Authority
+47091,TVA,1,Tennessee Valley Authority
+48173,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48451,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48431,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48235,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48095,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48383,ERCO,1,"Electric Reliability Council of Texas, Inc."
+53039,BPAT,1,Bonneville Power Administration
+53059,BPAT,1,Bonneville Power Administration
+49025,WACM,1,Western Area Power Administration - Rocky Mountain Region
+49055,WACM,1,Western Area Power Administration - Rocky Mountain Region
+51775,PJM,1,"PJM Interconnection, LLC"
+28141,TVA,1,Tennessee Valley Authority
+28139,TVA,1,Tennessee Valley Authority
+35021,SWPP,2,Southwest Power Pool
+48409,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48007,ERCO,1,"Electric Reliability Council of Texas, Inc."
+29205,AECI,1,"Associated Electric Cooperative, Inc."
+28159,TVA,1,Tennessee Valley Authority
+28069,TVA,1,Tennessee Valley Authority
+48415,ERCO,1,"Electric Reliability Council of Texas, Inc."
+28009,TVA,1,Tennessee Valley Authority
+48323,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48243,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48443,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48377,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48371,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48389,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48465,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48043,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48105,ERCO,1,"Electric Reliability Council of Texas, Inc."
+48317,SWPP,1,Southwest Power Pool
+48227,SWPP,1,Southwest Power Pool
+46109,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+46051,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+47005,TVA,1,Tennessee Valley Authority
+35028,PNM,1,Public Service Company of New Mexico
+08017,WACM,2,Western Area Power Administration - Rocky Mountain Region
+48049,ERCO,1,"Electric Reliability Council of Texas, Inc."
+31077,SWPP,2,Southwest Power Pool
+31183,SWPP,2,Southwest Power Pool
+31179,SWPP,1,Southwest Power Pool
+31167,SWPP,1,Southwest Power Pool
+31051,SWPP,1,Southwest Power Pool
+30069,WAUW,1,Western Area Power Administration UGP West
+46017,WACM,1,Western Area Power Administration - Rocky Mountain Region
+46105,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+46031,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+46021,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+46063,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+46089,MISO,3,"Midcontinent Independent Transmission System Operator, Inc.."
+46129,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+46107,MISO,2,"Midcontinent Independent Transmission System Operator, Inc.."
+48461,ERCO,1,"Electric Reliability Council of Texas, Inc."
+27033,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+27063,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+27091,MISO,1,"Midcontinent Independent Transmission System Operator, Inc.."
+32033,NEVP,1,Nevada Power Company
+20189,SWPP,1,Southwest Power Pool
+20067,SWPP,1,Southwest Power Pool
+20187,SWPP,1,Southwest Power Pool
+20129,SWPP,1,Southwest Power Pool
+08115,WACM,1,Western Area Power Administration - Rocky Mountain Region
+08095,WACM,1,Western Area Power Administration - Rocky Mountain Region
+46095,SWPP,1,Southwest Power Pool
+46053,SWPP,2,Southwest Power Pool
+46123,SWPP,2,Southwest Power Pool
+46085,SWPP,2,Southwest Power Pool
+31023,SWPP,1,Southwest Power Pool
+31075,SWPP,1,Southwest Power Pool
+31113,SWPP,1,Southwest Power Pool
+31091,SWPP,1,Southwest Power Pool
+31117,SWPP,1,Southwest Power Pool
+31171,SWPP,1,Southwest Power Pool
+31175,SWPP,1,Southwest Power Pool
+31115,SWPP,1,Southwest Power Pool
+31071,SWPP,1,Southwest Power Pool
+31009,SWPP,1,Southwest Power Pool
+31129,SWPP,1,Southwest Power Pool
+08063,WACM,1,Western Area Power Administration - Rocky Mountain Region
+46119,WACM,2,Western Area Power Administration - Rocky Mountain Region
+16037,IPCO,1,Idaho Power Company
+35033,PNM,1,Public Service Company of New Mexico
+31085,WACM,2,Western Area Power Administration - Rocky Mountain Region
+31029,WACM,2,Western Area Power Administration - Rocky Mountain Region
+31087,SWPP,1,Southwest Power Pool
+31057,SWPP,2,Southwest Power Pool
+31039,SWPP,1,Southwest Power Pool
+31007,WACM,1,Western Area Power Administration - Rocky Mountain Region
+31033,WACM,1,Western Area Power Administration - Rocky Mountain Region
+31105,WACM,1,Western Area Power Administration - Rocky Mountain Region
+30075,WACM,1,Western Area Power Administration - Rocky Mountain Region
+30011,WACM,1,Western Area Power Administration - Rocky Mountain Region
+30101,SWPP,1,Southwest Power Pool
+04012,WALC,1,Western Area Power Administration - Desert Southwest Region
+46075,WACM,1,Western Area Power Administration - Rocky Mountain Region
+46041,WACM,1,Western Area Power Administration - Rocky Mountain Region
+46121,WACM,1,Western Area Power Administration - Rocky Mountain Region
+46117,WACM,1,Western Area Power Administration - Rocky Mountain Region
+56027,WACM,1,Western Area Power Administration - Rocky Mountain Region
+56015,WACM,1,Western Area Power Administration - Rocky Mountain Region
+46007,WACM,1,Western Area Power Administration - Rocky Mountain Region
+30033,SWPP,1,Southwest Power Pool

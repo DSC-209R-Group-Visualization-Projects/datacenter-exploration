@@ -55,6 +55,45 @@ fig.update_layout(height=620, margin=dict(l=0, r=0, t=50, b=0), showlegend=True,
 fig.write_html(ROOT / "jppolizzi" / "prototype_a_map.html", include_plotlyjs=True, config={"displayModeBar": False})
 fig.show()'''),
 ("md", "Saved as `jppolizzi/prototype_a_map.html`. Facilities without coordinates are skipped. Next layer to add (one at a time): planned capacity, then restrictions."),
+("md", """## Grid strain: balancing authority regions
+The grid is run by **balancing authorities** (BAs), which balance supply and demand hour by hour (PJM, MISO, ERCOT, ...). EIA-930 reports hourly demand for each, so this is the unit for grid strain.
+
+- **Regions** are approximate: built from the counties each BA's utilities serve (EIA-861, `scripts/build_ba_regions.py`). A county served by several BAs goes to the one whose utility has the most residential customers, so small BAs mostly disappear into their neighbours.
+- **Shading:** growth in annual peak demand, 2019 to 2025 (EIA-930). Grey = no complete 2019 and 2025 data.
+- **Dots:** operating (blue) and planned (orange) data centers.
+- Peak growth also reflects weather, population and electrification, so this map does not separate the data center share."""),
+("code", '''g = pdx.ba_grid_table().set_index("ba")
+regions = gpd.read_file(CLEAN / "ba_regions.geojson").merge(g[["peak_base_mw", "peak_end_mw", "peak_growth_pct", "dc_operating"]], left_on="ba_code", right_index=True, how="left")
+regions["dc_operating"] = regions["dc_operating"].fillna(0)
+regions["label"] = (regions["ba_name"].fillna(regions["ba_code"]) + " (" + regions["ba_code"] + ")<br>" +
+    regions.apply(lambda r: "no complete 2019/2025 data" if pd.isna(r.peak_growth_pct) else
+                  f"peak {r.peak_base_mw / 1000:,.1f} GW (2019) to {r.peak_end_mw / 1000:,.1f} GW (2025), {r.peak_growth_pct:+.1f}%", axis=1) +
+    "<br>operating data centers in served counties: " + regions["dc_operating"].astype(int).astype(str))
+has = regions[regions.peak_growth_pct.notna()]; none = regions[regions.peak_growth_pct.isna()]
+
+fig = go.Figure()
+fig.add_trace(go.Choropleth(geojson=json.loads(none.to_json()), locations=none["ba_code"], featureidkey="properties.ba_code", z=[0] * len(none),
+    colorscale=[[0, "#e0e0e0"], [1, "#e0e0e0"]], showscale=False, marker_line_color="white", marker_line_width=0.8, text=none["label"], hovertemplate="%{text}<extra></extra>"))
+fig.add_trace(go.Choropleth(geojson=json.loads(has.to_json()), locations=has["ba_code"], featureidkey="properties.ba_code", z=has["peak_growth_pct"],
+    colorscale=[[0, "#fcd9c8"], [0.5, "#ef6548"], [1, "#7f0000"]], zmin=0, zmax=20, marker_line_color="white", marker_line_width=0.8,
+    colorbar=dict(title="peak demand<br>growth 2019-25 (%)", len=0.5, ticksuffix="%", tickvals=[0, 5, 10, 15, 20], ticktext=["0% or less", "5%", "10%", "15%", "20%+"]), text=has["label"], hovertemplate="%{text}<extra></extra>"))
+d2 = d[d.status_group.isin(["operating", "pipeline"])]
+for grp, color, name in (("pipeline", "#e8833a", "planned data center"), ("operating", "#1f5fa8", "operating data center")):
+    s_ = d2[d2.status_group == grp]
+    fig.add_trace(go.Scattergeo(lon=s_["lon"], lat=s_["lat"], mode="markers", name=name, marker=dict(size=4, color=color, opacity=0.8, line=dict(width=0)),
+        text=s_["facility_name"].fillna("(unnamed)") + "<br>" + s_["city"].fillna("") + ", " + s_["state"], hovertemplate="%{text}<extra></extra>"))
+big = regions.nlargest(10, "n_counties").copy()
+pt = big.to_crs("EPSG:5070").geometry.representative_point().to_crs("EPSG:4326")
+fig.add_trace(go.Scattergeo(lon=pt.x, lat=pt.y, mode="text", text=big["ba_code"], textfont=dict(size=12, color="#111", family="Arial Black"), hoverinfo="skip", showlegend=False))
+fig.update_layout(height=620, margin=dict(l=0, r=0, t=50, b=0), legend=dict(x=0.02, y=0.08, bgcolor="rgba(255,255,255,0.8)"),
+    title=dict(text="Grid regions (balancing authorities): peak demand growth 2019-2025 and data center locations", x=0.02, font=dict(size=16)),
+    geo=dict(scope="usa", projection=dict(type="albers usa"), showland=True, landcolor="#e6e6e6", showlakes=False, showframe=False,
+             showsubunits=True, subunitcolor="#ffffff", subunitwidth=0.4))
+fig.add_annotation(text="grey = no region assigned or no complete 2019/2025 data", x=0.02, y=0.0, xref="paper", yref="paper", showarrow=False, font=dict(size=11, color="#555"), xanchor="left")
+fig.write_html(ROOT / "jppolizzi" / "prototype_a_grid_map.html", include_plotlyjs=True, config={"displayModeBar": False})
+fig.show()
+display(g.sort_values("dc_operating", ascending=False).head(10)[["peak_base_mw", "peak_end_mw", "peak_growth_pct", "dc_operating"]].round(1))'''),
+("md", "Saved as `jppolizzi/prototype_a_grid_map.html`. Next: test whether BAs with more data centers grew faster (Prototype B), and add PJM capacity prices."),
 ]
 
 # ---------------------------------------------------------------- Prototype B: water-only scorecard (facility-in-basin)

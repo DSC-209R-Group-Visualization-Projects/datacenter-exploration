@@ -1,0 +1,164 @@
+/* Dark theme. Chart colors validated against --bg with the dataviz palette validator (dark mode). */
+:root {
+  color-scheme: dark;
+  --bg: #121211;
+  --bg-raised: #1a1a19;
+  --text: #f0efec;
+  --text-2: #c3c2b7;
+  --muted: #898781;
+  --grid: #2c2c2a;
+  --axis: #383835;
+  --border: rgba(255, 255, 255, 0.10);
+  --dc: #3987e5;          /* data centers (series 1) */
+  --accent: #d95926;      /* highlight (series 2) */
+  --ai-red: #f04438;      /* hero title reveal only */
+  --city: #898781;        /* reference outlines */
+  --font: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --measure: 34rem;
+  --header-h: 56px;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+body {
+  margin: 0; background: var(--bg); color: var(--text); font-family: var(--font);
+  font-size: 18px; line-height: 1.65; -webkit-font-smoothing: antialiased;
+}
+a { color: inherit; }
+strong { font-weight: 650; color: var(--text); }
+.muted { color: var(--muted); }
+
+/* ---------- progress bar + header ---------- */
+.progress { position: fixed; inset: 0 0 auto 0; height: 2px; z-index: 30; }
+.progress-bar { height: 100%; width: 100%; transform-origin: 0 50%; transform: scaleX(0); background: var(--dc); }
+.site-header {
+  position: fixed; inset: 0 0 auto 0; height: var(--header-h); z-index: 20;
+  display: flex; align-items: center; justify-content: space-between; padding: 0 clamp(20px, 4vw, 48px);
+  transition: background .3s, border-color .3s, transform .3s; border-bottom: 1px solid transparent;
+}
+.site-header.solid { background: rgba(18, 18, 17, 0.82); backdrop-filter: blur(14px); border-bottom-color: var(--border); }
+.brand { font-weight: 700; letter-spacing: -0.01em; text-decoration: none; font-size: 15px; opacity: 0; transition: opacity .3s; }
+.site-header.solid .brand { opacity: 1; }
+.nav { display: flex; gap: 28px; font-size: 14px; }
+.nav a { text-decoration: none; color: var(--text-2); }
+.nav a:hover { color: var(--text); }
+
+/* ---------- hero ---------- */
+.hero { position: relative; min-height: 100vh; display: flex; align-items: flex-end; overflow: hidden; }
+.hero-map { position: absolute; inset: 0; width: 100%; height: 100%; }
+.hero-shade {
+  position: absolute; inset: 0;
+  background: linear-gradient(90deg, rgba(18,18,17,.92) 0%, rgba(18,18,17,.55) 45%, rgba(18,18,17,.05) 100%),
+              linear-gradient(0deg, var(--bg) 0%, rgba(18,18,17,0) 35%);
+}
+.hero-inner { position: relative; padding: 0 clamp(20px, 6vw, 96px) clamp(72px, 12vh, 140px); max-width: 1180px; }
+.kicker, .eyebrow {
+  text-transform: uppercase; letter-spacing: .16em; font-size: 13px; font-weight: 600; color: var(--dc); margin: 0 0 18px;
+}
+.hero-title {
+  font-size: clamp(42px, 6.2vw, 92px); line-height: 1; letter-spacing: -0.04em; font-weight: 800; margin: 0 0 28px;
+  color: var(--text); white-space: nowrap;
+}
+/* Title reveal (main.js adds .revealed a moment after load): the rest fades back and "ai … in America" turns
+   red. It's a colour change, not movement, so it runs for reduced-motion readers too. The faded letters stay
+   faintly visible so the full title can still be read. */
+.hero-title .fade { transition: opacity 1.8s ease; }
+.hero-title .keep { transition: color 1.8s ease; }
+.hero-title.revealed .fade { opacity: .03; }
+.hero-title.revealed .keep { color: var(--ai-red); }
+.hero-title .br-m { display: none; }   /* extra line breaks on phones */
+@media (max-width: 600px) { .hero-title { font-size: 12.5vw; } .hero-title .br-m { display: inline; } }
+.hero-dek { font-size: clamp(19px, 1.7vw, 24px); line-height: 1.5; color: var(--text-2); max-width: 36rem; margin: 0 0 28px; font-weight: 400; }
+.hero-meta { font-size: 14px; color: var(--muted); margin: 0 0 10px; display: flex; gap: 10px; flex-wrap: wrap; }
+.hero-legend { font-size: 13px; color: var(--muted); margin: 0; display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+.key { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-left: 8px; }
+.key:first-child { margin-left: 0; }
+.key-op { background: var(--dc); }
+.key-pl { border: 1.5px solid var(--dc); opacity: .8; }
+.scroll-cue { position: absolute; bottom: 28px; left: 50%; transform: translateX(-50%); width: 24px; height: 40px;
+  border: 1.5px solid var(--muted); border-radius: 12px; }
+.scroll-cue span { position: absolute; left: 50%; top: 8px; width: 3px; height: 8px; margin-left: -1.5px; border-radius: 2px;
+  background: var(--text-2); animation: cue 1.8s infinite; }
+@keyframes cue { 0% { opacity: 0; transform: translateY(0); } 30% { opacity: 1; } 100% { opacity: 0; transform: translateY(14px); } }
+@media (prefers-reduced-motion: reduce) { .scroll-cue span { animation: none; } }
+
+/* ---------- chapters ---------- */
+main { position: relative; }
+.chapter-head { padding: 22vh clamp(20px, 6vw, 96px) 8vh; max-width: 1200px; margin: 0 auto; }
+.chapter-head h2, .coming h2 {
+  font-size: clamp(40px, 6vw, 84px); line-height: 1; letter-spacing: -0.035em; font-weight: 800; margin: 0;
+}
+
+/* ---------- scrollytelling ---------- */
+.scrolly { position: relative; display: grid; grid-template-columns: minmax(300px, 0.9fr) 1.6fr; gap: clamp(24px, 4vw, 64px);
+  max-width: 1440px; margin: 0 auto; padding: 0 clamp(20px, 4vw, 56px); }
+.scrolly .steps { grid-column: 1; grid-row: 1; padding: 30vh 0 45vh; }
+.scrolly .sticky { grid-column: 2; grid-row: 1; position: sticky; top: calc(var(--header-h) + 3vh); height: calc(100vh - var(--header-h) - 6vh);
+  margin: 0; display: flex; flex-direction: column; }
+.step { max-width: var(--measure); margin: 0 0 62vh; padding: 26px 28px; border-radius: 14px; color: var(--text-2);
+  background: var(--bg-raised); border: 1px solid var(--border); opacity: .35; transition: opacity .4s, border-color .4s; }
+.step:last-child { margin-bottom: 0; }
+.step.is-active { opacity: 1; border-color: rgba(57, 135, 229, .45); }
+.step p { margin: 0; }
+.step p + p { margin-top: 12px; }
+.step-year { font-size: 13px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--text) !important; margin-bottom: 10px !important; }
+.step-headline p { font-size: 22px; line-height: 1.45; color: var(--text); font-weight: 500; letter-spacing: -0.01em; }
+.fig-head { margin-bottom: 6px; }
+.fig-title { margin: 0; font-size: 20px; font-weight: 650; letter-spacing: -0.01em; }
+.fig-sub { margin: 2px 0 0; font-size: 15px; color: var(--text-2); min-height: 1.6em; transition: opacity .25s; }
+.chart { position: relative; flex: 1; min-height: 0; }
+.chart svg { display: block; width: 100%; height: 100%; overflow: visible; }
+.fig-source { font-size: 12px; line-height: 1.5; color: var(--muted); margin-top: 8px; }
+
+/* chart chrome */
+.axis text { fill: var(--muted); font-family: var(--font); font-size: 12px; font-variant-numeric: tabular-nums; }
+.axis path, .axis line { stroke: var(--axis); }
+.grid line { stroke: var(--grid); stroke-width: 1; }
+.grid path { display: none; }
+.label { fill: var(--text-2); font-size: 12.5px; font-family: var(--font); }
+.label-strong { fill: var(--text); font-weight: 650; }
+.label-muted { fill: var(--muted); font-size: 12px; }
+
+/* ---------- data tables ---------- */
+.data-table { max-width: 1440px; margin: 2vh auto 0; padding: 0 clamp(20px, 4vw, 56px); font-size: 14px; color: var(--text-2); }
+.data-table summary { cursor: pointer; color: var(--muted); width: max-content; margin-left: auto; }
+.data-table summary:hover { color: var(--text); }
+.data-table table { border-collapse: collapse; margin: 12px 0 0 auto; font-variant-numeric: tabular-nums; }
+.data-table th, .data-table td { padding: 6px 14px; border-bottom: 1px solid var(--grid); text-align: left; }
+.data-table th { color: var(--muted); font-weight: 500; }
+.data-table td.num { text-align: right; }
+
+/* ---------- closing statements ---------- */
+.statements { max-width: 1040px; margin: 0 auto; padding: 30vh clamp(20px, 6vw, 96px) 20vh; }
+.statement { font-size: clamp(28px, 3.6vw, 48px); line-height: 1.2; letter-spacing: -0.025em; font-weight: 700; margin: 0 0 40vh;
+  color: var(--text); opacity: .12; transform: translateY(24px); transition: opacity .7s, transform .7s; }
+.statement em { font-style: normal; color: var(--dc); }
+.statement.is-visible { opacity: 1; transform: none; }
+.aim { border-top: 1px solid var(--border); padding-top: 32px; max-width: 46rem; opacity: 0; transform: translateY(24px);
+  transition: opacity .7s, transform .7s; }
+.aim.is-visible { opacity: 1; transform: none; }
+.aim p:last-child { font-size: clamp(20px, 2vw, 26px); line-height: 1.5; color: var(--text-2); margin: 0; }
+@media (prefers-reduced-motion: reduce) { .statement, .aim { transition: none; transform: none; } }
+.coming { max-width: 1200px; margin: 0 auto; padding: 10vh clamp(20px, 6vw, 96px) 30vh; }
+
+/* ---------- tooltip ---------- */
+.tooltip { position: fixed; z-index: 40; pointer-events: none; opacity: 0; transition: opacity .12s;
+  background: #232321; border: 1px solid var(--border); border-radius: 8px; padding: 8px 11px; font-size: 13px; line-height: 1.45;
+  color: var(--text-2); max-width: 260px; box-shadow: 0 8px 24px rgba(0,0,0,.45); }
+.tooltip b { color: var(--text); font-weight: 650; }
+.tooltip.show { opacity: 1; }
+
+/* ---------- narrow screens: graphic on top, steps scroll over it ---------- */
+@media (max-width: 900px) {
+  body { font-size: 17px; }
+  .nav { display: none; }
+  .scrolly { display: block; padding: 0 16px; }
+  .scrolly .sticky { position: sticky; top: var(--header-h); height: 58vh; z-index: 0; background: var(--bg); padding-top: 8px; }
+  .scrolly .steps { position: relative; z-index: 1; padding: 20vh 0 10vh; }
+  .step { background: rgba(26, 26, 25, .96); margin-bottom: 75vh; padding: 18px 20px; font-size: 15.5px; line-height: 1.55; }
+  .step-headline p { font-size: 18px; }
+  .fig-title { font-size: 17px; }
+  .fig-sub { font-size: 13.5px; }
+  .fig-source { font-size: 10.5px; margin-top: 4px; }
+}

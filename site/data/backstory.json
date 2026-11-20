@@ -1,0 +1,169 @@
+{
+ "electricity": [
+  {
+   "year": 2000,
+   "twh": 28.2,
+   "pct_us": null
+  },
+  {
+   "year": 2006,
+   "twh": 61.4,
+   "pct_us": 1.5
+  },
+  {
+   "year": 2014,
+   "twh": 58,
+   "pct_us": null
+  },
+  {
+   "year": 2016,
+   "twh": 60,
+   "pct_us": null
+  },
+  {
+   "year": 2018,
+   "twh": 76,
+   "pct_us": 1.9
+  },
+  {
+   "year": 2023,
+   "twh": 176,
+   "pct_us": 4.4
+  }
+ ],
+ "projection": {
+  "year": 2028,
+  "low_twh": 325,
+  "high_twh": 580,
+  "low_pct": 6.7,
+  "high_pct": 12
+ },
+ "eras": [
+  {
+   "id": "early",
+   "start": 1950,
+   "end": 1970,
+   "name": "Mainframes & Apollo"
+  },
+  {
+   "id": "super",
+   "start": 1970,
+   "end": 1990,
+   "name": "Supercomputers"
+  },
+  {
+   "id": "internet",
+   "start": 1990,
+   "end": 2006,
+   "name": "Internet era"
+  },
+  {
+   "id": "cloud",
+   "start": 2006,
+   "end": 2012,
+   "name": "Hyperscale & cloud"
+  },
+  {
+   "id": "deep",
+   "start": 2012,
+   "end": 2020,
+   "name": "Deep learning"
+  },
+  {
+   "id": "genai",
+   "start": 2020,
+   "end": 2028.5,
+   "name": "Generative AI"
+  }
+ ],
+ "milestones": [
+  {
+   "year": 1958,
+   "label": "SAGE air-defense computer",
+   "short": "SAGE"
+  },
+  {
+   "year": 1969,
+   "label": "Apollo 11 (IBM System/360 at Mission Control)",
+   "short": "Apollo 11"
+  },
+  {
+   "year": 2006,
+   "label": "Amazon Web Services launches",
+   "short": "AWS"
+  },
+  {
+   "year": 2012,
+   "label": "Deep learning resurgence on GPUs",
+   "short": "Deep learning"
+  },
+  {
+   "year": 2022.9,
+   "label": "ChatGPT (Nov 2022)",
+   "short": "ChatGPT"
+  }
+ ],
+ "facilities": [
+  {
+   "label": "SAGE air-defense computer",
+   "short": "SAGE",
+   "when": "1958",
+   "mw": 3,
+   "kind": "facility",
+   "source": "AN/FSQ-7: up to 3 MW (Wikipedia)"
+  },
+  {
+   "label": "Typical operating data center",
+   "short": "Typical today",
+   "when": "today",
+   "mw": 25.0,
+   "kind": "facility",
+   "source": "median of 239 operating sites with reported capacity, Data Centers Database"
+  },
+  {
+   "label": "xAI Colossus 1, Memphis",
+   "short": "Colossus 1",
+   "when": "2024",
+   "mw": 150,
+   "kind": "facility",
+   "source": "grid supply upgraded toward ~150 MW (Wikipedia)"
+  },
+  {
+   "label": "Typical planned data center",
+   "short": "Typical planned",
+   "when": "pipeline",
+   "mw": 277.5,
+   "kind": "facility",
+   "source": "median of 400 planned sites with reported capacity, Data Centers Database"
+  },
+  {
+   "label": "xAI Colossus sites, Memphis\u2013Southaven",
+   "short": "All Colossus sites",
+   "when": "2026",
+   "mw": 1000,
+   "kind": "facility",
+   "source": "~1 GW combined by mid-2026 (Wikipedia, citing Epoch AI)"
+  },
+  {
+   "label": "All Memphis homes",
+   "when": "average draw, 2025",
+   "mw": 602,
+   "kind": "city",
+   "source": "MLGW residential sales / 8,760 h (EIA-861, 2025)"
+  },
+  {
+   "label": "All of Memphis",
+   "when": "homes, business, industry",
+   "mw": 1565,
+   "kind": "city",
+   "source": "MLGW total sales / 8,760 h (EIA-861, 2025)"
+  }
+ ],
+ "memphis": {
+  "homes_mw": 602,
+  "city_mw": 1565,
+  "customers": 385015,
+  "gw_vs_homes": 1.7,
+  "gw_vs_city": 0.64
+ }
+}

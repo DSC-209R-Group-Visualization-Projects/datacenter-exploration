@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Datacenter Strain in American Towns</title>
+  <meta name="description" content="Data centers are being built faster than ever, and communities are pushing back. Do their concerns hold up in the data?">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css?v=4">
+</head>
+<body>
+  <div class="progress" aria-hidden="true"><div class="progress-bar"></div></div>
+
+  <header class="site-header">
+    <a class="brand" href="#top">Datacenter Strain</a>
+    <nav class="nav">
+      <a href="#backstory">Backstory</a>
+    </nav>
+  </header>
+
+  <!-- ===================== HERO ===================== -->
+  <section class="hero" id="top">
+    <canvas class="hero-map" aria-hidden="true"></canvas>
+    <div class="hero-shade" aria-hidden="true"></div>
+    <div class="hero-inner">
+      <p class="kicker">The American data center boom</p>
+      <!-- The full title shows first; then everything but "ai … in America" fades and those letters turn red -->
+      <h1 class="hero-title" aria-label="Datacenter Strain in American Towns">
+        <span class="fade">Datacenter<br> Str</span><span class="keep">ai</span><span class="fade">n</span><br><span class="keep">in America</span><span class="fade">n<br class="br-m"> Towns</span>
+      </h1>
+      <p class="hero-dek">Data centers are being built faster than ever, and a growing number of communities are pushing back.
+        We test whether their worries about the grid, electric bills and water hold up in the data.</p>
+      <p class="hero-meta"><span>Joel · Priyanka · Sanjana</span><span class="dot">•</span><span>DSC 209R, UC San Diego</span></p>
+      <p class="hero-legend"><span class="key key-op"></span><span id="hero-n-op">606</span> operating
+        <span class="key key-pl"></span><span id="hero-n-pl">975</span> planned data centers</p>
+    </div>
+    <a class="scroll-cue" href="#backstory" aria-label="Scroll to the story"><span></span></a>
+  </section>
+
+  <main>
+    <!-- ===================== BACKSTORY ===================== -->
+    <section class="chapter-head" id="backstory">
+      <p class="eyebrow">Backstory</p>
+      <h2>From Apollo to AI</h2>
+    </section>
+
+    <!-- Scrolly 1: timeline that turns into the electricity chart -->
+    <section class="scrolly" id="scrolly-electricity">
+      <figure class="sticky">
+        <div class="fig-head">
+          <h3 class="fig-title">US data center electricity use</h3>
+          <p class="fig-sub" id="elec-sub">Seven decades of data centers</p>
+        </div>
+        <div class="chart" id="chart-electricity"></div>
+        <figcaption class="fig-source">Sources: EPA Report to Congress on Server and Data Center Energy Efficiency (2007);
+          LBNL 2024 United States Data Center Energy Usage Report. Dashed line: gap between the two reports.</figcaption>
+      </figure>
+      <div class="steps">
+        <div class="step" data-step="0">
+          <p class="step-year">1950s–1960s</p>
+          <p>Data centers emerged in the 1950s, supporting general computing, scientific research, and enterprise information systems. Initially concentrated within government agencies, universities, and large corporations, these facilities enabled breakthroughs that helped humanity achieve extraordinary technological milestones. In 1969, the Apollo 11 mission depended on IBM System/360 Model 75 mainframes in NASA's Real Time Computer Complex at Mission Control in Houston, Texas, alongside the Apollo Guidance Computer aboard the spacecraft, helping guide astronauts to the Moon.</p>
+        </div>
+        <div class="step" data-step="1">
+          <p class="step-year">1970s–1980s</p>
+          <p>Data centers expanded alongside the rise of mainframes and supercomputers, powering scientific research, weather forecasting, defense systems, and early digital business operations.</p>
+        </div>
+        <div class="step" data-step="2">
+          <p class="step-year">1990s</p>
+          <p>The growth of the internet transformed data centers into the backbone of global communications and e-commerce, supporting emerging platforms and online services.</p>
+        </div>
+        <div class="step" data-step="3">
+          <p class="step-year">2000s</p>
+          <p>Hyperscale computing arrived as companies such as Google, Amazon, and Microsoft built massive facilities capable of serving millions of users worldwide. Cloud computing, led by the 2006 launch of Amazon Web Services, shifted data centers from dedicated infrastructure to shared, on-demand platforms, dramatically increasing accessibility and scale.</p>
+        </div>
+        <div class="step" data-step="4">
+          <p class="step-year">2012</p>
+          <p>The resurgence of deep learning and advances in GPU computing sparked a new era of artificial intelligence. Data centers evolved beyond traditional computing environments, incorporating specialized accelerators, high-speed networking, and unprecedented processing power to train increasingly sophisticated AI models.</p>
+        </div>
+        <div class="step" data-step="5">
+          <p class="step-year">2020s</p>
+          <p>By 2023, generative AI systems such as large language models were being trained on clusters of tens of thousands of GPUs, driving the construction of purpose-built AI data centers. Today the largest AI campuses hold hundreds of thousands of GPUs, draw hundreds of megawatts to a gigawatt of power, and rely on advanced liquid cooling.</p>
+        </div>
+        <div class="step step-headline" data-step="6">
+          <p>Data centers' share of US electricity rose from <strong>1.5%</strong> in 2006 to <strong>4.4%</strong> in 2023, and it is projected to reach <strong>6.7–12%</strong> by 2028.</p>
+        </div>
+      </div>
+    </section>
+    <details class="data-table" id="table-electricity"><summary>View the data</summary></details>
+
+    <!-- Scrolly 2: power drawn by one facility -->
+    <section class="scrolly" id="scrolly-scale">
+      <figure class="sticky">
+        <div class="fig-head">
+          <h3 class="fig-title">Power drawn by a single facility</h3>
+          <p class="fig-sub">Circle area is proportional to megawatts</p>
+        </div>
+        <div class="chart" id="chart-scale"></div>
+        <figcaption class="fig-source">Typical sites: medians of facilities with reported capacity in the Data Centers Database.
+          Memphis: Memphis Light, Gas and Water sales, EIA-861 (2025), spread over 8,760 hours.</figcaption>
+      </figure>
+      <div class="steps">
+        <div class="step" data-step="0"><p>Meanwhile, each building got bigger. A 1950s air-defense computer drew <strong>a few megawatts</strong>.</p></div>
+        <div class="step" data-step="1"><p>The typical data center operating today draws <strong>about 25</strong>.</p></div>
+        <div class="step" data-step="2"><p>In 2024, xAI's first Colossus supercomputer in Memphis had its grid supply upgraded toward <strong>150 MW</strong>.</p></div>
+        <div class="step" data-step="3"><p>The typical one now being planned is <strong>about ten times</strong> today's typical site.</p></div>
+        <div class="step" data-step="4"><p>And the largest AI campuses are approaching <strong>a gigawatt</strong>.</p></div>
+        <div class="step" data-step="5"><p>Running at full power, a gigawatt is about <strong><span data-fill="gw_vs_homes">1.7</span> times</strong> the electricity used by every home in Memphis combined, and about <strong>two-thirds</strong> of what the entire city (homes, businesses, and industry) uses!</p></div>
+      </div>
+    </section>
+    <details class="data-table" id="table-scale"><summary>View the data</summary></details>
+
+    <!-- Closing statements -->
+    <section class="statements">
+      <p class="statement">From supporting the Apollo missions to powering today's AI boom, data centers have become <em>critical infrastructure</em>.</p>
+      <p class="statement">But that infrastructure now needs as much electricity as a city, and often a great deal of water, and it is being built faster than ever.</p>
+      <p class="statement">Communities that are starting to ask what it costs them, and they are starting to push back against the expansion</p>
+      <div class="aim">
+        <p class="eyebrow">What we set out to test</p>
+        <p>We aim to understand if the underlying data supports datacenter expansion concerns and aim to understand which communities are most adversly effected by the build outs being planned</p>
+      </div>
+    </section>
+
+    <section class="coming">
+      <p class="eyebrow">Next</p>
+      <h2>Where the build-out is happening</h2>
+      <p class="muted">Chapter in progress.</p>
+    </section>
+  </main>
+
+  <div class="tooltip" role="status" aria-live="polite"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+  <script src="js/common.js?v=4"></script>
+  <script src="js/hero.js?v=4"></script>
+  <script src="js/backstory.js?v=4"></script>
+  <script src="js/main.js?v=4"></script>
+</body>
+</html>

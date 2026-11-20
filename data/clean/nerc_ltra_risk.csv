@@ -1,0 +1,38 @@
+ba_code,nerc_area,risk_2026,risk_2027,risk_2028,risk_2029,risk_2030
+MISO,MISO,Normal,Elevated,High,High,High
+SWPP,SPP,Elevated,Elevated,Elevated,Elevated,Elevated
+PJM,PJM,Elevated,Elevated,Elevated,High,High
+ERCO,ERCOT,Elevated,Elevated,Elevated,High,High
+ISNE,New England,Normal,Normal,Normal,Elevated,Elevated
+NYIS,New York,Elevated,Elevated,Elevated,Elevated,Elevated
+DUK,SERC-East,Normal,Elevated,Elevated,Elevated,Elevated
+CPLE,SERC-East,Normal,Elevated,Elevated,Elevated,Elevated
+SC,SERC-East,Normal,Elevated,Elevated,Elevated,Elevated
+SCEG,SERC-East,Normal,Elevated,Elevated,Elevated,Elevated
+TVA,SERC-Central,Normal,Normal,Normal,Normal,Normal
+LGEE,SERC-Central,Normal,Normal,Normal,Normal,Normal
+AECI,SERC-Central,Normal,Normal,Normal,Normal,Normal
+SOCO,SERC-Southeast,Normal,Normal,Normal,Normal,Normal
+FPL,SERC-Florida,Normal,Normal,Normal,Normal,Normal
+FPC,SERC-Florida,Normal,Normal,Normal,Normal,Normal
+SEC,SERC-Florida,Normal,Normal,Normal,Normal,Normal
+BPAT,WECC-Northwest,Normal,Normal,Normal,High,High
+AVA,WECC-Northwest,Normal,Normal,Normal,High,High
+PACW,WECC-Northwest,Normal,Normal,Normal,High,High
+PGE,WECC-Northwest,Normal,Normal,Normal,High,High
+PSEI,WECC-Northwest,Normal,Normal,Normal,High,High
+TPWR,WECC-Northwest,Normal,Normal,Normal,High,High
+CHPD,WECC-Northwest,Normal,Normal,Normal,High,High
+GCPD,WECC-Northwest,Normal,Normal,Normal,High,High
+NWMT,WECC-Northwest,Normal,Normal,Normal,High,High
+WAUW,WECC-Northwest,Normal,Normal,Normal,High,High
+IPCO,WECC-Basin,Elevated,Elevated,Elevated,High,High
+PACE,WECC-Basin,Elevated,Elevated,Elevated,High,High
+PSCO,WECC-Rocky Mountain,Normal,Normal,Normal,Normal,Normal
+WACM,WECC-Rocky Mountain,Normal,Normal,Normal,Normal,Normal
+AZPS,WECC-Southwest,Normal,Normal,Normal,Normal,Normal
+EPE,WECC-Southwest,Normal,Normal,Normal,Normal,Normal
+PNM,WECC-Southwest,Normal,Normal,Normal,Normal,Normal
+NEVP,WECC-Southwest,Normal,Normal,Normal,Normal,Normal
+WALC,WECC-Southwest,Normal,Normal,Normal,Normal,Normal
+CISO,WECC-California,Normal,Normal,Normal,Normal,Normal
