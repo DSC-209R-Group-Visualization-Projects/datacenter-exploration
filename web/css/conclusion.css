@@ -1,0 +1,17 @@
+/* Conclusion: scorecard of the three concerns. Accent colours match each concern's verdict. */
+.scorecard { list-style: none; padding: 0; margin: 36px 0 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+.scorecard li { background: var(--bg-raised); border: 1px solid var(--border); border-top: 3px solid var(--accent-c); border-radius: 12px; padding: 20px 22px; }
+.scorecard .sc-concern { margin: 0; font-size: 13px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
+.scorecard .sc-verdict { margin: 6px 0 10px; font-size: 22px; line-height: 1.25; font-weight: 750; letter-spacing: -0.01em; color: var(--accent-c); }
+.scorecard .sc-why { margin: 0; font-size: 15px; line-height: 1.55; color: var(--text-2); }
+.sc-grid { --accent-c: #f58a4e; }
+.sc-bills { --accent-c: #e0b020; }
+.sc-water { --accent-c: #6cc9bd; }
+#verdict-summary em { color: #6cc9bd; }   /* "unmeasured" refers to water */
+#verdict-local em { color: var(--dc); }
+#verdict-close h2 { font-size: clamp(30px, 4vw, 54px); }
+@media (max-width: 900px) { .scorecard { grid-template-columns: 1fr; } }
+.who-list { max-width: 44rem; margin: 24px 0 0; padding-left: 1.1em; font-size: clamp(17px, 1.5vw, 20px); line-height: 1.55; color: var(--text-2); }
+.who-list li + li { margin-top: 12px; }
+.who-list li::marker { color: var(--muted); }
+#verdict-who em { color: var(--dc); }
