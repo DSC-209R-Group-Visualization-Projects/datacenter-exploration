@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css?v=30">
+  <link rel="stylesheet" href="css/style.css?v=42">
 </head>
 <body>
   <div class="progress" aria-hidden="true"><div class="progress-bar"></div></div>
@@ -65,11 +65,21 @@
       <div class="steps">
         <div class="step" data-step="0">
           <p class="step-year">1950s–1960s</p>
-          <p>Data centers emerged in the 1950s, supporting general computing, scientific research, and enterprise information systems. Initially concentrated within government agencies, universities, and large corporations, these facilities enabled breakthroughs that helped humanity achieve extraordinary technological milestones. In 1969, the Apollo 11 mission depended on IBM System/360 Model 75 mainframes in NASA's Real Time Computer Complex at Mission Control in Houston, Texas, alongside the Apollo Guidance Computer aboard the spacecraft, helping guide astronauts to the Moon.</p>
+          <p>Data centers emerged in the 1950s, supporting general computing, scientific research, and enterprise information systems. Initially concentrated within government agencies, universities, and large corporations, these facilities enabled extraordinary technological milestones.</p>
+          <p>In the early 1960s, NASA used the IBM 7090 to send a man into orbit around Earth, leading to the first American orbital spaceflight.</p>
+          <p>By 1969 an IBM System/360 Model 75 mainframe was used at NASA's Real Time Computer Complex to help guide the astronauts to the Moon.</p>
+          <figure class="step-photo step-photo-wide">
+            <img src="images/mercury-mission.jpg" alt="Mary Jackson, holding a pen and papers, stands beside banks of computer and instrument panels at NASA Langley" width="1041" height="808" loading="lazy">
+            <figcaption>Mary Jackson at NASA's Langley Research Center in 1977. She joined Langley in 1951 as one of its "human computers" and became NASA's first Black female engineer. Image credit: NASA.</figcaption>
+          </figure>
         </div>
         <div class="step" data-step="1">
           <p class="step-year">1970s–1980s</p>
           <p>Data centers expanded alongside the rise of mainframes and supercomputers, powering scientific research, weather forecasting, defense systems, and early digital business operations.</p>
+          <figure class="step-photo step-photo-wide">
+            <img src="images/cray-supercomputing.png" alt="Larry Smarr, in a tweed jacket and striped tie, stands in front of the red panels of a Cray supercomputer" width="690" height="396" loading="lazy">
+            <figcaption>Larry Smarr, founding director of the National Center for Supercomputing Applications, with a Cray supercomputer in the 1980s.</figcaption>
+          </figure>
         </div>
         <div class="step" data-step="2">
           <p class="step-year">1990s</p>
@@ -116,10 +126,24 @@
     </section>
     <details class="data-table" id="table-scale"><summary>View the data</summary></details>
 
+    <!-- Apollo 11 rises out of the dark behind the first statement, gives way to xAI's Colossus with the second, then both fade as the reader scrolls on -->
+    <section class="moon">
+      <div class="moon-sticky">
+        <img class="moon-img moon-apollo" src="images/apollo-11.jpg" alt="Buzz Aldrin stands beside the American flag on the Moon, with the lunar module at left" width="1440" height="1080" loading="lazy">
+        <img class="moon-img moon-xai" src="images/xai-colossus.jpg" alt="A long, brightly lit aisle between rows of server racks packed with cables" width="1199" height="800" loading="lazy">
+        <p class="moon-credit moon-apollo">Apollo 11, July 20, 1969. Image credit: NASA/Neil Armstrong.</p>
+        <p class="moon-credit moon-xai">xAI's Colossus, Memphis.</p>
+        <div class="moon-text moon-text-1">
+          <p class="statement">From supporting the Apollo missions to powering today's AI boom, data centers have become <em>critical infrastructure</em>.</p>
+        </div>
+        <div class="moon-text moon-text-2">
+          <p class="statement">But that infrastructure now needs as much electricity as a city, and often a great deal of water, and it is being built faster than ever.</p>
+        </div>
+      </div>
+    </section>
+
     <!-- Closing statements -->
     <section class="statements">
-      <p class="statement">From supporting the Apollo missions to powering today's AI boom, data centers have become <em>critical infrastructure</em>.</p>
-      <p class="statement">But that infrastructure now needs as much electricity as a city, and often a great deal of water, and it is being built faster than ever.</p>
       <p class="statement">Communities that are starting to ask what it costs them, and they are starting to push back against the expansion</p>
       <div class="aim">
         <p class="eyebrow">What we set out to test</p>
@@ -320,14 +344,14 @@
   <div class="tooltip" role="status" aria-live="polite"></div>
 
   <script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
-  <script src="js/common.js?v=30"></script>
-  <script src="js/hero.js?v=30"></script>
-  <script src="js/backstory.js?v=30"></script>
-  <script src="js/buildout.js?v=30"></script>
-  <script src="js/pushback.js?v=30"></script>
-  <script src="js/grid.js?v=30"></script>
-  <script src="js/bills.js?v=30"></script>
-  <script src="js/water.js?v=30"></script>
-  <script src="js/main.js?v=30"></script>
+  <script src="js/common.js?v=42"></script>
+  <script src="js/hero.js?v=42"></script>
+  <script src="js/backstory.js?v=42"></script>
+  <script src="js/buildout.js?v=42"></script>
+  <script src="js/pushback.js?v=42"></script>
+  <script src="js/grid.js?v=42"></script>
+  <script src="js/bills.js?v=42"></script>
+  <script src="js/water.js?v=42"></script>
+  <script src="js/main.js?v=42"></script>
 </body>
 </html>

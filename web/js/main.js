@@ -43,4 +43,26 @@
     for (const e of entries) if (e.isIntersecting) e.target.classList.add("is-visible");
   }, { rootMargin: "0px 0px -35% 0px" });
   document.querySelectorAll(".statement, .aim, .verdict").forEach(el => reveal.observe(el));
+
+  // Apollo 11, then Colossus: Apollo fades up with the first statement, gives way to Colossus with the second halfway, and both fade at the end
+  const moon = document.querySelector(".moon");
+  if (moon) {
+    const ramp = (v, a, b) => Math.min(1, Math.max(0, (v - a) / (b - a)));
+    let ticking = false;
+    const paint = () => {
+      ticking = false;
+      const r = moon.getBoundingClientRect(), p = ramp(-r.top, 0, r.height - innerHeight);
+      // 0 until the section is 60% of the way up the screen, full once its top has scrolled 20% past
+      const enter = ramp(-r.top, -0.4 * innerHeight, 0.2 * innerHeight), swap = ramp(p, 0.4, 0.6), leave = 1 - ramp(p, 0.82, 1);
+      moon.style.setProperty("--apollo", (enter * (1 - swap)).toFixed(3));
+      moon.style.setProperty("--xai", (swap * leave).toFixed(3));
+      // The statements swap without overlapping: the first is gone before the second appears
+      moon.style.setProperty("--text1", (enter * (1 - ramp(p, 0.36, 0.46))).toFixed(3));
+      moon.style.setProperty("--text2", (ramp(p, 0.54, 0.64) * leave).toFixed(3));
+      moon.style.setProperty("--moon-p", p.toFixed(3));
+    };
+    addEventListener("scroll", () => { if (!ticking) { ticking = true; requestAnimationFrame(paint); } }, { passive: true });
+    addEventListener("resize", paint);
+    paint();
+  }
 })();

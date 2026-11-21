@@ -135,6 +135,29 @@ main { position: relative; }
   color: var(--text); opacity: .12; transform: translateY(24px); transition: opacity .7s, transform .7s; }
 .statement em { font-style: normal; color: var(--dc); }
 .statement.is-visible { opacity: 1; transform: none; }
+/* Apollo 11 under the first statement, then xAI's Colossus under the second: sticky full-screen photos, statements centred over them.
+   main.js sets --apollo, --xai (photo opacity), --text1, --text2 and --moon-p (0 to 1 through the section) from the scroll */
+.moon { position: relative; height: 360vh; --apollo: 0; --xai: 0; --text1: 0; --text2: 0; }
+.moon-sticky { position: sticky; top: 0; height: 100vh; overflow: hidden; }
+.moon-img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; will-change: opacity, transform; }
+.moon-img.moon-apollo { object-position: 60% 40%; opacity: var(--apollo); transform: scale(calc(1.12 - 0.12 * var(--moon-p, 0))); }
+.moon-img.moon-xai { opacity: var(--xai); filter: brightness(.6); transform: scale(calc(1.15 - 0.15 * var(--moon-p, 0))); }   /* dimmed: the white floor fights the text */
+.moon-sticky::after { content: ""; position: absolute; inset: 0; pointer-events: none;   /* edges sink into the page; left side darker for the text */
+  background: linear-gradient(to bottom, var(--bg) 0%, transparent 22%, transparent 70%, var(--bg) 100%),
+              linear-gradient(to right, rgba(18,18,17,.82) 0%, rgba(18,18,17,.35) 55%, rgba(18,18,17,.1) 100%); }
+.moon-credit { position: absolute; right: clamp(20px, 4vw, 56px); bottom: 5vh; margin: 0; z-index: 1; font-size: 12px; color: var(--muted); }
+.moon-credit.moon-apollo { opacity: calc(var(--apollo) * 2 - 1); }
+.moon-credit.moon-xai { opacity: calc(var(--xai) * 2 - 1); }
+.moon-text { position: absolute; inset: 0; z-index: 1; display: flex; align-items: center; max-width: 1040px; margin: 0 auto;
+  padding: 0 clamp(20px, 6vw, 96px); }
+.moon-text-1 { opacity: var(--text1); }
+.moon-text-2 { opacity: var(--text2); }
+.moon-text .statement { margin: 0; text-shadow: 0 2px 24px rgba(0,0,0,.6); }
+@media (max-width: 600px) {
+  .moon-img.moon-apollo { object-position: 71% 50%; }   /* keep the astronaut in a tall crop */
+  .moon-sticky::after { background: linear-gradient(to bottom, var(--bg) 0%, transparent 20%, transparent 70%, var(--bg) 100%), rgba(18,18,17,.5); }
+}
+@media (prefers-reduced-motion: reduce) { .moon-img.moon-apollo, .moon-img.moon-xai { transform: none; } }
 .aim { border-top: 1px solid var(--border); padding-top: 32px; max-width: 46rem; opacity: 0; transform: translateY(24px);
   transition: opacity .7s, transform .7s; }
 .aim.is-visible { opacity: 1; transform: none; }
@@ -222,3 +245,14 @@ main { position: relative; }
 #verdict-bills em { color: #e0b020; }
 #verdict-water em { color: #6cc9bd; }
 .verdict:last-child { padding-bottom: 20vh; }   /* the page ends on the water verdict */
+/* Backstory photo: a thumbnail with its caption beside it, so the card still fits on one screen */
+.step-photo { display: flex; gap: 14px; align-items: flex-start; margin: 16px 0 0; }
+.step-photo img { flex: 0 0 42%; width: 42%; height: auto; border-radius: 6px; }
+.step-photo figcaption { font-size: 12.5px; line-height: 1.45; color: var(--muted); }
+/* Wide photo under a short step: full card width, fades in when its step becomes active */
+.step-photo-wide { display: block; }
+.step-photo-wide img { width: 100%; }
+.step-photo-wide figcaption { margin-top: 8px; }
+.step-photo-wide img, .step-photo-wide figcaption { opacity: 0; transform: translateY(10px); transition: opacity 1s ease .2s, transform 1s ease .2s; }
+.step.is-active .step-photo-wide img, .step.is-active .step-photo-wide figcaption { opacity: 1; transform: none; }
+@media (prefers-reduced-motion: reduce) { .step-photo-wide img, .step-photo-wide figcaption { transition: none; transform: none; } }
