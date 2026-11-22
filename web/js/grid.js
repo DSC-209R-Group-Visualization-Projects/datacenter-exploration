@@ -1,5 +1,5 @@
 // Chapter 3, is the grid under strain. One map of grid regions, coloured by NERC's risk rating:
-//  0) the regions themselves, uncoloured, with datacenter sites on top
+//  0) the regions themselves, uncoloured, with data center sites on top
 //  1) NERC's 2026 ratings appear
 //  2) sites in Elevated or High regions light up; the bars above the map count them
 //  3) the map plays forward year by year to 2030 (the notebook's slider, now driven by the scroll)
@@ -21,9 +21,9 @@ function GridChart(container, data, states) {
   const STEPS = [
     { year: null, sub: "Grid regions, grouped by NERC assessment area" },
     { year: 2026, sub: "NERC rating of the risk of running short of power" },
-    { year: 2026, sub: "Datacenters in regions rated Elevated or High risk", lit: true },
-    { year: 2030, sub: "Datacenters in regions rated Elevated or High risk", lit: true, play: true },
-    { year: 2030, sub: "Datacenters in regions rated Elevated or High risk", lit: true },
+    { year: 2026, sub: "Data centers in regions rated Elevated or High risk", lit: true },
+    { year: 2030, sub: "Data centers in regions rated Elevated or High risk", lit: true, play: true },
+    { year: 2030, sub: "Data centers in regions rated Elevated or High risk", lit: true },
   ];
   const years = data.years;
   let step = 0, year = null, lit = false, svg, W, H, narrow, timer;

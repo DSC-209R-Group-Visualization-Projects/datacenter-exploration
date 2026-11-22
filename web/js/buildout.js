@@ -1,5 +1,5 @@
 // Chapter 1, the build-out. One map that changes with each step:
-//  0) states shaded by operating datacenters, one dot per site
+//  0) states shaded by operating data centers, one dot per site
 //  1) zoom into Virginia's counties
 //  2) back out, with Virginia, Georgia and Texas highlighted and a bar comparing them
 //  3) planned sites drop in and states recolour to their total if every planned site is built
@@ -13,9 +13,9 @@ const binColor = n => BIN_COLORS[d3.bisectRight(BIN_EDGES, n)];
 
 function BuildoutMap(container, data) {
   const STEPS = [
-    { sub: "Operating datacenters per state", legend: "operating datacenters per state", zoom: null },
-    { sub: "Virginia: operating datacenters per county", legend: "operating datacenters per county", zoom: "VA" },
-    { sub: "The three states with the most operating datacenters", legend: "operating datacenters per state", zoom: null,
+    { sub: "Operating data centers per state", legend: "operating data centers per state", zoom: null },
+    { sub: "Virginia: operating data centers per county", legend: "operating data centers per county", zoom: "VA" },
+    { sub: "The three states with the most operating data centers", legend: "operating data centers per state", zoom: null,
       focus: ["VA", "GA", "TX"] },
     { sub: "Total sites per state if every planned site is built", legend: "total sites if all are built", zoom: null,
       planned: true },
@@ -131,7 +131,7 @@ function BuildoutMap(container, data) {
   function drawCompare(card) {
     const [va, ga, tx] = ["VA", "GA", "TX"].map(s => byState.get(s));
     const max = va.op;
-    card.html(`<p class="compare-title">Operating datacenters</p>
+    card.html(`<p class="compare-title">Operating data centers</p>
       <div class="bar-row"><span class="bar-name">${va.name}</span><span class="bar"><i style="width:100%"></i></span><b>${va.op}</b></div>
       <div class="bar-row"><span class="bar-name">${ga.name} + ${tx.name}</span><span class="bar">
         <i style="width:${ga.op / max * 100}%" title="${ga.name}: ${ga.op}"></i><i class="b2" style="width:${tx.op / max * 100}%" title="${tx.name}: ${tx.op}"></i>

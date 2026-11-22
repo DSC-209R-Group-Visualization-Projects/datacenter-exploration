@@ -19,9 +19,9 @@ function WaterChart(container, data, states) {
   const high = g => data.counts[g][0] + data.counts[g][1];
   const nHigh = high("operating") + high("pipeline");
   const STEPS = [
-    { view: "map", sub: "Operating and planned datacenters" },
+    { view: "map", sub: "Operating and planned data centers" },
     { view: "map", shade: true, sub: "Share of each county in high or extremely high water stress" },
-    { view: "map", shade: true, lit: true, sub: `The ${fmt(nHigh)} datacenters in basins under high or extremely high water stress` },
+    { view: "map", shade: true, lit: true, sub: `The ${fmt(nHigh)} data centers in basins under high or extremely high water stress` },
     { view: "bars", sub: "Share of sites by the water stress of their river basin (numbers are site counts)" },
     { view: "bars", focus: true, sub: "Share of sites by the water stress of their river basin (numbers are site counts)" },
   ];

@@ -1,9 +1,9 @@
 // Chapter 2, communities push back. One figure that changes with each step:
-//  0) map: every moratorium at the place that adopted it (filled = in force, ring = proposed), grey datacenter sites
+//  0) map: every moratorium at the place that adopted it (filled = in force, ring = proposed), grey data center sites
 //  1) the same marks fly into monthly stacks, one square per adopted moratorium: the 2026 wave
 //  2) back to the map: Ohio, Michigan and Georgia lead; Virginia has the most sites but only 6
 //  3) Florida, Kansas and Maine: no operating sites, 68 moratoriums
-//  4) bars: share of sites with documented opposition, by project status (a different source, the datacenter database)
+//  4) bars: share of sites with documented opposition, by project status (a different source, the data center database)
 //  5) bars: what moratoriums say they are about; 6) grid and water highlighted, the two concerns tested next
 
 const PUSHBACK = "#e5484d";
@@ -15,12 +15,12 @@ function PushbackChart(container, data, geo, sites) {
   const nShown = data.monthly.reduce((s, d) => s + d[1], 0);
   const STEPS = [
     { mode: "map", title: "Where communities are pushing back",
-      sub: `${fmt(data.in_force)} datacenter moratoriums in force` },
+      sub: `${fmt(data.in_force)} data center moratoriums in force` },
     { mode: "wave", title: "The pushback wave",
       sub: `Moratoriums adopted per month, 2025 on. Each square is one moratorium` },
     { mode: "map", title: "Where communities are pushing back", sub: "Pushback leaders vs the state with the most sites",
       focus: ["OH", "MI", "GA", "VA"] },
-    { mode: "map", title: "Where communities are pushing back", sub: "No operating datacenters, but moratoriums",
+    { mode: "map", title: "Where communities are pushing back", sub: "No operating data centers, but moratoriums",
       focus: ["FL", "KS", "ME"] },
     { mode: "outcomes", title: "What happens to projects that meet opposition",
       sub: "Share of sites with documented opposition to that project, by project status" },
@@ -31,7 +31,7 @@ function PushbackChart(container, data, geo, sites) {
   ];
   const SOURCES = {
     map: "Source: Moratorium Nation inventory (CC BY 4.0, compiled by Priyanka), plotted at the city, town, township or " +
-      "county that adopted it, not at a datacenter site. It was searched month by month only for May–July 2026, so part " +
+      "county that adopted it, not at a data center site. It was searched month by month only for May–July 2026, so part " +
       "of the spike reflects search effort, and the recent months are likely incomplete. Most rows carry a \"verify\" " +
       "flag from the dataset author.",
     outcomes: "Different source from the maps above. This chart uses the data center database's per-project flag (337 of " +
@@ -62,7 +62,7 @@ function PushbackChart(container, data, geo, sites) {
       .attr("d", path).attr("fill", "#1f1f1e").attr("stroke", C.bg).attr("stroke-width", 0.8)
       .on("pointerenter pointermove", (e, f) => {
         const st = data.states[f.properties.state] || { mor: 0, op: 0 };
-        tip.show(`<b>${f.properties.name}</b><br>${fmt(st.mor)} moratoriums adopted<br>${fmt(st.op)} operating datacenters`, e);
+        tip.show(`<b>${f.properties.name}</b><br>${fmt(st.mor)} moratoriums adopted<br>${fmt(st.op)} operating data centers`, e);
       })
       .on("pointerleave", () => tip.hide());
     mapG.append("g").attr("class", "dc-sites").attr("pointer-events", "none").selectAll("circle")
@@ -140,7 +140,7 @@ function PushbackChart(container, data, geo, sites) {
     let x = 0;
     x += key(legMap, x, true, `in force (${fmt(data.in_force)})`);
     x += key(legMap, x, false, `proposed (${data.proposed})`);
-    key(legMap, x, "site", narrow ? "datacenter" : "datacenter site");
+    key(legMap, x, "site", narrow ? "data center" : "data center site");
     const legWave = svg.append("g").attr("class", "legend pb-leg-wave").attr("transform", "translate(4,12)");
     legWave.append("rect").attr("x", -4).attr("y", -4).attr("width", 8).attr("height", 8).attr("rx", 1.5).attr("fill", PUSHBACK);
     legWave.append("text").attr("class", "label").attr("x", 9).attr("y", 4)
@@ -277,7 +277,7 @@ async function initPushback() {
   dataTable("#table-pushback", [
     { label: "State", value: r => r.name },
     { label: "Moratoriums adopted", value: r => r.mor, num: true },
-    { label: "Operating datacenters", value: r => r.op, num: true },
+    { label: "Operating data centers", value: r => r.op, num: true },
   ], rows);
   dataTable("#table-pushback", [
     { label: "Month", value: r => `${MONTHS[+r[0].slice(5) - 1]} ${r[0].slice(0, 4)}` },

@@ -1,10 +1,10 @@
-// Chapter 4, are datacenters raising electric bills. Two charts:
-// PriceChart, one dot per state, price change 2019-2025 against datacenters per resident:
+// Chapter 4, are data centers raising electric bills. Two charts:
+// PriceChart, one dot per state, price change 2019-2025 against data centers per resident:
 //  0) the scatter with the US average   1) Virginia and the biggest increases labelled
 //  2) PJM states coloured, with the two medians   3) dots regroup into columns by how the state's grid buys power
 //  4) the PJM column alone (the timing warning)
 // CapacityChart, the PJM capacity auction:
-//  0) clearing price per MW-day   1) total cost   2-4) the market monitor's re-run without datacenter load
+//  0) clearing price per MW-day   1) total cost   2-4) the market monitor's re-run without data center load
 //  5-6) the rough add to a typical household bill, with a kWh slider (Sanjana's usage slider)
 // Market colours pass the validator on --bg (all pairs); PJM is the chapter's yellow. The re-run bars use a validated
 // one-hue yellow ramp. Utility-run is the neutral grey on purpose: no regional market.
@@ -18,7 +18,7 @@ const MARKETS = [
   { key: "PJM", color: PJM, label: "PJM capacity auction", short: "PJM" },
 ];
 const MARKET_BY_KEY = Object.fromEntries(MARKETS.map(m => [m.key, m]));
-const ZERO = 0.2;   // where states with no datacenters sit on the log axis
+const ZERO = 0.2;   // where states with no data centers sit on the log axis
 const pct = v => `${v > 0 ? "+" : v < 0 ? "−" : ""}${Math.abs(v).toFixed(Math.abs(v) < 1 ? 1 : 0)}%`;
 
 function PriceChart(container, data) {
@@ -70,7 +70,7 @@ function PriceChart(container, data) {
       .call(d3.axisBottom(x).tickValues(narrow ? [ZERO, 1, 5, 20, 50] : [ZERO, 0.5, 1, 2, 5, 10, 20, 50])
         .tickFormat(v => v === ZERO ? "0" : v).tickSizeOuter(0))
       .call(a => a.append("text").attr("class", "label-muted").attr("x", W - m.r).attr("y", 36).attr("text-anchor", "end")
-        .text(narrow ? "datacenters per million residents (log)" : "operating and planned datacenters per million residents (log scale)"));
+        .text(narrow ? "data centers per million residents (log)" : "operating and planned data centers per million residents (log scale)"));
     // Column labels, two lines on phones
     const xcol = g.append("g").attr("class", "x-cols").attr("opacity", 0);
     xcol.selectAll("text").data(MARKETS).join("text").attr("class", "label").attr("text-anchor", "middle")
@@ -106,7 +106,7 @@ function PriceChart(container, data) {
     // Dots and their labels
     g.append("g").attr("class", "dots").selectAll("circle").data(states, d => d.st).join("circle")
       .attr("r", r).attr("stroke", C.bg).attr("stroke-width", 1.2).attr("cy", d => y(d.chg)).attr("cx", d => x(d.x0))
-      .on("pointerenter pointermove", (e, d) => tip.show(`<b>${d.name}</b><br>${d.dc} datacenters (${d.per_m.toFixed(1)} per million residents)` +
+      .on("pointerenter pointermove", (e, d) => tip.show(`<b>${d.name}</b><br>${d.dc} data centers (${d.per_m.toFixed(1)} per million residents)` +
         `<br>${d.p0.toFixed(1)} → ${d.p1.toFixed(1)} cents/kWh (2025 $)<br>${pct(d.chg)} after inflation` +
         `<br><span style="color:${C.muted}">${MARKET_BY_KEY[d.market].label}</span>`, e))
       .on("pointerleave", () => tip.hide());
@@ -178,7 +178,7 @@ function CapacityChart(container, data) {
   const SOURCES = {
     price: "Source: PJM Base Residual Auction reports. Clearing prices are as published (RTO price).",
     imm: "Source: Monitoring Analytics (PJM's Independent Market Monitor), \"Analysis of the 2025/2026 RPM Base Residual Auction, Part G\", June 3, 2025, Table 7. A model re-run that holds every bid fixed, not something anyone observed. 2024/25 is converted to 2025 dollars (BLS CPI-U).",
-    bill: "The auction cost is spread evenly over every kWh in PJM, in 2025 dollars (BLS CPI-U, by the year each delivery period starts). Households use more power at peak times, so their real share is likely higher. Split of 2025/26 from the market monitor's re-run without datacenter load. Sources: PJM Base Residual Auction reports; Monitoring Analytics, Part G, June 3, 2025.",
+    bill: "The auction cost is spread evenly over every kWh in PJM, in 2025 dollars (BLS CPI-U, by the year each delivery period starts). Households use more power at peak times, so their real share is likely higher. Split of 2025/26 from the market monitor's re-run without data center load. Sources: PJM Base Residual Auction reports; Monitoring Analytics, Part G, June 3, 2025.",
   };
   SOURCES.cost = SOURCES.price;
   const A = data.auctions, typical = data.typical_kwh, imm = data.imm;
@@ -228,7 +228,7 @@ function CapacityChart(container, data) {
     bg.selectAll("path.bar").data(A).join("path").attr("class", "bar").attr("fill", d => d.start === 2025 ? "#8a8882" : d.start > 2025 ? "#5c4813" : "#4a4945")
       .on("pointerenter pointermove", (e, d) => tip.show(`<b>${d.year}</b><br>about $${fmt1(d.month * kwh / typical)} a month` +
         `<br><span style="color:${C.muted}">at ${kwh} kWh a month, 2025 dollars</span>` +
-        (d.start === 2025 ? `<br>datacenter demand: about $${fmt1(data.dc_part * kwh / typical)}` : ""), e))
+        (d.start === 2025 ? `<br>data center demand: about $${fmt1(data.dc_part * kwh / typical)}` : ""), e))
       .on("pointerleave", () => tip.hide());
     bg.append("path").attr("class", "dc-part").attr("fill", PJM).attr("stroke", C.bg).attr("stroke-width", 2).attr("pointer-events", "none");
     bg.append("text").attr("class", "dc-label").attr("text-anchor", "middle").attr("fill", C.bg).attr("font-weight", 700)
@@ -236,8 +236,8 @@ function CapacityChart(container, data) {
     bg.selectAll("text.v").data(A.filter(d => key.includes(d.year))).join("text").attr("class", "v label")
       .attr("x", d => x(d.year) + x.bandwidth() / 2).attr("text-anchor", "middle");
     const bl = bg.append("g").attr("class", "legend");
-    [{ c: "#4a4945", t: narrow ? "earlier" : "earlier auctions" }, { c: "#8a8882", t: narrow ? "anyway" : "2025/26 without datacenters" },
-     { c: PJM, t: narrow ? "datacenters" : "2025/26 datacenter demand (monitor)" }, { c: "#5c4813", t: narrow ? "not split" : "later auctions, not split" }]
+    [{ c: "#4a4945", t: narrow ? "earlier" : "earlier auctions" }, { c: "#8a8882", t: narrow ? "anyway" : "2025/26 without data centers" },
+     { c: PJM, t: narrow ? "data centers" : "2025/26 data center demand (monitor)" }, { c: "#5c4813", t: narrow ? "not split" : "later auctions, not split" }]
       .forEach(d => {
         const k = bl.append("g");
         k.append("rect").attr("width", 12).attr("height", 12).attr("rx", 2).attr("fill", d.c);
@@ -250,9 +250,9 @@ function CapacityChart(container, data) {
     const ig = svg.append("g").attr("class", "m-imm");
     const rows = [
       { label: "2024/25 auction (actual)", v: imm.prior, c: OTHER },
-      { label: "2025/26 re-run, no datacenter load", v: imm.no_dc, c: "#5c4813", note: `+$${fmt1(imm.no_dc - imm.prior)}B from other causes` },
-      { label: "2025/26 re-run, no new datacenter load", v: imm.no_new_dc, c: "#8a6b10" },
-      { label: "2025/26 auction (actual)", v: imm.actual, c: PJM, note: `+$${fmt1(imm.actual - imm.no_dc)}B from datacenters` },
+      { label: "2025/26 re-run, no data center load", v: imm.no_dc, c: "#5c4813", note: `+$${fmt1(imm.no_dc - imm.prior)}B from other causes` },
+      { label: "2025/26 re-run, no new data center load", v: imm.no_new_dc, c: "#8a6b10" },
+      { label: "2025/26 auction (actual)", v: imm.actual, c: PJM, note: `+$${fmt1(imm.actual - imm.no_dc)}B from data centers` },
     ];
     const labW = narrow ? 0 : Math.min(270, W * 0.34), xi = immX();
     const top = m.t + 34, rowH = Math.min(narrow ? 90 : 110, (H - top - 40) / rows.length), bh = Math.min(30, rowH * 0.42);
@@ -280,7 +280,9 @@ function CapacityChart(container, data) {
   }
 
   function setBill(dur) {
-    const sc = kwh / typical, yb = d3.scaleLinear([0, Math.max(20, d3.max(A, d => d.month) * sc * 1.12)], [H - m.b, m.t + 30]).nice();
+    // The y axis is fixed at the slider's maximum, so moving the slider visibly grows and shrinks the bars
+    const sc = kwh / typical, maxSc = (+d3.select("#capacity-kwh input").attr("max") || 2000) / typical;
+    const yb = d3.scaleLinear([0, Math.max(20, d3.max(A, d => d.month) * maxSc * 1.12)], [H - m.b, m.t + 30]).nice();
     const t = svg.transition().duration(dur);
     svg.select(".years-g .y-axis").transition(t).call(d3.axisLeft(yb).ticks(5).tickFormat(v => `$${v}`).tickSize(-(W - m.l - m.r)).tickPadding(6))
       .call(a => a.select(".domain").remove()).call(a => a.selectAll(".tick line").attr("stroke", C.grid));
@@ -353,7 +355,7 @@ function CapacityChart(container, data) {
     svg.select(".m-imm .band").transition(t).attr("opacity", st.band ? 1 : 0);
   }
 
-  // IMM x scale: room on the right for "$14.7B  +$9.3B from datacenters" (just the value on phones)
+  // IMM x scale: room on the right for "$14.7B  +$9.3B from data centers" (just the value on phones)
   function immX() {
     const labW = narrow ? 0 : Math.min(270, W * 0.34);
     return d3.scaleLinear([0, 18], [labW, W - m.r - (narrow ? 50 : 210)]);
@@ -386,7 +388,7 @@ async function initBills() {
   const rows = [...data.states].sort((a, b) => b.chg - a.chg);
   dataTable("#table-bills", [
     { label: "State", value: r => r.name },
-    { label: "Datacenters", value: r => r.dc, num: true },
+    { label: "Data centers", value: r => r.dc, num: true },
     { label: "Per million residents", value: r => r.per_m.toFixed(1), num: true },
     { label: `${data.base} price (¢/kWh, 2025 $)`, value: r => r.p0.toFixed(1), num: true },
     { label: `${data.end} price`, value: r => r.p1.toFixed(1), num: true },
