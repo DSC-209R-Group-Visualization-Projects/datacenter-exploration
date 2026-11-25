@@ -38,9 +38,9 @@
     steps.forEach(s => io.observe(s));
   }
 
-  // Backstory and facility scale: let the closing card rise to the top of the chart before the chart scrolls away.
+  // Backstory, facility scale, the Chapter 1 map, the grid map and the water map: let the closing card rise to the top of the chart before the chart scrolls away.
   // The bottom padding is the chart's height minus the card's, measured so it holds whatever size the card text is
-  const holdLast = () => document.querySelectorAll("#scrolly-electricity, #scrolly-scale").forEach(sec => {
+  const holdLast = () => document.querySelectorAll("#scrolly-electricity, #scrolly-scale, #scrolly-buildout, #scrolly-grid, #scrolly-water").forEach(sec => {
     const steps = sec.querySelector(".steps"), last = steps.querySelector(".step:last-child");
     steps.style.paddingBottom = innerWidth > 900 ? Math.max(0, sec.querySelector(".sticky").offsetHeight - last.offsetHeight) + "px" : "";
   });
@@ -52,7 +52,7 @@
   const reveal = new IntersectionObserver(entries => {
     for (const e of entries) if (e.isIntersecting) e.target.classList.add("is-visible");
   }, { rootMargin: "0px 0px -35% 0px" });
-  document.querySelectorAll(".statement, .verdict, .step-photo-wide").forEach(el => reveal.observe(el));
+  document.querySelectorAll(".statement, .verdict").forEach(el => reveal.observe(el));
 
   // Apollo 11, then Colossus, then the protest, then black behind the central question: each layer comes in with its statement,
   // and all fade at the end
@@ -83,7 +83,7 @@
   }
 
   // Black scenes (end of Chapter 2, and the grid, bills and water verdicts): black comes up as each section reaches the top, the statement fades in
-  // on it, and both fade at the end
+  // on it, and both fade at the end (except the closing line, which ends the page)
   const bridges = document.querySelectorAll(".bridge");
   if (bridges.length) {
     const ramp = (v, a, b) => Math.min(1, Math.max(0, (v - a) / (b - a)));
@@ -91,7 +91,7 @@
     const paint = () => {
       ticking = false;
       for (const bridge of bridges) {
-        const r = bridge.getBoundingClientRect(), p = ramp(-r.top, 0, r.height - innerHeight), leave = 1 - ramp(p, 0.85, 1);
+        const r = bridge.getBoundingClientRect(), p = ramp(-r.top, 0, r.height - innerHeight), leave = bridge.classList.contains("bridge-end") ? 1 : 1 - ramp(p, 0.85, 1);
         bridge.style.setProperty("--black", (ramp(-r.top, -0.5 * innerHeight, 0) * leave).toFixed(3));
         bridge.style.setProperty("--text4", (ramp(p, 0.1, 0.3) * leave).toFixed(3));
       }
@@ -99,5 +99,51 @@
     addEventListener("scroll", () => { if (!ticking) { ticking = true; requestAnimationFrame(paint); } }, { passive: true });
     addEventListener("resize", paint);
     paint();
+    // Each statement's cue scrolls on to the next statement (data-to is where it is fully shown, as a share of the section)
+    moon.querySelectorAll("[data-to]").forEach(cue => cue.addEventListener("click", e => {
+      e.preventDefault();
+      const top = moon.getBoundingClientRect().top + scrollY + +cue.dataset.to * (moon.offsetHeight - innerHeight);
+      scrollTo({ top, behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth" });
+    }));
+  }
+  // End of the page: 3 seconds after the closing line is fully up, offer a way back to the top. Hidden again on scrolling back up
+  const toTop = document.querySelector(".to-top"), end = document.querySelector(".bridge-end");
+  if (toTop && end) {
+    let timer = null;
+    const check = () => {
+      const full = +end.style.getPropertyValue("--text4") >= 0.99;
+      if (full && !timer) timer = setTimeout(() => toTop.classList.add("show"), 3000);
+      if (!full && timer) { clearTimeout(timer); timer = null; toTop.classList.remove("show"); }
+    };
+    // After the black scenes repaint this frame, so --text4 is current
+    addEventListener("scroll", () => requestAnimationFrame(check), { passive: true });
+    requestAnimationFrame(check);
+    toTop.addEventListener("click", () =>
+      scrollTo({ top: 0, behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth" }));
+  }
+  // Idle scroll cue: after 7 seconds with no scrolling or input, show the cue at the bottom of the screen, unless a section's own
+  // cue is already showing (the hero and the black scenes) or the reader has reached the end of the page
+  const idle = document.querySelector(".idle-cue");
+  if (idle) {
+    const own = [...document.querySelectorAll(".scroll-cue:not(.idle-cue)")];
+    const ownShowing = () => own.some(el => {
+      const r = el.getBoundingClientRect();
+      return r.bottom > 0 && r.top < innerHeight && +getComputedStyle(el).opacity > 0.1;
+    });
+    let timer;
+    const wake = () => {
+      idle.classList.remove("show");
+      clearTimeout(timer);
+      timer = setTimeout(() => {
+        const atEnd = scrollY + innerHeight >= document.documentElement.scrollHeight - 40;
+        if (!atEnd && !ownShowing()) idle.classList.add("show");
+      }, 7000);
+    };
+    ["scroll", "wheel", "keydown", "pointerdown", "touchstart"].forEach(t => addEventListener(t, wake, { passive: true }));
+    idle.addEventListener("click", e => {
+      e.preventDefault();
+      scrollBy({ top: innerHeight * 0.7, behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth" });
+    });
+    wake();
   }
 })();

@@ -38,6 +38,8 @@ eras = [
 milestones = [
     {"year": 1958, "label": "SAGE air-defense computer", "short": "SAGE"},
     {"year": 1969, "label": "Apollo 11 (IBM System/360 at Mission Control)", "short": "Apollo 11"},
+    {"year": 1986, "label": "NSFNET links the supercomputer centers", "short": "NSFNET"},
+    {"year": 1993, "label": "Mosaic web browser (NCSA)", "short": "Mosaic"},
     {"year": 2006, "label": "Amazon Web Services launches", "short": "AWS"},
     {"year": 2012, "label": "Deep learning resurgence on GPUs", "short": "Deep learning"},
     {"year": 2022.9, "label": "ChatGPT (Nov 2022)", "short": "ChatGPT"},
@@ -174,8 +176,20 @@ RISK_LEVELS = ["Normal", "Elevated", "High"]   # sites: [lon, lat, 1 = operating
 grid_sites = [[round(r.lon, 3), round(r.lat, 3), int(r.status_group == "operating")]
               + [RISK_LEVELS.index(getattr(r, f"risk_{y}")) if isinstance(getattr(r, f"risk_{y}"), str) else -1 for y in NERC_YEARS]
               for r in site_risk.query("coord_ok").itertuples()]
+# One outline per NERC assessment area: its utility regions merged (a small buffer closes slivers between neighbours),
+# specks and pinholes dropped (rounded, they collapse and d3-geo reads them as the whole globe), exteriors clockwise
+from shapely import union_all
+from shapely.geometry import shape, mapping, Polygon
+from shapely.geometry.polygon import orient
+area_outlines = []
+for area, fs in pd.Series(regions).groupby([f["properties"]["area"] for f in regions]):
+    u = union_all([shape(f["geometry"]).buffer(0.02) for f in fs]).buffer(-0.02).simplify(0.02)
+    polys = [orient(Polygon(q.exterior, [h for h in q.interiors if Polygon(h).area > 0.01]), sign=-1.0)
+             for q in getattr(u, "geoms", [u]) if q.area > 0.01]
+    geom = mapping(polys[0] if len(polys) == 1 else type(u)(polys))
+    area_outlines.append({"type": "Feature", "geometry": rounded(json.loads(json.dumps(geom)), 2), "properties": {"area": area}})
 grid = {"years": NERC_YEARS, "regions": regions, "by_year": by_year, "operating": len(operating), "planned": len(planned),
-        "sites": grid_sites}
+        "sites": grid_sites, "area_outlines": area_outlines}
 (OUT / "grid.json").write_text(json.dumps(grid, separators=(",", ":")))
 print("wrote", OUT / "grid.json", {y: by_year[y]["operating"] for y in (2026, 2030)})
 

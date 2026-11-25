@@ -81,6 +81,13 @@ strong { font-weight: 650; color: var(--text); }
 .scroll-cue span { position: absolute; left: 50%; top: 8px; width: 3px; height: 8px; margin-left: -1.5px; border-radius: 2px;
   background: var(--text-2); animation: cue 1.8s infinite; }
 @keyframes cue { 0% { opacity: 0; transform: translateY(0); } 30% { opacity: 1; } 100% { opacity: 0; transform: translateY(14px); } }
+/* The idle cue: pinned to the bottom of the screen, fades in when the reader has paused (main.js adds .show) */
+.idle-cue { position: fixed; z-index: 50; background: rgba(18, 18, 17, .7); opacity: 0; pointer-events: none; transition: opacity .6s; }
+.idle-cue.show { opacity: 1; pointer-events: auto; }
+/* Desktop: in the left margin beside the step cards, halfway down the screen */
+@media (min-width: 901px) {
+  .idle-cue { top: 50%; bottom: auto; left: calc((max(0px, (100vw - 1440px) / 2) + clamp(20px, 4vw, 56px)) / 2 - 12px); transform: translateY(-50%); }
+}
 @media (prefers-reduced-motion: reduce) { .scroll-cue span { animation: none; } }
 
 /* ---------- chapters ---------- */
@@ -164,6 +171,9 @@ main { position: relative; }
 .moon-text .moon-question { font-size: clamp(32px, 4.8vw, 72px); line-height: 1.12; letter-spacing: -0.03em; }
 .moon-text .statement { margin: 0; text-shadow: 0 2px 24px rgba(0,0,0,.6); }
 .moon-sticky .scroll-cue { z-index: 1; opacity: var(--text4); }   /* same cue as the hero, shown with the closing statement */
+.moon-sticky .moon-cue-1 { opacity: var(--text1); }   /* and with each of the first three statements */
+.moon-sticky .moon-cue-2 { opacity: var(--text2); }
+.moon-sticky .moon-cue-3 { opacity: var(--text3); }
 /* End of Chapter 2: the same black layer and large statement as the central question; main.js sets --black and --text4 */
 .bridge { position: relative; height: 220vh; --black: 0; --text4: 0; }
 .bridge .moon-question strong { font-weight: inherit; color: var(--dc); }
@@ -173,6 +183,12 @@ main { position: relative; }
 .moon-text .verdict h2 { font-size: clamp(40px, 6vw, 88px); }
 .moon-text .verdict-body { max-width: 56rem; font-size: clamp(19px, 1.9vw, 28px); line-height: 1.45; }
 .verdict-note { max-width: 56rem; margin: 24px 0 0; font-size: clamp(13px, 1.05vw, 15px); line-height: 1.55; color: var(--muted); font-style: italic; }   /* caveats under a verdict, like .step-note */
+/* End of the page: a way back to the top, faded in by main.js */
+.to-top { margin-top: clamp(28px, 5vh, 56px); font: inherit; font-size: 15px; font-weight: 600; color: var(--text); background: none;
+  border: 1.5px solid var(--muted); border-radius: 999px; padding: 10px 20px; cursor: pointer;
+  opacity: 0; visibility: hidden; transition: opacity .6s, visibility .6s, border-color .2s; }
+.to-top.show { opacity: 1; visibility: visible; }
+.to-top:hover, .to-top:focus-visible { border-color: var(--text); }
 @media (max-width: 600px) {
   .moon-img.moon-apollo { object-position: 71% 50%; }   /* keep the astronaut in a tall crop */
   .moon-text-4 { padding-top: var(--header-h); }   /* centre tall closing text below the header, not under it */
@@ -274,6 +290,3 @@ main { position: relative; }
 .step-photo-wide { display: block; }
 .step-photo-wide img { width: 100%; }
 .step-photo-wide figcaption { margin-top: 8px; }
-.step-photo-wide img, .step-photo-wide figcaption { opacity: 0; transform: translateY(10px); transition: opacity 1s ease .2s, transform 1s ease .2s; }
-.step-photo-wide.is-visible img, .step-photo-wide.is-visible figcaption { opacity: 1; transform: none; }
-@media (prefers-reduced-motion: reduce) { .step-photo-wide img, .step-photo-wide figcaption { transition: none; transform: none; } }

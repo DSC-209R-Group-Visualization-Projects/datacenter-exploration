@@ -1,5 +1,5 @@
 // Chapter 3, is the grid under strain. One map of grid regions, coloured by NERC's risk rating:
-//  0) the regions themselves, uncoloured, with data center sites on top
+//  0) the regions themselves, uncoloured and outlined by assessment area, with data center sites on top
 //  1) NERC's 2026 ratings appear
 //  2) sites in Elevated or High regions light up; the bars above the map count them
 //  3) the map plays forward year by year to 2030 (the notebook's slider, now driven by the scroll).
@@ -51,6 +51,11 @@ function GridChart(container, data, states) {
     mapG.append("path").attr("class", "state-lines").attr("pointer-events", "none")
       .attr("d", path({ type: "FeatureCollection", features: states }))
       .attr("fill", "none").attr("stroke", "rgba(255,255,255,0.10)").attr("stroke-width", 0.5);
+    // Each assessment area's outline, so the territories read as one shape; strongest on the first step
+    mapG.append("path").attr("class", "area-outlines").attr("pointer-events", "none")
+      .attr("d", path({ type: "FeatureCollection", features: data.area_outlines }))
+      .attr("fill", "none").attr("stroke", C.text).attr("stroke-width", narrow ? 1 : 1.4).attr("stroke-linejoin", "round")
+      .attr("opacity", step === 0 ? 0.9 : 0.4);
 
     const sites = data.sites.map(d => { const xy = proj([d[0], d[1]]); return xy && { x: xy[0], y: xy[1], op: d[2] === 1, risk: d.slice(3) }; })
       .filter(Boolean).sort((a, b) => a.op - b.op);
@@ -142,6 +147,7 @@ function GridChart(container, data, states) {
     lit = !!st.lit;
     d3.select("#grid-sub").text(st.sub);
     svg.select(".area-labels").transition().duration(dur).attr("opacity", i === 0 ? 1 : 0.55);
+    svg.select(".area-outlines").transition().duration(dur).attr("opacity", i === 0 ? 0.9 : 0.4);
     if (st.play && !REDUCED) {
       // Play the years forward from wherever the map is now (2026 when scrolling down)
       let y = Math.max(years[0], Math.min(year || years[0], st.year));
@@ -160,7 +166,7 @@ function GridChart(container, data, states) {
 }
 
 async function initGrid() {
-  const [data, buildout] = await Promise.all([d3.json("data/grid.json"), d3.json("data/buildout.json")]);
+  const [data, buildout] = await Promise.all([d3.json("data/grid.json", { cache: "no-cache" }), d3.json("data/buildout.json")]);
   d3.select("#grid-years").selectAll("button").data(data.years).join("button").attr("type", "button")
     .attr("data-year", y => y).text(y => y);
   const chart = GridChart("#chart-grid", data, buildout.states);

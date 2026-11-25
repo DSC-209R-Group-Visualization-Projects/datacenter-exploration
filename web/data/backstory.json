@@ -88,6 +88,16 @@
    "short": "Apollo 11"
   },
   {
+   "year": 1986,
+   "label": "NSFNET links the supercomputer centers",
+   "short": "NSFNET"
+  },
+  {
+   "year": 1993,
+   "label": "Mosaic web browser (NCSA)",
+   "short": "Mosaic"
+  },
+  {
    "year": 2006,
    "label": "Amazon Web Services launches",
    "short": "AWS"

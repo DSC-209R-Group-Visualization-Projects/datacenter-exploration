@@ -7,7 +7,10 @@
 //  5) bars: what moratoriums say they are about
 
 const PUSHBACK = "#e5484d";
-const CONCERN_COLORS = { grid_energy: "#3987e5", water: "#22a39a" };   // validated with the pushback red on --bg
+// Grid and energy is split lengthwise: the top half in the grid chapter's orange, the bottom half in the bills chapter's
+// yellow (the two verdict colours), since the concern covers both. Water keeps its teal
+const GRID_ORANGE = "#f58a4e", BILLS_YELLOW = "#e0b020", WATER_TEAL = "#6cc9bd";   // the verdict colours
+const CONCERN_COLORS = { grid_energy: "url(#pb-grid-bills)", water: WATER_TEAL };
 const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
 function PushbackChart(container, data, geo, sites) {
@@ -145,6 +148,9 @@ function PushbackChart(container, data, geo, sites) {
       .text(`one adopted moratorium (${fmt(nShown)} from 2025 on)`);
 
     // ---- bar charts: labels above bars on phones, beside them on wide screens
+    const split = svg.append("defs").append("linearGradient").attr("id", "pb-grid-bills").attr("x1", 0).attr("y1", 0).attr("x2", 0).attr("y2", 1);
+    [[0, GRID_ORANGE], [0.5, GRID_ORANGE], [0.5, BILLS_YELLOW], [1, BILLS_YELLOW]]
+      .forEach(([o, c]) => split.append("stop").attr("offset", o).attr("stop-color", c));
     const barsG = svg.append("g").attr("class", "pb-bars");
     const hbar = (cls, rows, { label, value, text, color, max }) => {
       const g = barsG.append("g").attr("class", cls);
@@ -170,6 +176,10 @@ function PushbackChart(container, data, geo, sites) {
       color: d => CONCERN_COLORS[d.key] || "#5d5c57",
       text: (d, long) => long ? `<b>${d.label[0].toUpperCase() + d.label.slice(1)}</b><br>cited by ${Math.round(d.pct)}% of adopted moratoriums`
         : `<tspan font-weight="650" fill="${C.text}">${Math.round(d.pct)}%</tspan>` });
+    barsG.selectAll(".pb-concerns > g").filter(d => d.key === "grid_energy").select("text.label")   // label words in the same two colours
+      .html(`<tspan fill="${GRID_ORANGE}">Grid</tspan> and <tspan fill="${BILLS_YELLOW}">energy</tspan>`);
+    barsG.selectAll(".pb-concerns > g").filter(d => d.key === "water").select("text.label")
+      .html(`<tspan fill="${WATER_TEAL}">Water</tspan>`);
     barsG.selectAll("path.bar").attr("d", p => roundEnd({ ...p, w: 0 }));
 
     // State callouts for steps 2 and 3. Each label sits in nearby empty space (ocean, Canada, the plains) with a

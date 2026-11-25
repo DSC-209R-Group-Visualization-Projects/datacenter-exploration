@@ -17,7 +17,7 @@ function ElectricityChart(container, data) {
   const elec = data.electricity, proj = data.projection;
   const LABELLED = { 2006: "1.5% of US", 2018: "1.9%", 2023: "4.4%" };
   // Milestone label heights above the timeline baseline (px), staggered so neighbours don't collide
-  const LIFT = { 1958: 64, 1969: 120, 2006: 64, 2012: 120, 2022.9: 64 };
+  const LIFT = { 1958: 64, 1969: 120, 1986: 64, 1993: 176, 2006: 64, 2012: 120, 2022.9: 64 };
   const M = { top: 34, right: 118, bottom: 34, left: 52 };
   let step = 0, W, H, x, y, svg, g, clipRect, narrow;
 
@@ -276,7 +276,7 @@ function ScaleChart(container, data) {
 function debounce(fn, ms) { let id; return () => { clearTimeout(id); id = setTimeout(fn, ms); }; }
 
 async function initBackstory() {
-  const data = await d3.json("data/backstory.json");
+  const data = await d3.json("data/backstory.json", { cache: "no-cache" });
   d3.selectAll("[data-fill]").each(function () { this.textContent = data.memphis[this.dataset.fill]; });
 
   const charts = {
