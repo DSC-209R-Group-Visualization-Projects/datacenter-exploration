@@ -121,6 +121,37 @@
     toTop.addEventListener("click", () =>
       scrollTo({ top: 0, behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth" }));
   }
+  // Play button: scrolls the whole page in 7 minutes at an even pace (from the top if already at the end). The button pauses it,
+  // and so does any wheel, touch, key or click from the reader
+  const play = document.querySelector(".autoplay");
+  if (play) {
+    const TOTAL_MS = 420000, root = document.documentElement, word = play.querySelector("span");
+    let raf = null, last, y;
+    const stop = () => {
+      if (raf === null) return;
+      cancelAnimationFrame(raf); raf = null;
+      root.style.scrollBehavior = "";
+      play.classList.remove("playing"); word.textContent = "Play";
+      play.setAttribute("aria-label", "Play: auto-scroll through the story");
+    };
+    const frame = now => {
+      const max = root.scrollHeight - innerHeight;   // re-read each frame, as held charts can change the page height
+      y = Math.min(max, y + (now - last) * max / TOTAL_MS); last = now;
+      scrollTo(0, y);
+      if (y >= max) stop(); else raf = requestAnimationFrame(frame);
+    };
+    const start = () => {
+      root.style.scrollBehavior = "auto";   // the page's smooth scrolling would fight the per-frame steps
+      y = scrollY >= root.scrollHeight - innerHeight - 2 ? 0 : scrollY;
+      last = performance.now(); raf = requestAnimationFrame(frame);
+      play.classList.add("playing"); word.textContent = "Pause";
+      play.setAttribute("aria-label", "Pause auto-scroll");
+    };
+    play.addEventListener("click", () => raf === null ? start() : stop());
+    ["wheel", "touchstart", "keydown", "pointerdown"].forEach(t => addEventListener(t, e => {
+      if (!(e.target instanceof Element && e.target.closest(".autoplay"))) stop();
+    }, { passive: true }));
+  }
   // Idle scroll cue: after 7 seconds with no scrolling or input, show the cue at the bottom of the screen, unless a section's own
   // cue is already showing (the hero and the black scenes) or the reader has reached the end of the page
   const idle = document.querySelector(".idle-cue");

@@ -43,6 +43,13 @@ strong { font-weight: 650; color: var(--text); }
 .nav { display: flex; gap: 28px; font-size: 14px; }
 .nav a { text-decoration: none; color: var(--text-2); }
 .nav a:hover { color: var(--text); }
+.nav { margin-left: auto; }
+/* Auto-scroll play button, at the right end of the header */
+.autoplay { display: inline-flex; align-items: center; gap: 7px; margin-left: 28px; font: inherit; font-size: 13px; font-weight: 600;
+  color: var(--text); background: none; border: 1px solid var(--muted); border-radius: 999px; padding: 5px 12px; cursor: pointer; }
+.autoplay:hover, .autoplay:focus-visible { border-color: var(--text); }
+.autoplay .ap-pause, .autoplay.playing .ap-play { display: none; }
+.autoplay.playing .ap-pause { display: block; }
 
 /* ---------- hero ---------- */
 .hero { position: relative; min-height: 100vh; display: flex; align-items: flex-end; overflow: hidden; }

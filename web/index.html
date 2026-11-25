@@ -3,19 +3,19 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Data center Strain in America</title>
+  <title>Data Center Strain in America</title>
   <meta name="description" content="Data centers are being built faster than ever, and communities are pushing back. Do their concerns hold up in the data?">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css?v=106">
+  <link rel="stylesheet" href="css/style.css?v=111">
   <link rel="stylesheet" href="css/conclusion.css?v=1">
 </head>
 <body>
   <div class="progress" aria-hidden="true"><div class="progress-bar"></div></div>
 
   <header class="site-header">
-    <a class="brand" href="#top">Data center Strain</a>
+    <a class="brand" href="#top">Data Center Strain</a>
     <nav class="nav">
       <a href="#backstory">Backstory</a>
       <a href="#buildout">Build-out</a>
@@ -25,6 +25,12 @@
       <a href="#water">Water</a>
       <a href="#conclusion">Conclusion</a>
     </nav>
+    <!-- Auto-scrolls the whole page in 7 minutes (main.js) -->
+    <button class="autoplay" type="button" aria-label="Play: auto-scroll through the story">
+      <svg class="ap-play" viewBox="0 0 10 10" width="10" height="10" aria-hidden="true"><path d="M2 1l7 4-7 4z" fill="currentColor"/></svg>
+      <svg class="ap-pause" viewBox="0 0 10 10" width="10" height="10" aria-hidden="true"><path d="M2 1h2v8H2zM6 1h2v8H6z" fill="currentColor"/></svg>
+      <span>Play</span>
+    </button>
   </header>
 
   <!-- ===================== HERO ===================== -->
@@ -34,8 +40,8 @@
     <div class="hero-inner">
       <p class="kicker">The American data center boom</p>
       <!-- The full title shows first; then everything but "ai … in America" fades and those letters turn red -->
-      <h1 class="hero-title" aria-label="Data center Strain in America">
-        <span class="fade">Data center<br> Str</span><span class="keep">ai</span><span class="fade">n</span><br><span class="keep">in America</span>
+      <h1 class="hero-title" aria-label="Data Center Strain in America">
+        <span class="fade">Data Center<br> Str</span><span class="keep">ai</span><span class="fade">n</span><br><span class="keep">in America</span>
       </h1>
       <p class="hero-dek">Data centers are being built faster than ever, and a growing number of communities are pushing back.
         We test whether their worries about the grid, electric bills and water hold up in the data.</p>
@@ -176,7 +182,6 @@
     <section class="chapter-head" id="buildout">
       <p class="eyebrow">Chapter 1</p>
       <h2>Data center build-out during the AI era</h2>
-      <p class="chapter-dek">Roughly 2020 to now</p>
     </section>
 
     <section class="scrolly" id="scrolly-buildout">
@@ -218,7 +223,7 @@
       </figure>
       <div class="steps">
         <div class="step" data-step="0"><p>As projects multiply, so does resistance. Across the country moratoriums are being imposed on data centers. Our data shows <strong>1,036 adopted data center moratoriums appear in 47 states, and 946 are still in force</strong>. County boards passed about a third of them, and city, town, township, and village councils passed the rest.</p></div>
-        <div class="step" data-step="1"><p>The wave is recent. Through most of 2025, communities adopted only a handful a month. In 2026 the pace exploded, with <strong>170 adopted in June 2026</strong> alone.</p></div>
+        <div class="step" data-step="1"><p>The wave is recent. Through most of 2025, communities adopted only a handful a month. In 2026 the pace increased, with <strong>170 adopted in June 2026</strong> alone.</p></div>
         <div class="step" data-step="2"><p>Pushback isn't where data centers already are. Virginia hosts the most operating sites (214), yet it has only 6 moratoriums. The leaders are <strong>Ohio (158), Michigan (128), and Georgia (71)</strong>.</p></div>
         <div class="step" data-step="3"><p>Florida, Kansas, and Maine have no operating sites in our data but 68 moratoriums between them. Many of these are communities facing their first proposed data center, setting rules before it arrives.</p></div>
         <div class="step" data-step="4"><p>What happens to projects that meet opposition? Only 3% of operating data centers have documented pushback. Among projects that stalled or were cancelled, about two-thirds did.</p>
@@ -325,8 +330,8 @@
       </figure>
       <div class="steps">
         <div class="step" data-step="0"><p class="step-year">Why would a whole grid region get more expensive?</p>
-          <p>PJM runs a yearly auction to buy enough power plant capacity for the future peak. Every utility in the region pays the result, so it reaches every household's bill. For three years the price sat at 50 dollars per MW-day or less. Then, in the auction for June 2025 to May 2026, it jumped 9.3x, from 28.92 to 269.92.</p></div>
-        <div class="step" data-step="1"><p>The total cost rose from 2.2 billion to 14.7 billion, and the next two auctions pushed even higher, to 16.1 billion and 16.4 billion.</p></div>
+          <p>PJM runs a yearly auction to buy enough power plant capacity for the future peak. Every utility in the region pays the result, so it reaches every household's bill. For three years the price sat at $50 per MW-day or less. Then, in the auction for June 2025 to May 2026, it jumped 9.3x, from $28.92 to $269.92 per MW-day.</p></div>
+        <div class="step" data-step="1"><p>The total cost rose from $2.2 billion to $14.7 billion, and the next two auctions pushed even higher, to $16.1 billion and $16.4 billion.</p></div>
         <div class="step" data-step="2"><p>Was that data centers? PJM's Independent Market Monitor (Monitoring Analytics, the market's official watchdog) tested this. It re-ran the 2025/26 auction with the same power plant offers, but took data center demand out of the forecast.</p></div>
         <div class="step" data-step="3"><p>Removing data centers takes the cost from <strong>$14.7 billion down to $5.4 billion</strong>. Removing only the <em>new</em> data centers in the forecast takes it to $6.9 billion. The monitor concludes that data center load is <em>"the primary reason"</em> for the high prices, and that without it prices "would rise … but not jump suddenly to the maximum price."</p></div>
         <div class="step" data-step="4"><p>The re-run does not say that data centers explain the whole jump. Even without them, the auction would have cost <strong>more than double</strong> 2024/25's record low ($2.3B → $5.4B). That is still less than any year from 2017 to 2021, which cost $8.7–14.0B after inflation. Old plants retiring and rule changes pushed prices up too. And it is a model re-run that holds every bid fixed, not something anyone observed. The "without any data center load" case also removes data centers that already existed in 2024.</p></div>
@@ -484,14 +489,14 @@
   <div class="tooltip" role="status" aria-live="polite"></div>
 
   <script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
-  <script src="js/common.js?v=106"></script>
-  <script src="js/hero.js?v=106"></script>
-  <script src="js/backstory.js?v=106"></script>
-  <script src="js/buildout.js?v=106"></script>
-  <script src="js/pushback.js?v=106"></script>
-  <script src="js/grid.js?v=106"></script>
-  <script src="js/bills.js?v=106"></script>
-  <script src="js/water.js?v=106"></script>
-  <script src="js/main.js?v=106"></script>
+  <script src="js/common.js?v=111"></script>
+  <script src="js/hero.js?v=111"></script>
+  <script src="js/backstory.js?v=111"></script>
+  <script src="js/buildout.js?v=111"></script>
+  <script src="js/pushback.js?v=111"></script>
+  <script src="js/grid.js?v=111"></script>
+  <script src="js/bills.js?v=111"></script>
+  <script src="js/water.js?v=111"></script>
+  <script src="js/main.js?v=111"></script>
 </body>
 </html>
