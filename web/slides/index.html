@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- 2-minute slide version of the story (linked as "Slides" in the main page's header). Paths resolve from web/, so it
+       reuses the site's styles, chart code and data. -->
+  <base href="../">
+  <title>Data Center Strain in America: slides</title>
+  <meta name="robots" content="noindex">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css?v=112">
+  <link rel="stylesheet" href="css/conclusion.css?v=1">
+  <link rel="stylesheet" href="slides/slides.css?v=1">
+</head>
+<body class="deck">
+  <div class="deck-top">
+    <span class="deck-brand">Data Center Strain</span>
+    <span class="deck-count" aria-live="polite"></span>
+    <button class="autoplay deck-play" type="button" aria-label="Play: advance the slides automatically (2 minutes)">
+      <svg class="ap-play" viewBox="0 0 10 10" width="10" height="10" aria-hidden="true"><path d="M2 1l7 4-7 4z" fill="currentColor"/></svg>
+      <svg class="ap-pause" viewBox="0 0 10 10" width="10" height="10" aria-hidden="true"><path d="M2 1h2v8H2zM6 1h2v8H6z" fill="currentColor"/></svg>
+      <span>Play</span>
+    </button>
+  </div>
+
+  <!-- Each slide has one or more builds (.say). data-sec is how long a build stays up on autoplay (120 s in all);
+       data-step is the chart step it shows, the same steps the scrolling page uses. -->
+
+  <!-- 1. Title -->
+  <section class="slide slide-title" data-sec="5">
+    <canvas class="hero-map" aria-hidden="true"></canvas>
+    <div class="hero-shade" aria-hidden="true"></div>
+    <div class="slide-center">
+      <p class="kicker">The American data center boom</p>
+      <h1 class="hero-title" aria-label="Data Center Strain in America">
+        <span class="fade">Data Center<br> Str</span><span class="keep">ai</span><span class="fade">n</span><br><span class="keep">in America</span>
+      </h1>
+      <p class="hero-dek">Data centers are being built faster than ever, and a growing number of communities are pushing back.
+        We test whether their worries about the grid, electric bills and water hold up in the data.</p>
+      <p class="hero-meta"><span>Joel&nbsp;Polizzi · Priyanka&nbsp;Nidadavolu · Sanjana&nbsp;Garimella</span><span class="dot">•</span><span>DSC 209R, UC San Diego</span></p>
+    </div>
+  </section>
+
+  <!-- 2. Electricity -->
+  <section class="slide slide-chart" data-chart="scrolly-electricity">
+    <div class="slide-text">
+      <p class="eyebrow">Backstory</p>
+      <div class="says">
+        <p class="say" data-step="6" data-sec="7">Data centers' share of US electricity rose from <strong>1.5%</strong> in 2006 to <strong>4.4%</strong> in 2023, and it is projected to reach <strong>6.7–12%</strong> by 2028.</p>
+      </div>
+    </div>
+    <figure class="slide-fig">
+      <div class="fig-head">
+        <h3 class="fig-title">US data center electricity use (National estimates of data center electricity begin in 2000)</h3>
+        <p class="fig-sub" id="elec-sub"></p>
+      </div>
+      <div class="chart" id="chart-electricity"></div>
+      <figcaption class="fig-source">Sources: EPA Report to Congress (2007); LBNL 2024 United States Data Center Energy Usage Report.</figcaption>
+    </figure>
+  </section>
+
+  <!-- 3. Facility scale -->
+  <section class="slide slide-chart" data-chart="scrolly-scale">
+    <div class="slide-text">
+      <p class="eyebrow">Backstory</p>
+      <div class="says">
+        <p class="say" data-step="5" data-sec="6">The largest AI campuses are approaching <strong>a gigawatt</strong>: about <strong><span data-fill="gw_vs_homes">1.7</span> times</strong> the electricity used by every home in Memphis combined.</p>
+      </div>
+    </div>
+    <figure class="slide-fig">
+      <div class="fig-head">
+        <h3 class="fig-title">Power drawn by a single facility</h3>
+        <p class="fig-sub">Circle area is proportional to megawatts</p>
+      </div>
+      <div class="chart" id="chart-scale"></div>
+      <figcaption class="fig-source">Typical sites: medians from the Data Centers Database. Memphis: MLGW sales, EIA-861 (2025).</figcaption>
+    </figure>
+  </section>
+
+  <!-- 4. Build-out -->
+  <section class="slide slide-chart" data-chart="scrolly-buildout">
+    <div class="slide-text">
+      <p class="eyebrow">Chapter 1 · Build-out</p>
+      <div class="says">
+        <p class="say" data-step="0" data-sec="4">The United States currently has <strong>606</strong> operating data centers across <strong>39</strong> states.</p>
+        <p class="say" data-step="3" data-sec="4">Another <strong>975 facilities are planned</strong>. If they are all built, the number of tracked sites would grow by <strong>161%</strong>.</p>
+      </div>
+    </div>
+    <figure class="slide-fig">
+      <div class="fig-head">
+        <h3 class="fig-title">Where America's data centers are</h3>
+        <p class="fig-sub" id="buildout-sub"></p>
+      </div>
+      <div class="chart" id="chart-buildout">
+        <div class="compare-card" id="buildout-compare" aria-live="polite"></div>
+      </div>
+      <figcaption class="fig-source">Source: Data Centers Database (operating = operating or expanding; planned = proposed,
+        approved, permitted or under construction).</figcaption>
+    </figure>
+  </section>
+
+  <!-- 5. Pushback -->
+  <section class="slide slide-chart" data-chart="scrolly-pushback">
+    <div class="slide-text">
+      <p class="eyebrow">Chapter 2 · Pushback</p>
+      <div class="says">
+        <p class="say" data-step="1" data-sec="4"><strong>1,036 moratoriums</strong> in 47 states, and the wave is recent: <strong>170 adopted in June 2026</strong> alone.</p>
+        <p class="say" data-step="5" data-sec="5">Setting aside "time to write rules," <strong>72% name a specific harm</strong>. Two lead: <strong>the grid and energy, and water</strong>.</p>
+      </div>
+    </div>
+    <figure class="slide-fig">
+      <div class="fig-head">
+        <h3 class="fig-title" id="pushback-title">Where communities are pushing back</h3>
+        <p class="fig-sub" id="pushback-sub"></p>
+      </div>
+      <div class="chart" id="chart-pushback"></div>
+      <figcaption class="fig-source" id="pushback-source"></figcaption>
+    </figure>
+  </section>
+
+  <!-- 6. The question -->
+  <section class="slide slide-statement" data-sec="5">
+    <div class="slide-center">
+      <p class="eyebrow">What we set out to test</p>
+      <p class="statement moon-question">Communities say they are worried about <strong>the grid and their electric bills</strong>, and about <strong>water</strong>. Are those worries backed by the data?</p>
+    </div>
+  </section>
+
+  <!-- 7. Grid -->
+  <section class="slide slide-chart" data-chart="scrolly-grid">
+    <div class="slide-text">
+      <p class="eyebrow eb-grid">Chapter 3 · The grid</p>
+      <div class="says">
+        <p class="say" data-step="2" data-sec="4">Today, <strong>65% of operating data centers</strong> sit in grid regions rated Elevated risk of power shortfalls.</p>
+        <p class="say" data-step="3" data-sec="5">By 2030, MISO, PJM, ERCOT and parts of the West move to <strong>High risk</strong>, holding <strong>69%</strong> of operating and planned sites.
+          <span class="tag tag-grid">Verdict: Real</span></p>
+      </div>
+    </div>
+    <figure class="slide-fig">
+      <div class="fig-head">
+        <div class="fig-head-row">
+          <h3 class="fig-title">Grid regions at risk of power shortfalls</h3>
+          <div class="year-pick" id="grid-years" role="group" aria-label="NERC rating year"></div>
+        </div>
+        <p class="fig-sub" id="grid-sub"></p>
+      </div>
+      <div class="chart" id="chart-grid"></div>
+      <figcaption class="fig-source">Source: NERC 2025 Long-Term Reliability Assessment. Region boundaries are approximate.</figcaption>
+    </figure>
+  </section>
+
+  <!-- 8. Bills: state prices -->
+  <section class="slide slide-chart" data-chart="scrolly-bills">
+    <div class="slide-text">
+      <p class="eyebrow eb-bills">Chapter 4 · Electric bills</p>
+      <div class="says">
+        <p class="say" data-step="2" data-sec="5">State by state, more data centers did not mean faster price rises. But states on the <strong>PJM grid</strong> rose a median <strong>+9%</strong>, against <strong>−1%</strong> everywhere else.</p>
+      </div>
+    </div>
+    <figure class="slide-fig">
+      <div class="fig-head">
+        <h3 class="fig-title">Data centers per resident against the change in electricity prices</h3>
+        <p class="fig-sub" id="bills-sub"></p>
+      </div>
+      <div class="chart" id="chart-bills"></div>
+      <figcaption class="fig-source" id="bills-source">Data: EIA Form 861 residential revenue and sales, in 2025 dollars.</figcaption>
+    </figure>
+  </section>
+
+  <!-- 9. Bills: PJM capacity auction -->
+  <section class="slide slide-chart" data-chart="scrolly-capacity">
+    <div class="slide-text">
+      <p class="eyebrow eb-bills">Chapter 4 · Electric bills</p>
+      <div class="says">
+        <p class="say" data-step="0" data-sec="5">PJM's capacity auction, paid by every household on the grid, jumped <strong>9.3x</strong>, from $28.92 to $269.92 per MW-day.</p>
+        <p class="say" data-step="3" data-sec="5">Removing data centers takes the cost from <strong>$14.7 billion down to $5.4 billion</strong>: about <strong>$9 a month</strong> for a typical home.
+          <span class="tag tag-bills">Verdict: Real, but regional</span></p>
+      </div>
+    </div>
+    <figure class="slide-fig">
+      <div class="fig-head">
+        <h3 class="fig-title" id="capacity-title">PJM capacity auction clearing price</h3>
+        <p class="fig-sub" id="capacity-sub"></p>
+      </div>
+      <div class="chart" id="chart-capacity"></div>
+      <figcaption class="fig-source" id="capacity-source">Source: PJM Base Residual Auction reports.</figcaption>
+    </figure>
+  </section>
+
+  <!-- 10. Water -->
+  <section class="slide slide-chart" data-chart="scrolly-water">
+    <div class="slide-text">
+      <p class="eyebrow eb-water">Chapter 5 · Water</p>
+      <div class="says">
+        <p class="say" data-step="2" data-sec="4"><strong>About a third of data centers</strong>, roughly 500 sites, sit in river basins under High or Extremely high water stress.</p>
+        <p class="say" data-step="3" data-sec="4">But about 36% of Americans live there too, and most sites don't report their water use.
+          <span class="tag tag-water">Verdict: Plausible, but unmeasured</span></p>
+      </div>
+    </div>
+    <figure class="slide-fig">
+      <div class="fig-head">
+        <h3 class="fig-title" id="water-title">Where water is already scarce, and where data centers are being built</h3>
+        <p class="fig-sub" id="water-sub"></p>
+      </div>
+      <div class="chart" id="chart-water"></div>
+      <figcaption class="fig-source" id="water-source">Water stress: WRI Aqueduct 4.0 (one baseline snapshot, not a trend).</figcaption>
+    </figure>
+  </section>
+
+  <!-- 11. Scorecard -->
+  <section class="slide slide-statement" data-sec="9">
+    <div class="slide-center slide-wide">
+      <div class="verdict is-visible">
+        <p class="eyebrow">The scorecard</p>
+        <h2 id="verdict-summary">Two worries hold up. One is still <em>unmeasured</em>.</h2>
+        <ul class="scorecard">
+          <li class="sc-grid">
+            <p class="sc-concern">The grid</p>
+            <p class="sc-verdict">Real</p>
+            <p class="sc-why">The grid's own regulator names data centers as a main reason the risk of shortfalls is rising.</p>
+          </li>
+          <li class="sc-bills">
+            <p class="sc-concern">Electric bills</p>
+            <p class="sc-verdict">Real, but regional</p>
+            <p class="sc-why">On the PJM grid, data center demand drove most of a capacity cost that adds about $9 a month for a typical home.</p>
+          </li>
+          <li class="sc-water">
+            <p class="sc-concern">Water</p>
+            <p class="sc-verdict">Plausible, but unmeasured</p>
+            <p class="sc-why">About a third of data centers sit in stressed river basins. How much water they use is mostly unreported.</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 12. Visual encodings -->
+  <section class="slide slide-design" data-sec="11">
+    <div class="design">
+      <p class="eyebrow">How we built it · Visual encodings</p>
+      <h2>Each chart matches its <em>marks and channels</em> to the data.</h2>
+      <div class="shots shots-3">
+        <figure><img src="slides/img/enc-map.jpg?v=2" alt="Choropleth of data centers per state with site dots"><figcaption><b>Counts per state</b> → binned, ordered lightness of one blue. <b>Sites</b> → points: filled = operating, ring = planned.</figcaption></figure>
+        <figure><img src="slides/img/enc-area.jpg?v=2" alt="Circles sized by megawatts"><figcaption><b>Megawatts</b> → circle <em>area</em>, not radius, so a 1,000 MW campus reads as 40× a 25 MW site.</figcaption></figure>
+        <figure><img src="slides/img/enc-units.jpg?v=2" alt="Unit chart of moratoriums by month"><figcaption><b>Moratoriums over time</b> → one square per moratorium, stacked by month, so height is a count you can see.</figcaption></figure>
+        <figure><img src="slides/img/enc-bars.jpg?v=2" alt="Bar chart of reasons cited in moratoriums"><figcaption><b>Shares of reasons</b> → bar length on a common zero baseline, sorted largest first.</figcaption></figure>
+        <figure><img src="slides/img/enc-scatter.jpg?v=2" alt="Scatter of data centers per resident against price change"><figcaption><b>Two quantities per state</b> → position on a log x axis and a linear y axis; hue marks the PJM group.</figcaption></figure>
+        <figure><img src="slides/img/enc-risk.jpg?v=2" alt="Map of grid risk by region"><figcaption><b>Risk rating</b> → an ordered orange ramp. One hue per concern throughout: <span class="c-grid">grid</span>, <span class="c-bills">bills</span>, <span class="c-water">water</span>, <span class="c-dc">data centers</span>.</figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- 13. Interactions -->
+  <section class="slide slide-design" data-sec="11">
+    <div class="design">
+      <p class="eyebrow">How we built it · Interaction</p>
+      <h2>Scrolling drives the story; <em>the reader can dig in</em>.</h2>
+      <div class="shots shots-3">
+        <figure><img src="slides/img/int-tip.jpg" alt="Map with a tooltip showing Texas: 75 operating, 147 planned"><figcaption><b>Tooltips on every mark</b>: states, sites, years and bars give the exact numbers behind the shape.</figcaption></figure>
+        <figure><img src="slides/img/int-years.jpg" alt="Grid risk map with a 2026 to 2030 year picker"><figcaption><b>Year picker</b>: the grid map plays 2026 → 2030 on scroll, and any year can be clicked to compare.</figcaption></figure>
+        <figure><img src="slides/img/int-kwh.jpg" alt="Bar chart of the PJM bill add with a usage slider"><figcaption><b>“Your use” slider</b>: recomputes the PJM capacity cost for your own monthly kWh.</figcaption></figure>
+      </div>
+      <ul class="design-list">
+        <li><b>Scrollytelling:</b> each card moves its chart to the next state with animated transitions, and scrolling back reverses it.</li>
+        <li><b>View the data:</b> a table under every chart. A <b>Play</b> button auto-scrolls the whole story, with a separate layout for phones.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 14. Annotations -->
+  <section class="slide slide-design" data-sec="11">
+    <div class="design">
+      <p class="eyebrow">How we built it · Annotation</p>
+      <h2>Annotations point straight at <em>the finding</em>.</h2>
+      <div class="shots shots-4">
+        <figure><img src="slides/img/ann-elec.jpg" alt="Electricity chart with era bands, a ChatGPT marker and a projection label"><figcaption><b>Context:</b> era bands, a ChatGPT marker and a labeled 2028 projection range.</figcaption></figure>
+        <figure><img src="slides/img/ann-bills.jpg" alt="Scatter with labeled PJM states and dashed median lines"><figcaption><b>Highlighting:</b> only the states that matter are labeled; dashed lines mark each group's median.</figcaption></figure>
+        <figure><img src="slides/img/ann-cap.jpg" alt="Step chart with a 9.3x jump callout"><figcaption><b>Callouts:</b> every year is directly labeled, and the 9.3× jump is called out.</figcaption></figure>
+        <figure><img src="slides/img/ann-wave.jpg" alt="Unit chart with shaded months and an incomplete-data note"><figcaption><b>Honesty:</b> shading marks the months searched more closely, and a note flags incomplete recent data.</figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- 15. Closing -->
+  <section class="slide slide-statement" data-sec="6">
+    <div class="slide-center">
+      <p class="eyebrow">Local votes, regional costs</p>
+      <p class="statement moon-question">The towns pushing back have reason to worry. But the biggest costs they fear are regional, and a local vote can only pause the building next door.</p>
+      <p class="deck-end">Full story: <a href="./">dsc-209r-group-visualization-projects.github.io/datacenter-exploration</a></p>
+    </div>
+  </section>
+
+  <div class="deck-nav" aria-hidden="true"><div class="deck-bar"></div></div>
+  <p class="deck-hint">← → or click to move · P to play</p>
+  <div class="tooltip" role="status"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+  <script src="js/common.js?v=112"></script>
+  <script src="js/hero.js?v=112"></script>
+  <script src="js/backstory.js?v=112"></script>
+  <script src="js/buildout.js?v=112"></script>
+  <script src="js/pushback.js?v=112"></script>
+  <script src="js/grid.js?v=112"></script>
+  <script src="js/bills.js?v=112"></script>
+  <script src="js/water.js?v=112"></script>
+  <script src="slides/slides.js?v=1"></script>
+</body>
+</html>
