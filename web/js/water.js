@@ -2,7 +2,6 @@
 //  0) the sites on a plain map   1) counties shaded by how much of them is under high water stress
 //  2) sites outside high-stress basins dim, leaving the ~500 that are (the notebook's D3 note)
 //  3) the map gives way to bars: sites by the stress of their basin, with the US population for reference
-//  4) the verdict, with the high-stress part of each bar in focus
 // Water is a one-hue teal ramp that brightens with stress (validated as an ordinal ramp on --bg).
 // Sites are pale dots, as in Chapter 3, so the teal reads only as water.
 
@@ -23,7 +22,6 @@ function WaterChart(container, data, states) {
     { view: "map", shade: true, sub: "Share of each county in high or extremely high water stress" },
     { view: "map", shade: true, lit: true, sub: `The ${fmt(nHigh)} data centers in basins under high or extremely high water stress` },
     { view: "bars", sub: "Share of sites by the water stress of their river basin (numbers are site counts)" },
-    { view: "bars", focus: true, sub: "Share of sites by the water stress of their river basin (numbers are site counts)" },
   ];
   const ROWS = [
     { key: "operating", label: `Operating (${fmt(tot("operating"))} sites)`, short: `Operating (${fmt(tot("operating"))})`,
@@ -162,7 +160,6 @@ function WaterChart(container, data, states) {
       .attr("opacity", d => !st.lit ? (d.op ? 0.85 : 0.55) : d.stress <= 1 ? 1 : 0.12);
     svg.selectAll(".w-gap").transition(t).attr("opacity", st.lit ? 0.9 : 0.5);
     svg.select(".w-top").transition(t).attr("opacity", st.lit ? 1 : 0);
-    svg.selectAll(".w-bars .w-lo").transition(t).attr("opacity", st.focus ? 0.3 : 1);
   }
 
   render();

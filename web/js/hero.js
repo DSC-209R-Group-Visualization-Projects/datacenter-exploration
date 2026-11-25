@@ -7,7 +7,7 @@ async function initHero() {
 
   const canvas = document.querySelector(".hero-map");
   const ctx = canvas.getContext("2d");
-  const rgb = d3.rgb(C.dc);
+  const rgb = d3.rgb(C.dc).brighter(0.3);   // a touch lighter than --dc so the points glow on the dark map
   let pts = [], start = null, raf = null;
 
   function layout() {
@@ -34,12 +34,12 @@ async function initHero() {
       const pulse = REDUCED ? 1 : 0.75 + 0.25 * Math.sin(el / 1400 + p.phase);
       if (p.op) {
         ctx.beginPath(); ctx.arc(p.x, p.y, 5, 0, Math.PI * 2);     // soft glow
-        ctx.fillStyle = `rgba(${rgb.r},${rgb.g},${rgb.b},${0.10 * a * pulse})`; ctx.fill();
-        ctx.beginPath(); ctx.arc(p.x, p.y, 1.7, 0, Math.PI * 2);
-        ctx.fillStyle = `rgba(${rgb.r},${rgb.g},${rgb.b},${0.95 * a})`; ctx.fill();
+        ctx.fillStyle = `rgba(${rgb.r},${rgb.g},${rgb.b},${0.18 * a * pulse})`; ctx.fill();
+        ctx.beginPath(); ctx.arc(p.x, p.y, 1.8, 0, Math.PI * 2);
+        ctx.fillStyle = `rgba(${rgb.r},${rgb.g},${rgb.b},${a})`; ctx.fill();
       } else {
         ctx.beginPath(); ctx.arc(p.x, p.y, 2, 0, Math.PI * 2);
-        ctx.strokeStyle = `rgba(${rgb.r},${rgb.g},${rgb.b},${0.5 * a * pulse})`; ctx.lineWidth = 0.9; ctx.stroke();
+        ctx.strokeStyle = `rgba(${rgb.r},${rgb.g},${rgb.b},${0.75 * a * pulse})`; ctx.lineWidth = 0.9; ctx.stroke();
       }
     }
     if (!REDUCED) raf = requestAnimationFrame(draw);

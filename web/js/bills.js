@@ -5,7 +5,7 @@
 //  4) the PJM column alone (the timing warning)
 // CapacityChart, the PJM capacity auction:
 //  0) clearing price per MW-day   1) total cost   2-4) the market monitor's re-run without data center load
-//  5-6) the rough add to a typical household bill, with a kWh slider (Sanjana's usage slider)
+//  5) the rough add to a typical household bill, with a kWh slider (Sanjana's usage slider)
 // Market colours pass the validator on --bg (all pairs); PJM is the chapter's yellow. The re-run bars use a validated
 // one-hue yellow ramp. Utility-run is the neutral grey on purpose: no regional market.
 
@@ -172,7 +172,6 @@ function CapacityChart(container, data) {
     { mode: "imm", rows: 2, title: "The market monitor's re-run of the 2025/26 auction", sub: "Total capacity auction cost, $ billion, 2025 dollars" },
     { mode: "imm", rows: 4, title: "The market monitor's re-run of the 2025/26 auction", sub: "Total capacity auction cost, $ billion, 2025 dollars" },
     { mode: "imm", rows: 4, band: true, title: "The market monitor's re-run of the 2025/26 auction", sub: "Total capacity auction cost, $ billion, 2025 dollars" },
-    { mode: "bill", title: "Rough add to a typical PJM household bill", sub: "" },
     { mode: "bill", title: "Rough add to a typical PJM household bill", sub: "" },
   ];
   const SOURCES = {

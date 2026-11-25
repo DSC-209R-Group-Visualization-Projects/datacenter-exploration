@@ -3,19 +3,19 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Datacenter Strain in American Towns</title>
+  <title>Data center Strain in America</title>
   <meta name="description" content="Data centers are being built faster than ever, and communities are pushing back. Do their concerns hold up in the data?">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css?v=42">
+  <link rel="stylesheet" href="css/style.css?v=80">
   <link rel="stylesheet" href="css/conclusion.css?v=1">
 </head>
 <body>
   <div class="progress" aria-hidden="true"><div class="progress-bar"></div></div>
 
   <header class="site-header">
-    <a class="brand" href="#top">Datacenter Strain</a>
+    <a class="brand" href="#top">Data center Strain</a>
     <nav class="nav">
       <a href="#backstory">Backstory</a>
       <a href="#buildout">Build-out</a>
@@ -34,8 +34,8 @@
     <div class="hero-inner">
       <p class="kicker">The American data center boom</p>
       <!-- The full title shows first; then everything but "ai … in America" fades and those letters turn red -->
-      <h1 class="hero-title" aria-label="Datacenter Strain in American Towns">
-        <span class="fade">Datacenter<br> Str</span><span class="keep">ai</span><span class="fade">n</span><br><span class="keep">in America</span><span class="fade">n<br class="br-m"> Towns</span>
+      <h1 class="hero-title" aria-label="Data center Strain in America">
+        <span class="fade">Data center<br> Str</span><span class="keep">ai</span><span class="fade">n</span><br><span class="keep">in America</span>
       </h1>
       <p class="hero-dek">Data centers are being built faster than ever, and a growing number of communities are pushing back.
         We test whether their worries about the grid, electric bills and water hold up in the data.</p>
@@ -86,18 +86,31 @@
         <div class="step" data-step="2">
           <p class="step-year">1990s</p>
           <p>The growth of the internet transformed data centers into the backbone of global communications and e-commerce, supporting emerging platforms and online services.</p>
+          <figure class="step-photo step-photo-wide">
+            <img src="images/www-inventor.jpg" alt="Tim Berners-Lee smiles beside a computer monitor showing an early web browser" width="1280" height="720" loading="lazy">
+            <figcaption>Tim Berners-Lee invented the World Wide Web in 1989 at CERN, where he developed the first web server, browser, and the foundational technologies (HTML, HTTP, URLs) that enabled global information sharing.</figcaption>
+          </figure>
         </div>
         <div class="step" data-step="3">
           <p class="step-year">2000s</p>
-          <p>Hyperscale computing arrived as companies such as Google, Amazon, and Microsoft built massive facilities capable of serving millions of users worldwide. Cloud computing, led by the 2006 launch of Amazon Web Services, shifted data centers from dedicated infrastructure to shared, on-demand platforms, dramatically increasing accessibility and scale.</p>
+          <p>Hyperscale computing arrived as companies such as Google, Amazon, and Microsoft built massive facilities capable of serving millions of users worldwide. Cloud computing, led by the 2006 launch of Amazon Web Services, shifted data centers from dedicated infrastructure to infrastructure as a service (IAAS), increasing accessibility at scale.</p>
+          <figure class="step-photo step-photo-wide">
+            <img src="images/hyperscalers.jpg" alt="The Amazon, Google and Microsoft logos in three linked circles over soft coloured clouds" width="900" height="900" loading="lazy">
+          </figure>
         </div>
         <div class="step" data-step="4">
           <p class="step-year">2012</p>
           <p>The resurgence of deep learning and advances in GPU computing sparked a new era of artificial intelligence. Data centers evolved beyond traditional computing environments, incorporating specialized accelerators, high-speed networking, and unprecedented processing power to train increasingly sophisticated AI models.</p>
+          <figure class="step-photo step-photo-wide">
+            <img src="images/nvidia-cuda.jpg" alt="The NVIDIA and CUDA logos glowing green over a graphics card, surrounded by a web of light" width="1280" height="720" loading="lazy">
+          </figure>
         </div>
         <div class="step" data-step="5">
           <p class="step-year">2020s</p>
-          <p>By 2023, generative AI systems such as large language models were being trained on clusters of tens of thousands of GPUs, driving the construction of purpose-built AI data centers. Today the largest AI campuses hold hundreds of thousands of GPUs, draw hundreds of megawatts to a gigawatt of power, and rely on advanced liquid cooling.</p>
+          <p>By 2023, generative AI systems were being trained on clusters of tens of thousands of GPUs, driving the construction of AI data centers. Today the largest AI campuses hold hundreds of thousands of GPUs, require immense power, and rely on advanced liquid cooling.</p>
+          <figure class="step-photo step-photo-wide">
+            <img src="images/openai.jpg" alt="A phone showing the ChatGPT logo held in front of a large OpenAI logo" width="1280" height="868" loading="lazy">
+          </figure>
         </div>
         <div class="step step-headline" data-step="6">
           <p>Data centers' share of US electricity rose from <strong>1.5%</strong> in 2006 to <strong>4.4%</strong> in 2023, and it is projected to reach <strong>6.7–12%</strong> by 2028.</p>
@@ -128,28 +141,31 @@
     </section>
     <details class="data-table" id="table-scale"><summary>View the data</summary></details>
 
-    <!-- Apollo 11 rises out of the dark behind the first statement, gives way to xAI's Colossus with the second, then both fade as the reader scrolls on -->
+    <!-- Apollo 11 rises out of the dark behind the first statement, gives way to xAI's Colossus with the second, the pushback protest with the third,
+         and finally plain black behind our central question, then all fade as the reader scrolls on -->
     <section class="moon">
       <div class="moon-sticky">
         <img class="moon-img moon-apollo" src="images/apollo-11.jpg" alt="Buzz Aldrin stands beside the American flag on the Moon, with the lunar module at left" width="1440" height="1080" loading="lazy">
         <img class="moon-img moon-xai" src="images/xai-colossus.jpg" alt="A long, brightly lit aisle between rows of server racks packed with cables" width="1199" height="800" loading="lazy">
+        <img class="moon-img moon-push" src="images/datacenter-pushback.jpg" alt="A crowd on the steps of a state capitol holds signs reading No Data Center, Stop Data Centers and Data Center Moratorium Now" width="1024" height="768" loading="lazy">
         <p class="moon-credit moon-apollo">Apollo 11, July 20, 1969. Image credit: NASA/Neil Armstrong.</p>
         <p class="moon-credit moon-xai">xAI's Colossus, Memphis.</p>
+        <div class="moon-black"></div>
+        <p class="moon-credit moon-push">Protesters at the Pennsylvania State Capitol call for a moratorium on data centers.</p>
         <div class="moon-text moon-text-1">
           <p class="statement">From supporting the Apollo missions to powering today's AI boom, data centers have become <em>critical infrastructure</em>.</p>
         </div>
         <div class="moon-text moon-text-2">
           <p class="statement">But that infrastructure now needs as much electricity as a city, and often a great deal of water, and it is being built faster than ever.</p>
         </div>
-      </div>
-    </section>
-
-    <!-- Closing statements -->
-    <section class="statements">
-      <p class="statement">Communities are starting to ask what it costs them, and to push back against the expansion.</p>
-      <div class="aim">
-        <p class="eyebrow">What we set out to test</p>
-        <p>We aim to understand whether the underlying data supports concerns about data center expansion, and which communities are most adversely affected by the build-outs being planned.</p>
+        <div class="moon-text moon-text-3">
+          <p class="statement">Communities are starting to ask what it costs them, and to push back against the expansion.</p>
+        </div>
+        <div class="moon-text moon-text-4">
+          <p class="eyebrow">What we set out to test</p>
+          <p class="statement moon-question">We aim to understand whether the underlying data supports concerns about data center expansion, and which communities are most adversely affected by the build-outs being planned.</p>
+        </div>
+        <a class="scroll-cue" href="#buildout" aria-label="Scroll to Chapter 1"><span></span></a>
       </div>
     </section>
 
@@ -206,10 +222,20 @@
           <p class="step-note">Caveat: projects that drew opposition also drew news coverage, so their pushback is more likely to be recorded. Opposition clearly goes with stalled and cancelled projects, but this alone doesn't show it caused them.</p></div>
         <div class="step" data-step="5"><p class="step-year">So… what concerns are driving the pushback?</p>
           <p>Every moratorium is an official action, and most state why it was passed. Nearly all of them (90%) say the community <strong>needs time to write rules</strong> for data centers. That is the mechanism, not the worry. Setting it aside, <strong>72% name at least one specific harm</strong>, and two lead the list: <strong>the grid and energy, and water</strong>, each cited by about a third.</p></div>
-        <div class="step" data-step="6"><p>Communities say they are worried about <strong>the grid and their electric bills</strong>, and about <strong>water</strong>. Are those worries backed by the data? We take them one at a time, starting with energy.</p></div>
       </div>
     </section>
     <details class="data-table" id="table-pushback"><summary>View the data</summary></details>
+
+    <!-- Chapter 2 closes the way the introduction does: the screen goes black and the hand-off to the next chapters fades in -->
+    <section class="bridge">
+      <div class="moon-sticky">
+        <div class="moon-black"></div>
+        <div class="moon-text moon-text-4">
+          <p class="statement moon-question">Communities say they are worried about <strong>the grid and their electric bills</strong>, and about <strong>water</strong>. Are those worries backed by the data? We take them one at a time, starting with energy.</p>
+        </div>
+        <a class="scroll-cue" href="#grid" aria-label="Scroll to Chapter 3"><span></span></a>
+      </div>
+    </section>
 
     <!-- ===================== CHAPTER 3: GRID ===================== -->
     <section class="chapter-head" id="grid">
@@ -236,18 +262,25 @@
         <div class="step" data-step="1"><p>Its latest assessment (January 2026) finds the outlook <strong>"worsening"</strong>, and names data centers as a main reason: <em>"Projections for resource and transmission growth lag what is needed to support new data centers and other large loads."</em></p></div>
         <div class="step" data-step="2"><p>Today, <strong>65% of operating data centers (394 of 606) sit in regions rated Elevated risk</strong>, including PJM, ERCOT (Texas), and SPP.</p></div>
         <div class="step" data-step="3"><p>By 2030, MISO, PJM, ERCOT, and parts of the West move to <strong>High risk</strong>, and <strong>69% of operating sites and 69% of planned sites</strong> are in those regions.</p></div>
-        <div class="step" data-step="4"><p><strong>Verdict on the grid: supported.</strong> The grid's own reliability regulator says the risk of running short is rising and names data centers as a main reason. Most data centers already sit in regions rated Elevated, and by 2030 about two-thirds are in regions rated High.</p>
-          <p class="step-note">Caveats: this is a forecast of risk, not observed blackouts. Data centers are one driver alongside power plant retirements, and NERC rates whole regions, not the towns that host the buildings.</p></div>
       </div>
     </section>
     <details class="data-table" id="table-grid"><summary>View the data</summary></details>
 
-    <section class="verdict" aria-labelledby="verdict-grid">
-      <p class="eyebrow">Community concern: the grid</p>
-      <h2 id="verdict-grid">The concern of grid strain is <em>real</em>.</h2>
-      <p class="verdict-body">The grid's own reliability regulator rates the regions that hold most data centers at rising risk of
-        running short, and names data centers as a main reason. By 2030, about two-thirds of operating and planned sites sit in
-        regions rated High risk.</p>
+    <!-- The grid verdict gets the same black scene as the end of Chapter 2 -->
+    <section class="bridge" aria-labelledby="verdict-grid">
+      <div class="moon-sticky">
+        <div class="moon-black"></div>
+        <div class="moon-text moon-text-4">
+          <div class="verdict">
+            <p class="eyebrow">Community concern: the grid</p>
+            <h2 id="verdict-grid">The concern of grid strain is <em>real</em>.</h2>
+            <p class="verdict-body">The grid's own reliability regulator rates the regions that hold most data centers at rising risk of
+              running short, and names data centers as a main reason. By 2030, about two-thirds of operating and planned sites sit in
+              regions rated High risk.</p>
+          </div>
+        </div>
+        <a class="scroll-cue" href="#bills" aria-label="Scroll to Chapter 4"><span></span></a>
+      </div>
     </section>
 
     <!-- ===================== CHAPTER 4: BILLS ===================== -->
@@ -296,18 +329,30 @@
         <div class="step" data-step="4"><p>The re-run does not say that data centers explain the whole jump. Even without them, the auction would have cost <strong>more than double</strong> 2024/25's record low ($2.3B → $5.4B). That is still less than any year from 2017 to 2021, which cost $8.7–14.0B after inflation. Old plants retiring and rule changes pushed prices up too. And it is a model re-run that holds every bid fixed, not something anyone observed. The "without any data center load" case also removes data centers that already existed in 2024.</p></div>
         <div class="step" data-step="5"><p>For a typical PJM household (about 850 kWh a month), capacity costs went from roughly <strong>$2 a month to $15 a month</strong>. By the monitor's numbers, about <strong>$3 of the increase would have happened anyway</strong>, and about <strong>$9 is data center demand</strong>. For perspective, $15 a month is about what households paid in 2018/19 after inflation. The jump is large because it starts from the unusually cheap years of 2022–2025.</p>
           <p class="step-note">Dollars: the bill and cost charts are in 2025 dollars (BLS CPI-U, by the year each delivery period starts). Clearing prices per MW-day and the auction totals quoted above are as published.</p></div>
-        <div class="step" data-step="6"><p><strong>Verdict on bills: mixed, leaning supported.</strong> State by state, more data centers did not mean faster price increases. But inside the PJM grid, data center demand drove most of a capacity cost that every household pays, about <strong>$9 a month</strong> for a typical home in 2025/26. The cost is real. It is spread across a whole region rather than landing on the towns that host the buildings.</p>
-          <p class="step-note">Caveats: the monthly figure spreads the auction cost evenly over every kWh in PJM. Households use more power at peak times, so their real share is likely higher. Utilities pass these costs through with lags and hedges, which is also why the 2019–2025 state prices above catch only the start of this. Baltimore (BGE) and Dominion (Virginia) cleared higher, at $466 and $444 per MW-day. Part of the jump is a return from unusually cheap years, since before 2022/23 the same estimate ran $9 to $15 a month in 2025 dollars.</p></div>
       </div>
     </section>
     <details class="data-table" id="table-capacity"><summary>View the data</summary></details>
 
-    <section class="verdict" aria-labelledby="verdict-bills">
-      <p class="eyebrow">Community concern: electric bills</p>
-      <h2 id="verdict-bills">The concern about bills is <em>real, but regional</em>.</h2>
-      <p class="verdict-body">State by state, more data centers did not mean faster price rises. But on the PJM grid, data center demand
-        drove most of a capacity cost that every household pays, about $9 a month for a typical home in 2025/26, spread across the
-        whole region rather than landing on the towns that host the buildings.</p>
+    <!-- The bills verdict, in the same black scene as the grid verdict -->
+    <section class="bridge" aria-labelledby="verdict-bills">
+      <div class="moon-sticky">
+        <div class="moon-black"></div>
+        <div class="moon-text moon-text-4">
+          <div class="verdict">
+            <p class="eyebrow">Community concern: electric bills</p>
+            <h2 id="verdict-bills">The concern about bills is <em>real, but regional</em>.</h2>
+            <p class="verdict-body">State by state, more data centers did not mean faster price rises. But on the PJM grid, data center demand
+              drove most of a capacity cost that every household pays, about $9 a month for a typical home in 2025/26, spread across the
+              whole region rather than landing on the towns that host the buildings.</p>
+            <p class="verdict-note">Caveats: the monthly figure spreads the auction cost evenly over every kWh in PJM. Households use more power
+              at peak times, so their real share is likely higher. Utilities pass these costs through with lags and hedges, which is also why
+              the 2019–2025 state prices above catch only the start of this. Baltimore (BGE) and Dominion (Virginia) cleared higher, at $466
+              and $444 per MW-day. Part of the jump is a return from unusually cheap years, since before 2022/23 the same estimate ran $9 to
+              $15 a month in 2025 dollars.</p>
+          </div>
+        </div>
+        <a class="scroll-cue" href="#water" aria-label="Scroll to Chapter 5"><span></span></a>
+      </div>
     </section>
 
     <section class="chapter-head" id="water">
@@ -329,17 +374,30 @@
         <div class="step" data-step="1"><p>The map shades each county by how much of it sits in a river basin under <strong>High or Extremely high water stress</strong>. That means people and industry already use more than 40% of the water that is available each year. Dots are data centers.</p></div>
         <div class="step" data-step="2"><p>Many are. <strong>About a third of data centers sit in basins under High or Extremely high water stress: 34% of operating sites and 33% of planned ones, roughly 500 sites in all.</strong> Most of them are in Virginia, Texas, Georgia, Illinois (around Chicago), and Arizona (around Phoenix). The planned build-out isn't moving away from those basins.</p></div>
         <div class="step" data-step="3"><p>Side note: about 36% of Americans also live in those basins. So data centers aren't seeking out dry places; they follow people and power lines. That doesn't ease the worry, though. A data center in a stressed basin draws on the same water as the people who live there.</p></div>
-        <div class="step" data-step="4"><p><strong>Verdict on water: can't tell.</strong> Part of the worry is backed by the data: about a third of data centers, roughly 500 sites, sit in basins where people and industry already use more than 40% of the available water. But the real question is whether they are draining those basins, and that depends on how much water each facility uses and where it comes from. Those numbers are mostly unreported, and cooling type is known for only a few sites. Without them we can show <em>where</em> the risk is, not <em>whether</em> it is happening.</p>
-          <p class="step-note">Caveats: Aqueduct is one baseline snapshot (it shows scarcity, not change). Each data center is placed in its river basin from its coordinates. The county shading on the map summarizes the same basins by area. 66 sites (43 in Georgia, mostly metro Atlanta, and 13 in Virginia) fall where Aqueduct has no value and are left out of the shares, so Georgia is undercounted. A server room counts the same as a gigawatt campus. Some facilities use air cooling or recycled water and draw little.</p></div>
       </div>
     </section>
     <details class="data-table" id="table-water"><summary>View the data</summary></details>
-    <section class="verdict" aria-labelledby="verdict-water">
-      <p class="eyebrow">Community concern: water</p>
-      <h2 id="verdict-water">The concern about water is <em>plausible, but unmeasured</em>.</h2>
-      <p class="verdict-body">About a third of data centers, roughly 500 sites, sit in river basins where people and industry already
-        use more than 40% of the available water, about the same share as Americans overall. Whether they are draining those basins
-        depends on how much water each site uses, and most don't report it.</p>
+    <!-- The water verdict, in the same black scene as the grid verdict -->
+    <section class="bridge" aria-labelledby="verdict-water">
+      <div class="moon-sticky">
+        <div class="moon-black"></div>
+        <div class="moon-text moon-text-4">
+          <div class="verdict">
+            <p class="eyebrow">Community concern: water</p>
+            <h2 id="verdict-water">The concern about water is <em>plausible, but unmeasured</em>.</h2>
+            <p class="verdict-body">About a third of data centers, roughly 500 sites, sit in river basins where people and industry already
+              use more than 40% of the available water, about the same share as Americans overall. Whether they are draining those basins
+              depends on how much water each site uses, and most don't report it; cooling type is known for only a few sites. Without
+              those numbers, we can show where the risk is, not whether it is happening.</p>
+            <p class="verdict-note">Caveats: Aqueduct is a single baseline snapshot, so it shows where water is scarce, not how that is
+              changing. Each data center is placed in its river basin from its coordinates, and the county shading on the map summarizes
+              those same basins by area. Aqueduct has no value for 66 sites (43 in Georgia, mostly metro Atlanta, and 13 in Virginia), so
+              they are left out of the shares and Georgia is undercounted. A server room also counts the same as a gigawatt campus, and
+              some facilities use air cooling or recycled water and draw little.</p>
+          </div>
+        </div>
+        <a class="scroll-cue" href="#conclusion" aria-label="Scroll to the conclusion"><span></span></a>
+      </div>
     </section>
 
     <!-- ===================== CONCLUSION ===================== -->
@@ -412,14 +470,14 @@
   <div class="tooltip" role="status" aria-live="polite"></div>
 
   <script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
-  <script src="js/common.js?v=42"></script>
-  <script src="js/hero.js?v=42"></script>
-  <script src="js/backstory.js?v=42"></script>
-  <script src="js/buildout.js?v=42"></script>
-  <script src="js/pushback.js?v=42"></script>
-  <script src="js/grid.js?v=42"></script>
-  <script src="js/bills.js?v=42"></script>
-  <script src="js/water.js?v=42"></script>
-  <script src="js/main.js?v=42"></script>
+  <script src="js/common.js?v=80"></script>
+  <script src="js/hero.js?v=80"></script>
+  <script src="js/backstory.js?v=80"></script>
+  <script src="js/buildout.js?v=80"></script>
+  <script src="js/pushback.js?v=80"></script>
+  <script src="js/grid.js?v=80"></script>
+  <script src="js/bills.js?v=80"></script>
+  <script src="js/water.js?v=80"></script>
+  <script src="js/main.js?v=80"></script>
 </body>
 </html>

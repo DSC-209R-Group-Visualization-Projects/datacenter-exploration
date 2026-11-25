@@ -38,13 +38,24 @@
     steps.forEach(s => io.observe(s));
   }
 
-  // Closing statements fade up one at a time
+  // Backstory and facility scale: let the closing card rise to the top of the chart before the chart scrolls away.
+  // The bottom padding is the chart's height minus the card's, measured so it holds whatever size the card text is
+  const holdLast = () => document.querySelectorAll("#scrolly-electricity, #scrolly-scale").forEach(sec => {
+    const steps = sec.querySelector(".steps"), last = steps.querySelector(".step:last-child");
+    steps.style.paddingBottom = innerWidth > 900 ? Math.max(0, sec.querySelector(".sticky").offsetHeight - last.offsetHeight) + "px" : "";
+  });
+  holdLast();
+  document.fonts.ready.then(holdLast);
+  addEventListener("resize", holdLast);
+
+  // Closing statements fade up one at a time; backstory photos fade in once and stay
   const reveal = new IntersectionObserver(entries => {
     for (const e of entries) if (e.isIntersecting) e.target.classList.add("is-visible");
   }, { rootMargin: "0px 0px -35% 0px" });
-  document.querySelectorAll(".statement, .aim, .verdict").forEach(el => reveal.observe(el));
+  document.querySelectorAll(".statement, .verdict, .step-photo-wide").forEach(el => reveal.observe(el));
 
-  // Apollo 11, then Colossus: Apollo fades up with the first statement, gives way to Colossus with the second halfway, and both fade at the end
+  // Apollo 11, then Colossus, then the protest, then black behind the central question: each layer comes in with its statement,
+  // and all fade at the end
   const moon = document.querySelector(".moon");
   if (moon) {
     const ramp = (v, a, b) => Math.min(1, Math.max(0, (v - a) / (b - a)));
@@ -53,13 +64,37 @@
       ticking = false;
       const r = moon.getBoundingClientRect(), p = ramp(-r.top, 0, r.height - innerHeight);
       // 0 until the section is 60% of the way up the screen, full once its top has scrolled 20% past
-      const enter = ramp(-r.top, -0.4 * innerHeight, 0.2 * innerHeight), swap = ramp(p, 0.4, 0.6), leave = 1 - ramp(p, 0.82, 1);
-      moon.style.setProperty("--apollo", (enter * (1 - swap)).toFixed(3));
-      moon.style.setProperty("--xai", (swap * leave).toFixed(3));
-      // The statements swap without overlapping: the first is gone before the second appears
-      moon.style.setProperty("--text1", (enter * (1 - ramp(p, 0.36, 0.46))).toFixed(3));
-      moon.style.setProperty("--text2", (ramp(p, 0.54, 0.64) * leave).toFixed(3));
+      const enter = ramp(-r.top, -0.4 * innerHeight, 0.2 * innerHeight), leave = 1 - ramp(p, 0.96, 1);
+      const swap1 = ramp(p, 0.246, 0.323), swap2 = ramp(p, 0.508, 0.585), swap3 = ramp(p, 0.769, 0.831);
+      moon.style.setProperty("--apollo", (enter * (1 - swap1)).toFixed(3));
+      moon.style.setProperty("--xai", (swap1 * (1 - swap2)).toFixed(3));
+      moon.style.setProperty("--push", (swap2 * (1 - swap3)).toFixed(3));
+      moon.style.setProperty("--black", (swap3 * leave).toFixed(3));
+      // The statements swap without overlapping: each is gone before the next appears
+      moon.style.setProperty("--text1", (enter * (1 - ramp(p, 0.215, 0.262))).toFixed(3));
+      moon.style.setProperty("--text2", (ramp(p, 0.277, 0.323) * (1 - ramp(p, 0.477, 0.523))).toFixed(3));
+      moon.style.setProperty("--text3", (ramp(p, 0.538, 0.585) * (1 - ramp(p, 0.738, 0.785))).toFixed(3));
+      moon.style.setProperty("--text4", (ramp(p, 0.800, 0.846) * leave).toFixed(3));
       moon.style.setProperty("--moon-p", p.toFixed(3));
+    };
+    addEventListener("scroll", () => { if (!ticking) { ticking = true; requestAnimationFrame(paint); } }, { passive: true });
+    addEventListener("resize", paint);
+    paint();
+  }
+
+  // Black scenes (end of Chapter 2, and the grid, bills and water verdicts): black comes up as each section reaches the top, the statement fades in
+  // on it, and both fade at the end
+  const bridges = document.querySelectorAll(".bridge");
+  if (bridges.length) {
+    const ramp = (v, a, b) => Math.min(1, Math.max(0, (v - a) / (b - a)));
+    let ticking = false;
+    const paint = () => {
+      ticking = false;
+      for (const bridge of bridges) {
+        const r = bridge.getBoundingClientRect(), p = ramp(-r.top, 0, r.height - innerHeight), leave = 1 - ramp(p, 0.85, 1);
+        bridge.style.setProperty("--black", (ramp(-r.top, -0.5 * innerHeight, 0) * leave).toFixed(3));
+        bridge.style.setProperty("--text4", (ramp(p, 0.1, 0.3) * leave).toFixed(3));
+      }
     };
     addEventListener("scroll", () => { if (!ticking) { ticking = true; requestAnimationFrame(paint); } }, { passive: true });
     addEventListener("resize", paint);

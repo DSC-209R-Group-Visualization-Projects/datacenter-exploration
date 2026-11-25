@@ -85,7 +85,7 @@ strong { font-weight: 650; color: var(--text); }
 
 /* ---------- chapters ---------- */
 main { position: relative; }
-.chapter-head { padding: 22vh clamp(20px, 6vw, 96px) 8vh; max-width: 1200px; margin: 0 auto; }
+.chapter-head { padding: 13vh clamp(20px, 6vw, 96px) 4.8vh; max-width: 1200px; margin: 0 auto; }
 .chapter-head h2, .coming h2 {
   font-size: clamp(40px, 6vw, 84px); line-height: 1; letter-spacing: -0.035em; font-weight: 800; margin: 0;
 }
@@ -93,17 +93,18 @@ main { position: relative; }
 /* ---------- scrollytelling ---------- */
 .scrolly { position: relative; display: grid; grid-template-columns: minmax(300px, 0.9fr) 1.6fr; gap: clamp(24px, 4vw, 64px);
   max-width: 1440px; margin: 0 auto; padding: 0 clamp(20px, 4vw, 56px); }
-.scrolly .steps { grid-column: 1; grid-row: 1; padding: 30vh 0 45vh; }
+.scrolly .steps { grid-column: 1; grid-row: 1; padding: 17.7vh 0 26.6vh; }
 .scrolly .sticky { grid-column: 2; grid-row: 1; position: sticky; top: calc(var(--header-h) + 3vh); height: calc(100vh - var(--header-h) - 6vh);
   margin: 0; display: flex; flex-direction: column; }
-.step { max-width: var(--measure); margin: 0 0 62vh; padding: 26px 28px; border-radius: 14px; color: var(--text-2);
+.step { max-width: var(--measure); margin: 0 0 36.6vh; padding: 26px 28px; border-radius: 14px; color: var(--text-2);
   background: var(--bg-raised); border: 1px solid var(--border); opacity: .35; transition: opacity .4s, border-color .4s; }
 .step:last-child { margin-bottom: 0; }
 .step.is-active { opacity: 1; border-color: rgba(57, 135, 229, .45); }
 .step p { margin: 0; }
 .step p + p { margin-top: 12px; }
 .step-year { font-size: 13px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--text) !important; margin-bottom: 10px !important; }
-.step-headline p { font-size: 22px; line-height: 1.45; color: var(--text); font-weight: 500; letter-spacing: -0.01em; }
+/* Every step card's text is set large (the size first used for the facility-scale steps); the year label and caveat notes keep their own sizes */
+.step p:not(.step-year):not(.step-note) { font-size: 28px; line-height: 1.35; color: var(--text); font-weight: 500; letter-spacing: -0.015em; }
 .fig-head { margin-bottom: 6px; }
 .fig-title { margin: 0; font-size: 20px; font-weight: 650; letter-spacing: -0.01em; }
 .fig-sub { margin: 2px 0 0; font-size: 15px; color: var(--text-2); min-height: 1.6em; transition: opacity .25s; }
@@ -130,39 +131,59 @@ main { position: relative; }
 .data-table td.num { text-align: right; }
 
 /* ---------- closing statements ---------- */
-.statements { max-width: 1040px; margin: 0 auto; padding: 30vh clamp(20px, 6vw, 96px) 20vh; }
-.statement { font-size: clamp(28px, 3.6vw, 48px); line-height: 1.2; letter-spacing: -0.025em; font-weight: 700; margin: 0 0 40vh;
+.statements { max-width: 1040px; margin: 0 auto; padding: 17.7vh clamp(20px, 6vw, 96px) 11.8vh; }
+.statement { font-size: clamp(28px, 3.6vw, 48px); line-height: 1.2; letter-spacing: -0.025em; font-weight: 700; margin: 0 0 23.7vh;
   color: var(--text); opacity: .12; transform: translateY(24px); transition: opacity .7s, transform .7s; }
 .statement em { font-style: normal; color: var(--dc); }
 .statement.is-visible { opacity: 1; transform: none; }
-/* Apollo 11 under the first statement, then xAI's Colossus under the second: sticky full-screen photos, statements centred over them.
-   main.js sets --apollo, --xai (photo opacity), --text1, --text2 and --moon-p (0 to 1 through the section) from the scroll */
-.moon { position: relative; height: 360vh; --apollo: 0; --xai: 0; --text1: 0; --text2: 0; }
+/* Apollo 11 under the first statement, xAI's Colossus under the second, the pushback protest under the third, then plain black under our
+   central question: sticky full-screen layers, statements centred over them. main.js sets --apollo, --xai, --push, --black (layer opacity),
+   --text1 to --text4 and --moon-p (0 to 1 through the section) from the scroll */
+.moon { position: relative; height: 425vh; --apollo: 0; --xai: 0; --push: 0; --black: 0; --text1: 0; --text2: 0; --text3: 0; --text4: 0; }
 .moon-sticky { position: sticky; top: 0; height: 100vh; overflow: hidden; }
 .moon-img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; will-change: opacity, transform; }
 .moon-img.moon-apollo { object-position: 60% 40%; opacity: var(--apollo); transform: scale(calc(1.12 - 0.12 * var(--moon-p, 0))); }
 .moon-img.moon-xai { opacity: var(--xai); filter: brightness(.6); transform: scale(calc(1.15 - 0.15 * var(--moon-p, 0))); }   /* dimmed: the white floor fights the text */
+.moon-img.moon-push { opacity: var(--push); filter: brightness(.45) saturate(.8); transform: scale(calc(1.1 - 0.1 * var(--moon-p, 0))); }   /* dimmed more: the signs are busy behind the text */
+.moon-black { position: absolute; inset: 0; background: #000; opacity: var(--black); }
 .moon-sticky::after { content: ""; position: absolute; inset: 0; pointer-events: none;   /* edges sink into the page; left side darker for the text */
   background: linear-gradient(to bottom, var(--bg) 0%, transparent 22%, transparent 70%, var(--bg) 100%),
               linear-gradient(to right, rgba(18,18,17,.82) 0%, rgba(18,18,17,.35) 55%, rgba(18,18,17,.1) 100%); }
-.moon-credit { position: absolute; right: clamp(20px, 4vw, 56px); bottom: 5vh; margin: 0; z-index: 1; font-size: 12px; color: var(--muted); }
+.moon-credit { position: absolute; left: clamp(20px, 4vw, 56px); right: clamp(20px, 4vw, 56px); text-align: right; bottom: 5vh; margin: 0; z-index: 1; font-size: 12px; color: var(--muted); }
 .moon-credit.moon-apollo { opacity: calc(var(--apollo) * 2 - 1); }
 .moon-credit.moon-xai { opacity: calc(var(--xai) * 2 - 1); }
+.moon-credit.moon-push { opacity: calc(var(--push) * 2 - 1); }
 .moon-text { position: absolute; inset: 0; z-index: 1; display: flex; align-items: center; max-width: 1040px; margin: 0 auto;
   padding: 0 clamp(20px, 6vw, 96px); }
 .moon-text-1 { opacity: var(--text1); }
 .moon-text-2 { opacity: var(--text2); }
+.moon-text-3 { opacity: var(--text3); }
+/* The central question: wider and larger than the other statements, with its label above */
+.moon-text-4 { opacity: var(--text4); flex-direction: column; justify-content: center; align-items: flex-start; max-width: 1360px; }
+.moon-text-4 .eyebrow { font-size: clamp(13px, 1.1vw, 16px); margin-bottom: clamp(16px, 2.5vh, 28px); }
+.moon-text .moon-question { font-size: clamp(32px, 4.8vw, 72px); line-height: 1.12; letter-spacing: -0.03em; }
 .moon-text .statement { margin: 0; text-shadow: 0 2px 24px rgba(0,0,0,.6); }
+.moon-sticky .scroll-cue { z-index: 1; opacity: var(--text4); }   /* same cue as the hero, shown with the closing statement */
+/* End of Chapter 2: the same black layer and large statement as the central question; main.js sets --black and --text4 */
+.bridge { position: relative; height: 220vh; --black: 0; --text4: 0; }
+.bridge .moon-question strong { font-weight: inherit; color: var(--dc); }
+/* A verdict inside a black scene: the scene does the fading, and the headline and body are set larger */
+.moon-text .verdict { max-width: none; padding: 0; opacity: 1; transform: none; transition: none; }
+.moon-text .verdict .eyebrow { font-size: clamp(13px, 1.1vw, 16px); margin-bottom: clamp(16px, 2.5vh, 28px); }
+.moon-text .verdict h2 { font-size: clamp(40px, 6vw, 88px); }
+.moon-text .verdict-body { max-width: 56rem; font-size: clamp(19px, 1.9vw, 28px); line-height: 1.45; }
+.verdict-note { max-width: 56rem; margin: 24px 0 0; font-size: clamp(13px, 1.05vw, 15px); line-height: 1.55; color: var(--muted); font-style: italic; }   /* caveats under a verdict, like .step-note */
 @media (max-width: 600px) {
   .moon-img.moon-apollo { object-position: 71% 50%; }   /* keep the astronaut in a tall crop */
+  .moon-text-4 { padding-top: var(--header-h); }   /* centre tall closing text below the header, not under it */
+  .moon-text .verdict h2 { font-size: 30px; }   /* phones: tighter, so the longest verdict and its caveats fit one screen */
+  .moon-text .verdict .eyebrow { margin-bottom: 10px; }
+  .moon-text .verdict-body { font-size: 16px; margin-top: 14px; }
+  .verdict-note { font-size: 12px; margin-top: 12px; line-height: 1.45; }
   .moon-sticky::after { background: linear-gradient(to bottom, var(--bg) 0%, transparent 20%, transparent 70%, var(--bg) 100%), rgba(18,18,17,.5); }
 }
-@media (prefers-reduced-motion: reduce) { .moon-img.moon-apollo, .moon-img.moon-xai { transform: none; } }
-.aim { border-top: 1px solid var(--border); padding-top: 32px; max-width: 46rem; opacity: 0; transform: translateY(24px);
-  transition: opacity .7s, transform .7s; }
-.aim.is-visible { opacity: 1; transform: none; }
-.aim p:last-child { font-size: clamp(20px, 2vw, 26px); line-height: 1.5; color: var(--text-2); margin: 0; }
-@media (prefers-reduced-motion: reduce) { .statement, .aim { transition: none; transform: none; } }
+@media (prefers-reduced-motion: reduce) { .moon-img.moon-apollo, .moon-img.moon-xai, .moon-img.moon-push { transform: none; } }
+@media (prefers-reduced-motion: reduce) { .statement { transition: none; transform: none; } }
 .chapter-dek { margin: 14px 0 0; font-size: clamp(17px, 1.5vw, 20px); color: var(--muted); }
 
 /* ---------- chapter 1: build-out map ---------- */
@@ -194,10 +215,10 @@ main { position: relative; }
   body { font-size: 17px; }
   .nav { display: none; }
   .scrolly { display: block; padding: 0 16px; }
-  .scrolly .sticky { position: sticky; top: var(--header-h); height: 58vh; z-index: 0; background: var(--bg); padding-top: 8px; }
-  .scrolly .steps { position: relative; z-index: 1; padding: 20vh 0 10vh; }
-  .step { background: rgba(26, 26, 25, .96); margin-bottom: 75vh; padding: 18px 20px; font-size: 15.5px; line-height: 1.55; }
-  .step-headline p { font-size: 18px; }
+  .scrolly .sticky { position: sticky; top: var(--header-h); height: 58vh; z-index: 2; background: var(--bg); padding-top: 8px; }
+  .scrolly .steps { position: relative; z-index: 1; padding: 11.8vh 0 5.9vh; }
+  .step { background: rgba(26, 26, 25, .96); margin-bottom: 44.3vh; padding: 18px 20px; font-size: 15.5px; line-height: 1.55; }
+  .step p:not(.step-year):not(.step-note) { font-size: 21px; }
   .fig-title { font-size: 17px; }
   .fig-sub { font-size: 13.5px; }
   .fig-source { font-size: 10.5px; margin-top: 4px; }
@@ -223,7 +244,7 @@ main { position: relative; }
 @media (max-width: 600px) { .year-badge { font-size: 30px; } }
 
 /* ---------- verdicts: a short text section closing each concern ---------- */
-.verdict { max-width: 1040px; margin: 0 auto; padding: 22vh clamp(20px, 6vw, 96px) 4vh;
+.verdict { max-width: 1040px; margin: 0 auto; padding: 13vh clamp(20px, 6vw, 96px) 2.3vh;
   opacity: 0; transform: translateY(24px); transition: opacity .8s, transform .8s; }
 .verdict.is-visible { opacity: 1; transform: none; }
 .verdict h2 { font-size: clamp(36px, 5vw, 68px); line-height: 1.05; letter-spacing: -0.035em; font-weight: 800; margin: 0; }
@@ -244,15 +265,15 @@ main { position: relative; }
 }
 #verdict-bills em { color: #e0b020; }
 #verdict-water em { color: #6cc9bd; }
-.verdict:last-child { padding-bottom: 20vh; }   /* the page ends on the water verdict */
+.verdict:last-child { padding-bottom: 11.8vh; }   /* the page ends on the water verdict */
 /* Backstory photo: a thumbnail with its caption beside it, so the card still fits on one screen */
 .step-photo { display: flex; gap: 14px; align-items: flex-start; margin: 16px 0 0; }
 .step-photo img { flex: 0 0 42%; width: 42%; height: auto; border-radius: 6px; }
 .step-photo figcaption { font-size: 12.5px; line-height: 1.45; color: var(--muted); }
-/* Wide photo under a short step: full card width, fades in when its step becomes active */
+/* Wide photo under a step: full card width, fades in once as it scrolls into view (main.js adds .is-visible) */
 .step-photo-wide { display: block; }
 .step-photo-wide img { width: 100%; }
 .step-photo-wide figcaption { margin-top: 8px; }
 .step-photo-wide img, .step-photo-wide figcaption { opacity: 0; transform: translateY(10px); transition: opacity 1s ease .2s, transform 1s ease .2s; }
-.step.is-active .step-photo-wide img, .step.is-active .step-photo-wide figcaption { opacity: 1; transform: none; }
+.step-photo-wide.is-visible img, .step-photo-wide.is-visible figcaption { opacity: 1; transform: none; }
 @media (prefers-reduced-motion: reduce) { .step-photo-wide img, .step-photo-wide figcaption { transition: none; transform: none; } }

@@ -2,8 +2,8 @@
 //  0) the regions themselves, uncoloured, with data center sites on top
 //  1) NERC's 2026 ratings appear
 //  2) sites in Elevated or High regions light up; the bars above the map count them
-//  3) the map plays forward year by year to 2030 (the notebook's slider, now driven by the scroll)
-//  4) the verdict. The year buttons let the reader scrub any year at any step.
+//  3) the map plays forward year by year to 2030 (the notebook's slider, now driven by the scroll).
+//     The year buttons let the reader scrub any year at any step.
 // Risk is one orange ramp that brightens with risk (validated as an ordinal ramp on --bg). Sites are pale dots
 // here because orange now means grid risk.
 
@@ -23,7 +23,6 @@ function GridChart(container, data, states) {
     { year: 2026, sub: "NERC rating of the risk of running short of power" },
     { year: 2026, sub: "Data centers in regions rated Elevated or High risk", lit: true },
     { year: 2030, sub: "Data centers in regions rated Elevated or High risk", lit: true, play: true },
-    { year: 2030, sub: "Data centers in regions rated Elevated or High risk", lit: true },
   ];
   const years = data.years;
   let step = 0, year = null, lit = false, svg, W, H, narrow, timer;

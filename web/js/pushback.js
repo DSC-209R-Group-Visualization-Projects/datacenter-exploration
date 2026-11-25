@@ -4,7 +4,7 @@
 //  2) back to the map: Ohio, Michigan and Georgia lead; Virginia has the most sites but only 6
 //  3) Florida, Kansas and Maine: no operating sites, 68 moratoriums
 //  4) bars: share of sites with documented opposition, by project status (a different source, the data center database)
-//  5) bars: what moratoriums say they are about; 6) grid and water highlighted, the two concerns tested next
+//  5) bars: what moratoriums say they are about
 
 const PUSHBACK = "#e5484d";
 const CONCERN_COLORS = { grid_energy: "#3987e5", water: "#22a39a" };   // validated with the pushback red on --bg
@@ -26,8 +26,6 @@ function PushbackChart(container, data, geo, sites) {
       sub: "Share of sites with documented opposition to that project, by project status" },
     { mode: "concerns", title: "What moratoriums say they are about",
       sub: `Share of ${fmt(data.adopted)} adopted moratoriums citing each harm` },
-    { mode: "concerns", title: "What moratoriums say they are about",
-      sub: "The two concerns we test next: the grid and water", tested: true },
   ];
   const SOURCES = {
     map: "Source: Moratorium Nation inventory (CC BY 4.0, compiled by Priyanka), plotted at the city, town, township or " +
@@ -54,8 +52,8 @@ function PushbackChart(container, data, geo, sites) {
     const LEG_H = 30;
 
     // ---- map positions
-    // Room on the right (the Atlantic) for the state labels in steps 2 and 3
-    const proj = d3.geoAlbersUsa().fitExtent([[0, LEG_H + 8], [W - (narrow ? 70 : 120), H]], { type: "FeatureCollection", features: geo });
+    // Full chart width, the same size as the Chapter 1 map
+    const proj = d3.geoAlbersUsa().fitExtent([[0, LEG_H + 8], [W, H]], { type: "FeatureCollection", features: geo });
     const path = d3.geoPath(proj);
     const mapG = svg.append("g").attr("class", "pb-map");
     mapG.append("g").attr("class", "states").selectAll("path").data(geo).join("path")
@@ -151,7 +149,7 @@ function PushbackChart(container, data, geo, sites) {
     const hbar = (cls, rows, { label, value, text, color, max }) => {
       const g = barsG.append("g").attr("class", cls);
       const left = narrow ? 0 : d3.max(rows, d => label(d).length) * 7.2 + 14, valW = narrow ? 112 : 130;
-      const top = 20, rowH = Math.min(narrow ? 46 : 44, (H - top - 10) / rows.length), bh = narrow ? 12 : Math.min(18, rowH * 0.5);
+      const top = 20, rowH = Math.min(narrow ? 64 : 110, (H - top - 10) / rows.length), bh = narrow ? Math.max(12, Math.min(22, rowH - 30)) : Math.min(44, rowH * 0.5);
       const xs = d3.scaleLinear([0, max], [left, W - valW]);
       const row = g.selectAll("g").data(rows).join("g")
         .attr("transform", (_, i) => `translate(0,${top + i * rowH + (narrow ? 18 : (rowH - bh) / 2)})`)
