@@ -121,11 +121,11 @@
     toTop.addEventListener("click", () =>
       scrollTo({ top: 0, behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth" }));
   }
-  // Play button: scrolls the whole page in 7 minutes at an even pace (from the top if already at the end). The button pauses it,
+  // Play button: scrolls the whole page in 10 minutes at an even pace (from the top if already at the end). The button pauses it,
   // and so does any wheel, touch, key or click from the reader
   const play = document.querySelector(".autoplay");
   if (play) {
-    const TOTAL_MS = 420000, root = document.documentElement, word = play.querySelector("span");
+    const TOTAL_MS = 600000, root = document.documentElement, word = play.querySelector("span");
     let raf = null, last, y;
     const stop = () => {
       if (raf === null) return;
